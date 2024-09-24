@@ -7894,6 +7894,7 @@
 #include "monkestation\code\modules\surgery\organs\internal\lungs.dm"
 #include "monkestation\code\modules\surgery\organs\internal\stomach.dm"
 #include "monkestation\code\modules\surgery\organs\internal\tongue.dm"
+#include "monkestation\code\modules\syndicate_ghostroles\icemoon.dm"
 #include "monkestation\code\modules\syndicate_ghostroles\listeningpost.dm"
 #include "monkestation\code\modules\trading\box_rolling.dm"
 #include "monkestation\code\modules\trading\lootbox_buying.dm"
