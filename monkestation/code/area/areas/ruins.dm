@@ -38,8 +38,11 @@
 /area/ruin/icemoon_syndicate/tunnel
 	name = "Syndicate Outpost Tunnel"
 
-/area/ruin/icemoon_syndicate/tunnel/sat_base
-	name = "Syndicate Outpost Satellite Base Tunnel"
+/area/ruin/icemoon_syndicate/tunnel/commandsat
+	name = "Syndicate Outpost Command Tunnels"
+
+/area/ruin/icemoon_syndicate/tunnel/crew
+	name = "Syndicate Outpost Crew Area Tunnels"
 
 /area/ruin/icemoon_syndicate/checkpoint
 	name = "Syndicate Outpost Checkpoint"
@@ -61,3 +64,6 @@
 
 /area/ruin/icemoon_syndicate/cargo
 	name = "Syndicate Outpost Cargo Office"
+
+/area/ruin/icemoon_syndicate/medbay
+	name = "Syndicate Outpost Infirmary"
