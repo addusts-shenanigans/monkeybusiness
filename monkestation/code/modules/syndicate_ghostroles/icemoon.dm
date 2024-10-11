@@ -136,6 +136,7 @@
 	r_pocket = /obj/item/flashlight/lantern/syndicate
 	mask = /obj/item/clothing/mask/chameleon/gps
 	head = /obj/item/clothing/head/hats/hos/beret/syndicate
+	glasses = /obj/item/clothing/glasses/thermal/eyepatch
 	backpack_contents = list(
 		/obj/item/gun/ballistic/revolver/mateba/pindicate = 1,
 		/obj/item/ammo_box/a357 = 2,

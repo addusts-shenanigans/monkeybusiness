@@ -29,17 +29,14 @@
 "aG" = (
 /turf/open/floor/carpet/royalblack,
 /area/ruin/icemoon_syndicate/communications)
-"aQ" = (
-/turf/open/floor/plating/snowed/smoothed/icemoon,
-/area/template_noop)
 "aY" = (
 /obj/structure/cable,
 /mob/living/basic/mining/wolf,
 /turf/open/floor/plating/snowed/smoothed/icemoon,
 /area/icemoon/underground/explored)
 "aZ" = (
-/turf/open/floor/iron/white/textured,
-/area/ruin/icemoon_syndicate/medbay)
+/turf/open/floor/wood,
+/area/ruin/icemoon_syndicate/communications)
 "bj" = (
 /obj/machinery/gibber{
 	desc = "There's an old note on it, but you can't seem to tell what it is. Something about a promise?"
@@ -47,17 +44,23 @@
 /turf/open/misc/asteroid/snow/standard_air,
 /area/ruin/icemoon_syndicate/bar)
 "bz" = (
-/obj/machinery/vending/snack{
-	onstation = 0
-	},
 /obj/effect/turf_decal/siding/wood{
 	dir = 1
 	},
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plating,
 /area/ruin/icemoon_syndicate/crew)
+"bA" = (
+/obj/structure/sink/directional/west,
+/turf/open/floor/iron/white/small,
+/area/ruin/icemoon_syndicate/medbay)
+"bM" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/open/misc/asteroid/snow/standard_air,
+/area/icemoon/underground/explored)
 "bW" = (
 /turf/open/misc/asteroid/snow/standard_air,
-/area/template_noop)
+/area/icemoon/underground/explored)
 "bX" = (
 /obj/structure/table/wood,
 /obj/structure/window/reinforced/spawner/directional/south,
@@ -73,6 +76,13 @@
 /obj/structure/cable,
 /turf/open/floor/plating,
 /area/ruin/icemoon_syndicate/cargo)
+"cx" = (
+/obj/machinery/door/airlock/bathroom{
+	name = "Lavatory"
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/iron/showroomfloor,
+/area/ruin/icemoon_syndicate/crew)
 "cW" = (
 /turf/open/misc/dirt/station,
 /area/ruin/icemoon_syndicate/bar)
@@ -83,14 +93,22 @@
 /obj/structure/cable,
 /turf/open/floor/iron/dark,
 /area/ruin/icemoon_syndicate/cargo)
+"du" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/iron/dark,
+/area/ruin/icemoon_syndicate/checkpoint)
 "eb" = (
 /obj/machinery/door/airlock{
 	name = "Cabin 3"
 	},
 /obj/effect/mapping_helpers/airlock/access/all/syndicate/general,
 /obj/effect/mapping_helpers/airlock/cutaiwire,
-/turf/open/floor/iron/grimy,
+/turf/open/floor/wood,
 /area/ruin/icemoon_syndicate/crew)
+"ee" = (
+/obj/machinery/smartfridge/organ,
+/turf/open/floor/iron/white/small,
+/area/ruin/icemoon_syndicate/medbay)
 "eu" = (
 /obj/machinery/door/airlock/security{
 	name = "Checkpoint"
@@ -99,34 +117,49 @@
 /obj/effect/mapping_helpers/airlock/access/all/syndicate/general,
 /turf/open/floor/iron/dark,
 /area/ruin/icemoon_syndicate/checkpoint)
-"eK" = (
-/obj/structure/fluff/tram_rail{
-	dir = 1
-	},
-/obj/item/stack/rods,
-/turf/open/lava/plasma/ice_moon,
-/area/template_noop)
 "eL" = (
 /obj/structure/flora/tree/dead/style_6,
 /turf/open/misc/asteroid/snow/icemoon,
 /area/icemoon/underground/explored)
 "eX" = (
-/turf/open/misc/asteroid/snow/icemoon,
-/area/template_noop)
+/turf/template_noop,
+/area/icemoon/underground/explored)
 "fm" = (
 /obj/effect/decal/cleanable/blood/tracks,
 /turf/open/misc/asteroid/snow/icemoon,
 /area/icemoon/underground/explored)
+"fn" = (
+/obj/structure/fluff/minepost,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/misc/asteroid/snow/standard_air,
+/area/ruin/icemoon_syndicate/tunnel)
+"fo" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/open/misc/asteroid/snow/standard_air,
+/area/ruin/icemoon_syndicate/tunnel)
 "fr" = (
 /obj/machinery/door/window/left/directional/west{
 	req_access = list("syndicate")
 	},
 /turf/open/floor/wood,
 /area/ruin/icemoon_syndicate/bar)
+"ft" = (
+/obj/machinery/computer/message_monitor,
+/turf/open/floor/wood,
+/area/ruin/icemoon_syndicate/communications)
 "fy" = (
 /obj/structure/closet/secure_closet/freezer/meat/all_access,
 /turf/open/misc/asteroid/snow/standard_air,
 /area/ruin/icemoon_syndicate/bar)
+"fH" = (
+/obj/machinery/syndicatebomb/self_destruct,
+/obj/machinery/door/window/brigdoor/right/directional/west{
+	req_access = list("syndicate");
+	name = "Backup Plan"
+	},
+/obj/machinery/light/small/directional/east,
+/turf/open/floor/circuit/red/anim,
+/area/ruin/icemoon_syndicate/vault)
 "gm" = (
 /obj/structure/lattice/catwalk,
 /obj/structure/cable,
@@ -136,8 +169,30 @@
 /obj/structure/chair/sofa/corp/left{
 	dir = 1
 	},
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/wood,
 /area/ruin/icemoon_syndicate/crew)
+"hi" = (
+/obj/structure/table/reinforced,
+/obj/item/folder/ancient_paperwork{
+	pixel_x = 5;
+	pixel_y = 6
+	},
+/obj/item/stamp/chameleon{
+	pixel_x = -5;
+	pixel_y = 11
+	},
+/obj/item/paper_bin{
+	pixel_x = -10;
+	pixel_y = -3
+	},
+/obj/item/pen/fourcolor{
+	pixel_x = -10;
+	pixel_y = -2
+	},
+/obj/item/clothing/neck/stethoscope,
+/turf/open/floor/iron/colony,
+/area/ruin/icemoon_syndicate/vault)
 "hs" = (
 /turf/open/misc/asteroid/snow/standard_air,
 /area/ruin/icemoon_syndicate/tunnel/crew)
@@ -151,7 +206,7 @@
 	},
 /obj/effect/mapping_helpers/airlock/access/all/syndicate/general,
 /obj/effect/mapping_helpers/airlock/cutaiwire,
-/turf/open/floor/iron/grimy,
+/turf/open/floor/wood,
 /area/ruin/icemoon_syndicate/crew)
 "hF" = (
 /obj/structure/table/reinforced,
@@ -168,6 +223,12 @@
 "hO" = (
 /turf/closed/wall,
 /area/ruin/icemoon_syndicate/tunnel)
+"hS" = (
+/obj/structure/closet/secure_closet/medical1{
+	req_access = list("syndicate")
+	},
+/turf/open/floor/iron/white/small,
+/area/ruin/icemoon_syndicate/medbay)
 "ih" = (
 /obj/structure/railing{
 	dir = 8
@@ -186,7 +247,7 @@
 	},
 /obj/effect/mapping_helpers/airlock/access/all/syndicate/general,
 /obj/effect/mapping_helpers/airlock/cutaiwire,
-/turf/open/floor/iron/grimy,
+/turf/open/floor/wood,
 /area/ruin/icemoon_syndicate/crew)
 "jj" = (
 /obj/structure/cable,
@@ -194,10 +255,39 @@
 	dir = 4
 	},
 /turf/open/misc/asteroid/snow/icemoon,
-/area/template_noop)
+/area/icemoon/underground/explored)
+"jm" = (
+/obj/structure/rack{
+	dir = 8
+	},
+/obj/item/storage/belt/medical,
+/obj/effect/decal/cleanable/dirt,
+/obj/item/crowbar,
+/obj/item/clothing/glasses/hud/health,
+/obj/item/clothing/neck/stethoscope,
+/turf/open/floor/iron/white/small,
+/area/ruin/icemoon_syndicate/medbay)
 "jn" = (
 /turf/open/misc/dirt/station,
 /area/ruin/icemoon_syndicate/tunnel/commandsat)
+"jr" = (
+/obj/item/defibrillator/loaded{
+	pixel_x = -7;
+	pixel_y = 20
+	},
+/obj/structure/table/reinforced,
+/obj/item/storage/backpack/duffelbag/syndie/surgery{
+	pixel_x = 2;
+	pixel_y = 8
+	},
+/obj/item/surgical_drapes{
+	desc = "Interdyne-brand surgical drapes provide optimal safety and infection control.";
+	pixel_x = -6;
+	pixel_y = -2
+	},
+/obj/machinery/light/small/directional/north,
+/turf/open/floor/iron/white/small,
+/area/ruin/icemoon_syndicate/medbay)
 "jv" = (
 /obj/structure/closet/syndicate{
 	desc = "It's a storage unit for a Syndicate employee."
@@ -259,7 +349,7 @@
 	pixel_y = 0
 	},
 /turf/open/floor/plating/snowed/icemoon,
-/area/template_noop)
+/area/icemoon/underground/explored)
 "ku" = (
 /obj/machinery/camera/directional/north{
 	network = list("icemoon_syndie");
@@ -302,7 +392,7 @@
 /obj/item/clothing/mask/gas,
 /obj/structure/fluff/tram_rail/floor,
 /turf/open/floor/plating/snowed/icemoon,
-/area/template_noop)
+/area/icemoon/underground/explored)
 "kZ" = (
 /turf/closed/wall,
 /area/ruin/icemoon_syndicate/crew)
@@ -316,12 +406,20 @@
 /obj/structure/sign/warning/rad_shelter/directional/south,
 /turf/open/misc/dirt/station,
 /area/ruin/icemoon_syndicate/tunnel)
+"mF" = (
+/obj/machinery/telecomms/relay/preset/ruskie,
+/obj/machinery/light/small/directional/south,
+/turf/open/floor/iron/dark,
+/area/ruin/icemoon_syndicate/communications)
 "mL" = (
 /obj/structure/fluff/minepost,
 /obj/item/flashlight/lantern/syndicate{
 	on = 1;
 	pixel_x = 10;
 	pixel_y = -10
+	},
+/obj/effect/turf_decal/siding/wood/corner{
+	dir = 8
 	},
 /turf/open/misc/dirt/station,
 /area/ruin/icemoon_syndicate/tunnel/commandsat)
@@ -346,6 +444,7 @@
 /obj/effect/turf_decal/siding/wood/corner{
 	dir = 4
 	},
+/obj/effect/decal/cleanable/dirt,
 /turf/open/misc/asteroid/snow/standard_air,
 /area/ruin/icemoon_syndicate/tunnel/crew)
 "nq" = (
@@ -353,8 +452,16 @@
 /obj/machinery/light/small/directional/north,
 /turf/open/floor/iron/grimy,
 /area/ruin/icemoon_syndicate/crew)
+"nA" = (
+/obj/machinery/defibrillator_mount/directional/west,
+/obj/machinery/stasis{
+	dir = 4
+	},
+/turf/open/floor/iron/white/small,
+/area/ruin/icemoon_syndicate/medbay)
 "nV" = (
 /obj/structure/sink/kitchen/directional/south,
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/wood,
 /area/ruin/icemoon_syndicate/bar)
 "oI" = (
@@ -375,11 +482,12 @@
 /obj/structure/lattice,
 /obj/structure/cable,
 /turf/open/lava/plasma/ice_moon,
-/area/template_noop)
+/area/icemoon/underground/explored)
 "pE" = (
 /obj/machinery/computer/security/wooden_tv,
 /obj/structure/table/wood,
 /obj/machinery/light/small/directional/west,
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/wood,
 /area/ruin/icemoon_syndicate/crew)
 "pV" = (
@@ -392,8 +500,19 @@
 /obj/machinery/reagentgrinder{
 	pixel_y = 8
 	},
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/wood,
 /area/ruin/icemoon_syndicate/bar)
+"qc" = (
+/obj/effect/turf_decal/siding/wood{
+	dir = 1
+	},
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/vending/autodrobe/all_access{
+	onstation = 0
+	},
+/turf/open/floor/plating,
+/area/ruin/icemoon_syndicate/crew)
 "qe" = (
 /obj/machinery/door/airlock/external,
 /obj/effect/mapping_helpers/airlock/cutaiwire,
@@ -413,7 +532,13 @@
 	dir = 1
 	},
 /turf/open/lava/plasma/ice_moon,
-/area/template_noop)
+/area/icemoon/underground/explored)
+"qs" = (
+/obj/effect/turf_decal/siding/wood{
+	dir = 8
+	},
+/turf/open/misc/dirt/station,
+/area/ruin/icemoon_syndicate/tunnel/commandsat)
 "qt" = (
 /obj/structure/mecha_wreckage/ripley,
 /turf/open/misc/asteroid/snow/icemoon,
@@ -438,12 +563,27 @@
 /obj/structure/cable,
 /turf/closed/wall/ice,
 /area/icemoon/underground/explored)
+"ry" = (
+/obj/machinery/computer/camera_advanced/syndie{
+	dir = 4
+	},
+/obj/machinery/light/small/directional/west,
+/turf/open/floor/wood,
+/area/ruin/icemoon_syndicate/communications)
 "sc" = (
 /obj/structure/fluff/tram_rail/floor{
 	dir = 1
 	},
 /turf/open/floor/plating/snowed/icemoon,
-/area/template_noop)
+/area/icemoon/underground/explored)
+"sD" = (
+/obj/machinery/door/airlock/medical/glass{
+	name = "Infirmary"
+	},
+/obj/effect/mapping_helpers/airlock/access/all/syndicate/general,
+/obj/effect/mapping_helpers/airlock/cutaiwire,
+/turf/open/floor/iron/white/small,
+/area/ruin/icemoon_syndicate/medbay)
 "sI" = (
 /obj/structure/flora/tree/dead/style_3,
 /turf/open/misc/asteroid/snow/icemoon,
@@ -471,10 +611,36 @@
 	},
 /obj/structure/fluff/tram_rail/floor,
 /turf/open/floor/plating/snowed/icemoon,
-/area/template_noop)
+/area/icemoon/underground/explored)
+"tG" = (
+/obj/machinery/iv_drip,
+/obj/structure/bed/medical/emergency,
+/obj/item/reagent_containers/blood/o_minus,
+/obj/item/reagent_containers/blood/o_minus,
+/turf/open/floor/iron/white/small,
+/area/ruin/icemoon_syndicate/medbay)
 "tM" = (
 /turf/closed/wall/r_wall,
 /area/ruin/icemoon_syndicate/tunnel/commandsat)
+"tP" = (
+/obj/item/gun/syringe/syndicate{
+	pixel_x = -6;
+	pixel_y = 17
+	},
+/obj/structure/table/reinforced,
+/obj/item/storage/box/syringes{
+	pixel_x = 9;
+	pixel_y = 4
+	},
+/obj/machinery/light/small/directional/east,
+/turf/open/floor/iron/white/small,
+/area/ruin/icemoon_syndicate/medbay)
+"tQ" = (
+/obj/machinery/computer/operating{
+	dir = 4
+	},
+/turf/open/floor/iron/white/small,
+/area/ruin/icemoon_syndicate/medbay)
 "tV" = (
 /obj/structure/fluff/tram_rail/anchor{
 	dir = 1
@@ -486,10 +652,11 @@
 	dir = 1
 	},
 /turf/open/misc/asteroid/snow/icemoon,
-/area/template_noop)
+/area/icemoon/underground/explored)
 "uf" = (
 /obj/machinery/power/apc/auto_name/directional/north,
 /obj/effect/mapping_helpers/apc/syndicate_access,
+/obj/effect/decal/cleanable/dirt,
 /turf/open/misc/asteroid/snow/standard_air,
 /area/ruin/icemoon_syndicate/tunnel/crew)
 "ug" = (
@@ -497,18 +664,15 @@
 /obj/effect/turf_decal/siding/wood/corner{
 	dir = 1
 	},
+/obj/effect/decal/cleanable/dirt,
 /turf/open/misc/asteroid/snow/standard_air,
 /area/ruin/icemoon_syndicate/tunnel/crew)
-"vc" = (
-/obj/structure/fluff/tram_rail,
-/turf/open/misc/asteroid/snow/icemoon,
-/area/template_noop)
 "vg" = (
 /obj/structure/fence/cut/large{
 	dir = 4
 	},
 /turf/open/misc/asteroid/snow/icemoon,
-/area/template_noop)
+/area/icemoon/underground/explored)
 "vk" = (
 /obj/structure/closet/secure_closet/freezer/fridge/all_access,
 /turf/open/misc/asteroid/snow/standard_air,
@@ -530,16 +694,36 @@
 	},
 /turf/open/floor/iron/colony,
 /area/ruin/icemoon_syndicate/shelter)
+"vr" = (
+/obj/machinery/door/airlock/highsecurity,
+/obj/effect/mapping_helpers/airlock/access/all/syndicate/leader,
+/obj/effect/mapping_helpers/airlock/cutaiwire,
+/obj/effect/turf_decal/siding/wood,
+/turf/open/floor/carpet/royalblack,
+/area/ruin/icemoon_syndicate/communications)
+"vv" = (
+/obj/structure/table/wood/fancy,
+/obj/item/paper_bin{
+	pixel_x = 4;
+	pixel_y = 6
+	},
+/obj/item/pen/fourcolor{
+	pixel_x = 4;
+	pixel_y = 8
+	},
+/obj/item/stamp/chameleon{
+	pixel_x = -11;
+	pixel_y = 12
+	},
+/turf/open/floor/wood,
+/area/ruin/icemoon_syndicate/communications)
 "vx" = (
 /obj/structure/fluff/tram_rail/floor,
 /turf/open/floor/plating/snowed/icemoon,
-/area/template_noop)
+/area/icemoon/underground/explored)
 "vF" = (
-/obj/machinery/vending/cigarette/syndicate{
-	onstation = 0
-	},
 /obj/effect/turf_decal/siding/wood,
-/turf/open/floor/plating,
+/turf/open/floor/stone,
 /area/ruin/icemoon_syndicate/crew)
 "vN" = (
 /obj/machinery/light/small/directional/north,
@@ -572,7 +756,7 @@
 	},
 /obj/effect/mapping_helpers/airlock/access/all/syndicate/general,
 /obj/effect/mapping_helpers/airlock/cutaiwire,
-/turf/open/floor/iron/grimy,
+/turf/open/floor/wood,
 /area/ruin/icemoon_syndicate/crew)
 "wE" = (
 /obj/structure/table/wood,
@@ -584,7 +768,7 @@
 "xn" = (
 /obj/structure/flora/tree/dead/style_5,
 /turf/open/misc/asteroid/snow/icemoon,
-/area/template_noop)
+/area/icemoon/underground/explored)
 "xz" = (
 /turf/closed/wall/ice,
 /area/ruin/icemoon_syndicate/tunnel/commandsat)
@@ -615,7 +799,7 @@
 	},
 /obj/effect/mapping_helpers/airlock/access/all/syndicate/general,
 /obj/effect/mapping_helpers/airlock/cutaiwire,
-/turf/open/floor/iron/grimy,
+/turf/open/floor/wood,
 /area/ruin/icemoon_syndicate/crew)
 "yH" = (
 /obj/structure/table/reinforced,
@@ -671,6 +855,10 @@
 "zx" = (
 /turf/open/floor/wood,
 /area/ruin/icemoon_syndicate/bar)
+"zC" = (
+/obj/machinery/light/small/directional/west,
+/turf/open/floor/plating,
+/area/ruin/icemoon_syndicate/tunnel)
 "zZ" = (
 /obj/structure/cable,
 /obj/effect/decal/cleanable/blood/tracks,
@@ -684,14 +872,12 @@
 	network = list("icemoon_syndie");
 	c_tag = "Checkpoint Waiting Area"
 	},
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/chair{
+	dir = 8
+	},
 /turf/open/floor/iron/dark,
 /area/ruin/icemoon_syndicate/checkpoint)
-"Ao" = (
-/obj/structure/fluff/tram_rail/anchor{
-	dir = 1
-	},
-/turf/open/misc/asteroid/snow/icemoon,
-/area/template_noop)
 "Ap" = (
 /obj/structure/fluff/tram_rail/anchor,
 /turf/open/misc/asteroid/snow/icemoon,
@@ -720,11 +906,24 @@
 /obj/effect/mapping_helpers/airlock/cyclelink_helper,
 /turf/open/floor/plating,
 /area/ruin/icemoon_syndicate/tunnel)
+"Bo" = (
+/obj/machinery/door/window/brigdoor/right/directional/north{
+	req_access = list("syndicate");
+	name = "Communications Relay"
+	},
+/turf/open/floor/iron/dark,
+/area/ruin/icemoon_syndicate/communications)
 "BY" = (
 /obj/machinery/power/apc/auto_name/directional/south,
 /obj/effect/mapping_helpers/apc/syndicate_access,
 /turf/open/misc/dirt/station,
 /area/ruin/icemoon_syndicate/tunnel)
+"CU" = (
+/obj/effect/turf_decal/siding/wood/corner{
+	dir = 1
+	},
+/turf/open/misc/dirt/station,
+/area/ruin/icemoon_syndicate/tunnel/commandsat)
 "Db" = (
 /obj/structure/table/wood,
 /obj/effect/turf_decal/siding/wood/corner{
@@ -737,6 +936,7 @@
 /area/template_noop)
 "Do" = (
 /obj/structure/table/wood,
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/wood,
 /area/ruin/icemoon_syndicate/bar)
 "Ds" = (
@@ -744,16 +944,45 @@
 	dir = 8
 	},
 /turf/open/misc/asteroid/snow/icemoon,
-/area/template_noop)
+/area/icemoon/underground/explored)
 "DD" = (
 /turf/closed/wall,
 /area/ruin/icemoon_syndicate/medbay)
-"DL" = (
-/obj/machinery/vending/clothing{
-	onstation = 0
+"DG" = (
+/obj/machinery/door/airlock/medical{
+	name = "Operating Room"
 	},
+/obj/effect/mapping_helpers/airlock/access/all/syndicate/general,
+/obj/effect/mapping_helpers/airlock/cutaiwire,
+/turf/open/floor/iron/white/small,
+/area/ruin/icemoon_syndicate/medbay)
+"DI" = (
+/obj/structure/closet/syndicate,
+/obj/item/radio/headset/syndicate/alt{
+	pixel_x = 0;
+	pixel_y = 5
+	},
+/obj/item/radio/headset/syndicate/alt{
+	pixel_x = -4;
+	pixel_y = 5
+	},
+/obj/item/card/id/advanced/chameleon{
+	pixel_x = 0;
+	pixel_y = -5
+	},
+/obj/item/card/id/advanced/chameleon{
+	pixel_x = -4;
+	pixel_y = -7
+	},
+/turf/open/floor/iron/colony,
+/area/ruin/icemoon_syndicate/vault)
+"DL" = (
 /obj/effect/turf_decal/siding/wood{
 	dir = 1
+	},
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/vending/clothing{
+	onstation = 0
 	},
 /turf/open/floor/plating,
 /area/ruin/icemoon_syndicate/crew)
@@ -763,20 +992,16 @@
 "Eu" = (
 /obj/structure/flora/tree/dead/style_4,
 /turf/open/misc/asteroid/snow/icemoon,
-/area/template_noop)
+/area/icemoon/underground/explored)
 "EH" = (
-/turf/closed/mineral/random/snow/underground,
-/area/template_noop)
+/turf/open/floor/iron/white/small,
+/area/ruin/icemoon_syndicate/medbay)
 "EP" = (
 /obj/structure/shipping_container/gorlex{
 	desc = "A standard-measure shipping container for bulk transport of goods. This one is from Gorlex Securities, and is probably carrying their primary export: war crimes. Its doors have rusted shut."
 	},
 /turf/open/misc/asteroid/snow/icemoon,
 /area/icemoon/underground/explored)
-"EU" = (
-/obj/structure/fluff/tram_rail/anchor,
-/turf/open/misc/asteroid/snow/icemoon,
-/area/template_noop)
 "EZ" = (
 /obj/structure/lattice/catwalk,
 /obj/structure/railing{
@@ -787,16 +1012,16 @@
 "Fh" = (
 /turf/template_noop,
 /area/ruin/icemoon_syndicate/research)
-"Fn" = (
-/obj/structure/fence{
-	dir = 4
-	},
-/turf/open/misc/asteroid/snow/icemoon,
-/area/template_noop)
 "Fr" = (
 /obj/machinery/light/small/dim/directional/west,
 /turf/open/misc/dirt/station,
 /area/ruin/icemoon_syndicate/bar)
+"Fz" = (
+/obj/machinery/door/airlock/highsecurity,
+/obj/effect/mapping_helpers/airlock/access/all/syndicate/general,
+/obj/effect/mapping_helpers/airlock/cutaiwire,
+/turf/open/floor/wood,
+/area/ruin/icemoon_syndicate/communications)
 "FJ" = (
 /obj/structure/closet/syndicate{
 	desc = "It's a storage unit for a Syndicate employee."
@@ -856,7 +1081,7 @@
 "FS" = (
 /obj/structure/cable,
 /turf/open/misc/asteroid/snow/icemoon,
-/area/template_noop)
+/area/icemoon/underground/explored)
 "Gd" = (
 /obj/structure/lattice/catwalk,
 /obj/structure/railing,
@@ -864,19 +1089,32 @@
 	dir = 1
 	},
 /turf/open/lava/plasma/ice_moon,
-/area/template_noop)
-"Gs" = (
-/turf/closed/wall/ice,
-/area/template_noop)
-"GC" = (
-/obj/structure/lattice,
-/turf/open/lava/plasma/ice_moon,
-/area/template_noop)
+/area/icemoon/underground/explored)
+"Gk" = (
+/obj/machinery/sleeper/syndie{
+	dir = 4
+	},
+/obj/machinery/light/small/directional/west,
+/turf/open/floor/iron/white/small,
+/area/ruin/icemoon_syndicate/medbay)
 "GW" = (
 /obj/machinery/power/apc/auto_name/directional/west,
 /obj/effect/mapping_helpers/apc/syndicate_access,
 /turf/open/misc/dirt/station,
 /area/ruin/icemoon_syndicate/tunnel/commandsat)
+"GZ" = (
+/obj/structure/window/reinforced/spawner/directional/north,
+/obj/structure/table/reinforced,
+/obj/item/storage/toolbox/syndicate{
+	pixel_x = -3;
+	pixel_y = 5
+	},
+/obj/item/book/manual/wiki/tcomms{
+	pixel_x = 8;
+	pixel_y = 0
+	},
+/turf/open/floor/iron/dark,
+/area/ruin/icemoon_syndicate/communications)
 "Hk" = (
 /obj/structure/lattice/catwalk,
 /obj/structure/railing{
@@ -884,6 +1122,10 @@
 	},
 /turf/open/lava/plasma/ice_moon,
 /area/icemoon/underground/explored)
+"Hs" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/closed/wall,
+/area/ruin/icemoon_syndicate/crew)
 "HB" = (
 /obj/structure/table/reinforced/plastitaniumglass,
 /turf/open/floor/iron/dark,
@@ -910,9 +1152,18 @@
 "IJ" = (
 /turf/open/floor/iron/dark,
 /area/ruin/icemoon_syndicate/cargo)
-"IP" = (
-/turf/open/lava/plasma/ice_moon,
-/area/template_noop)
+"IO" = (
+/obj/structure/table/wood/fancy,
+/obj/machinery/fax{
+	syndicate_network = 1;
+	visible_to_network = 0;
+	name = "syndicate fax machine";
+	fax_name = "Syndicate Joint Base Command Office";
+	pixel_x = 0;
+	pixel_y = 9
+	},
+/turf/open/floor/wood,
+/area/ruin/icemoon_syndicate/communications)
 "Jq" = (
 /obj/structure/fluff/tram_rail/end,
 /turf/open/misc/ice/icemoon,
@@ -942,33 +1193,51 @@
 /obj/structure/chair/sofa/corp/corner{
 	dir = 8
 	},
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/wood,
 /area/ruin/icemoon_syndicate/crew)
 "Kj" = (
 /turf/closed/wall,
 /area/ruin/icemoon_syndicate/cargo)
 "Kt" = (
-/obj/machinery/vending/autodrobe/all_access{
-	onstation = 0
-	},
 /obj/effect/turf_decal/siding/wood,
-/turf/open/floor/plating,
+/obj/structure/closet/crate/wooden,
+/obj/item/stack/sheet/mineral/wood/fifty,
+/obj/item/grown/log/tree,
+/obj/item/grown/log/tree,
+/obj/item/grown/log/tree,
+/obj/item/grown/log/tree,
+/obj/item/grown/log/tree,
+/obj/item/grown/log/tree,
+/obj/item/grown/log/tree,
+/obj/item/grown/log/tree,
+/turf/open/floor/stone,
 /area/ruin/icemoon_syndicate/crew)
 "Ku" = (
 /obj/structure/fluff/minepost,
 /obj/effect/turf_decal/siding/wood/corner,
+/obj/effect/decal/cleanable/dirt,
 /turf/open/misc/asteroid/snow/standard_air,
 /area/ruin/icemoon_syndicate/tunnel/crew)
+"Kw" = (
+/obj/effect/decal/cleanable/blood/old,
+/turf/open/floor/iron/dark,
+/area/ruin/icemoon_syndicate/checkpoint)
 "KJ" = (
 /obj/structure/fence,
 /turf/open/misc/asteroid/snow/icemoon,
-/area/template_noop)
+/area/icemoon/underground/explored)
 "KT" = (
 /turf/closed/wall,
 /area/ruin/icemoon_syndicate/engineering)
 "Lb" = (
+/obj/machinery/light/small/directional/east,
 /turf/open/floor/plating,
 /area/ruin/icemoon_syndicate/tunnel/commandsat)
+"Lk" = (
+/obj/machinery/vending/medical/syndicate_access,
+/turf/open/floor/iron/white/small,
+/area/ruin/icemoon_syndicate/medbay)
 "Lw" = (
 /obj/structure/window/reinforced/spawner/directional/east,
 /obj/machinery/autolathe/hacked,
@@ -976,6 +1245,7 @@
 /area/ruin/icemoon_syndicate/checkpoint)
 "LB" = (
 /obj/structure/closet/secure_closet/freezer/kitchen/maintenance,
+/obj/effect/decal/cleanable/dirt,
 /turf/open/misc/asteroid/snow/standard_air,
 /area/ruin/icemoon_syndicate/bar)
 "LF" = (
@@ -998,13 +1268,16 @@
 /turf/open/misc/dirt/station,
 /area/ruin/icemoon_syndicate/tunnel)
 "Mx" = (
+/obj/machinery/light/small/directional/east,
 /turf/open/floor/plating,
 /area/ruin/icemoon_syndicate/tunnel/crew)
 "Ne" = (
 /turf/closed/wall/r_wall,
 /area/ruin/icemoon_syndicate/vault)
 "Nn" = (
-/turf/template_noop,
+/obj/structure/safe,
+/obj/item/disk/surgery/brainwashing,
+/turf/open/floor/iron/colony,
 /area/ruin/icemoon_syndicate/vault)
 "NG" = (
 /obj/machinery/button/door/directional/east{
@@ -1027,6 +1300,11 @@
 /obj/structure/fluff/tram_rail,
 /turf/open/lava/plasma/ice_moon,
 /area/icemoon/underground/explored)
+"Oa" = (
+/obj/structure/filingcabinet,
+/obj/item/folder/syndicate/red,
+/turf/open/floor/iron/colony,
+/area/ruin/icemoon_syndicate/vault)
 "Ok" = (
 /obj/machinery/griddle,
 /turf/open/misc/asteroid/snow/standard_air,
@@ -1040,6 +1318,13 @@
 	},
 /turf/open/floor/circuit/red/anim,
 /area/ruin/icemoon_syndicate/checkpoint)
+"Ps" = (
+/obj/machinery/vending/cigarette/syndicate{
+	onstation = 0
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/misc/asteroid/snow/standard_air,
+/area/ruin/icemoon_syndicate/tunnel/crew)
 "Py" = (
 /mob/living/basic/mining/wolf,
 /turf/open/misc/asteroid/snow/icemoon,
@@ -1052,11 +1337,6 @@
 /obj/effect/mapping_helpers/airlock/cutaiwire,
 /turf/open/floor/wood,
 /area/ruin/icemoon_syndicate/crew)
-"PA" = (
-/obj/structure/lattice/catwalk,
-/obj/structure/cable,
-/turf/open/lava/plasma/ice_moon,
-/area/template_noop)
 "PB" = (
 /obj/structure/fluff/tram_rail{
 	dir = 1
@@ -1064,10 +1344,6 @@
 /obj/item/stack/rods,
 /turf/open/lava/plasma/ice_moon,
 /area/icemoon/underground/explored)
-"PD" = (
-/obj/structure/fluff/tram_rail,
-/turf/open/lava/plasma/ice_moon,
-/area/template_noop)
 "PK" = (
 /obj/machinery/door/airlock/external,
 /obj/effect/mapping_helpers/airlock/cutaiwire,
@@ -1076,6 +1352,7 @@
 /turf/open/floor/plating,
 /area/ruin/icemoon_syndicate/tunnel/commandsat)
 "PY" = (
+/obj/effect/decal/cleanable/dirt,
 /turf/open/misc/asteroid/snow/standard_air,
 /area/ruin/icemoon_syndicate/bar)
 "Qj" = (
@@ -1083,15 +1360,27 @@
 	dir = 4
 	},
 /turf/open/misc/asteroid/snow/icemoon,
-/area/template_noop)
+/area/icemoon/underground/explored)
+"Ql" = (
+/obj/structure/chair/wood{
+	dir = 4
+	},
+/turf/open/floor/stone,
+/area/ruin/icemoon_syndicate/crew)
 "Qm" = (
 /obj/machinery/door/airlock{
 	name = "Cabin 4"
 	},
 /obj/effect/mapping_helpers/airlock/access/all/syndicate/general,
 /obj/effect/mapping_helpers/airlock/cutaiwire,
-/turf/open/floor/iron/grimy,
+/turf/open/floor/wood,
 /area/ruin/icemoon_syndicate/crew)
+"Qw" = (
+/obj/machinery/computer/records/medical/syndie{
+	dir = 8
+	},
+/turf/open/floor/iron/white/small,
+/area/ruin/icemoon_syndicate/medbay)
 "QE" = (
 /obj/effect/turf_decal/siding/wood{
 	dir = 8
@@ -1102,6 +1391,13 @@
 /obj/machinery/light/small/directional/south,
 /turf/open/floor/wood,
 /area/ruin/icemoon_syndicate/crew)
+"Rc" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/chair{
+	dir = 8
+	},
+/turf/open/floor/iron/dark,
+/area/ruin/icemoon_syndicate/checkpoint)
 "Rj" = (
 /turf/closed/wall/ice,
 /area/ruin/icemoon_syndicate/tunnel)
@@ -1114,15 +1410,14 @@
 	dir = 4
 	},
 /turf/open/lava/plasma/ice_moon,
-/area/template_noop)
+/area/icemoon/underground/explored)
 "Sc" = (
 /obj/effect/turf_decal/siding/wood,
 /turf/open/floor/iron/grimy,
 /area/ruin/icemoon_syndicate/crew)
-"Sm" = (
-/obj/structure/flora/tree/dead/style_6,
-/turf/open/misc/asteroid/snow/icemoon,
-/area/template_noop)
+"SH" = (
+/turf/open/floor/catwalk_floor/colony_fabricator,
+/area/ruin/icemoon_syndicate/vault)
 "SZ" = (
 /obj/structure/fence{
 	dir = 4
@@ -1138,7 +1433,18 @@
 /obj/structure/chair/sofa/corp/right,
 /turf/open/floor/wood,
 /area/ruin/icemoon_syndicate/crew)
+"Tu" = (
+/obj/structure/toilet{
+	dir = 1
+	},
+/obj/structure/sink/directional/west,
+/obj/machinery/light/small/directional/west,
+/obj/structure/mirror/directional/east,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/iron/showroomfloor,
+/area/ruin/icemoon_syndicate/crew)
 "TA" = (
+/obj/machinery/light/small/directional/north,
 /turf/open/floor/plating,
 /area/ruin/icemoon_syndicate/tunnel)
 "TC" = (
@@ -1146,6 +1452,22 @@
 /obj/structure/flora/tree/dead/style_random,
 /turf/open/misc/asteroid/snow/icemoon,
 /area/icemoon/underground/explored)
+"TG" = (
+/obj/structure/table/reinforced,
+/obj/item/storage/medkit/regular{
+	pixel_x = 0;
+	pixel_y = 12
+	},
+/obj/item/storage/medkit/fire{
+	pixel_x = -3;
+	pixel_y = 4
+	},
+/obj/item/storage/medkit/brute{
+	pixel_x = 9;
+	pixel_y = 1
+	},
+/turf/open/floor/iron/white/small,
+/area/ruin/icemoon_syndicate/medbay)
 "TN" = (
 /obj/structure/fluff/minepost,
 /turf/open/misc/dirt/station,
@@ -1166,6 +1488,7 @@
 /obj/structure/table/wood,
 /obj/machinery/microwave,
 /obj/machinery/light/small/directional/north,
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/wood,
 /area/ruin/icemoon_syndicate/bar)
 "UK" = (
@@ -1209,6 +1532,18 @@
 "Vq" = (
 /turf/closed/wall/r_wall,
 /area/ruin/icemoon_syndicate/shelter)
+"Vr" = (
+/obj/structure/fireplace,
+/obj/item/hatchet/wooden{
+	pixel_x = -5;
+	pixel_y = 31
+	},
+/obj/item/flashlight/lantern{
+	pixel_x = 8;
+	pixel_y = 43
+	},
+/turf/open/floor/stone,
+/area/ruin/icemoon_syndicate/crew)
 "VG" = (
 /obj/structure/filingcabinet,
 /turf/open/floor/iron/dark,
@@ -1220,7 +1555,8 @@
 /turf/closed/wall/r_wall,
 /area/ruin/icemoon_syndicate/research)
 "VW" = (
-/turf/template_noop,
+/obj/structure/table/wood/fancy,
+/turf/open/floor/wood,
 /area/ruin/icemoon_syndicate/communications)
 "VX" = (
 /turf/closed/wall,
@@ -1269,6 +1605,10 @@
 /obj/item/clothing/suit/toggle/labcoat,
 /turf/open/floor/iron/grimy,
 /area/ruin/icemoon_syndicate/crew)
+"WZ" = (
+/obj/structure/mirror/directional/west,
+/turf/open/floor/carpet/royalblack,
+/area/ruin/icemoon_syndicate/communications)
 "Xd" = (
 /obj/machinery/computer/security{
 	dir = 1;
@@ -1276,10 +1616,6 @@
 	},
 /turf/open/floor/iron/dark,
 /area/ruin/icemoon_syndicate/checkpoint)
-"Xj" = (
-/obj/item/stack/rods,
-/turf/open/lava/plasma/ice_moon,
-/area/template_noop)
 "XF" = (
 /obj/item/stack/rods,
 /turf/open/lava/plasma/ice_moon,
@@ -1329,7 +1665,7 @@
 	dir = 1
 	},
 /turf/open/floor/plating/snowed/icemoon,
-/area/template_noop)
+/area/icemoon/underground/explored)
 "Yk" = (
 /obj/effect/turf_decal/siding/wood{
 	dir = 1
@@ -1339,7 +1675,7 @@
 "Yy" = (
 /obj/structure/sign/warning/secure_area/directional/north,
 /turf/template_noop,
-/area/template_noop)
+/area/icemoon/underground/explored)
 "Ze" = (
 /obj/machinery/door/window/left/directional/west{
 	req_access = list("syndicate")
@@ -1347,16 +1683,29 @@
 /obj/structure/table/reinforced/plastitaniumglass,
 /turf/open/floor/iron/dark,
 /area/ruin/icemoon_syndicate/checkpoint)
-"ZC" = (
-/obj/structure/fluff/tram_rail{
-	dir = 1
+"Zq" = (
+/obj/effect/mapping_helpers/airlock/access/all/syndicate/leader,
+/obj/machinery/door/airlock/vault{
+	name = "Secure Storage"
 	},
-/turf/open/misc/asteroid/snow/icemoon,
-/area/template_noop)
+/obj/effect/mapping_helpers/airlock/cutaiwire,
+/turf/open/floor/catwalk_floor/colony_fabricator,
+/area/ruin/icemoon_syndicate/vault)
 "ZE" = (
 /obj/structure/closet/syndicate{
 	desc = "It's a storage unit for a Syndicate employee."
 	},
+/obj/machinery/light/small/directional/south,
+/obj/item/clothing/head/hats/hos/cap/syndicate,
+/obj/item/clothing/accessory/medal/gold{
+	name = "MI13 award of excellence";
+	desc = "An award rarely distributed by officers of MI13, a Syndicate member organisation responsible for intelligence. For some reason, the crest of the old United Kingdom is on the back."
+	},
+/obj/item/clothing/accessory/medal/gold{
+	name = "MI13 award of excellence";
+	desc = "An award rarely distributed by officers of MI13, a Syndicate member organisation responsible for intelligence. For some reason, the crest of the old United Kingdom is on the back."
+	},
+/obj/item/clothing/suit/armor/vest/capcarapace/syndicate/winter,
 /turf/open/floor/carpet/royalblack,
 /area/ruin/icemoon_syndicate/communications)
 "ZF" = (
@@ -1366,6 +1715,12 @@
 /obj/machinery/light/small/directional/south,
 /turf/open/floor/iron/grimy,
 /area/ruin/icemoon_syndicate/crew)
+"ZN" = (
+/obj/machinery/sleeper/syndie{
+	dir = 4
+	},
+/turf/open/floor/iron/white/small,
+/area/ruin/icemoon_syndicate/medbay)
 
 (1,1,1) = {"
 Dg
@@ -1467,13 +1822,13 @@ Dg
 Dg
 Dg
 Dg
-IP
-IP
-IP
-IP
-IP
-IP
-IP
+tj
+tj
+tj
+tj
+tj
+tj
+tj
 Dg
 Dg
 Dg
@@ -1531,20 +1886,20 @@ Dg
 Dg
 Dg
 Dg
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
 Dg
 Dg
 Dg
@@ -1597,29 +1952,29 @@ Dg
 Dg
 Dg
 Dg
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
 Dg
 Dg
 Dg
@@ -1664,32 +2019,32 @@ Dg
 Dg
 Dg
 Dg
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
 aa
 aa
 aa
 aa
 aa
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
 Dg
 Dg
 Dg
@@ -1729,15 +2084,15 @@ Dg
 Dg
 Dg
 Dg
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
 aa
 aa
 aa
@@ -1746,19 +2101,19 @@ qO
 qO
 aa
 aa
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
 Dg
 Dg
 Dg
@@ -1795,40 +2150,40 @@ Dg
 Dg
 Dg
 Dg
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
 aa
 aa
 aa
 aa
 qO
 qO
-VW
+ry
 qO
 qO
 aa
 aa
 aa
 aa
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
 Dg
 Dg
 Dg
@@ -1861,43 +2216,43 @@ Dg
 Dg
 Dg
 Dg
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
 aa
 qO
 qO
 qO
 qO
-VW
-VW
-VW
+ft
+aZ
+vv
 qO
 qO
 qO
 aa
 aa
 aa
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
 Dg
 Dg
 Dg
@@ -1929,45 +2284,45 @@ Dg
 Dg
 Dg
 Dg
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-eX
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+Ua
 aa
 qO
+WZ
 aG
-aG
-aG
-VW
-VW
-VW
-VW
-VW
+vr
+aZ
+aZ
+aZ
+Bo
+mF
 qO
 aa
 aa
 aa
 aa
 aa
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
 Dg
 Dg
 Dg
@@ -1995,48 +2350,48 @@ Dg
 Dg
 Dg
 Dg
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-eX
-eX
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+Ua
+Ua
 aa
 qO
 aG
 ZE
 qO
 VW
-VW
-VW
-VW
+aZ
+IO
+GZ
 qO
 qO
 aa
 aa
 aa
 aa
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
 Dg
 Dg
 Dg
@@ -2055,34 +2410,34 @@ Dg
 Dg
 Dg
 Dg
-IP
-IP
-IP
-IP
-IP
+tj
+tj
+tj
+tj
+tj
 Dg
 Dg
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-eX
-eX
-eX
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+Ua
+Ua
+Ua
 aa
 qO
 Vg
 qO
 qO
 qO
-VW
+Fz
 qO
 qO
 qO
@@ -2091,21 +2446,21 @@ aa
 aa
 aa
 aa
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
 Dg
 Dg
 Dg
@@ -2121,59 +2476,59 @@ Dg
 Dg
 Dg
 Dg
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-eX
-eX
-eX
-eX
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+Ua
+Ua
+Ua
+Ua
 tM
 tM
 tM
 xz
 mL
-jn
-jn
+qs
+CU
 tu
 aa
 aa
 aa
 aa
 aa
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
 Dg
 Dg
 Dg
@@ -2188,31 +2543,31 @@ Dg
 Dg
 Dg
 Dg
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-eX
-eX
-aQ
-aQ
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+Ua
+Ua
+zg
+zg
 PK
 Lb
 Un
@@ -2225,24 +2580,24 @@ aa
 aa
 aa
 aa
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
 Dg
 Dg
 Dg
@@ -2255,62 +2610,62 @@ Dg
 Dg
 Dg
 Dg
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-eX
-aQ
-eX
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+Ua
+zg
+Ua
 tM
 tM
 tM
 Ne
 Ne
-Nn
+Zq
 Ne
 Ne
 aa
 aa
 aa
 aa
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
 Dg
 Dg
 Dg
@@ -2323,62 +2678,62 @@ Dg
 Dg
 Dg
 Dg
-IP
-IP
-IP
-IP
-IP
-IP
-IP
+tj
+tj
+tj
+tj
+tj
+tj
+tj
 Aa
 Aa
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-eX
-aQ
-eX
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+Ua
+zg
+Ua
 aa
 aa
 aa
 Ne
-Nn
-Nn
+DI
+SH
 Nn
 Ne
 aa
 aa
 aa
 aa
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
 Dg
 Dg
 Dg
@@ -2390,64 +2745,64 @@ Dg
 (16,1,1) = {"
 Dg
 Dg
-IP
-IP
-IP
-IP
-IP
-IP
+tj
+tj
+tj
+tj
+tj
+tj
 Aa
 Aa
 Aa
 Aa
 Aa
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-eX
-aQ
-eX
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+Ua
+zg
+Ua
 aa
 aa
 aa
 Ne
-Nn
-Nn
-Nn
+Oa
+SH
+hi
 Ne
 aa
 aa
 aa
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
 Dg
 Dg
 Dg
@@ -2458,11 +2813,11 @@ Dg
 (17,1,1) = {"
 Dg
 Dg
-IP
-IP
-IP
-IP
-IP
+tj
+tj
+tj
+tj
+tj
 Aa
 Aa
 Aa
@@ -2471,51 +2826,51 @@ Aa
 Aa
 Aa
 Aa
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-GC
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+UX
 Gd
-eX
+Ua
 aa
 aa
 aa
 Ne
 Ne
-Nn
+fH
 Ne
 Ne
 aa
 aa
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
 Dg
 Dg
 Dg
@@ -2525,11 +2880,11 @@ Dg
 "}
 (18,1,1) = {"
 Dg
-IP
-IP
-IP
-IP
-IP
+tj
+tj
+tj
+tj
+Aa
 Aa
 Aa
 kZ
@@ -2537,23 +2892,23 @@ kZ
 kZ
 kZ
 kZ
+kZ
 Aa
 Aa
-Aa
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-GC
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+UX
 Gd
-eX
-eX
+Ua
+Ua
 aa
 aa
 aa
@@ -2562,28 +2917,28 @@ Ne
 Ne
 aa
 aa
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
 Dg
 Dg
 Dg
@@ -2593,65 +2948,65 @@ Dg
 "}
 (19,1,1) = {"
 Dg
-IP
-IP
-IP
-IP
+tj
+tj
+tj
 Aa
 Aa
+kZ
 kZ
 kZ
 Ti
 pE
 he
+qc
 kZ
-kZ
 Aa
 Aa
 Aa
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-GC
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+UX
 Gd
-GC
-IP
-eX
+UX
+tj
+Ua
 aa
 aa
 aa
 aa
 aa
 aa
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
 Dg
 Dg
 Dg
@@ -2661,64 +3016,64 @@ Dg
 "}
 (20,1,1) = {"
 Dg
-IP
-IP
-IP
-IP
+tj
+tj
+tj
 Aa
 Aa
 kZ
+Ql
 Kt
 AA
 LR
 Kd
 DL
 kZ
+kZ
+kZ
 Aa
-Aa
-Aa
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-GC
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+UX
 Gd
-GC
-IP
-IP
-IP
-IP
-IP
-IP
+UX
+tj
+tj
+tj
+tj
+tj
+tj
 aa
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
 Dg
 Dg
 Dg
@@ -2729,64 +3084,64 @@ Dg
 "}
 (21,1,1) = {"
 Dg
-IP
-IP
-IP
-Aa
+tj
+tj
+tj
 Aa
 Aa
 kZ
+Vr
 vF
 wf
 wf
 wf
 bz
+cx
+Tu
 kZ
 Aa
 Aa
-Aa
-Aa
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-GC
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+UX
 Gd
-GC
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
+UX
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
 Dg
 Dg
 Dg
@@ -2796,10 +3151,10 @@ Dg
 Dg
 "}
 (22,1,1) = {"
-IP
-IP
-IP
-IP
+tj
+tj
+tj
+tj
 Aa
 Aa
 kZ
@@ -2811,50 +3166,50 @@ kZ
 kZ
 kZ
 kZ
+kZ
 Aa
 Aa
-Aa
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-GC
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+UX
 Gd
-GC
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
+UX
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
 Dg
 Dg
 Dg
@@ -2864,10 +3219,10 @@ Dg
 Dg
 "}
 (23,1,1) = {"
-IP
-IP
-IP
-IP
+tj
+tj
+tj
+tj
 Aa
 Aa
 kZ
@@ -2882,47 +3237,47 @@ kZ
 Aa
 Aa
 Aa
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-GC
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+UX
 Gd
-GC
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
+UX
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
 Dg
 Dg
 Dg
@@ -2932,11 +3287,11 @@ Dg
 Dg
 "}
 (24,1,1) = {"
-IP
-IP
-IP
-IP
-IP
+tj
+tj
+tj
+tj
+tj
 Aa
 kZ
 FJ
@@ -2950,46 +3305,46 @@ kZ
 Aa
 Aa
 Aa
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-GC
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+UX
 Gd
-GC
-IP
+UX
+tj
 lF
 lF
 lF
 lF
 lF
 lF
-IP
-IP
-IP
-IP
-IP
-IP
+tj
+tj
+tj
+tj
+tj
+tj
 lF
 lF
 lF
 lF
 lF
 lF
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
 Dg
 Dg
 Dg
@@ -3000,10 +3355,10 @@ Dg
 Dg
 "}
 (25,1,1) = {"
-IP
-IP
-IP
-IP
+tj
+tj
+tj
+tj
 Aa
 Aa
 kZ
@@ -3017,18 +3372,18 @@ kZ
 kZ
 Aa
 Aa
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-GC
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+UX
 Gd
-GC
+UX
 lF
 lF
 lF
@@ -3039,7 +3394,7 @@ lF
 lF
 lF
 lF
-IP
+tj
 lF
 lF
 lF
@@ -3052,12 +3407,12 @@ lF
 lF
 lF
 lF
-IP
-IP
-IP
-IP
-IP
-IP
+tj
+tj
+tj
+tj
+tj
+tj
 Dg
 Dg
 Dg
@@ -3068,10 +3423,10 @@ Dg
 Dg
 "}
 (26,1,1) = {"
-IP
-IP
-IP
-IP
+tj
+tj
+tj
+tj
 Aa
 Aa
 kZ
@@ -3085,18 +3440,18 @@ WN
 kZ
 Aa
 Aa
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-GC
-aQ
-eX
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+UX
+zg
+Ua
 lF
 lF
 lF
@@ -3120,11 +3475,11 @@ lF
 lF
 lF
 lF
-IP
-IP
-IP
-IP
-IP
+tj
+tj
+tj
+tj
+tj
 Dg
 Dg
 Dg
@@ -3136,10 +3491,10 @@ Dg
 Dg
 "}
 (27,1,1) = {"
-IP
-IP
-IP
-IP
+tj
+tj
+tj
+tj
 Aa
 Aa
 kZ
@@ -3153,15 +3508,15 @@ kF
 kZ
 Aa
 Aa
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
 hO
 JL
 hO
@@ -3189,10 +3544,10 @@ lF
 lF
 lF
 lF
-IP
-IP
-IP
-IP
+tj
+tj
+tj
+tj
 Dg
 Dg
 Dg
@@ -3204,10 +3559,10 @@ Dg
 Dg
 "}
 (28,1,1) = {"
-IP
-IP
-IP
-IP
+tj
+tj
+tj
+tj
 Aa
 Aa
 kZ
@@ -3221,15 +3576,15 @@ kZ
 kZ
 Aa
 Aa
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
 hO
 TA
 hO
@@ -3257,10 +3612,10 @@ lF
 lF
 lF
 lF
-IP
-IP
-IP
-IP
+tj
+tj
+tj
+tj
 Dg
 Dg
 Dg
@@ -3272,10 +3627,10 @@ Dg
 Dg
 "}
 (29,1,1) = {"
-IP
-IP
-IP
-IP
+tj
+tj
+tj
+tj
 Aa
 Aa
 kZ
@@ -3289,14 +3644,14 @@ ZF
 kZ
 Aa
 Aa
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
 lF
 hO
 wa
@@ -3316,19 +3671,19 @@ Fh
 Fh
 VU
 VU
-DD
-DD
-DD
-DD
 lF
 lF
 lF
 lF
 lF
-IP
-IP
-IP
-IP
+lF
+lF
+lF
+lF
+tj
+tj
+tj
+tj
 Dg
 Dg
 Dg
@@ -3340,16 +3695,16 @@ Dg
 Dg
 "}
 (30,1,1) = {"
-IP
-IP
-IP
-IP
+tj
+tj
+tj
+tj
 Aa
 Aa
 kZ
 FJ
 wE
-kZ
+Hs
 wf
 kZ
 Db
@@ -3357,13 +3712,13 @@ UL
 kZ
 Aa
 Aa
-IP
-IP
-IP
-IP
-IP
-IP
-IP
+tj
+tj
+tj
+tj
+tj
+tj
+tj
 lF
 lF
 lF
@@ -3384,20 +3739,20 @@ Fh
 Fh
 Fh
 VU
-aZ
-aZ
-aZ
-DD
-DD
 lF
 lF
 lF
 lF
 lF
-IP
-IP
-IP
-IP
+lF
+lF
+lF
+lF
+lF
+tj
+tj
+tj
+tj
 Dg
 Dg
 Dg
@@ -3408,11 +3763,11 @@ Dg
 Dg
 "}
 (31,1,1) = {"
-IP
-IP
-IP
-IP
-IP
+tj
+tj
+tj
+tj
+tj
 Aa
 kZ
 kZ
@@ -3425,12 +3780,12 @@ kZ
 kZ
 Aa
 Aa
-eX
-IP
-IP
-IP
-IP
-IP
+Ua
+tj
+tj
+tj
+tj
+tj
 lF
 lF
 lF
@@ -3452,21 +3807,21 @@ Fh
 Fh
 Fh
 VU
-aZ
-aZ
-aZ
-aZ
-DD
 lF
 lF
 lF
 lF
 lF
-IP
-IP
-IP
-IP
-IP
+lF
+lF
+lF
+lF
+lF
+tj
+tj
+tj
+tj
+tj
 Dg
 Dg
 Dg
@@ -3476,11 +3831,11 @@ Dg
 Dg
 "}
 (32,1,1) = {"
-IP
-IP
-IP
-IP
-IP
+tj
+tj
+tj
+tj
+tj
 Aa
 Aa
 Aa
@@ -3492,12 +3847,12 @@ Aa
 Aa
 Aa
 Aa
-eX
-eX
-IP
-IP
-IP
-IP
+Ua
+Ua
+tj
+tj
+tj
+tj
 lF
 lF
 lF
@@ -3520,21 +3875,21 @@ Fh
 Fh
 Fh
 VU
-aZ
-aZ
-aZ
-aZ
-DD
 lF
 lF
 lF
 lF
-IP
-IP
-IP
-IP
-IP
-IP
+lF
+lF
+lF
+lF
+lF
+tj
+tj
+tj
+tj
+tj
+tj
 Dg
 Dg
 Dg
@@ -3544,11 +3899,11 @@ Dg
 Dg
 "}
 (33,1,1) = {"
-IP
-IP
-IP
-IP
-IP
+tj
+tj
+tj
+tj
+tj
 Aa
 Aa
 Aa
@@ -3561,12 +3916,12 @@ Aa
 VX
 VX
 VX
-eX
-GC
-GC
-GC
-GC
-eX
+Ua
+UX
+UX
+UX
+UX
+Ua
 hO
 hO
 hO
@@ -3588,22 +3943,22 @@ VU
 VU
 VU
 VU
-DD
-aZ
-DD
-DD
-DD
 lF
 lF
 lF
 lF
 lF
-IP
-IP
-IP
-IP
-IP
-IP
+lF
+lF
+lF
+lF
+lF
+tj
+tj
+tj
+tj
+tj
+tj
 Dg
 Dg
 Dg
@@ -3613,14 +3968,14 @@ Dg
 "}
 (34,1,1) = {"
 Dg
-IP
-IP
-IP
-IP
+tj
+tj
+tj
+tj
 Aa
 Aa
 Aa
-hs
+Ps
 cj
 cj
 cj
@@ -3629,14 +3984,14 @@ cj
 qe
 Mx
 qJ
-aQ
+zg
 Rz
 Rz
 Rz
 Rz
-aQ
+zg
 Bc
-TA
+zC
 XG
 Mk
 Mk
@@ -3667,11 +4022,11 @@ lF
 lF
 lF
 lF
-IP
-IP
-IP
-IP
-IP
+tj
+tj
+tj
+tj
+tj
 Dg
 Dg
 Dg
@@ -3681,10 +4036,10 @@ Dg
 "}
 (35,1,1) = {"
 Dg
-IP
-IP
-IP
-IP
+tj
+tj
+tj
+tj
 Aa
 Aa
 Aa
@@ -3697,12 +4052,12 @@ Aa
 VX
 VX
 VX
-eX
-GC
-GC
-GC
-GC
-eX
+Ua
+UX
+UX
+UX
+UX
+Ua
 hO
 hO
 hO
@@ -3736,10 +4091,10 @@ Wl
 Wl
 lF
 lF
-IP
-IP
-IP
-IP
+tj
+tj
+tj
+tj
 Dg
 Dg
 Dg
@@ -3750,10 +4105,10 @@ Dg
 (36,1,1) = {"
 Dg
 Dg
-IP
-IP
-IP
-IP
+tj
+tj
+tj
+tj
 Aa
 Aa
 xJ
@@ -3763,18 +4118,18 @@ fr
 xJ
 Aa
 Aa
-eX
-eX
-eX
-IP
-IP
-IP
-IP
+Ua
+Ua
+Ua
+tj
+tj
+tj
+tj
 lF
 lF
 lF
 lF
-iE
+fo
 Mk
 Mk
 Mk
@@ -3805,10 +4160,10 @@ Wl
 lF
 lF
 lF
-IP
-IP
-IP
-IP
+tj
+tj
+tj
+tj
 Dg
 Dg
 Dg
@@ -3818,10 +4173,10 @@ Dg
 (37,1,1) = {"
 Dg
 Dg
-IP
-IP
-IP
-IP
+tj
+tj
+tj
+tj
 Aa
 Aa
 xJ
@@ -3831,19 +4186,19 @@ yx
 xJ
 Aa
 Aa
-eX
-eX
-eX
-IP
-IP
-IP
-IP
+Ua
+Ua
+Ua
+tj
+tj
+tj
+tj
 lF
 lF
 lF
 lF
 lF
-aF
+fn
 Mk
 Mk
 Mk
@@ -3873,10 +4228,10 @@ Wl
 lF
 lF
 lF
-IP
-IP
-IP
-IP
+tj
+tj
+tj
+tj
 Dg
 Dg
 Dg
@@ -3886,10 +4241,10 @@ Dg
 (38,1,1) = {"
 Dg
 Dg
-IP
-IP
-IP
-IP
+tj
+tj
+tj
+tj
 Aa
 Aa
 xJ
@@ -3899,12 +4254,12 @@ zx
 xJ
 Aa
 Aa
-eX
-eX
-IP
-IP
-IP
-IP
+Ua
+Ua
+tj
+tj
+tj
+tj
 lF
 lF
 lF
@@ -3912,7 +4267,7 @@ lF
 lF
 lF
 lF
-bW
+bM
 bW
 Mk
 Mk
@@ -3940,11 +4295,11 @@ HB
 Wl
 Wl
 lF
-IP
-IP
-IP
-IP
-IP
+tj
+tj
+tj
+tj
+tj
 Dg
 Dg
 Dg
@@ -3955,9 +4310,9 @@ Dg
 Dg
 Dg
 Dg
-IP
-IP
-IP
+tj
+tj
+tj
 Aa
 Aa
 xJ
@@ -3967,12 +4322,12 @@ kw
 xJ
 Aa
 Aa
-eX
-eX
-IP
-IP
-IP
-IP
+Ua
+Ua
+tj
+tj
+tj
+tj
 lF
 lF
 lF
@@ -4008,11 +4363,11 @@ sS
 Xd
 Wl
 lF
-IP
-IP
-IP
-IP
-IP
+tj
+tj
+tj
+tj
+tj
 Dg
 Dg
 Dg
@@ -4023,10 +4378,10 @@ Dg
 Dg
 Dg
 Dg
-IP
-IP
-IP
-IP
+tj
+tj
+tj
+tj
 Aa
 Aa
 bj
@@ -4036,27 +4391,27 @@ JE
 vZ
 Aa
 Aa
-IP
-IP
-IP
-IP
-IP
-eX
+tj
+tj
+tj
+tj
+tj
+Ua
 lF
 lF
 lF
 lF
 lF
 lF
-lF
-lF
-lF
-lF
-lF
-lF
-lF
-lF
-iE
+DD
+DD
+DD
+DD
+DD
+DD
+DD
+DD
+DD
 Mk
 Mk
 iE
@@ -4076,12 +4431,12 @@ sS
 Wl
 Wl
 lF
-Xj
-IP
-IP
-IP
-IP
-IP
+XF
+tj
+tj
+tj
+tj
+tj
 Dg
 Dg
 Dg
@@ -4091,10 +4446,10 @@ Dg
 Dg
 Dg
 Dg
-IP
-IP
-IP
-IP
+tj
+tj
+tj
+tj
 Aa
 Aa
 Ok
@@ -4103,39 +4458,39 @@ PY
 LB
 Aa
 Aa
-IP
-IP
-IP
-IP
-IP
-IP
-eX
-eX
+tj
+tj
+tj
+tj
+tj
+tj
+Ua
+Ua
 lF
 LO
 lF
 lF
 lF
-lF
-lF
-lF
-lF
-lF
-lF
-lF
-lF
-lF
+DD
+tQ
+nA
+DD
+jm
+ZN
+Gk
+tG
+DD
 Mk
 Mk
 Mk
 aF
 lF
-EH
-EH
-EH
-EH
-EH
-EH
+lF
+lF
+lF
+lF
+lF
+lF
 Mk
 Wl
 eu
@@ -4147,9 +4502,9 @@ DO
 tj
 tj
 tj
-IP
-IP
-IP
+tj
+tj
+tj
 Dg
 Dg
 Dg
@@ -4160,48 +4515,48 @@ Dg
 Dg
 Dg
 Dg
-IP
-IP
-IP
-IP
+tj
+tj
+tj
+tj
 Aa
 Aa
 vk
 fy
 Aa
 Aa
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-eX
-eX
-eX
-Fn
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+Ua
+Ua
+Ua
+SZ
 lF
 lF
 lF
-lF
-lF
-lF
-lF
-lF
-lF
-lF
-lF
-lF
+DD
+jr
+EH
+DG
+EH
+EH
+EH
+EH
+DD
 Mk
 Mk
 Mk
 iE
-EH
-EH
-EH
-EH
-EH
+lF
+lF
+lF
+lF
+lF
 iE
 Mk
 Mk
@@ -4228,39 +4583,39 @@ Dg
 Dg
 Dg
 Dg
-IP
-IP
-IP
-IP
-IP
+tj
+tj
+tj
+tj
+tj
 Aa
 Aa
 Aa
 Aa
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-eX
-Sm
-eX
-Fn
-eX
-eX
-eX
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+Ua
+eL
+Ua
+SZ
+Ua
+Ua
 lF
-lF
-lF
-lF
-lF
-lF
-lF
-lF
-lF
+DD
+DD
+Qw
+DD
+Lk
+EH
+EH
+EH
+sD
 Mk
 Mk
 Mk
@@ -4274,9 +4629,9 @@ Mk
 Mk
 Mk
 yV
+Kw
 sS
-sS
-sS
+du
 yl
 zg
 zg
@@ -4296,39 +4651,39 @@ Dg
 Dg
 Dg
 Dg
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-eX
-eX
-Fn
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+Ua
+Ua
+SZ
 Qj
 Ds
-eX
-eX
 lF
 lF
-lF
-lF
-lF
-lF
-lF
-lF
+DD
+DD
+DD
+hS
+EH
+EH
+bA
+DD
 Mk
 Mk
 Mk
@@ -4343,8 +4698,8 @@ Mk
 iE
 oW
 sS
-sS
-sS
+du
+du
 yl
 zg
 zg
@@ -4365,38 +4720,38 @@ Dg
 Dg
 Dg
 Dg
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-eX
-eX
-Gs
-Ao
-EU
-Gs
-eX
-eX
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+Ua
+Ua
+lo
+tV
+Ap
+lo
 lF
 lF
 lF
-lF
-lF
-lF
-lF
+DD
+DD
+TG
+tP
+ee
+DD
 Mk
 Mk
 Mk
@@ -4410,9 +4765,9 @@ Mk
 iE
 iE
 Wl
-sS
+Rc
 Ae
-sS
+Rc
 Wl
 ku
 zg
@@ -4434,37 +4789,37 @@ Dg
 Dg
 Dg
 Dg
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-eX
-eX
-Fn
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+Ua
+Ua
+SZ
 XY
 tx
-eX
-eX
-eX
+Ua
+Ua
+Ua
 lF
 lF
-lF
-lF
-lF
-lF
-lF
+DD
+DD
+DD
+DD
+DD
 Mk
 Mk
 Mk
@@ -4487,10 +4842,10 @@ DO
 DO
 XF
 tj
-IP
-IP
-IP
-IP
+tj
+tj
+tj
+tj
 Dg
 Dg
 Dg
@@ -4503,29 +4858,29 @@ Dg
 Dg
 Dg
 Dg
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-eX
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+Ua
 xn
-Fn
+SZ
 sc
 vx
-eX
-eX
-eX
+Ua
+Ua
+Ua
 lF
 lF
 lF
@@ -4553,12 +4908,12 @@ lF
 lF
 lF
 lF
-IP
-IP
-IP
-IP
-IP
-IP
+tj
+tj
+tj
+tj
+tj
+tj
 Dg
 Dg
 Dg
@@ -4572,28 +4927,28 @@ Dg
 Dg
 Dg
 Dg
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-eX
-eX
-Fn
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+Ua
+Ua
+SZ
 sc
 kP
-eX
-eX
-eX
+Ua
+Ua
+Ua
 lF
 lF
 lF
@@ -4621,12 +4976,12 @@ lF
 lF
 lF
 lF
-IP
-IP
-IP
-IP
-IP
-Xj
+tj
+tj
+tj
+tj
+tj
+XF
 Dg
 Dg
 Dg
@@ -4642,25 +4997,25 @@ Dg
 Dg
 Dg
 Dg
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-eX
-eX
-Gs
-Ao
-EU
-Gs
-eX
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+Ua
+Ua
+lo
+tV
+Ap
+lo
+Ua
 Eu
 lF
 lF
@@ -4689,12 +5044,12 @@ lF
 lF
 lF
 lF
-IP
-IP
-IP
-IP
-IP
-IP
+tj
+tj
+tj
+tj
+tj
+tj
 Dg
 Dg
 Dg
@@ -4711,26 +5066,26 @@ Dg
 Dg
 Dg
 Dg
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-eX
-Fn
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+Ua
+SZ
 kh
 vx
-eX
-eX
-eX
-eX
+Ua
+Ua
+Ua
+Ua
 lF
 lF
 lF
@@ -4756,13 +5111,13 @@ lF
 lF
 lF
 lF
-IP
-IP
-IP
-IP
-IP
-IP
-IP
+tj
+tj
+tj
+tj
+tj
+tj
+tj
 Dg
 Dg
 Dg
@@ -4781,24 +5136,24 @@ Dg
 Dg
 Dg
 Dg
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-eX
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+Ua
 vg
 sc
 vx
-eX
-eX
-eX
-eX
+Ua
+Ua
+Ua
+Ua
 lF
 Kj
 Kj
@@ -4823,13 +5178,13 @@ KT
 lF
 lF
 lF
-IP
-IP
-IP
-IP
-IP
-IP
-IP
+tj
+tj
+tj
+tj
+tj
+tj
+tj
 Dg
 Dg
 Dg
@@ -4850,21 +5205,21 @@ Dg
 Dg
 Dg
 Dg
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-Fn
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+SZ
 sc
 vx
-eX
-eX
+Ua
+Ua
 FS
 FS
 FS
@@ -4891,13 +5246,13 @@ KT
 lF
 lF
 lF
-IP
-IP
-IP
-IP
-IP
-IP
-IP
+tj
+tj
+tj
+tj
+tj
+tj
+tj
 Dg
 Dg
 Dg
@@ -4919,23 +5274,23 @@ Dg
 Dg
 Dg
 Dg
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-eX
-Gs
-Ao
-EU
-Gs
-eX
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+Ua
+lo
+tV
+Ap
+lo
+Ua
 FS
-eX
-eX
+Ua
+Ua
 Kj
 Kj
 Kj
@@ -4958,14 +5313,14 @@ ii
 KT
 lF
 lF
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
 Dg
 Dg
 Dg
@@ -4989,17 +5344,17 @@ Dg
 Dg
 Dg
 Dg
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-ZC
-vc
-eX
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+UK
+LF
+Ua
 uc
 jj
 KJ
@@ -5025,14 +5380,14 @@ ii
 KT
 KT
 lF
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
 Dg
 Dg
 Dg
@@ -5058,19 +5413,19 @@ Dg
 Dg
 Dg
 Dg
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-ZC
-vc
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+UK
+LF
 FS
 FS
 FS
-eX
+Ua
 lF
 lF
 lF
@@ -5093,14 +5448,14 @@ ii
 KT
 lF
 lF
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
 Dg
 Dg
 Dg
@@ -5127,18 +5482,18 @@ Dg
 Dg
 Dg
 Dg
-IP
-IP
-IP
-IP
-IP
-IP
+tj
+tj
+tj
+tj
+tj
+tj
 qr
-vc
+LF
 FS
-eX
-eX
-eX
+Ua
+Ua
+Ua
 lF
 lF
 lF
@@ -5160,14 +5515,14 @@ KT
 KT
 KT
 lF
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
 Dg
 Dg
 Dg
@@ -5195,19 +5550,19 @@ Dg
 Dg
 Dg
 Dg
-IP
-IP
-IP
-IP
-IP
-IP
+tj
+tj
+tj
+tj
+tj
+tj
 qr
-PD
-PA
-eX
-Sm
-eX
-eX
+NK
+gm
+Ua
+eL
+Ua
+Ua
 lF
 lF
 lF
@@ -5228,13 +5583,13 @@ lF
 lF
 lF
 lF
-IP
-IP
-IP
-IP
-IP
-IP
-IP
+tj
+tj
+tj
+tj
+tj
+tj
+tj
 Dg
 Dg
 Dg
@@ -5265,18 +5620,18 @@ Dg
 Dg
 Dg
 Dg
-IP
-IP
-IP
-IP
+tj
+tj
+tj
+tj
 qr
-PD
-PA
-IP
-eX
-eX
-eX
-eX
+NK
+gm
+tj
+Ua
+Ua
+Ua
+Ua
 lF
 lF
 lF
@@ -5295,11 +5650,11 @@ lF
 lF
 lF
 lF
-IP
-IP
-IP
-IP
-IP
+tj
+tj
+tj
+tj
+tj
 Dg
 Dg
 Dg
@@ -5334,18 +5689,18 @@ Dg
 Dg
 Dg
 Dg
-IP
-IP
-IP
+tj
+tj
+tj
 qr
-PD
+NK
 pl
-IP
-Xj
-IP
-eX
-eX
-eX
+tj
+XF
+tj
+Ua
+Ua
+Ua
 lF
 lF
 lF
@@ -5362,12 +5717,12 @@ lF
 lF
 lF
 lF
-IP
-IP
-IP
-IP
-IP
-IP
+tj
+tj
+tj
+tj
+tj
+tj
 Dg
 Dg
 Dg
@@ -5402,19 +5757,19 @@ Dg
 Dg
 Dg
 Dg
-IP
-IP
-IP
-eK
-PD
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-eX
+tj
+tj
+tj
+PB
+NK
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+Ua
 lF
 lF
 lF
@@ -5429,12 +5784,12 @@ lF
 lF
 lF
 lF
-IP
-IP
-IP
-IP
-IP
-IP
+tj
+tj
+tj
+tj
+tj
+tj
 Dg
 Dg
 Dg
@@ -5471,20 +5826,20 @@ Dg
 Dg
 Dg
 Dg
-IP
-IP
+tj
+tj
 qr
-PD
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
+NK
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
 lF
 lF
 lF
@@ -5494,14 +5849,14 @@ lF
 lF
 lF
 lF
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
 Dg
 Dg
 Dg
@@ -5545,29 +5900,29 @@ PB
 NK
 gm
 tj
-Xj
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
+XF
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
 lF
 lF
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
 Dg
 Dg
 Dg
@@ -5613,27 +5968,27 @@ tV
 Ap
 rc
 tj
-IP
-IP
-IP
-Xj
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
+tj
+tj
+tj
+XF
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
 Dg
 Dg
 Dg
@@ -5685,22 +6040,22 @@ Ua
 Ua
 tj
 tj
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
-IP
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
 Dg
 Dg
 Dg
@@ -5757,16 +6112,16 @@ Dg
 Dg
 Dg
 Dg
-IP
-IP
-IP
-IP
-IP
-IP
-Dg
-Dg
-Dg
-Dg
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
+tj
 Dg
 Dg
 Dg
@@ -5889,7 +6244,7 @@ Ua
 sI
 Ua
 SZ
-Dg
+eX
 Ua
 Ua
 Dg
@@ -5958,8 +6313,8 @@ Ua
 DO
 lo
 Yy
-Dg
-Dg
+eX
+eX
 Dg
 Dg
 Dg
@@ -6025,9 +6380,9 @@ Ua
 DO
 DO
 DO
-Dg
-Dg
-Dg
+eX
+eX
+eX
 Dg
 Dg
 Dg
@@ -6092,10 +6447,10 @@ Ua
 DO
 DO
 DO
-Dg
-Dg
-Dg
-Dg
+eX
+eX
+eX
+eX
 Dg
 Dg
 Dg
@@ -6160,10 +6515,10 @@ Ua
 DO
 DO
 DO
-Dg
-Dg
-Dg
-Dg
+eX
+eX
+eX
+eX
 Dg
 Dg
 Dg
@@ -6226,12 +6581,12 @@ Jq
 VO
 DO
 DO
-Dg
-Dg
-Dg
-Dg
-Dg
-Dg
+eX
+eX
+eX
+eX
+eX
+eX
 Dg
 Dg
 Dg
@@ -6293,13 +6648,13 @@ VO
 VO
 DO
 DO
-Dg
-Dg
-Dg
-Dg
-Dg
-Dg
-Dg
+eX
+eX
+eX
+eX
+eX
+eX
+eX
 Dg
 Dg
 Dg
@@ -6360,14 +6715,14 @@ DO
 DO
 DO
 DO
-Dg
-Dg
-Dg
-Dg
-Dg
-Dg
-Dg
-Dg
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
 Dg
 Dg
 Dg
