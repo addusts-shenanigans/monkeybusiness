@@ -507,6 +507,10 @@
 	mood_trait = TRAIT_EXTROVERT
 	sound_environment = SOUND_AREA_SMALL_SOFTFLOOR
 
+/area/station/commons/lounge/public_house
+	name = "Public House"
+	mood_message = "A good pint always helps soothe the spirits!"
+
 /area/station/commons/fitness
 	name = "\improper Fitness Room"
 	icon_state = "fitness"
