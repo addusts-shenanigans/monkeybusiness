@@ -100,6 +100,10 @@
 "bu" = (
 /obj/structure/chair/comfy/black,
 /obj/effect/landmark/start/chief_medical_officer,
+/obj/effect/turf_decal/siding/wood{
+	dir = 1
+	},
+/obj/effect/turf_decal/siding/wood,
 /turf/open/floor/carpet/blue,
 /area/station/command/meeting_room)
 "bP" = (
@@ -135,6 +139,10 @@
 "cg" = (
 /obj/structure/chair/comfy/black,
 /obj/effect/landmark/start/head_of_security,
+/obj/effect/turf_decal/siding/wood{
+	dir = 1
+	},
+/obj/effect/turf_decal/siding/wood,
 /turf/open/floor/carpet/blue,
 /area/station/command/meeting_room)
 "cn" = (
@@ -168,10 +176,19 @@
 /obj/effect/landmark/start/bartender,
 /turf/open/floor/wood,
 /area/station/service/bar/backroom)
-"dg" = (
-/obj/structure/sign/poster/contraband/icebox_moment/directional/west,
-/turf/open/floor/carpet/red,
+"cZ" = (
+/obj/structure/railing/wood{
+	dir = 4
+	},
+/turf/open/floor/wood,
 /area/icemoon/surface/outdoors/unexplored/rivers/no_monsters)
+"da" = (
+/obj/effect/turf_decal/siding/wood/corner,
+/turf/open/floor/iron/dark,
+/area/station/security/office)
+"dg" = (
+/turf/open/floor/carpet/red,
+/area/station/command/heads_quarters/hos)
 "dM" = (
 /turf/closed/wall/r_wall,
 /area/station/security/holding_cell)
@@ -196,7 +213,8 @@
 /turf/open/floor/plating,
 /area/station/security/execution/transfer)
 "eI" = (
-/turf/open/floor/iron,
+/obj/effect/turf_decal/siding/wood,
+/turf/open/floor/iron/dark,
 /area/station/security/office)
 "eJ" = (
 /obj/effect/turf_decal/stripes/line{
@@ -339,12 +357,14 @@
 /turf/open/floor/plating/snowed/icemoon,
 /area/icemoon/surface/outdoors/unexplored/rivers/no_monsters)
 "jk" = (
-/obj/structure/railing{
-	dir = 4;
-	layer = 4.1
+/obj/effect/turf_decal/siding/wood{
+	dir = 10
 	},
-/turf/open/floor/iron,
-/area/icemoon/surface/outdoors/unexplored/rivers/no_monsters)
+/obj/effect/turf_decal/siding/wood/corner{
+	dir = 4
+	},
+/turf/open/floor/carpet/blue,
+/area/station/command/meeting_room)
 "jG" = (
 /obj/machinery/door/airlock/command/glass{
 	name = "Bridge"
@@ -383,6 +403,10 @@
 	dir = 1
 	},
 /obj/effect/landmark/start/research_director,
+/obj/effect/turf_decal/siding/wood,
+/obj/effect/turf_decal/siding/wood{
+	dir = 1
+	},
 /turf/open/floor/carpet/blue,
 /area/station/command/meeting_room)
 "kB" = (
@@ -411,6 +435,10 @@
 "lq" = (
 /obj/structure/chair/comfy/black,
 /obj/effect/landmark/start/head_of_personnel,
+/obj/effect/turf_decal/siding/wood{
+	dir = 1
+	},
+/obj/effect/turf_decal/siding/wood,
 /turf/open/floor/carpet/blue,
 /area/station/command/meeting_room)
 "lu" = (
@@ -440,6 +468,10 @@
 "lM" = (
 /turf/closed/mineral/random/snow,
 /area/icemoon/surface/outdoors/nospawn)
+"lN" = (
+/obj/effect/spawner/structure/window/reinforced,
+/turf/open/floor/plating,
+/area/station/command/heads_quarters/hos)
 "lZ" = (
 /obj/effect/turf_decal/siding/wood{
 	dir = 1
@@ -528,6 +560,12 @@
 /turf/open/floor/iron/white,
 /area/station/security/medical)
 "on" = (
+/obj/effect/turf_decal/siding/wood{
+	dir = 5
+	},
+/obj/effect/turf_decal/siding/wood/corner{
+	dir = 8
+	},
 /turf/open/floor/carpet/blue,
 /area/station/command/meeting_room)
 "oo" = (
@@ -554,7 +592,7 @@
 /obj/structure/railing{
 	dir = 4
 	},
-/turf/open/openspace/icemoon/keep_below,
+/turf/open/floor/plating/snowed/icemoon,
 /area/icemoon/surface/outdoors/unexplored/rivers/no_monsters)
 "po" = (
 /obj/effect/mapping_helpers/airlock/access/all/service/kitchen,
@@ -676,11 +714,26 @@
 	dir = 4
 	},
 /obj/effect/landmark/start/blueshield,
+/obj/effect/turf_decal/siding/wood{
+	dir = 8
+	},
+/obj/effect/turf_decal/siding/wood{
+	dir = 4
+	},
+/turf/open/floor/carpet/blue,
+/area/station/command/meeting_room)
+"ru" = (
+/obj/effect/turf_decal/siding/wood{
+	dir = 6
+	},
+/obj/effect/turf_decal/siding/wood/corner{
+	dir = 1
+	},
 /turf/open/floor/carpet/blue,
 /area/station/command/meeting_room)
 "rv" = (
-/turf/open/openspace/icemoon/keep_below,
-/area/station/command/bridge)
+/turf/open/floor/wood,
+/area/station/security/office)
 "rP" = (
 /obj/structure/table,
 /turf/open/floor/iron/kitchen/small,
@@ -836,6 +889,12 @@
 /obj/structure/table/wood/fancy/blue,
 /turf/open/floor/wood,
 /area/station/command/bridge)
+"vm" = (
+/obj/structure/railing{
+	dir = 4
+	},
+/turf/open/floor/iron,
+/area/icemoon/surface/outdoors/unexplored/rivers/no_monsters)
 "vx" = (
 /obj/structure/railing{
 	dir = 1
@@ -863,7 +922,7 @@
 /obj/structure/railing{
 	dir = 4
 	},
-/turf/open/openspace/icemoon/keep_below,
+/turf/open/floor/plating/snowed/icemoon,
 /area/icemoon/surface/outdoors/unexplored/rivers/no_monsters)
 "wi" = (
 /obj/effect/turf_decal/siding/wood{
@@ -895,6 +954,10 @@
 	},
 /turf/open/misc/dirt/station,
 /area/station/security/execution/transfer)
+"wD" = (
+/obj/structure/sign/poster/contraband/icebox_moment/directional/west,
+/turf/open/floor/carpet/red,
+/area/station/command/heads_quarters/hos)
 "wX" = (
 /obj/item/wrench,
 /obj/item/stack/sheet/glass{
@@ -935,17 +998,15 @@
 /obj/structure/closet/secure_closet/captains,
 /turf/open/floor/carpet/blue,
 /area/station/command/heads_quarters/captain)
+"xX" = (
+/obj/effect/turf_decal/siding/wood{
+	dir = 8
+	},
+/turf/open/floor/iron/dark,
+/area/station/security/office)
 "yc" = (
-/obj/structure/stairs/south,
-/obj/structure/railing{
-	dir = 8;
-	layer = 4.1
-	},
-/obj/structure/railing{
-	dir = 4;
-	layer = 4.1
-	},
-/turf/open/floor/iron,
+/obj/structure/table/wood,
+/turf/open/floor/wood,
 /area/station/security/office)
 "yh" = (
 /obj/structure/flora/tree/dead/style_3,
@@ -1075,15 +1136,14 @@
 /turf/open/floor/wood,
 /area/station/commons/lounge/public_house)
 "BS" = (
-/obj/effect/spawner/structure/window/reinforced,
-/turf/open/floor/plating,
-/area/icemoon/surface/outdoors/unexplored/rivers/no_monsters)
+/turf/closed/wall/r_wall,
+/area/station/command/heads_quarters/hos)
 "Cw" = (
 /obj/structure/marker_beacon/indigo,
 /turf/open/floor/engine/hull/reinforced/planetary/icemoon,
 /area/icemoon/surface/outdoors/unexplored/rivers/no_monsters)
 "CE" = (
-/turf/open/misc/asteroid/snow/icemoon,
+/turf/open/floor/iron/dark,
 /area/station/security/office)
 "CF" = (
 /obj/structure/sign/poster/official/nanotrasen_logo/directional/west,
@@ -1172,8 +1232,18 @@
 /obj/structure/chair/comfy/black{
 	dir = 1
 	},
+/obj/effect/turf_decal/siding/wood,
+/obj/effect/turf_decal/siding/wood{
+	dir = 1
+	},
 /turf/open/floor/carpet/blue,
 /area/station/command/meeting_room)
+"EL" = (
+/obj/effect/turf_decal/siding/wood{
+	dir = 4
+	},
+/turf/open/floor/iron/dark,
+/area/station/security/office)
 "EN" = (
 /turf/open/floor/wood,
 /area/station/commons/lounge/public_house)
@@ -1284,6 +1354,10 @@
 	},
 /turf/open/floor/noslip/tram_platform,
 /area/station/security/execution/transfer)
+"If" = (
+/obj/structure/stairs/wood,
+/turf/open/floor/wood,
+/area/station/security/office)
 "IG" = (
 /obj/machinery/digital_clock/directional/south,
 /turf/open/floor/wood,
@@ -1389,6 +1463,15 @@
 /obj/machinery/light/small/warm/directional/west,
 /turf/open/floor/iron/dark,
 /area/station/command/bridge)
+"LP" = (
+/obj/effect/turf_decal/siding/wood{
+	dir = 1
+	},
+/turf/open/floor/wood,
+/area/icemoon/surface/outdoors/unexplored/rivers/no_monsters)
+"Mq" = (
+/turf/open/floor/wood,
+/area/icemoon/surface/outdoors/unexplored/rivers/no_monsters)
 "Mx" = (
 /turf/open/floor/noslip/tram_platform,
 /area/station/security/execution/transfer)
@@ -1435,8 +1518,9 @@
 /turf/open/floor/plating/snowed/smoothed,
 /area/icemoon/surface/outdoors/nospawn)
 "NA" = (
+/obj/machinery/door/airlock/hos,
 /turf/open/floor/carpet/red,
-/area/icemoon/surface/outdoors/unexplored/rivers/no_monsters)
+/area/station/command/heads_quarters/hos)
 "NB" = (
 /obj/item/clothing/head/soft/frontier_colonist/medic,
 /obj/structure/closet/secure_closet/brig_physician,
@@ -1471,6 +1555,12 @@
 /obj/machinery/modular_computer/preset/id,
 /turf/open/floor/wood,
 /area/station/command/bridge)
+"NP" = (
+/obj/effect/turf_decal/siding/wood/corner{
+	dir = 8
+	},
+/turf/open/floor/iron/dark,
+/area/station/security/office)
 "Ob" = (
 /obj/machinery/space_heater/wall_mounted/directional/north,
 /turf/open/floor/plating,
@@ -1578,6 +1668,12 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/wood,
 /area/station/service/bar/backroom)
+"Rh" = (
+/obj/structure/railing{
+	dir = 1
+	},
+/turf/open/floor/iron,
+/area/icemoon/surface/outdoors/unexplored/rivers/no_monsters)
 "Rs" = (
 /obj/structure/table/wood,
 /obj/item/flashlight/lamp/green{
@@ -1604,8 +1700,25 @@
 	dir = 1
 	},
 /obj/effect/landmark/start/chief_engineer,
+/obj/effect/turf_decal/siding/wood,
+/obj/effect/turf_decal/siding/wood{
+	dir = 1
+	},
 /turf/open/floor/carpet/blue,
 /area/station/command/meeting_room)
+"RR" = (
+/obj/effect/turf_decal/siding/wood{
+	dir = 9
+	},
+/obj/effect/turf_decal/siding/wood/corner,
+/turf/open/floor/carpet/blue,
+/area/station/command/meeting_room)
+"RS" = (
+/obj/structure/railing/wood{
+	dir = 8
+	},
+/turf/open/floor/wood,
+/area/icemoon/surface/outdoors/unexplored/rivers/no_monsters)
 "Sb" = (
 /obj/structure/railing,
 /obj/structure/railing{
@@ -1796,6 +1909,12 @@
 /obj/item/radio/intercom/command/directional/west{
 	pixel_x = -31;
 	pixel_y = 0
+	},
+/obj/effect/turf_decal/siding/wood{
+	dir = 4
+	},
+/obj/effect/turf_decal/siding/wood{
+	dir = 8
 	},
 /turf/open/floor/carpet/blue,
 /area/station/command/meeting_room)
@@ -96664,19 +96783,19 @@ ZH
 ZH
 ZH
 ZH
-ZH
-ZH
-ZH
-ZH
-ZH
-ZH
-ZH
-ZH
-ZH
-ZH
-ZH
-lM
-IP
+PT
+PT
+PT
+PT
+PT
+PT
+PT
+PT
+PT
+PT
+PT
+PT
+ge
 IP
 IP
 IP
@@ -96921,18 +97040,18 @@ ZH
 ZH
 ZH
 ZH
-ZH
-ZH
-ZH
-ZH
-ZH
-ZH
-ZH
-ZH
-ZH
-ZH
-ZH
-ZH
+PT
+CE
+CE
+CE
+CE
+CE
+CE
+CE
+CE
+CE
+CE
+CE
 hV
 hV
 hV
@@ -97178,19 +97297,19 @@ ZH
 ZH
 ZH
 ZH
-ZH
-ZH
-ZH
-ZH
-ZH
-ZH
-ZH
-ZH
-ZH
-ZH
-ZH
-ZH
-IP
+PT
+CE
+CE
+CE
+CE
+CE
+CE
+da
+EL
+EL
+EL
+EL
+ge
 hV
 hV
 IP
@@ -97435,19 +97554,19 @@ ZH
 ZH
 ZH
 ZH
-ZH
-ZH
-ZH
-ZH
-PT
-PT
-PT
-PT
-PT
-PT
-PT
-PT
-PT
+CE
+CE
+CE
+CE
+CE
+CE
+CE
+eI
+yc
+yc
+rv
+rv
+ge
 hV
 hV
 hV
@@ -97692,19 +97811,19 @@ ZH
 ZH
 ZH
 ZH
-ZH
-ZH
-ZH
-ZH
 PT
+CE
+CE
+CE
+CE
+CE
+CE
 eI
-eI
-eI
-eI
-eI
-eI
-eI
-PT
+yc
+rv
+rv
+If
+ge
 hV
 hV
 hV
@@ -97949,18 +98068,18 @@ ZH
 ZH
 ZH
 ZH
-ZH
-ZH
-ZH
-ZH
+PT
+CE
+CE
+CE
+CE
+CE
+CE
 eI
-eI
-eI
-eI
-eI
-eI
-ge
-hV
+yc
+rv
+rv
+If
 ge
 hV
 hV
@@ -98206,19 +98325,19 @@ ZH
 ZH
 ZH
 ZH
-ZH
-ZH
-ZH
-ZH
+CE
+CE
+CE
+CE
+CE
+CE
 CE
 eI
-eI
-eI
-eI
 yc
+yc
+rv
+rv
 ge
-hV
-hV
 hV
 hV
 hV
@@ -98463,18 +98582,18 @@ ZH
 ZH
 ZH
 ZH
-ZH
-ZH
-ZH
-ZH
-eI
-eI
-eI
-eI
-eI
-eI
-ge
-hV
+PT
+CE
+CE
+CE
+CE
+CE
+CE
+NP
+xX
+xX
+xX
+xX
 ge
 hV
 hV
@@ -98720,19 +98839,19 @@ ZH
 ZH
 ZH
 ZH
-ZH
-ZH
-ZH
-ZH
 PT
-eI
-eI
-eI
-eI
-eI
-eI
-eI
-PT
+CE
+CE
+CE
+CE
+CE
+CE
+CE
+CE
+CE
+CE
+CE
+hV
 hV
 hV
 hV
@@ -98977,8 +99096,8 @@ ZH
 ZH
 ZH
 ZH
-ZH
-ZH
+PT
+PT
 mc
 mc
 mc
@@ -98989,7 +99108,7 @@ gz
 iz
 gz
 gz
-gz
+ge
 hV
 hV
 hV
@@ -100219,9 +100338,9 @@ ZH
 ne
 pY
 KI
-on
+RR
 rq
-on
+jk
 KI
 jG
 tf
@@ -101249,7 +101368,7 @@ KU
 KI
 on
 Xl
-on
+ru
 KI
 jG
 tf
@@ -162200,17 +162319,17 @@ yS
 yS
 yS
 yS
-yS
-yS
-yS
-yS
-yS
-yS
-yS
-yS
-yS
-yS
-yS
+GH
+QI
+QI
+QI
+QI
+QI
+QI
+QI
+QI
+QI
+GH
 dT
 dT
 dT
@@ -162451,24 +162570,24 @@ yS
 yS
 yS
 yS
+lN
+lN
+BS
+BS
+BS
 yS
-yS
-yS
-yS
-yS
-yS
-yS
-yS
-yS
-yS
-yS
-yS
-yS
-yS
-yS
-yS
-yS
-yS
+GH
+QI
+OG
+OG
+OG
+OG
+OG
+OG
+OG
+QI
+GH
+GH
 dT
 dT
 dT
@@ -162707,27 +162826,27 @@ yS
 yS
 yS
 yS
-yS
-yS
-yS
-yS
-yS
-yS
-yS
-yS
-yS
-yS
-yS
-yS
-yS
-yS
-yS
-yS
-yS
-yS
-yS
-dT
-dT
+lN
+lN
+dg
+wD
+dg
+BS
+BS
+GH
+QI
+OG
+OG
+vm
+vm
+vm
+OG
+OG
+QI
+QI
+QI
+QI
+QI
 dT
 dT
 dT
@@ -162964,27 +163083,27 @@ yS
 yS
 yS
 yS
-yS
-yS
-yS
-yS
-yS
+lN
+dg
+dg
+dg
+dg
+dg
 BS
 BS
+BS
+OG
+Ww
+NF
+NF
+NF
+Rh
+OG
+LP
+cZ
+cZ
+Mq
 QI
-QI
-QI
-yS
-GH
-GH
-GH
-GH
-GH
-GH
-GH
-GH
-dT
-dT
 dT
 dT
 dT
@@ -163221,27 +163340,27 @@ yS
 yS
 yS
 yS
-yS
-yS
-yS
-yS
-BS
-BS
-NA
+lN
+dg
+dg
+dg
+dg
 dg
 NA
+dg
+BS
+OG
+Ww
+NF
+NF
+NF
+Rh
+OG
 QI
+NF
+NF
+Mq
 QI
-GH
-QI
-QI
-QI
-QI
-QI
-QI
-QI
-QI
-dT
 dT
 dT
 dT
@@ -163478,27 +163597,27 @@ yS
 yS
 yS
 yS
-yS
-yS
-yS
-yS
+lN
+dg
+dg
+dg
+dg
+dg
 BS
+dg
 NA
-NA
-NA
-NA
-NA
-QI
-QI
-QI
 OG
-OG
-jk
-jk
-OG
+Ww
+NF
+NF
+NF
+Rh
 OG
 QI
-GH
+NF
+NF
+Mq
+QI
 dT
 dT
 dT
@@ -163735,27 +163854,27 @@ yS
 yS
 yS
 yS
-yS
-yS
-yS
-yS
+lN
+dg
+dg
+dg
+dg
+dg
 BS
-NA
-NA
-NA
-NA
-NA
-NA
-NA
-NA
+BS
+BS
 OG
 Ww
 NF
 NF
+NF
+Rh
 OG
-OG
+LP
+RS
+RS
+Mq
 QI
-GH
 dT
 dT
 dT
@@ -163992,27 +164111,27 @@ yS
 yS
 yS
 yS
-yS
-yS
-yS
-yS
+lN
+lN
+dg
+dg
+dg
 BS
-NA
-NA
-NA
-NA
-NA
-QI
-QI
-QI
-OG
-OG
-QD
-QD
-OG
-OG
-QI
+BS
 GH
+QI
+OG
+OG
+QD
+QD
+QD
+OG
+OG
+QI
+QI
+QI
+QI
+QI
 dT
 dT
 dT
@@ -164250,25 +164369,25 @@ yS
 yS
 yS
 yS
-yS
-yS
-yS
+lN
+lN
 BS
 BS
-NA
-NA
-NA
-QI
-QI
+BS
+yS
 GH
 QI
+OG
+OG
+OG
+OG
+OG
+OG
+OG
 QI
-QI
-QI
-QI
-QI
-QI
-QI
+GH
+GH
+GH
 GH
 dT
 dT
@@ -164511,18 +164630,18 @@ yS
 yS
 yS
 yS
-BS
-BS
+yS
+yS
+GH
 QI
 QI
 QI
-GH
-GH
-GH
-GH
-GH
-GH
-GH
+QI
+QI
+QI
+QI
+QI
+QI
 GH
 GH
 GH
@@ -166796,8 +166915,8 @@ Zp
 Gg
 ER
 ER
-rv
-yS
+kB
+GH
 yS
 yS
 yS
@@ -167053,8 +167172,8 @@ tf
 sV
 Nq
 kB
-rv
-yS
+kB
+GH
 yS
 yS
 yS
