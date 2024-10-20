@@ -507,9 +507,6 @@
 	mood_trait = TRAIT_EXTROVERT
 	sound_environment = SOUND_AREA_SMALL_SOFTFLOOR
 
-/area/station/commons/lounge/public_house
-	name = "Public House"
-	mood_message = "A good pint always helps soothe the spirits!"
 
 /area/station/commons/fitness
 	name = "\improper Fitness Room"
@@ -1708,3 +1705,15 @@
 /area/station/maintenance/floor4/starboard/aft
 	name = "\improper 4th Floor Aft Starboard Maint"
 	icon_state = "maintaft"
+
+//Crater Station specific areas
+
+/area/station/commons/lounge/public_house
+	name = "Public House"
+	mood_message = "A good pint always warms the spirits!"
+
+/area/station/maintenance/radshelter/weathershelter
+	name = "Weather Shelter"
+
+/area/station/maintenance/radshelter/weathershelter/bunkhouse
+	name = "Bunkhouse Weather Shelter"
