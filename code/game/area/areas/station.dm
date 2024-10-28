@@ -1706,14 +1706,3 @@
 	name = "\improper 4th Floor Aft Starboard Maint"
 	icon_state = "maintaft"
 
-//Crater Station specific areas
-
-/area/station/commons/lounge/public_house
-	name = "Public House"
-	mood_message = "A good pint always warms the spirits!"
-
-/area/station/maintenance/radshelter/weathershelter
-	name = "Weather Shelter"
-
-/area/station/maintenance/radshelter/weathershelter/bunkhouse
-	name = "Bunkhouse Weather Shelter"

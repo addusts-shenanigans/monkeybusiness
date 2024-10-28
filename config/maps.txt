@@ -73,3 +73,7 @@ endmap
 map ouroboros
 	votable
 endmap
+
+map crater
+	votable
+endmap

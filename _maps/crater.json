@@ -1,7 +1,7 @@
 {
 	"version": 1,
 	"map_name": "Crater Station",
-	"map_path": "map_files/CraterStation",
+	"map_path": "map_files/IceBoxStation",
 	"map_file": "CraterStation.dmm",
 	"space_ruin_levels": 0,
 	"space_empty_levels": 0,
@@ -26,6 +26,17 @@
 			"Baseturf": "/turf/open/lava/plasma/ice_moon",
 			"No Parallax": true,
 			"Forced Safety": true
+		},
+		{
+			"Down": true,
+			"Up": true,
+			"Mining": true,
+			"Linkage": null,
+			"Gravity": true,
+			"Daycycle": true,
+			"Ice Ruins Underground": true,
+			"Baseturf": "/turf/open/openspace/icemoon/keep_below",
+			"No Parallax": true
 		},
 		{
 			"Down": true,
