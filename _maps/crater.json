@@ -40,17 +40,6 @@
 		},
 		{
 			"Down": true,
-			"Up": true,
-			"Mining": true,
-			"Linkage": null,
-			"Gravity": true,
-			"Daycycle": true,
-			"Ice Ruins Underground": true,
-			"Baseturf": "/turf/open/openspace/icemoon/keep_below",
-			"No Parallax": true
-		},
-		{
-			"Down": true,
 			"Mining": true,
 			"Linkage": null,
 			"Gravity": true,
