@@ -77,7 +77,7 @@
 
 /datum/outfit/syndicate_empty/dreadnought/captain
 	name = "Syndicate Dreadnought Captain"
-	under = /obj/item/clothing/under/syndicate/sniper
+	uniform = /obj/item/clothing/under/syndicate/sniper
 	head = /obj/item/clothing/head/hats/hos/cap/syndicate
 	suit = /obj/item/clothing/suit/armor/vest/capcarapace/syndicate
 	ears = /obj/item/radio/headset/syndicate/alt/leader
@@ -90,11 +90,43 @@
 	)
 	accessory = /obj/item/clothing/accessory/medal/gold
 
+
+// areas
 /area/ruin/space/syndicate_dreadnought
 	name = "Syndicate Dreadnought 'Defiant'"
+
+/area/ruin/space/syndicate_dreadnought/armoury
+	name = "Syndicate Dreadnought 'Defiant' Armoury"
 
 /area/ruin/space/syndicate_dreadnought/bridge
 	name = "Syndicate Dreadnought 'Defiant' Bridge"
 
 /area/ruin/space/syndicate_dreadnought/crew
 	name = "Syndicate Dreadnought 'Defiant' Crew Quarters"
+
+/area/ruin/space/syndicate_dreadnought/engineering
+	name = "Syndicate Dreadnought 'Defiant' Engineering"
+
+/area/ruin/space/syndicate_dreadnought/engineering/atmos
+	name = "Syndicate Dreadnought 'Defiant' Life Support"
+
+/area/ruin/space/syndicate_dreadnought/engineering/gravity
+	name = "Syndicate Dreadnought 'Defiant' Gravity Generator"
+
+/area/ruin/space/syndicate_dreadnought/eva_locker
+	name = "Syndicate Dreadnought 'Defiant' EVA Lockup"
+
+/area/ruin/space/syndicate_dreadnought/medical
+	name = "Syndicate Dreadnought 'Defiant' Infirmary"
+
+/area/ruin/space/syndicate_dreadnought/mess_hall
+	name = "Syndicate Dreadnought 'Defiant' Mess Hall"
+
+/area/ruin/space/syndicate_dreadnought/munitions
+	name = "Syndicate Dreadnought 'Defiant' Munitions Bay"
+
+/area/ruin/space/syndicate_dreadnought/vault
+	name = "Syndicate Dreadnought 'Defiant' Vault"
+
+/area/ruin/space/syndicate_dreadnought/mining
+	name = "Syndicate Dreadnought 'Defiant' Salvage Bay"
