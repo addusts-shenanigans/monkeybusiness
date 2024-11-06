@@ -25,3 +25,15 @@
 
 /area/station/maintenance/department/crew_quarters/bar/cellar
 	name = "Public House Cellar"
+
+/area/station/maintenance/abandoned_camp
+	name = "Abandoned Camp"
+
+/area/station/maintenance/abandoned_camp/hothouse
+	name = "Abandoned Hothouse"
+
+/area/station/maintenance/abandoned_camp/tent
+	name = "Abandoned Tent"
+
+/area/station/maintenance/abandoned_camp/medical
+	name = "Abandoned Medical Post"
