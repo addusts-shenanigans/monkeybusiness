@@ -10,8 +10,9 @@
 		"cargo": "cargo_nova",
 		"ferry": "ferry_fancy",
 		"whiteship": "whiteship_box",
-		"emergency": "emergency_box"
+		"emergency": "emergency_crater"
 	},
+	"orbit_shift_replacement": "Attention crew, it appears that someone has transmitted your outpost's location on unsecure wideband frequencies. Expect increased threats.",
 	"particle_weathers": [
     	"weather_snow"
     ],
