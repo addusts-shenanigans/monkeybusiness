@@ -34,13 +34,6 @@
 "aG" = (
 /turf/open/floor/carpet/royalblack,
 /area/ruin/icemoon_syndicate/communications)
-"aU" = (
-/obj/effect/turf_decal/stripes/line,
-/obj/effect/turf_decal/stripes/line{
-	dir = 1
-	},
-/turf/open/floor/plating,
-/area/ruin/icemoon_syndicate/research)
 "aY" = (
 /obj/structure/cable,
 /mob/living/basic/mining/wolf,
@@ -95,6 +88,11 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/iron/showroomfloor,
 /area/ruin/icemoon_syndicate/crew)
+"cL" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/turf_decal/stripes/line,
+/turf/open/floor/iron/dark,
+/area/ruin/icemoon_syndicate/checkpoint)
 "cW" = (
 /turf/open/floor/iron/kitchen/small,
 /area/ruin/icemoon_syndicate/bar)
@@ -107,12 +105,6 @@
 /area/ruin/icemoon_syndicate/cargo)
 "du" = (
 /obj/effect/decal/cleanable/dirt,
-/turf/open/floor/iron/dark,
-/area/ruin/icemoon_syndicate/checkpoint)
-"dI" = (
-/obj/effect/turf_decal/stripes/line{
-	dir = 1
-	},
 /turf/open/floor/iron/dark,
 /area/ruin/icemoon_syndicate/checkpoint)
 "eb" = (
@@ -135,6 +127,10 @@
 /obj/effect/mapping_helpers/airlock/access/all/syndicate/general,
 /turf/open/floor/iron/dark,
 /area/ruin/icemoon_syndicate/checkpoint)
+"eJ" = (
+/obj/structure/table/reinforced,
+/turf/open/floor/iron,
+/area/ruin/icemoon_syndicate/research)
 "eL" = (
 /obj/structure/flora/tree/dead/style_6,
 /turf/open/misc/asteroid/snow/icemoon,
@@ -178,11 +174,25 @@
 /obj/machinery/light/small/directional/east,
 /turf/open/floor/circuit/red/anim,
 /area/ruin/icemoon_syndicate/vault)
+"fT" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 1
+	},
+/obj/structure/table/reinforced,
+/turf/open/floor/iron,
+/area/ruin/icemoon_syndicate/research)
 "gm" = (
 /obj/structure/lattice/catwalk,
 /obj/structure/cable,
 /turf/open/lava/plasma/ice_moon,
 /area/icemoon/underground/explored)
+"gu" = (
+/obj/effect/turf_decal/stripes/line,
+/turf/open/floor/plating,
+/area/ruin/icemoon_syndicate/research)
+"gB" = (
+/turf/open/floor/plating,
+/area/ruin/icemoon_syndicate/research)
 "he" = (
 /obj/structure/chair/sofa/corp/left{
 	dir = 1
@@ -211,6 +221,12 @@
 /obj/item/clothing/neck/stethoscope,
 /turf/open/floor/iron/colony,
 /area/ruin/icemoon_syndicate/vault)
+"hj" = (
+/obj/structure/chair{
+	dir = 8
+	},
+/turf/open/floor/iron/colony,
+/area/ruin/icemoon_syndicate/shelter)
 "hs" = (
 /turf/open/misc/asteroid/snow/standard_air,
 /area/ruin/icemoon_syndicate/tunnel/crew)
@@ -256,12 +272,8 @@
 "ii" = (
 /turf/open/floor/iron/dark,
 /area/ruin/icemoon_syndicate/engineering)
-"iw" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/structure/chair{
-	dir = 8
-	},
-/obj/effect/turf_decal/stripes/corner{
+"iu" = (
+/obj/effect/turf_decal/stripes/line{
 	dir = 1
 	},
 /turf/open/floor/iron/dark,
@@ -277,14 +289,6 @@
 /obj/effect/mapping_helpers/airlock/cutaiwire,
 /turf/open/floor/wood,
 /area/ruin/icemoon_syndicate/crew)
-"jb" = (
-/obj/structure/fluff/tram_rail/anchor,
-/obj/machinery/camera/directional/south{
-	network = list("icemoon_syndie");
-	c_tag = "Container Track Station"
-	},
-/turf/open/misc/asteroid/snow/icemoon,
-/area/icemoon/underground/explored)
 "jj" = (
 /obj/structure/cable,
 /obj/structure/fence/door{
@@ -386,6 +390,10 @@
 	},
 /turf/open/floor/plating/snowed/icemoon,
 /area/icemoon/underground/explored)
+"kj" = (
+/obj/effect/turf_decal/stripes/corner,
+/turf/open/floor/iron/dark,
+/area/ruin/icemoon_syndicate/checkpoint)
 "ku" = (
 /obj/machinery/camera/directional/north{
 	network = list("icemoon_syndie");
@@ -414,6 +422,13 @@
 /obj/machinery/light/small/directional/south,
 /turf/open/floor/iron/grimy,
 /area/ruin/icemoon_syndicate/crew)
+"kE" = (
+/obj/effect/turf_decal/bot,
+/obj/structure/chair/office/light{
+	dir = 8
+	},
+/turf/open/floor/iron,
+/area/ruin/icemoon_syndicate/research)
 "kF" = (
 /obj/effect/mob_spawn/ghost_role/human/lavaland_syndicate/icemoon/surgeon{
 	dir = 1
@@ -444,12 +459,6 @@
 "lF" = (
 /turf/closed/mineral/random/snow/underground,
 /area/ruin/icemoon_syndicate/tunnel)
-"lJ" = (
-/obj/effect/turf_decal/stripes/corner{
-	dir = 4
-	},
-/turf/open/floor/iron,
-/area/ruin/icemoon_syndicate/research)
 "mv" = (
 /obj/structure/sign/warning/rad_shelter/directional/south,
 /turf/open/misc/dirt/station,
@@ -512,6 +521,13 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/wood,
 /area/ruin/icemoon_syndicate/bar)
+"oE" = (
+/obj/machinery/chem_dispenser/fullupgrade,
+/obj/effect/turf_decal/stripes/line{
+	dir = 8
+	},
+/turf/open/floor/iron,
+/area/ruin/icemoon_syndicate/research)
 "oI" = (
 /obj/structure/fence/door/opened,
 /turf/open/misc/asteroid/snow/icemoon,
@@ -519,13 +535,6 @@
 "oK" = (
 /turf/open/floor/catwalk_floor/colony_fabricator,
 /area/ruin/icemoon_syndicate/research)
-"oP" = (
-/obj/effect/turf_decal/siding/wood{
-	dir = 4
-	},
-/obj/structure/chair/stool/bar/directional/east,
-/turf/open/misc/dirt/station,
-/area/ruin/icemoon_syndicate/tunnel/crew)
 "oW" = (
 /obj/machinery/door/poddoor/shutters{
 	id = list("icemoon_syndie");
@@ -537,12 +546,6 @@
 /obj/effect/turf_decal/stripes/line,
 /turf/open/floor/plating,
 /area/ruin/icemoon_syndicate/checkpoint)
-"oX" = (
-/obj/effect/turf_decal/stripes/line{
-	dir = 1
-	},
-/turf/open/floor/iron,
-/area/ruin/icemoon_syndicate/research)
 "pl" = (
 /obj/structure/lattice,
 /obj/structure/cable,
@@ -641,10 +644,6 @@
 	},
 /turf/open/floor/plating/snowed/icemoon,
 /area/icemoon/underground/explored)
-"sk" = (
-/obj/structure/table/reinforced,
-/turf/open/floor/iron,
-/area/ruin/icemoon_syndicate/research)
 "sD" = (
 /obj/machinery/door/airlock/medical/glass{
 	name = "Infirmary"
@@ -657,6 +656,13 @@
 /obj/structure/flora/tree/dead/style_3,
 /turf/open/misc/asteroid/snow/icemoon,
 /area/icemoon/underground/explored)
+"sP" = (
+/obj/machinery/chem_master,
+/obj/effect/turf_decal/stripes/line{
+	dir = 8
+	},
+/turf/open/floor/iron,
+/area/ruin/icemoon_syndicate/research)
 "sS" = (
 /turf/open/floor/iron/dark,
 /area/ruin/icemoon_syndicate/checkpoint)
@@ -688,13 +694,6 @@
 /obj/item/reagent_containers/blood/o_minus,
 /turf/open/floor/iron/white/small,
 /area/ruin/icemoon_syndicate/medbay)
-"tK" = (
-/obj/machinery/camera/directional/south{
-	network = list("icemoon_syndie");
-	c_tag = "Cargo Access Hatch"
-	},
-/turf/open/misc/asteroid/snow/icemoon,
-/area/icemoon/underground/explored)
 "tM" = (
 /turf/closed/wall/r_wall,
 /area/ruin/icemoon_syndicate/tunnel/commandsat)
@@ -743,13 +742,14 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/misc/asteroid/snow/standard_air,
 /area/ruin/icemoon_syndicate/tunnel/crew)
-"uV" = (
-/obj/machinery/chem_heater/withbuffer,
-/obj/effect/turf_decal/stripes/line{
-	dir = 9
+"ui" = (
+/obj/structure/fluff/tram_rail/anchor,
+/obj/machinery/camera/directional/south{
+	network = list("icemoon_syndie");
+	c_tag = "Container Track Station"
 	},
-/turf/open/floor/iron,
-/area/ruin/icemoon_syndicate/research)
+/turf/open/misc/asteroid/snow/icemoon,
+/area/icemoon/underground/explored)
 "vg" = (
 /obj/structure/fence/cut/large{
 	dir = 4
@@ -819,6 +819,12 @@
 /obj/effect/turf_decal/siding/wood,
 /turf/open/floor/carpet/royalblack,
 /area/ruin/icemoon_syndicate/communications)
+"vs" = (
+/obj/effect/turf_decal/stripes/corner{
+	dir = 8
+	},
+/turf/open/floor/plating,
+/area/ruin/icemoon_syndicate/research)
 "vv" = (
 /obj/structure/table/wood/fancy,
 /obj/item/paper_bin{
@@ -883,6 +889,12 @@
 	},
 /turf/open/floor/iron/grimy,
 /area/ruin/icemoon_syndicate/crew)
+"wJ" = (
+/obj/effect/turf_decal/stripes/corner{
+	dir = 4
+	},
+/turf/open/floor/iron/dark,
+/area/ruin/icemoon_syndicate/checkpoint)
 "xn" = (
 /obj/structure/flora/tree/dead/style_5,
 /turf/open/misc/asteroid/snow/icemoon,
@@ -899,6 +911,13 @@
 "xJ" = (
 /turf/closed/wall,
 /area/ruin/icemoon_syndicate/bar)
+"yf" = (
+/obj/effect/turf_decal/stripes/line,
+/obj/effect/turf_decal/stripes/line{
+	dir = 1
+	},
+/turf/open/floor/plating,
+/area/ruin/icemoon_syndicate/research)
 "yl" = (
 /obj/machinery/door/poddoor/shutters{
 	id = "icemoon_syndie_checkpoint_exterior"
@@ -985,13 +1004,6 @@
 /obj/machinery/light/small/directional/west,
 /turf/open/floor/plating,
 /area/ruin/icemoon_syndicate/tunnel)
-"zN" = (
-/obj/machinery/chem_master,
-/obj/effect/turf_decal/stripes/line{
-	dir = 8
-	},
-/turf/open/floor/iron,
-/area/ruin/icemoon_syndicate/research)
 "zZ" = (
 /obj/structure/cable,
 /obj/effect/decal/cleanable/blood/tracks,
@@ -1051,12 +1063,6 @@
 /obj/effect/mapping_helpers/apc/syndicate_access,
 /turf/open/misc/dirt/station,
 /area/ruin/icemoon_syndicate/tunnel)
-"Ck" = (
-/obj/effect/turf_decal/stripes/corner{
-	dir = 4
-	},
-/turf/open/floor/iron/dark,
-/area/ruin/icemoon_syndicate/checkpoint)
 "CU" = (
 /obj/effect/turf_decal/siding/wood/corner{
 	dir = 1
@@ -1138,6 +1144,13 @@
 "DO" = (
 /turf/closed/mineral/random/snow/underground,
 /area/icemoon/underground/explored)
+"Et" = (
+/obj/effect/turf_decal/siding/wood{
+	dir = 4
+	},
+/obj/structure/chair/stool/bar/directional/east,
+/turf/open/misc/dirt/station,
+/area/ruin/icemoon_syndicate/tunnel/crew)
 "Eu" = (
 /obj/structure/flora/tree/dead/style_4,
 /turf/open/misc/asteroid/snow/icemoon,
@@ -1159,6 +1172,9 @@
 /turf/open/lava/plasma/ice_moon,
 /area/icemoon/underground/explored)
 "Fh" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 1
+	},
 /turf/open/floor/iron,
 /area/ruin/icemoon_syndicate/research)
 "Fr" = (
@@ -1183,9 +1199,6 @@
 /obj/item/clothing/suit/toggle/labcoat,
 /turf/open/floor/iron/grimy,
 /area/ruin/icemoon_syndicate/crew)
-"FN" = (
-/turf/open/floor/plating,
-/area/ruin/icemoon_syndicate/research)
 "FP" = (
 /obj/structure/table/reinforced/plastitaniumglass,
 /obj/item/ammo_box/magazine/c40sol_rifle/standard{
@@ -1249,6 +1262,9 @@
 /obj/machinery/light/small/directional/west,
 /turf/open/floor/iron/white/small,
 /area/ruin/icemoon_syndicate/medbay)
+"Gs" = (
+/turf/open/floor/iron,
+/area/ruin/icemoon_syndicate/research)
 "GW" = (
 /obj/machinery/power/apc/auto_name/directional/west,
 /obj/effect/mapping_helpers/apc/syndicate_access,
@@ -1267,10 +1283,6 @@
 	},
 /turf/open/floor/iron/dark,
 /area/ruin/icemoon_syndicate/communications)
-"Hg" = (
-/obj/effect/turf_decal/stripes/corner,
-/turf/open/floor/plating,
-/area/ruin/icemoon_syndicate/research)
 "Hk" = (
 /obj/structure/lattice/catwalk,
 /obj/structure/railing{
@@ -1282,17 +1294,16 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/closed/wall,
 /area/ruin/icemoon_syndicate/crew)
-"Hv" = (
-/obj/machinery/chem_dispenser/fullupgrade,
-/obj/effect/turf_decal/stripes/line{
-	dir = 8
-	},
-/turf/open/floor/iron,
-/area/ruin/icemoon_syndicate/research)
 "HB" = (
 /obj/structure/table/reinforced/plastitaniumglass,
 /turf/open/floor/iron/dark,
 /area/ruin/icemoon_syndicate/checkpoint)
+"HJ" = (
+/obj/effect/turf_decal/stripes/corner{
+	dir = 1
+	},
+/turf/open/floor/iron,
+/area/ruin/icemoon_syndicate/research)
 "If" = (
 /obj/effect/turf_decal/siding/wood/corner{
 	dir = 8
@@ -1315,6 +1326,16 @@
 "IJ" = (
 /turf/open/floor/iron/dark,
 /area/ruin/icemoon_syndicate/cargo)
+"IM" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/chair{
+	dir = 8
+	},
+/obj/effect/turf_decal/stripes/corner{
+	dir = 1
+	},
+/turf/open/floor/iron/dark,
+/area/ruin/icemoon_syndicate/checkpoint)
 "IO" = (
 /obj/structure/table/wood/fancy,
 /obj/machinery/fax{
@@ -1327,6 +1348,18 @@
 	},
 /turf/open/floor/wood,
 /area/ruin/icemoon_syndicate/communications)
+"IT" = (
+/obj/machinery/camera/directional/south{
+	network = list("icemoon_syndie");
+	c_tag = "Cargo Access Hatch"
+	},
+/turf/open/misc/asteroid/snow/icemoon,
+/area/icemoon/underground/explored)
+"IV" = (
+/obj/structure/window/reinforced/spawner/directional/east,
+/obj/machinery/vending/syndichem,
+/turf/open/floor/iron,
+/area/ruin/icemoon_syndicate/research)
 "Jq" = (
 /obj/structure/fluff/tram_rail/end,
 /turf/open/misc/ice/icemoon,
@@ -1337,12 +1370,6 @@
 	},
 /turf/open/floor/iron/kitchen/small,
 /area/ruin/icemoon_syndicate/bar)
-"JG" = (
-/obj/effect/turf_decal/stripes/corner{
-	dir = 8
-	},
-/turf/open/floor/plating,
-/area/ruin/icemoon_syndicate/research)
 "JH" = (
 /obj/structure/fluff/tram_rail/end{
 	dir = 1
@@ -1406,10 +1433,6 @@
 /obj/machinery/light/small/directional/east,
 /turf/open/floor/plating,
 /area/ruin/icemoon_syndicate/tunnel/commandsat)
-"Ld" = (
-/obj/effect/turf_decal/stripes/line,
-/turf/open/floor/plating,
-/area/ruin/icemoon_syndicate/research)
 "Lk" = (
 /obj/machinery/vending/medical/syndicate_access,
 /turf/open/floor/iron/white/small,
@@ -1461,29 +1484,19 @@
 	},
 /turf/open/floor/wood,
 /area/ruin/icemoon_syndicate/crew)
+"LU" = (
+/obj/structure/chair{
+	dir = 4
+	},
+/turf/open/floor/iron/colony,
+/area/ruin/icemoon_syndicate/shelter)
 "Mk" = (
 /turf/open/misc/dirt/station,
 /area/ruin/icemoon_syndicate/tunnel)
-"Ml" = (
-/obj/effect/turf_decal/stripes/corner,
-/turf/open/floor/iron/dark,
-/area/ruin/icemoon_syndicate/checkpoint)
 "Mx" = (
 /obj/machinery/light/small/directional/east,
 /turf/open/floor/plating,
 /area/ruin/icemoon_syndicate/tunnel/crew)
-"ML" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/turf_decal/stripes/line,
-/turf/open/floor/iron/dark,
-/area/ruin/icemoon_syndicate/checkpoint)
-"MP" = (
-/obj/effect/turf_decal/stripes/line{
-	dir = 1
-	},
-/obj/structure/table/reinforced,
-/turf/open/floor/iron,
-/area/ruin/icemoon_syndicate/research)
 "Ne" = (
 /turf/closed/wall/r_wall,
 /area/ruin/icemoon_syndicate/vault)
@@ -1522,10 +1535,9 @@
 /obj/machinery/griddle,
 /turf/open/floor/iron/kitchen/small,
 /area/ruin/icemoon_syndicate/bar)
-"Or" = (
-/obj/structure/window/reinforced/spawner/directional/east,
-/obj/machinery/vending/syndichem,
-/turf/open/floor/iron,
+"On" = (
+/obj/effect/turf_decal/stripes/corner,
+/turf/open/floor/plating,
 /area/ruin/icemoon_syndicate/research)
 "Pp" = (
 /obj/structure/window/reinforced/spawner/directional/east,
@@ -1622,6 +1634,12 @@
 "Rj" = (
 /turf/closed/wall/ice,
 /area/ruin/icemoon_syndicate/tunnel)
+"Rw" = (
+/obj/effect/turf_decal/stripes/corner{
+	dir = 4
+	},
+/turf/open/floor/iron,
+/area/ruin/icemoon_syndicate/research)
 "Rz" = (
 /obj/structure/lattice/catwalk,
 /obj/structure/railing{
@@ -1654,6 +1672,13 @@
 /obj/structure/chair/sofa/corp/right,
 /turf/open/floor/wood,
 /area/ruin/icemoon_syndicate/crew)
+"Tq" = (
+/obj/machinery/chem_heater/withbuffer,
+/obj/effect/turf_decal/stripes/line{
+	dir = 9
+	},
+/turf/open/floor/iron,
+/area/ruin/icemoon_syndicate/research)
 "Tu" = (
 /obj/structure/toilet{
 	dir = 1
@@ -1748,6 +1773,7 @@
 /turf/open/floor/carpet/royalblack,
 /area/ruin/icemoon_syndicate/communications)
 "Vj" = (
+/obj/structure/table/reinforced,
 /turf/open/floor/iron/colony/bolts,
 /area/ruin/icemoon_syndicate/shelter)
 "Vq" = (
@@ -1813,13 +1839,6 @@
 	},
 /turf/open/floor/iron/dark,
 /area/ruin/icemoon_syndicate/checkpoint)
-"WM" = (
-/obj/effect/turf_decal/bot,
-/obj/structure/chair/office/light{
-	dir = 8
-	},
-/turf/open/floor/iron,
-/area/ruin/icemoon_syndicate/research)
 "WN" = (
 /obj/structure/closet/syndicate{
 	desc = "It's a storage unit for a Syndicate employee."
@@ -1844,12 +1863,6 @@
 	},
 /turf/open/floor/iron/dark,
 /area/ruin/icemoon_syndicate/checkpoint)
-"Xs" = (
-/obj/effect/turf_decal/stripes/corner{
-	dir = 1
-	},
-/turf/open/floor/iron,
-/area/ruin/icemoon_syndicate/research)
 "XF" = (
 /obj/item/stack/rods,
 /turf/open/lava/plasma/ice_moon,
@@ -3827,11 +3840,11 @@ VU
 VU
 VU
 VU
-Fh
-Fh
-Fh
-Fh
-Fh
+Gs
+Gs
+Gs
+Gs
+Gs
 VU
 VU
 VU
@@ -3892,16 +3905,16 @@ wa
 hO
 lF
 VU
-FN
-Hg
+gB
+On
 VU
-lJ
-Fh
-Fh
-Fh
-Fh
-Fh
-Or
+Rw
+Gs
+Gs
+Gs
+Gs
+Gs
+IV
 VU
 VU
 VU
@@ -3960,18 +3973,18 @@ Mk
 Mk
 lF
 VU
-FN
-Ld
-aU
-oX
+gB
+gu
+yf
 Fh
-Fh
-Fh
-Fh
-Fh
-uV
-zN
-Hv
+Gs
+Gs
+Gs
+Gs
+Gs
+Tq
+sP
+oE
 VU
 lF
 lF
@@ -4028,18 +4041,18 @@ Mk
 Mk
 aF
 VU
-FN
-JG
+gB
+vs
 VU
-Xs
+HJ
+Gs
+Gs
+Gs
+Gs
+Gs
 Fh
-Fh
-Fh
-Fh
-Fh
-oX
-WM
-Fh
+kE
+Gs
 VU
 lF
 lF
@@ -4099,15 +4112,15 @@ VU
 VU
 VU
 VU
-Fh
-Fh
-Fh
-Fh
-Fh
-Fh
-MP
-sk
-sk
+Gs
+Gs
+Gs
+Gs
+Gs
+Gs
+fT
+eJ
+eJ
 VU
 lF
 lF
@@ -4278,8 +4291,8 @@ Aa
 Aa
 Aa
 Ku
-oP
-oP
+Et
+Et
 jV
 nk
 Aa
@@ -4449,8 +4462,8 @@ lF
 Vq
 Vq
 Vj
-At
-At
+LU
+LU
 Vj
 Vq
 lF
@@ -4585,8 +4598,8 @@ mv
 Vq
 Vq
 Vj
-At
-At
+hj
+hj
 Vj
 Vq
 Mk
@@ -4795,9 +4808,9 @@ iE
 Mk
 Mk
 Wl
-Ck
+wJ
 sS
-Ml
+kj
 Wl
 lF
 Ua
@@ -4865,7 +4878,7 @@ Mk
 yV
 Kw
 sS
-ML
+cL
 yl
 zg
 zg
@@ -4931,9 +4944,9 @@ Mk
 Mk
 iE
 oW
-dI
+iu
 du
-ML
+cL
 yl
 zg
 zg
@@ -4999,7 +5012,7 @@ Mk
 iE
 iE
 Wl
-iw
+IM
 Ae
 Rc
 Wl
@@ -5524,7 +5537,7 @@ lo
 Ua
 FS
 Ua
-tK
+IT
 Kj
 Kj
 Kj
@@ -6471,7 +6484,7 @@ Ua
 Ua
 lo
 tV
-jb
+ui
 rc
 Ua
 Ua
