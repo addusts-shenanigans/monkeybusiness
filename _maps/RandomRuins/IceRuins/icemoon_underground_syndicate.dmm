@@ -93,10 +93,11 @@
 /turf/open/floor/iron,
 /area/ruin/icemoon_syndicate/research)
 "bj" = (
-/obj/machinery/gibber{
-	desc = "There's an old note on it, but you can't seem to tell what it is. Something about a promise?"
-	},
 /obj/machinery/firealarm/directional/west,
+/obj/machinery/reagentgrinder{
+	pixel_y = 8
+	},
+/obj/structure/table,
 /turf/open/floor/iron/kitchen/small,
 /area/ruin/icemoon_syndicate/bar)
 "bz" = (
@@ -1154,9 +1155,6 @@
 /area/ruin/icemoon_syndicate/crew)
 "pX" = (
 /obj/structure/table/wood,
-/obj/machinery/reagentgrinder{
-	pixel_y = 8
-	},
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/turf_decal/siding/wood{
 	dir = 4;
@@ -1167,6 +1165,7 @@
 	dir = 8
 	},
 /obj/machinery/firealarm/directional/east,
+/obj/machinery/microwave,
 /turf/open/floor/wood,
 /area/ruin/icemoon_syndicate/bar)
 "qb" = (
@@ -3430,7 +3429,6 @@
 /area/ruin/icemoon_syndicate/tunnel/commandsat)
 "UG" = (
 /obj/structure/table/wood,
-/obj/machinery/microwave,
 /obj/machinery/light/small/directional/north,
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/turf_decal/siding/wood{

@@ -9,7 +9,8 @@
 /area/icemoon/surface/outdoors/nospawn)
 "ad" = (
 /obj/machinery/door/airlock/glass_large{
-	name = "Hospital"
+	name = "Hospital";
+	id_tag = "MedbayFoyer"
 	},
 /obj/effect/mapping_helpers/airlock/access/any/medical/general,
 /obj/effect/mapping_helpers/airlock/access/any/security/brig_physician,
@@ -17,6 +18,9 @@
 	dir = 1
 	},
 /obj/machinery/door/firedoor,
+/obj/effect/turf_decal/trimline/blue/filled/line{
+	dir = 10
+	},
 /turf/open/floor/iron/white,
 /area/station/medical/medbay)
 "af" = (
@@ -505,6 +509,14 @@
 /obj/machinery/recharger,
 /turf/open/floor/wood,
 /area/station/command/bridge)
+"cX" = (
+/obj/structure/stairs/north,
+/obj/structure/railing{
+	dir = 8;
+	layer = 4.1
+	},
+/turf/open/floor/iron,
+/area/station/commons/dorms/bunkhouse/floor1)
 "db" = (
 /obj/machinery/door/airlock/external/glass,
 /obj/effect/mapping_helpers/airlock/access/any/admin/general,
@@ -687,6 +699,11 @@
 "ek" = (
 /turf/closed/wall/prefab_plastic,
 /area/station/maintenance/abandoned_camp/tent)
+"el" = (
+/obj/effect/turf_decal/stripes/line,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/cyan/visible,
+/turf/open/floor/iron/dark/textured,
+/area/station/medical/cryo)
 "en" = (
 /obj/machinery/atmospherics/pipe/heat_exchanging/simple{
 	dir = 6
@@ -766,6 +783,13 @@
 	},
 /turf/open/floor/wood,
 /area/station/command/heads_quarters/captain)
+"eT" = (
+/obj/machinery/portable_atmospherics/canister/anesthetic_mix,
+/obj/machinery/atmospherics/components/unary/portables_connector/visible{
+	dir = 8
+	},
+/turf/open/floor/iron/white,
+/area/station/medical/cryo)
 "eU" = (
 /obj/effect/mapping_helpers/airlock/access/all/service/bar,
 /obj/machinery/door/airlock/maintenance,
@@ -1117,6 +1141,16 @@
 "gM" = (
 /turf/closed/wall/ice,
 /area/station/security/prison)
+"gN" = (
+/obj/effect/turf_decal/trimline/blue/filled/line{
+	dir = 5
+	},
+/obj/machinery/door/window/right/directional/north{
+	req_access = list("medical");
+	name = "Front Desk"
+	},
+/turf/open/floor/iron/white,
+/area/station/medical/medbay)
 "gO" = (
 /obj/machinery/food_cart,
 /turf/open/floor/iron/kitchen_coldroom/freezerfloor,
@@ -1414,6 +1448,9 @@
 /obj/structure/disposalpipe/segment,
 /turf/closed/wall,
 /area/station/cargo/storage)
+"iA" = (
+/turf/closed/mineral/random/snow,
+/area/station/hallway/primary/port)
 "iD" = (
 /obj/structure/fluff/metalpole/anchor{
 	dir = 1
@@ -1677,6 +1714,18 @@
 /obj/structure/table/wood,
 /turf/open/floor/iron/grimy,
 /area/station/command/heads_quarters/hop)
+"kb" = (
+/obj/effect/turf_decal/trimline/blue/filled/line{
+	dir = 9
+	},
+/obj/machinery/button/door/directional/west{
+	id = "MedbayFoyer";
+	name = "Medbay Doors Control";
+	normaldoorcontrol = 1;
+	pixel_y = -9
+	},
+/turf/open/floor/iron/white,
+/area/station/medical/medbay)
 "kc" = (
 /turf/open/floor/plating,
 /area/station/maintenance/disposal)
@@ -1883,6 +1932,21 @@
 /obj/structure/railing,
 /turf/open/floor/plating,
 /area/station/maintenance/radshelter/weathershelter)
+"lr" = (
+/obj/structure/table/glass,
+/obj/effect/turf_decal/stripes/line{
+	dir = 4
+	},
+/obj/item/clothing/neck/stethoscope{
+	pixel_x = 12;
+	pixel_y = 4
+	},
+/obj/item/book/manual/wiki/medicine{
+	pixel_x = -5;
+	pixel_y = 3
+	},
+/turf/open/floor/iron/dark/textured,
+/area/station/medical/cryo)
 "lt" = (
 /obj/structure/lattice/catwalk,
 /obj/structure/railing{
@@ -2062,6 +2126,9 @@
 /obj/effect/mapping_helpers/airlock/access/all/engineering/general,
 /turf/open/floor/iron/icemoon,
 /area/station/engineering/supermatter)
+"mD" = (
+/turf/open/floor/iron/white,
+/area/station/medical/cryo)
 "mF" = (
 /obj/structure/railing{
 	dir = 8;
@@ -2439,6 +2506,16 @@
 	},
 /turf/open/floor/wood/large,
 /area/station/command/cc_dock)
+"oT" = (
+/obj/machinery/door/airlock/medical/glass{
+	name = "Cryogenics Bay"
+	},
+/obj/effect/mapping_helpers/airlock/access/all/medical/general,
+/obj/effect/mapping_helpers/airlock/unres{
+	dir = 1
+	},
+/turf/open/floor/iron/white,
+/area/station/medical/cryo)
 "oU" = (
 /obj/structure/cable,
 /turf/open/misc/asteroid/snow/icemoon,
@@ -2720,6 +2797,9 @@
 /obj/structure/industrial_lift,
 /turf/open/floor/plating/icemoon,
 /area/station/cargo/crater_elevator)
+"qw" = (
+/turf/closed/wall,
+/area/station/medical/office)
 "qy" = (
 /turf/open/floor/iron,
 /area/station/hallway/secondary/command)
@@ -2741,6 +2821,11 @@
 	},
 /turf/open/floor/wood,
 /area/station/commons/lounge/public_house)
+"qK" = (
+/obj/item/wrench/medical,
+/obj/structure/table/glass,
+/turf/open/floor/iron/white,
+/area/station/medical/cryo)
 "qO" = (
 /turf/open/floor/circuit/green/anim,
 /area/station/ai_monitored/command/nuke_storage)
@@ -2900,6 +2985,13 @@
 /obj/machinery/door/airlock/external,
 /turf/open/floor/iron/dark,
 /area/station/engineering/lobby)
+"rt" = (
+/obj/machinery/door/airlock/medical/glass{
+	name = "Office"
+	},
+/obj/effect/mapping_helpers/airlock/access/all/medical/general,
+/turf/open/floor/iron/white,
+/area/station/medical/office)
 "rv" = (
 /obj/structure/flora/bush/grassy/style_random,
 /turf/open/floor/grass,
@@ -3033,6 +3125,9 @@
 "sv" = (
 /turf/open/openspace,
 /area/station/command/bridge)
+"sw" = (
+/turf/open/openspace,
+/area/station/commons/dorms/bunkhouse/floor1)
 "sy" = (
 /turf/open/floor/iron/grimy,
 /area/station/command/heads_quarters/hop)
@@ -3318,6 +3413,14 @@
 /obj/structure/industrial_lift/tram,
 /turf/open/floor/noslip/tram_platform,
 /area/station/security/execution/transfer)
+"tV" = (
+/obj/structure/stairs/north,
+/obj/structure/railing{
+	dir = 4;
+	layer = 4.1
+	},
+/turf/open/floor/iron,
+/area/station/commons/dorms/bunkhouse/floor1)
 "tX" = (
 /turf/open/floor/iron,
 /area/station/cargo/sorting)
@@ -3415,10 +3518,17 @@
 "uC" = (
 /turf/open/misc/asteroid/snow/icemoon,
 /area/station/security/execution/transfer)
+"uE" = (
+/turf/open/misc/asteroid/snow/icemoon,
+/area/station/medical/office)
 "uF" = (
 /obj/effect/spawner/structure/window/reinforced,
 /turf/open/floor/plating,
 /area/station/hallway/secondary/entry)
+"uG" = (
+/obj/machinery/atmospherics/pipe/layer_manifold/scrubbers/hidden,
+/turf/closed/wall,
+/area/station/medical/cryo)
 "uI" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 8
@@ -3740,6 +3850,10 @@
 	},
 /turf/open/floor/plating/icemoon,
 /area/station/engineering/supermatter)
+"wp" = (
+/obj/machinery/atmospherics/components/unary/delam_scram/directional/east,
+/turf/open/floor/engine,
+/area/station/engineering/supermatter)
 "wq" = (
 /obj/structure/table/reinforced,
 /obj/item/paperwork/ancient,
@@ -3900,6 +4014,13 @@
 "xg" = (
 /turf/open/misc/asteroid/snow/icemoon,
 /area/icemoon/underground/explored)
+"xj" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 6
+	},
+/obj/machinery/atmospherics/pipe/smart/manifold4w/cyan/visible,
+/turf/open/floor/iron/dark/textured,
+/area/station/medical/cryo)
 "xk" = (
 /turf/open/floor/wood,
 /area/station/security/office)
@@ -4670,6 +4791,10 @@
 	},
 /turf/open/floor/iron,
 /area/station/security/office)
+"Bp" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/cyan/visible,
+/turf/open/floor/iron/white,
+/area/station/medical/cryo)
 "Bq" = (
 /obj/structure/cable,
 /obj/effect/decal/cleanable/dirt,
@@ -4813,6 +4938,9 @@
 	},
 /turf/open/floor/iron/white/small,
 /area/station/medical/medbay/lobby)
+"Cb" = (
+/turf/open/floor/iron/white,
+/area/station/medical/office)
 "Cc" = (
 /obj/structure/railing{
 	dir = 1
@@ -5008,6 +5136,12 @@
 /obj/item/shard,
 /turf/open/misc/asteroid/snow/icemoon,
 /area/icemoon/surface/outdoors/nospawn)
+"Dt" = (
+/obj/effect/turf_decal/trimline/blue/filled/line{
+	dir = 10
+	},
+/turf/open/floor/iron/white,
+/area/station/medical/medbay)
 "Dx" = (
 /obj/machinery/space_heater/wall_mounted/directional/south,
 /obj/structure/cable,
@@ -5447,6 +5581,12 @@
 	},
 /turf/open/misc/dirt/station,
 /area/station/security/execution/transfer)
+"Ft" = (
+/obj/machinery/atmospherics/components/trinary/filter/atmos/flipped/co2{
+	dir = 8
+	},
+/turf/open/floor/iron/white,
+/area/station/medical/cryo)
 "Fu" = (
 /obj/effect/turf_decal/siding/wood/corner{
 	dir = 1
@@ -5642,6 +5782,10 @@
 /obj/effect/spawner/structure/window/reinforced,
 /turf/open/floor/plating,
 /area/station/commons/fitness/recreation)
+"Gv" = (
+/obj/effect/spawner/structure/window,
+/turf/open/floor/plating,
+/area/station/medical/office)
 "Gy" = (
 /obj/structure/railing/wood{
 	dir = 4
@@ -5799,6 +5943,33 @@
 /obj/effect/turf_decal/loading_area,
 /turf/open/floor/plating,
 /area/station/cargo/sorting)
+"Hs" = (
+/obj/structure/table/glass,
+/obj/effect/turf_decal/stripes/line{
+	dir = 8
+	},
+/obj/item/reagent_containers/cup/beaker/cryoxadone{
+	pixel_x = -2;
+	pixel_y = 11
+	},
+/obj/item/reagent_containers/cup/beaker/cryoxadone{
+	pixel_x = 10;
+	pixel_y = 10
+	},
+/obj/item/reagent_containers/cup/beaker/cryoxadone{
+	pixel_x = -7;
+	pixel_y = 6
+	},
+/obj/item/reagent_containers/cup/beaker/cryoxadone{
+	pixel_x = 3;
+	pixel_y = 5
+	},
+/obj/item/reagent_containers/cup/beaker/cryoxadone{
+	pixel_x = 10;
+	pixel_y = 3
+	},
+/turf/open/floor/iron/dark/textured,
+/area/station/medical/cryo)
 "Hx" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/turf_decal/box/corners,
@@ -5914,6 +6085,13 @@
 /obj/machinery/light/small/directional/east,
 /turf/open/floor/iron/dark,
 /area/station/maintenance/radshelter/weathershelter)
+"Ih" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 10
+	},
+/obj/machinery/atmospherics/pipe/smart/manifold4w/cyan/visible,
+/turf/open/floor/iron/dark/textured,
+/area/station/medical/cryo)
 "Ii" = (
 /obj/effect/mapping_helpers/airlock/access/all/engineering/general,
 /obj/machinery/door/airlock/external/glass{
@@ -6006,6 +6184,10 @@
 	},
 /turf/open/floor/plating/snowed/icemoon,
 /area/icemoon/surface/outdoors/nospawn)
+"ID" = (
+/obj/machinery/atmospherics/components/unary/cryo_cell,
+/turf/open/floor/iron/dark/textured,
+/area/station/medical/cryo)
 "IE" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/turf_decal/stripes/line{
@@ -6869,6 +7051,15 @@
 	},
 /turf/open/floor/iron/icemoon,
 /area/station/cargo/warehouse/upper)
+"NX" = (
+/turf/closed/wall,
+/area/station/medical/cryo)
+"NZ" = (
+/obj/machinery/atmospherics/components/unary/thermomachine/freezer{
+	dir = 4
+	},
+/turf/open/floor/iron/white,
+/area/station/medical/cryo)
 "Oa" = (
 /obj/effect/turf_decal/siding/wood{
 	dir = 1
@@ -7270,6 +7461,9 @@
 /area/station/maintenance/abandoned_camp/tent)
 "QH" = (
 /obj/machinery/door/firedoor,
+/obj/effect/turf_decal/trimline/blue/filled/line{
+	dir = 6
+	},
 /turf/open/floor/iron/white,
 /area/station/medical/medbay)
 "QJ" = (
@@ -7677,6 +7871,13 @@
 "Se" = (
 /turf/open/floor/iron/dark,
 /area/station/command/heads_quarters/ce)
+"Sf" = (
+/obj/structure/railing{
+	dir = 4;
+	layer = 4.1
+	},
+/turf/open/floor/iron,
+/area/station/commons/dorms/bunkhouse/floor1)
 "Sl" = (
 /obj/structure/cable,
 /obj/structure/railing{
@@ -8039,6 +8240,13 @@
 "TN" = (
 /turf/closed/wall,
 /area/station/medical/treatment_center)
+"TO" = (
+/obj/structure/railing{
+	dir = 8;
+	layer = 4.1
+	},
+/turf/open/floor/iron,
+/area/station/commons/dorms/bunkhouse/floor1)
 "TQ" = (
 /obj/structure/dresser,
 /turf/open/floor/carpet/blue,
@@ -8054,6 +8262,17 @@
 "TX" = (
 /turf/closed/wall,
 /area/station/command/heads_quarters/nt_rep)
+"TY" = (
+/obj/structure/lattice/catwalk,
+/obj/structure/railing{
+	dir = 1
+	},
+/obj/machinery/button/delam_scram{
+	pixel_x = 0;
+	pixel_y = -26
+	},
+/turf/open/openspace,
+/area/station/engineering/power_station)
 "Ub" = (
 /obj/effect/turf_decal/siding/wood{
 	dir = 4
@@ -8187,6 +8406,13 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/iron/icemoon,
 /area/station/cargo/warehouse/upper)
+"UQ" = (
+/obj/effect/mapping_helpers/airlock/access/all/medical/general,
+/obj/machinery/door/airlock/medical/glass{
+	name = "Cryogenics Bay"
+	},
+/turf/open/floor/iron/white,
+/area/station/medical/cryo)
 "US" = (
 /obj/machinery/door/airlock/security{
 	name = "Warden's Watchtower"
@@ -8440,6 +8666,22 @@
 /obj/structure/window/spawner/directional/south,
 /turf/open/floor/iron/dark,
 /area/station/commons/fitness/recreation)
+"Ww" = (
+/obj/structure/table/glass,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/visible,
+/obj/structure/sign/warning/cold_temp/directional/north{
+	name = "\improper CRYOGENICS"
+	},
+/obj/item/storage/pill_bottle/mannitol{
+	pixel_x = 15;
+	pixel_y = 13
+	},
+/obj/item/reagent_containers/dropper{
+	pixel_y = 2;
+	pixel_x = 5
+	},
+/turf/open/floor/iron/white,
+/area/station/medical/cryo)
 "Wy" = (
 /turf/open/openspace,
 /area/station/command/corporate_showroom)
@@ -8449,6 +8691,17 @@
 	},
 /turf/open/floor/iron/kitchen/small,
 /area/station/service/kitchen)
+"WB" = (
+/obj/effect/mapping_helpers/airlock/unres{
+	dir = 1
+	},
+/obj/machinery/door/airlock/medical/glass{
+	name = "Primary Treatment Centre"
+	},
+/obj/effect/mapping_helpers/airlock/access/any/security/brig_physician,
+/obj/effect/mapping_helpers/airlock/access/any/medical/general,
+/turf/open/floor/iron/white,
+/area/station/medical/treatment_center)
 "WC" = (
 /obj/structure/window/spawner/directional/south,
 /obj/effect/landmark/start/hangover,
@@ -8700,6 +8953,10 @@
 	},
 /turf/open/misc/asteroid/snow/icemoon,
 /area/icemoon/surface/outdoors/nospawn)
+"Yo" = (
+/obj/effect/spawner/structure/window,
+/turf/open/floor/plating,
+/area/station/medical/cryo)
 "Yp" = (
 /turf/open/floor/iron,
 /area/station/maintenance/disposal)
@@ -29732,19 +29989,19 @@ Fg
 Fg
 Fg
 Fg
-Fg
-Fg
-Fg
-Fg
-Fg
-Fg
-Fg
-Fg
-Fg
-Fg
-Fg
-Fg
-Fg
+iA
+iA
+iA
+iA
+iA
+iA
+iA
+iA
+iA
+iA
+iA
+iA
+iA
 Fg
 Fg
 Fg
@@ -29989,19 +30246,19 @@ Fg
 Fg
 Fg
 Fg
-Fg
-Fg
-Fg
-Fg
-Fg
-Fg
-Fg
-Fg
-Fg
-Fg
-Fg
-Fg
-Fg
+iA
+iA
+iA
+iA
+iA
+iA
+iA
+iA
+iA
+iA
+iA
+iA
+iA
 Fg
 Fg
 Fg
@@ -30246,19 +30503,19 @@ Fg
 Fg
 Fg
 Fg
-Fg
-Fg
-Fg
-Fg
-Fg
-Fg
-Fg
-Fg
-Fg
-Fg
-Fg
-Fg
-Fg
+iA
+iA
+iA
+iA
+iA
+iA
+iA
+iA
+iA
+iA
+iA
+iA
+iA
 Fg
 Fg
 Fg
@@ -30503,19 +30760,19 @@ Fg
 Fg
 Fg
 Fg
-Fg
-Fg
-Fg
-Fg
-Fg
-Fg
-Fg
-Fg
-Fg
-Fg
-Fg
-Fg
-Fg
+iA
+iA
+iA
+iA
+iA
+iA
+iA
+iA
+iA
+iA
+iA
+iA
+iA
 Fg
 Fg
 Fg
@@ -30768,11 +31025,11 @@ Fg
 Fg
 Fg
 Fg
-Fg
-Fg
-Fg
-Fg
-Fg
+iA
+iA
+iA
+iA
+iA
 Fg
 Fg
 Fg
@@ -31025,11 +31282,11 @@ Fg
 Fg
 Fg
 Fg
-Fg
-Fg
-Fg
-Fg
-Fg
+iA
+iA
+iA
+iA
+iA
 Fg
 Fg
 Fg
@@ -31282,11 +31539,11 @@ Fg
 Fg
 Fg
 Fg
-Fg
-Fg
-Fg
-Fg
-Fg
+iA
+iA
+iA
+iA
+iA
 Fg
 Fg
 Fg
@@ -31539,11 +31796,11 @@ Fg
 Fg
 Fg
 Fg
-Fg
-Fg
-Fg
-Fg
-Fg
+iA
+iA
+iA
+iA
+iA
 Fg
 Fg
 Fg
@@ -31796,11 +32053,11 @@ Fg
 Fg
 Fg
 Fg
-Fg
-Fg
-Fg
-Fg
-Fg
+iA
+iA
+iA
+iA
+iA
 Fg
 Fg
 Fg
@@ -32053,11 +32310,11 @@ Fg
 Fg
 Fg
 Fg
-Fg
-Fg
-Fg
-Fg
-Fg
+iA
+iA
+iA
+iA
+iA
 Fg
 Fg
 Fg
@@ -32310,11 +32567,11 @@ Fg
 Fg
 Fg
 Fg
-Fg
-Fg
-Fg
-Fg
-Fg
+iA
+iA
+iA
+iA
+iA
 Fg
 Fg
 Fg
@@ -32567,11 +32824,11 @@ Fg
 Fg
 Fg
 Fg
-Fg
-Fg
-Fg
-Fg
-Fg
+iA
+iA
+iA
+iA
+iA
 Fg
 Fg
 Fg
@@ -32824,11 +33081,11 @@ Fg
 Fg
 Fg
 Fg
-Fg
-Fg
-Fg
-Fg
-Fg
+iA
+iA
+iA
+iA
+iA
 Fg
 Fg
 Fg
@@ -33081,11 +33338,11 @@ Fg
 Fg
 Fg
 Fg
-Fg
-Fg
-Fg
-Fg
-Fg
+iA
+iA
+iA
+iA
+iA
 Fg
 Fg
 Fg
@@ -33338,11 +33595,11 @@ Fg
 Fg
 Fg
 Fg
-Fg
-Fg
-Fg
-Fg
-Fg
+iA
+iA
+iA
+iA
+iA
 Fg
 Fg
 Fg
@@ -33596,10 +33853,10 @@ JZ
 JZ
 JZ
 JZ
-Fg
-Fg
-Fg
-Fg
+iA
+iA
+iA
+iA
 Fg
 Fg
 Fg
@@ -33853,10 +34110,10 @@ JZ
 Ab
 Ab
 tr
-Fg
-Fg
-Fg
-Fg
+iA
+iA
+iA
+iA
 Fg
 Fg
 Fg
@@ -34110,10 +34367,10 @@ TB
 Ab
 Ab
 TM
-Fg
-Fg
-Fg
-Fg
+iA
+iA
+iA
+iA
 Fg
 Fg
 Fg
@@ -34367,10 +34624,10 @@ JZ
 Ab
 Ab
 tr
-Fg
-Fg
-Fg
-Fg
+iA
+iA
+iA
+iA
 Fg
 Fg
 Fg
@@ -34624,10 +34881,10 @@ JZ
 JZ
 JZ
 JZ
-Fg
-Fg
-Fg
-Fg
+iA
+iA
+iA
+iA
 Fg
 Fg
 Fg
@@ -34880,11 +35137,11 @@ Fg
 Fg
 Fg
 Fg
-Fg
-Fg
-Fg
-Fg
-Fg
+iA
+iA
+iA
+iA
+iA
 Fg
 Fg
 Fg
@@ -35137,11 +35394,11 @@ Fg
 Fg
 Fg
 Fg
-Fg
-Fg
-Fg
-Fg
-Fg
+iA
+iA
+iA
+iA
+iA
 Fg
 Fg
 Fg
@@ -35394,11 +35651,11 @@ Fg
 Fg
 Fg
 Fg
-Fg
-Fg
-Fg
-Fg
-Fg
+iA
+iA
+iA
+iA
+iA
 Fg
 Fg
 Fg
@@ -35651,11 +35908,11 @@ Fg
 Fg
 Fg
 Fg
-Fg
-Fg
-Fg
-Fg
-Fg
+iA
+iA
+iA
+iA
+iA
 Fg
 Fg
 Fg
@@ -35908,6 +36165,11 @@ Fg
 Fg
 Fg
 Fg
+iA
+iA
+iA
+iA
+iA
 Fg
 Fg
 Fg
@@ -35919,16 +36181,11 @@ Fg
 Fg
 Fg
 Fg
-Fg
-Fg
-Fg
-Fg
-Fg
-Fg
-Fg
-Fg
-Fg
-Fg
+aU
+aU
+aU
+aU
+aU
 Fg
 Fg
 Fg
@@ -36165,6 +36422,11 @@ Fg
 Fg
 Fg
 Fg
+iA
+iA
+iA
+iA
+iA
 Fg
 Fg
 Fg
@@ -36175,17 +36437,12 @@ Fg
 Fg
 Fg
 Fg
-Fg
-Fg
-Fg
-Fg
-Fg
-Fg
-Fg
-Fg
-Fg
-Fg
-Fg
+aU
+aU
+cI
+cI
+cI
+aU
 Fg
 Fg
 Fg
@@ -36422,6 +36679,11 @@ Fg
 Fg
 Fg
 Fg
+iA
+iA
+iA
+iA
+iA
 Fg
 Fg
 Fg
@@ -36432,17 +36694,12 @@ Fg
 Fg
 Fg
 Fg
-Fg
-Fg
-Fg
-Fg
-Fg
-Fg
-Fg
-Fg
-Fg
-Fg
-Fg
+aU
+cX
+cI
+cI
+cI
+aU
 Fg
 Fg
 Fg
@@ -36679,6 +36936,11 @@ Fg
 Fg
 Fg
 Fg
+iA
+iA
+iA
+iA
+iA
 Fg
 Fg
 Fg
@@ -36689,17 +36951,12 @@ Fg
 Fg
 Fg
 Fg
-Fg
-Fg
-Fg
-Fg
-Fg
-Fg
-Fg
-Fg
-Fg
-Fg
-Fg
+aU
+tV
+cI
+cI
+cI
+aU
 Fg
 Fg
 Fg
@@ -36936,6 +37193,11 @@ Fg
 Fg
 Fg
 Fg
+iA
+iA
+iA
+iA
+iA
 Fg
 Fg
 Fg
@@ -36946,17 +37208,12 @@ Fg
 Fg
 Fg
 Fg
-Fg
-Fg
-Fg
-Fg
-Fg
-Fg
-Fg
-Fg
-Fg
-Fg
-Fg
+aU
+aU
+cI
+cI
+cI
+aU
 Fg
 Fg
 Fg
@@ -37193,6 +37450,11 @@ Fg
 Fg
 Fg
 Fg
+iA
+iA
+iA
+iA
+iA
 Fg
 Fg
 Fg
@@ -37204,16 +37466,11 @@ Fg
 Fg
 Fg
 Fg
-Fg
-Fg
-Fg
-Fg
-Fg
-Fg
-Fg
-Fg
-Fg
-Fg
+aU
+aU
+aU
+aU
+aU
 Fg
 Fg
 Fg
@@ -37450,11 +37707,11 @@ Fg
 Fg
 Fg
 Fg
-Fg
-Fg
-Fg
-Fg
-Fg
+iA
+iA
+iA
+iA
+iA
 Fg
 Fg
 Fg
@@ -37707,11 +37964,11 @@ Fg
 Fg
 Fg
 Fg
-Fg
-Fg
-Fg
-Fg
-Fg
+iA
+iA
+iA
+iA
+iA
 Fg
 Fg
 Fg
@@ -37964,11 +38221,11 @@ Fg
 Fg
 Fg
 Fg
-Fg
-Fg
-Fg
-Fg
-Fg
+iA
+iA
+iA
+iA
+iA
 Fg
 Fg
 Fg
@@ -38221,11 +38478,11 @@ Fg
 Fg
 Fg
 Fg
-Fg
-Fg
-Fg
-Fg
-Fg
+iA
+iA
+iA
+iA
+iA
 Fg
 Fg
 Fg
@@ -38478,11 +38735,11 @@ Fg
 Fg
 Fg
 Fg
-Fg
-Fg
-Fg
-Fg
-Fg
+iA
+iA
+iA
+iA
+iA
 Fg
 Fg
 Fg
@@ -38735,11 +38992,11 @@ Fg
 Fg
 Fg
 Fg
-Fg
-Fg
-Fg
-Fg
-Fg
+iA
+iA
+iA
+iA
+iA
 Fg
 Fg
 Fg
@@ -38992,11 +39249,11 @@ Fg
 Fg
 Fg
 Fg
-Fg
-Fg
-Fg
-Fg
-Fg
+iA
+iA
+iA
+iA
+iA
 Fg
 Fg
 Fg
@@ -39249,11 +39506,11 @@ Fg
 Fg
 Fg
 Fg
-Fg
-Fg
-Fg
-Fg
-Fg
+iA
+iA
+iA
+iA
+iA
 Fg
 Fg
 Fg
@@ -39506,11 +39763,11 @@ Fg
 Fg
 Fg
 Fg
-Fg
-Fg
-Fg
-Fg
-Fg
+iA
+iA
+iA
+iA
+iA
 Fg
 Fg
 Fg
@@ -39763,11 +40020,11 @@ Fg
 Fg
 Fg
 Fg
-Fg
-Fg
-Fg
-Fg
-Fg
+iA
+iA
+iA
+iA
+iA
 Fg
 Fg
 Fg
@@ -40020,11 +40277,11 @@ rF
 rF
 Fg
 Fg
-Fg
-Fg
-Fg
-Fg
-Fg
+iA
+iA
+iA
+iA
+iA
 Fg
 Fg
 Fg
@@ -40277,11 +40534,11 @@ op
 rF
 rF
 Fg
-Fg
-Fg
-Fg
-Fg
-Fg
+iA
+iA
+iA
+iA
+iA
 Fg
 Fg
 Fg
@@ -40534,11 +40791,11 @@ op
 op
 rF
 Fg
-Fg
-Fg
-Fg
-Fg
-Fg
+iA
+iA
+iA
+iA
+iA
 Fg
 Fg
 Fg
@@ -99102,7 +99359,7 @@ AD
 AD
 AD
 AD
-AD
+uE
 AD
 AD
 AD
@@ -99627,11 +99884,11 @@ Vu
 Vu
 TN
 TN
+tv
 Mc
+tv
 Mc
-Mc
-Mc
-Mc
+tv
 TN
 TN
 Vu
@@ -100133,12 +100390,12 @@ AD
 AD
 AD
 AD
-AD
-AD
-LP
-Vu
-Vu
-TN
+qw
+qw
+qw
+rt
+Gv
+qw
 Mc
 Mc
 Mc
@@ -100389,12 +100646,13 @@ AD
 AD
 AD
 AD
-AD
-AD
-AD
-LP
-Vu
-Vu
+qw
+qw
+Cb
+Cb
+Cb
+Cb
+Gv
 Mc
 Mc
 Mc
@@ -100404,8 +100662,7 @@ Mc
 Mc
 Mc
 Mc
-Mc
-Mc
+tv
 Vu
 Vu
 ad
@@ -100646,12 +100903,13 @@ AD
 AD
 AD
 AD
-AD
-AD
-AD
-LP
-Vu
-Vu
+qw
+Cb
+Cb
+Cb
+Cb
+Cb
+rt
 Mc
 Mc
 Mc
@@ -100661,8 +100919,7 @@ Mc
 Mc
 Mc
 Mc
-Mc
-Mc
+WB
 Vu
 Vu
 QH
@@ -100903,13 +101160,13 @@ AD
 AD
 AD
 AD
-AD
-AD
-AD
-LP
-Vu
-Vu
-Mc
+qw
+Cb
+Cb
+Cb
+Cb
+Cb
+Gv
 Mc
 Mc
 Mc
@@ -100921,7 +101178,7 @@ Mc
 Mc
 tv
 Vu
-Vu
+AW
 LP
 gm
 LP
@@ -101160,13 +101417,13 @@ AD
 AD
 AD
 AD
-AD
-AD
-AD
-LP
-Vu
-Vu
-Mc
+NX
+NX
+NX
+UQ
+NX
+Cb
+Gv
 Mc
 Mc
 Mc
@@ -101178,9 +101435,9 @@ Mc
 Mc
 tv
 Vu
-Vu
-Vu
-Vu
+AW
+kb
+Dt
 gm
 PE
 Pi
@@ -101417,13 +101674,13 @@ AD
 AD
 AD
 AD
-AD
-AD
-AD
-LP
-Vu
-Vu
-Mc
+NX
+ID
+el
+mD
+NX
+NX
+NX
 Mc
 Mc
 Mc
@@ -101435,9 +101692,9 @@ Mc
 Mc
 tv
 Vu
-Vu
-Vu
-Vu
+AW
+gN
+lb
 gm
 YE
 LF
@@ -101674,13 +101931,13 @@ AD
 AD
 AD
 AD
-AD
-AD
-AD
-LP
-Vu
-Vu
-Mc
+NX
+lr
+xj
+Bp
+NZ
+qK
+Yo
 Mc
 Mc
 Mc
@@ -101692,7 +101949,7 @@ Mc
 Mc
 tv
 Vu
-Vu
+AW
 LP
 gm
 LP
@@ -101717,7 +101974,7 @@ aU
 pQ
 YD
 HO
-cI
+Sf
 aU
 OW
 aU
@@ -101931,12 +102188,13 @@ AD
 AD
 AD
 AD
-AD
-AD
-AD
-LP
-Vu
-Vu
+uG
+Ww
+Ft
+Bp
+Bp
+Bp
+oT
 Mc
 Mc
 Mc
@@ -101946,8 +102204,7 @@ Mc
 Mc
 Mc
 Mc
-Mc
-Mc
+WB
 Vu
 Vu
 ad
@@ -101974,7 +102231,7 @@ aU
 aU
 tI
 cI
-cI
+sw
 aU
 Lp
 tp
@@ -102188,12 +102445,13 @@ AD
 AD
 AD
 AD
-AD
-AD
-AD
-LP
-Vu
-Vu
+NX
+Hs
+Ih
+Bp
+eT
+eT
+Yo
 Mc
 Mc
 Mc
@@ -102203,8 +102461,7 @@ Mc
 Mc
 Mc
 Mc
-Mc
-Mc
+tv
 Vu
 Vu
 QH
@@ -102231,7 +102488,7 @@ aU
 aU
 PZ
 cI
-cI
+sw
 aU
 Iz
 Fy
@@ -102445,13 +102702,13 @@ AD
 AD
 AD
 AD
-AD
-AD
-AD
-LP
-Vu
-Vu
-TN
+NX
+ID
+el
+mD
+NX
+NX
+NX
 Mc
 Mc
 Mc
@@ -102463,7 +102720,7 @@ Mc
 Mc
 TN
 Vu
-Vu
+AW
 Im
 MO
 ob
@@ -102488,7 +102745,7 @@ aU
 rv
 br
 HO
-cI
+TO
 aU
 Ri
 gv
@@ -102702,11 +102959,11 @@ AD
 AD
 AD
 AD
-AD
-AD
-AD
-LP
-Vu
+NX
+NX
+NX
+NX
+NX
 Vu
 TN
 TN
@@ -102968,11 +103225,11 @@ Vu
 Vu
 TN
 TN
+tv
 Mc
+tv
 Mc
-Mc
-Mc
-Mc
+tv
 TN
 TN
 Vu
@@ -184972,7 +185229,7 @@ ds
 YZ
 qC
 qC
-cj
+TY
 YZ
 ds
 fO
@@ -187541,7 +187798,7 @@ GC
 GS
 lC
 JC
-Bb
+wp
 wr
 fB
 GS
