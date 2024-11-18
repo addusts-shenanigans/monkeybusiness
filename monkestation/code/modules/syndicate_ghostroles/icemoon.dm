@@ -42,24 +42,10 @@
 	head = /obj/item/clothing/head/helmet/swat
 	mask = /obj/item/clothing/mask/gas
 	backpack_contents = list(
-		/obj/item/choice_beacon/syndicate_icemoon = 1,
 		/obj/item/storage/box/handcuffs = 1,
 		/obj/item/melee/baton/security/loaded = 1,
 		)
 
-/obj/item/choice_beacon/syndicate_icemoon
-	name = "firearms beacon"
-	desc = "A beacon used to request longarms from your superiors."
-	company_source = "Gorlex Marauders Logistics Corps"
-	company_message = span_bold("We hear you. Delivery enroute. Spare ammo should be in the checkpoint.")
-
-/obj/item/choice_beacon/blueshield/generate_display_names()
-	var/static/list/selectable_gun_types = list(
-		"Surplus Bolt-Action Rifle" = /obj/item/storage/toolbox/guncase/soviet/sakhno, //god help you
-		"Sindano Submachinegun Case" = /obj/item/storage/toolbox/guncase/skyrat/carwo_large_case/sindano/evil,
-		"Carwo-Cawil Battle Rifle" = /obj/item/gun/ballistic/automatic/sol_rifle/evil, //how absolutely astonishingly evil a battle rifle can be
-		"Renoster Shotgun" = /obj/item/gun/ballistic/shotgun/riot/sol/evil,
-	)
 
 /obj/effect/mob_spawn/ghost_role/human/lavaland_syndicate/icemoon/surgeon
 	prompt_name = "an Interdyne surgeon"
@@ -223,3 +209,8 @@
 	desc = "A terminal used to control the cargo platforms responsible for moving supplies in and out of the Syndicate's Icemoon base."
 	upperinfo = "cybersun_cargoman.exe - Critical Error"
 	content = list("<center><b>CRITICAL ERROR!</b></center> <BR> <BR> Contact lost with external station. Please attempt to retrieve un-shipped cargo manually if possible and contact a qualified Cybersun Industries technician immediately.")
+
+/obj/item/paper/syndicate_icemoon
+
+/obj/item/paper/syndicate_icemoon/radiation_warning
+	default_raw_text = "Tritium burn-mixes are highly discouraged due to the low levels of radiation shielding inside the base. Please avoid. Thanks."

@@ -14,6 +14,7 @@
 /obj/item/ammo_box/magazine/m9mm,
 /obj/item/clothing/head/utility/hardhat/welding/orange,
 /obj/item/clothing/suit/hazardvest,
+/obj/item/pocket_heater/loaded,
 /turf/open/floor/iron/grimy,
 /area/ruin/icemoon_syndicate/crew)
 "ap" = (
@@ -36,6 +37,8 @@
 	},
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/item/storage/toolbox/syndicate,
+/obj/structure/closet/toolcloset,
 /turf/open/floor/iron/dark,
 /area/ruin/icemoon_syndicate/engineering)
 "az" = (
@@ -187,17 +190,17 @@
 "cW" = (
 /turf/open/floor/iron/kitchen/small,
 /area/ruin/icemoon_syndicate/bar)
-"dj" = (
-/obj/structure/lattice/catwalk/mining,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/turf/open/lava/plasma/ice_moon,
-/area/ruin/icemoon_syndicate/engineering)
-"dk" = (
+"dc" = (
 /obj/machinery/computer/terminal/icemoon_syndicate/bunker{
 	dir = 8
 	},
 /turf/open/floor/iron/colony/bolts,
 /area/ruin/icemoon_syndicate/shelter)
+"dj" = (
+/obj/structure/lattice/catwalk/mining,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/turf/open/lava/plasma/ice_moon,
+/area/ruin/icemoon_syndicate/engineering)
 "dr" = (
 /obj/machinery/door/airlock/mining{
 	name = "Cargo Office"
@@ -329,7 +332,7 @@
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/dark/visible,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/dark/hidden,
 /turf/open/floor/plating,
 /area/ruin/icemoon_syndicate/checkpoint)
 "ew" = (
@@ -434,7 +437,7 @@
 /turf/open/floor/iron/kitchen/small,
 /area/ruin/icemoon_syndicate/bar)
 "fz" = (
-/obj/machinery/atmospherics/pipe/smart/manifold4w/dark/visible,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/dark/hidden,
 /obj/item/wrench,
 /turf/open/misc/dirt/station,
 /area/ruin/icemoon_syndicate/tunnel)
@@ -719,6 +722,7 @@
 /obj/item/ammo_box/magazine/m9mm,
 /obj/item/ammo_box/magazine/m9mm,
 /obj/item/clothing/suit/hooded/wintercoat/nova/syndicate,
+/obj/item/pocket_heater/loaded,
 /turf/open/floor/iron/grimy,
 /area/ruin/icemoon_syndicate/crew)
 "jV" = (
@@ -943,15 +947,10 @@
 /turf/open/misc/dirt/station,
 /area/ruin/icemoon_syndicate/tunnel/commandsat)
 "mP" = (
-/obj/effect/spawner/structure/window/reinforced/plasma,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/orange/visible,
-/obj/machinery/atmospherics/pipe/heat_exchanging/junction/layer2{
-	dir = 4
-	},
-/obj/machinery/atmospherics/pipe/heat_exchanging/junction/layer4{
-	dir = 4
-	},
-/turf/open/floor/plating,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/dark/visible/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/dark/visible/layer2,
+/turf/closed/wall/r_wall,
 /area/ruin/icemoon_syndicate/engineering)
 "mU" = (
 /obj/structure/table/reinforced,
@@ -1091,7 +1090,7 @@
 /turf/open/misc/dirt/station,
 /area/ruin/icemoon_syndicate/tunnel/crew)
 "pr" = (
-/obj/machinery/atmospherics/pipe/smart/manifold4w/dark/visible,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/dark/hidden,
 /turf/closed/wall/r_wall,
 /area/ruin/icemoon_syndicate/checkpoint)
 "pu" = (
@@ -1381,6 +1380,10 @@
 /obj/structure/flora/tree/dead/style_3,
 /turf/open/misc/asteroid/snow/icemoon,
 /area/icemoon/underground/explored)
+"sO" = (
+/obj/structure/sign/warning/fire/directional/north,
+/turf/open/misc/asteroid/snow/icemoon,
+/area/ruin/icemoon_syndicate/tunnel)
 "sS" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/components/unary/passive_vent{
@@ -1388,6 +1391,25 @@
 	},
 /turf/open/floor/iron/dark,
 /area/ruin/icemoon_syndicate/checkpoint)
+"sX" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 4
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 8
+	},
+/obj/structure/fans/tiny,
+/obj/effect/mapping_helpers/airlock/access/all/syndicate/general,
+/obj/effect/mapping_helpers/airlock/cutaiwire,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/yellow/visible,
+/obj/effect/mapping_helpers/airlock/cyclelink_helper{
+	dir = 8
+	},
+/obj/machinery/door/airlock/highsecurity{
+	name = "Burn Chamber Access"
+	},
+/turf/open/floor/plating,
+/area/ruin/icemoon_syndicate/engineering)
 "ta" = (
 /obj/structure/fluff/tram_rail/floor,
 /obj/structure/closet/crate/cardboard,
@@ -1479,6 +1501,9 @@
 	},
 /turf/open/misc/asteroid/snow/icemoon,
 /area/icemoon/underground/explored)
+"tY" = (
+/turf/open/floor/plating/snowed/smoothed/icemoon,
+/area/ruin/icemoon_syndicate/tunnel)
 "uc" = (
 /obj/structure/cable,
 /obj/structure/lattice,
@@ -1511,6 +1536,12 @@
 	dir = 1
 	},
 /turf/open/floor/engine/plasma,
+/area/ruin/icemoon_syndicate/engineering)
+"uu" = (
+/obj/structure/fence{
+	dir = 4
+	},
+/turf/open/misc/asteroid/snow/icemoon,
 /area/ruin/icemoon_syndicate/engineering)
 "uO" = (
 /obj/effect/decal/cleanable/dirt,
@@ -1803,6 +1834,10 @@
 "xz" = (
 /turf/closed/wall/ice,
 /area/ruin/icemoon_syndicate/tunnel/commandsat)
+"xE" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/yellow/visible,
+/turf/open/floor/plating/snowed/smoothed/icemoon,
+/area/ruin/icemoon_syndicate/engineering)
 "xF" = (
 /obj/structure/fence/end{
 	dir = 4
@@ -1812,6 +1847,16 @@
 "xJ" = (
 /turf/closed/wall,
 /area/ruin/icemoon_syndicate/bar)
+"xO" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/orange/visible,
+/obj/machinery/atmospherics/pipe/heat_exchanging/junction/layer2{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/heat_exchanging/junction/layer4{
+	dir = 4
+	},
+/turf/closed/wall/r_wall,
+/area/ruin/icemoon_syndicate/engineering)
 "yl" = (
 /obj/machinery/door/poddoor/shutters{
 	id = "icemoon_syndie_checkpoint_exterior"
@@ -2014,7 +2059,7 @@
 /obj/machinery/button/ignition{
 	id = "syndicate_icemoon_burn";
 	name = "Igniter Controls";
-	pixel_x = 25;
+	pixel_x = 23;
 	pixel_y = 0
 	},
 /obj/machinery/atmospherics/pipe/smart/manifold4w/orange/visible,
@@ -2025,13 +2070,20 @@
 	pixel_y = 16;
 	pixel_x = -3
 	},
+/obj/machinery/button/door/directional/east{
+	id = "syndicate_icemoon_burn_room";
+	name = "Burn Chamber Vent";
+	req_access = list("syndicate");
+	pixel_x = 24;
+	pixel_y = -9
+	},
 /turf/open/floor/iron/dark,
 /area/ruin/icemoon_syndicate/engineering)
 "Bb" = (
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/dark/visible,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/dark/hidden,
 /turf/open/misc/dirt/station,
 /area/ruin/icemoon_syndicate/tunnel)
 "Bc" = (
@@ -2056,6 +2108,10 @@
 	},
 /turf/open/floor/engine/vacuum,
 /area/ruin/icemoon_syndicate/engineering)
+"Bm" = (
+/obj/machinery/chem_dispenser/drinks/fullupgrade,
+/turf/closed/wall,
+/area/ruin/icemoon_syndicate/bar)
 "Bo" = (
 /obj/machinery/door/window/brigdoor/right/directional/north{
 	req_access = list("syndicate");
@@ -2132,6 +2188,9 @@
 "Cf" = (
 /obj/structure/cable,
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer4,
+/obj/machinery/power/terminal{
+	dir = 8
+	},
 /turf/open/floor/iron/dark,
 /area/ruin/icemoon_syndicate/engineering)
 "CD" = (
@@ -2205,18 +2264,12 @@
 "Do" = (
 /obj/structure/table/wood,
 /obj/effect/decal/cleanable/dirt,
-/obj/machinery/chem_dispenser/drinks/beer/fullupgrade{
-	dir = 4;
-	pixel_x = 5;
-	pixel_y = 14
-	},
-/obj/machinery/chem_dispenser/drinks/fullupgrade{
-	dir = 4;
-	pixel_x = 5;
-	pixel_y = -6
-	},
 /obj/effect/turf_decal/siding/wood{
 	dir = 9
+	},
+/obj/item/reagent_containers/cup/rag{
+	pixel_x = -5;
+	pixel_y = 4
 	},
 /turf/open/floor/wood,
 /area/ruin/icemoon_syndicate/bar)
@@ -2342,6 +2395,9 @@
 "Fh" = (
 /turf/open/floor/iron,
 /area/ruin/icemoon_syndicate/research)
+"Fi" = (
+/turf/open/misc/asteroid/snow/icemoon,
+/area/ruin/icemoon_syndicate/tunnel)
 "Fr" = (
 /obj/structure/sink/kitchen/directional/east,
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2,
@@ -2399,6 +2455,7 @@
 /obj/item/ammo_box/magazine/m9mm,
 /obj/item/ammo_box/magazine/m9mm,
 /obj/item/clothing/suit/toggle/labcoat,
+/obj/item/pocket_heater/loaded,
 /turf/open/floor/iron/grimy,
 /area/ruin/icemoon_syndicate/crew)
 "FK" = (
@@ -2609,7 +2666,7 @@
 	dir = 4
 	},
 /obj/machinery/space_heater/wall_mounted/directional/west,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/dark/visible,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/dark/hidden,
 /turf/open/floor/iron/dark,
 /area/ruin/icemoon_syndicate/checkpoint)
 "Ir" = (
@@ -2740,6 +2797,7 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/dark/visible/layer2,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/dark/visible/layer4,
 /obj/machinery/space_heater,
+/obj/structure/sign/warning/fire/directional/east,
 /turf/open/floor/iron/dark,
 /area/ruin/icemoon_syndicate/engineering)
 "KG" = (
@@ -2797,7 +2855,7 @@
 /area/ruin/icemoon_syndicate/checkpoint)
 "Lz" = (
 /obj/structure/cable,
-/obj/machinery/power/terminal,
+/obj/machinery/power/smes/super/full,
 /turf/open/floor/iron/dark,
 /area/ruin/icemoon_syndicate/engineering)
 "LB" = (
@@ -2908,6 +2966,12 @@
 /obj/machinery/firealarm/directional/west,
 /turf/open/floor/iron/colony,
 /area/ruin/icemoon_syndicate/vault)
+"Np" = (
+/obj/machinery/door/poddoor{
+	id = "syndicate_icemoon_burn_room"
+	},
+/turf/open/floor/engine/vacuum,
+/area/ruin/icemoon_syndicate/engineering)
 "Nz" = (
 /obj/machinery/door/airlock/external{
 	name = "Stirling Generator Core"
@@ -2943,6 +3007,13 @@
 /obj/machinery/atmospherics/components/binary/valve{
 	dir = 4
 	},
+/obj/structure/closet/crate/secure/weapon{
+	req_access = list("syndicate")
+	},
+/obj/item/gun/ballistic/shotgun/riot/sol/evil,
+/obj/item/storage/toolbox/guncase/skyrat/carwo_large_case/sindano/evil,
+/obj/item/gun/ballistic/automatic/sol_rifle/evil/no_mag,
+/obj/item/storage/toolbox/guncase/soviet/sakhno,
 /turf/open/floor/iron/dark,
 /area/ruin/icemoon_syndicate/checkpoint)
 "NH" = (
@@ -3033,7 +3104,7 @@
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/dark/visible,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/dark/hidden,
 /turf/open/floor/iron/dark,
 /area/ruin/icemoon_syndicate/checkpoint)
 "PJ" = (
@@ -3259,9 +3330,13 @@
 /turf/open/floor/wood,
 /area/ruin/icemoon_syndicate/crew)
 "Tm" = (
-/obj/machinery/power/smes/super/full,
 /obj/structure/cable,
 /obj/machinery/light/small/directional/west,
+/obj/item/paper/syndicate_icemoon/radiation_warning{
+	pixel_x = -3;
+	pixel_y = 7
+	},
+/obj/structure/table,
 /turf/open/floor/iron/dark,
 /area/ruin/icemoon_syndicate/engineering)
 "Tp" = (
@@ -3379,6 +3454,7 @@
 /obj/item/ammo_box/magazine/m9mm,
 /obj/item/ammo_box/magazine/m9mm,
 /obj/item/clothing/suit/hooded/wintercoat/nova/syndicate,
+/obj/item/pocket_heater/loaded,
 /turf/open/floor/iron/grimy,
 /area/ruin/icemoon_syndicate/crew)
 "UX" = (
@@ -3458,12 +3534,15 @@
 	dir = 8
 	},
 /obj/structure/fans/tiny,
-/obj/machinery/door/airlock/external/glass{
-	name = "Burn Chamber Access"
-	},
 /obj/effect/mapping_helpers/airlock/access/all/syndicate/general,
 /obj/effect/mapping_helpers/airlock/cutaiwire,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/yellow/visible,
+/obj/effect/mapping_helpers/airlock/cyclelink_helper{
+	dir = 4
+	},
+/obj/machinery/door/airlock/highsecurity{
+	name = "Burn Chamber Access"
+	},
 /turf/open/floor/plating,
 /area/ruin/icemoon_syndicate/engineering)
 "VU" = (
@@ -3544,6 +3623,7 @@
 /obj/item/ammo_box/magazine/m9mm,
 /obj/item/ammo_box/magazine/m9mm,
 /obj/item/clothing/suit/toggle/labcoat,
+/obj/item/pocket_heater/loaded,
 /turf/open/floor/iron/grimy,
 /area/ruin/icemoon_syndicate/crew)
 "WO" = (
@@ -3609,8 +3689,7 @@
 "XB" = (
 /obj/machinery/airalarm/directional/south,
 /obj/effect/mapping_helpers/airalarm/syndicate_access,
-/obj/structure/closet/toolcloset,
-/obj/item/storage/toolbox/syndicate,
+/obj/structure/closet/radiation,
 /turf/open/floor/iron/dark,
 /area/ruin/icemoon_syndicate/engineering)
 "XF" = (
@@ -3632,6 +3711,12 @@
 /obj/effect/decal/cleanable/blood/old,
 /turf/open/misc/asteroid/snow/icemoon,
 /area/icemoon/underground/explored)
+"XS" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/dark/visible/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/dark/visible/layer2,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/orange/visible,
+/turf/open/floor/plating/snowed/smoothed/icemoon,
+/area/ruin/icemoon_syndicate/engineering)
 "XW" = (
 /obj/structure/closet/l3closet/scientist,
 /obj/machinery/light/small/directional/west,
@@ -3712,6 +3797,10 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/iron,
 /area/ruin/icemoon_syndicate/research)
+"YM" = (
+/obj/machinery/chem_dispenser/drinks/beer/fullupgrade,
+/turf/closed/wall,
+/area/ruin/icemoon_syndicate/bar)
 "YO" = (
 /obj/effect/turf_decal/vg_decals/atmos/air{
 	dir = 1
@@ -3817,6 +3906,7 @@
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
 	dir = 8
 	},
+/obj/item/pocket_heater/loaded,
 /turf/open/floor/carpet/royalblack,
 /area/ruin/icemoon_syndicate/communications)
 "ZF" = (
@@ -5948,10 +6038,10 @@ oN
 ra
 XB
 oN
-Xy
-ks
-oN
-lF
+XS
+xE
+uu
+Fi
 lF
 tj
 tj
@@ -6016,10 +6106,10 @@ oN
 et
 ox
 oN
-dV
-Bl
+xO
+sX
 oN
-lF
+Fi
 tj
 tj
 tj
@@ -6084,11 +6174,11 @@ oN
 vB
 oN
 oN
+Xy
+ks
 oN
-oN
-oN
-lF
-lF
+sO
+Fi
 tj
 tj
 tj
@@ -6151,11 +6241,11 @@ Mb
 BP
 Mb
 lF
-lF
-lF
-lF
-lF
-lF
+oN
+dV
+Bl
+Np
+tY
 lF
 lF
 tj
@@ -6219,7 +6309,7 @@ lF
 TN
 lF
 lF
-lF
+oN
 Wl
 Wl
 Wl
@@ -6315,7 +6405,7 @@ tj
 tj
 Aa
 Aa
-xJ
+YM
 nV
 zx
 yx
@@ -6383,7 +6473,7 @@ tj
 tj
 Aa
 Aa
-xJ
+Bm
 UG
 pX
 YA
@@ -6486,7 +6576,7 @@ Mk
 mv
 Vq
 Vq
-dk
+dc
 Lv
 IV
 Vj
