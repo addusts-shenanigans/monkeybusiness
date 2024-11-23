@@ -726,6 +726,10 @@
 /obj/item/pocket_heater/loaded,
 /turf/open/floor/iron/grimy,
 /area/ruin/icemoon_syndicate/crew)
+"jG" = (
+/obj/machinery/light/small/directional/north,
+/turf/open/floor/engine/o2,
+/area/ruin/icemoon_syndicate/engineering)
 "jV" = (
 /obj/effect/turf_decal/siding/wood{
 	dir = 4
@@ -2144,6 +2148,11 @@
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
 	dir = 4
 	},
+/obj/item/radio/intercom/command/directional/west{
+	desc = "The command team's special extended-frequency intercom. Mostly just used for eavesdropping, gossiping about subordinates, and complaining about the higher-ups. This one has a Syndicate logo stencilled on it. Huh.";
+	pixel_x = -26;
+	pixel_y = 21
+	},
 /turf/open/floor/wood,
 /area/ruin/icemoon_syndicate/communications)
 "BB" = (
@@ -2883,6 +2892,10 @@
 /obj/structure/closet/crate/cardboard,
 /turf/open/floor/iron/kitchen/small,
 /area/ruin/icemoon_syndicate/bar)
+"LC" = (
+/obj/machinery/light/small/directional/south,
+/turf/open/floor/engine/air,
+/area/ruin/icemoon_syndicate/engineering)
 "LF" = (
 /obj/structure/fluff/tram_rail,
 /turf/open/misc/asteroid/snow/icemoon,
@@ -3254,6 +3267,10 @@
 	},
 /turf/open/floor/iron/dark,
 /area/ruin/icemoon_syndicate/checkpoint)
+"Rd" = (
+/obj/machinery/light/small/directional/north,
+/turf/open/floor/engine/n2,
+/area/ruin/icemoon_syndicate/engineering)
 "Rj" = (
 /turf/closed/wall/ice,
 /area/ruin/icemoon_syndicate/tunnel)
@@ -3278,6 +3295,10 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /turf/open/floor/iron/grimy,
 /area/ruin/icemoon_syndicate/crew)
+"Sm" = (
+/obj/machinery/light/small/directional/south,
+/turf/open/floor/engine/plasma,
+/area/ruin/icemoon_syndicate/engineering)
 "SH" = (
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
@@ -3501,6 +3522,8 @@
 "VG" = (
 /obj/structure/filingcabinet,
 /obj/effect/turf_decal/bot_white,
+/obj/machinery/airalarm/directional/north,
+/obj/effect/mapping_helpers/airalarm/syndicate_access,
 /turf/open/floor/iron/dark,
 /area/ruin/icemoon_syndicate/cargo)
 "VJ" = (
@@ -3713,6 +3736,7 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/dark/visible/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/dark/visible/layer2,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/orange/visible,
+/obj/machinery/light/small/directional/east,
 /turf/open/floor/plating/snowed/smoothed/icemoon,
 /area/ruin/icemoon_syndicate/engineering)
 "XW" = (
@@ -4942,7 +4966,7 @@ aa
 aa
 tj
 oN
-Qk
+Rd
 CD
 KQ
 ez
@@ -4952,7 +4976,7 @@ ez
 ez
 KQ
 YO
-zv
+LC
 oN
 tj
 tj
@@ -5214,7 +5238,7 @@ tj
 tj
 tj
 oN
-IF
+jG
 GU
 KQ
 ez
@@ -5224,7 +5248,7 @@ bK
 ez
 KQ
 PU
-Wh
+Sm
 oN
 tj
 tj
