@@ -2,9 +2,19 @@
 "a" = (
 /turf/template_noop,
 /area/template_noop)
-"L" = (
+"D" = (
+/obj/docking_port/stationary{
+	dir = 2;
+	height = 42;
+	shuttle_id = "syndicate_dreadnought_deepspace";
+	name = "Deep Space";
+	roundstart_template = /datum/map_template/shuttle/ruin/syndicate_dreadnought;
+	width = 65;
+	dwidth = 28;
+	dheight = 42
+	},
 /turf/template_noop,
-/area/ruin/space/syndicate_dreadnought/munitions)
+/area/template_noop)
 
 (1,1,1) = {"
 a
@@ -1239,7 +1249,7 @@ a
 a
 "}
 (29,1,1) = {"
-a
+D
 a
 a
 a
@@ -2308,15 +2318,15 @@ a
 a
 a
 a
-L
-L
-L
-L
-L
-L
-L
-L
-L
+a
+a
+a
+a
+a
+a
+a
+a
+a
 a
 a
 a
@@ -2352,15 +2362,15 @@ a
 a
 a
 a
-L
-L
-L
-L
-L
-L
-L
-L
-L
+a
+a
+a
+a
+a
+a
+a
+a
+a
 a
 a
 a
@@ -2396,15 +2406,15 @@ a
 a
 a
 a
-L
-L
-L
-L
-L
-L
-L
-L
-L
+a
+a
+a
+a
+a
+a
+a
+a
+a
 a
 a
 a
