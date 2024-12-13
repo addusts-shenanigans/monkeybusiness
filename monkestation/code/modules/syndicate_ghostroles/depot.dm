@@ -54,7 +54,7 @@
 	head = /obj/item/clothing/head/hats/hos/beret/syndicate
 	l_pocket = /obj/item/gun/ballistic/automatic/pistol/aps
 	r_pocket = /obj/item/flashlight/lantern/syndicate
-	mask = /obj/item/clothing/mask/gas/chameleon //under ANY OTHER CIRCUMSTANCE i'd make it a gps one, but this place is also the safe evacuation zone for any surviving space outpost operatives after a self-destruct event
+	mask = /obj/item/clothing/mask/chameleon //under ANY OTHER CIRCUMSTANCE i'd make it a gps one, but this place is also the safe evacuation zone for any surviving space outpost operatives after a self-destruct event
 	l_hand = /obj/item/melee/energy/sword/saber
 
 //ruin areas
