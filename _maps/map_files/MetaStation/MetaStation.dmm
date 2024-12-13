@@ -67182,7 +67182,7 @@
 	},
 /obj/effect/spawner/structure/window,
 /obj/machinery/smartfridge/organ,
-/turf/open/floor/iron/dark,
+/turf/open/floor/plating,
 /area/station/medical/surgery/aft)
 "xnk" = (
 /obj/structure/disposalpipe/segment{
