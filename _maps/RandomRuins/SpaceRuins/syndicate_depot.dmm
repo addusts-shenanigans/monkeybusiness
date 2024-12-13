@@ -1,0 +1,3687 @@
+//MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
+"ad" = (
+/turf/open/floor/iron/white/small,
+/area/ruin/space/has_grav/syndicate_depot/infirmary)
+"aI" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 4
+	},
+/turf/open/floor/plating,
+/area/ruin/space/has_grav/syndicate_depot/cargo_bay)
+"aK" = (
+/turf/closed/wall/mineral/plastitanium/nodiagonal,
+/area/ruin/space/has_grav/syndicate_depot/manufacturing)
+"aS" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/cyan/hidden,
+/turf/open/floor/iron/white/small,
+/area/ruin/space/has_grav/syndicate_depot/infirmary)
+"aV" = (
+/obj/effect/turf_decal/delivery/white,
+/obj/structure/closet/crate/engineering,
+/obj/item/storage/part_replacer/bluespace/tier4,
+/obj/item/storage/box/stockparts/deluxe,
+/obj/item/storage/box/stockparts/deluxe,
+/obj/item/storage/toolbox/syndicate,
+/turf/open/floor/iron/dark/smooth_large,
+/area/ruin/space/has_grav/syndicate_depot/cargo_bay)
+"bc" = (
+/obj/effect/turf_decal/sand/plating,
+/obj/machinery/porta_turret/syndicate/depot{
+	dir = 6
+	},
+/obj/effect/turf_decal/stripes/asteroid/line{
+	dir = 6
+	},
+/turf/open/floor/plating/airless,
+/area/ruin/space/has_grav/syndicate_depot)
+"bG" = (
+/obj/machinery/camera/directional/south{
+	network = list("syndicate_depot");
+	c_tag = "Kitchen"
+	},
+/turf/open/floor/iron/kitchen/small,
+/area/ruin/space/has_grav/syndicate_depot/crew_quarters)
+"bY" = (
+/obj/machinery/camera/directional/east{
+	network = list("syndicate_depot");
+	c_tag = "Hallway East"
+	},
+/turf/open/floor/iron,
+/area/ruin/space/has_grav/syndicate_depot/hallway)
+"ca" = (
+/obj/effect/turf_decal/delivery/white,
+/obj/structure/closet/crate/engineering,
+/obj/item/flatpacked_machine/airlock_kit_manual,
+/obj/item/flatpacked_machine/airlock_kit_manual,
+/obj/item/flatpacked_machine/airlock_kit_manual,
+/obj/item/flatpacked_machine/fuel_generator,
+/obj/item/flatpacked_machine/gps_beacon,
+/obj/item/holosign_creator/atmos,
+/obj/item/watertank/atmos,
+/turf/open/floor/iron/dark/smooth_large,
+/area/ruin/space/has_grav/syndicate_depot/cargo_bay)
+"cv" = (
+/obj/effect/turf_decal/stripes/corner{
+	dir = 8
+	},
+/turf/open/floor/plating,
+/area/ruin/space/has_grav/syndicate_depot/cargo_bay)
+"cz" = (
+/obj/item/circuitboard/machine/stasis,
+/obj/effect/turf_decal/delivery/white,
+/obj/structure/closet/crate/medical,
+/turf/open/floor/iron/dark/smooth_large,
+/area/ruin/space/has_grav/syndicate_depot/cargo_bay)
+"cS" = (
+/obj/item/storage/toolbox/syndicate,
+/turf/open/floor/circuit/red/anim,
+/area/ruin/space/has_grav/syndicate_depot/vault)
+"db" = (
+/obj/effect/mapping_helpers/airlock/access/all/syndicate/leader,
+/obj/machinery/door/airlock/centcom{
+	name = "Quartermaster's Quarters"
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 4
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 8
+	},
+/turf/open/floor/plating,
+/area/ruin/space/has_grav/syndicate_depot/control_room)
+"dR" = (
+/turf/open/floor/catwalk_floor/iron_smooth,
+/area/ruin/space/has_grav/syndicate_depot/engineering)
+"dT" = (
+/obj/item/gps{
+	pixel_x = -5;
+	pixel_y = 7
+	},
+/obj/item/gps{
+	pixel_x = 5;
+	pixel_y = 3
+	},
+/obj/structure/table/reinforced/plastitaniumglass,
+/obj/machinery/button/door/directional/south{
+	id = "syndicate_depot_eva";
+	name = "EVA Storage Shutters";
+	req_access = list("syndicate_leader")
+	},
+/turf/open/floor/iron/dark,
+/area/ruin/space/has_grav/syndicate_depot/eva_storage)
+"ec" = (
+/obj/machinery/door/poddoor{
+	id = "syndicate_depot_airlock_out"
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 1
+	},
+/obj/effect/turf_decal/stripes/line,
+/turf/open/floor/plating,
+/area/ruin/space/has_grav/syndicate_depot/security)
+"ei" = (
+/obj/machinery/computer/camera_advanced/syndie{
+	networks = list("ss13","syndicate_depot")
+	},
+/turf/open/floor/carpet/red,
+/area/ruin/space/has_grav/syndicate_depot/control_room)
+"et" = (
+/turf/open/misc/asteroid/airless,
+/area/ruin/space/has_grav/syndicate_depot)
+"fy" = (
+/obj/structure/table/wood,
+/turf/open/floor/iron/grimy,
+/area/ruin/space/has_grav/syndicate_depot/crew_quarters)
+"fS" = (
+/turf/closed/wall/r_wall/syndicate/nodiagonal,
+/area/ruin/space/has_grav/syndicate_depot/hallway)
+"fY" = (
+/obj/effect/turf_decal/siding/wood{
+	dir = 4
+	},
+/turf/open/floor/wood,
+/area/ruin/space/has_grav/syndicate_depot/control_room)
+"ge" = (
+/obj/structure/table/reinforced/plastitaniumglass,
+/turf/open/floor/carpet/red,
+/area/ruin/space/has_grav/syndicate_depot/control_room)
+"gh" = (
+/obj/structure/closet/syndicate,
+/turf/open/floor/iron/dark,
+/area/ruin/space/has_grav/syndicate_depot/security)
+"gp" = (
+/turf/open/floor/plating,
+/area/ruin/space/has_grav/syndicate_depot/cargo_bay)
+"ha" = (
+/obj/machinery/camera/directional/west{
+	network = list("syndicate_depot");
+	c_tag = "Hallway South"
+	},
+/turf/open/floor/iron,
+/area/ruin/space/has_grav/syndicate_depot/hallway)
+"hw" = (
+/turf/open/floor/iron/kitchen/small,
+/area/ruin/space/has_grav/syndicate_depot/crew_quarters)
+"hB" = (
+/obj/machinery/camera/directional/south{
+	network = list("syndicate_depot");
+	c_tag = "Vault"
+	},
+/turf/open/floor/circuit/red/anim,
+/area/ruin/space/has_grav/syndicate_depot/vault)
+"hQ" = (
+/obj/effect/turf_decal/siding/wood/corner,
+/turf/open/floor/wood,
+/area/ruin/space/has_grav/syndicate_depot/crew_quarters)
+"hZ" = (
+/turf/open/floor/wood,
+/area/ruin/space/has_grav/syndicate_depot/crew_quarters)
+"iD" = (
+/turf/closed/wall/mineral/plastitanium/nodiagonal,
+/area/ruin/space/has_grav/syndicate_depot/hallway)
+"iL" = (
+/obj/machinery/camera/directional/east{
+	network = list("syndicate_depot");
+	c_tag = "Cargo Bay"
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 9
+	},
+/turf/open/floor/plating,
+/area/ruin/space/has_grav/syndicate_depot/cargo_bay)
+"jW" = (
+/obj/machinery/conveyor{
+	id = "syndicate_depot_manufacturing";
+	dir = 4
+	},
+/turf/open/floor/plating,
+/area/ruin/space/has_grav/syndicate_depot/manufacturing)
+"kg" = (
+/turf/open/floor/iron,
+/area/ruin/space/has_grav/syndicate_depot/cargo_bay)
+"kl" = (
+/obj/effect/turf_decal/sand/plating,
+/obj/effect/turf_decal/stripes/asteroid/line{
+	dir = 9
+	},
+/obj/machinery/porta_turret/syndicate/depot{
+	dir = 9
+	},
+/turf/open/floor/plating/airless,
+/area/ruin/space/has_grav/syndicate_depot)
+"kK" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 9
+	},
+/obj/structure/closet/crate/secure/gear{
+	req_access = list("syndicate")
+	},
+/obj/item/gps/advanced,
+/obj/item/gps/advanced,
+/turf/open/floor/pod/dark,
+/area/ruin/space/has_grav/syndicate_depot/vault)
+"lg" = (
+/obj/machinery/light/small/directional/west,
+/obj/machinery/camera/directional/west{
+	network = list("syndicate_depot");
+	c_tag = "Exterior: East"
+	},
+/turf/open/misc/asteroid/airless,
+/area/ruin/space/has_grav/syndicate_depot)
+"ln" = (
+/obj/structure/table/reinforced/plastitaniumglass,
+/obj/machinery/button/door{
+	id = "syndicate_depot_airlock_windows";
+	req_access = list("syndicate");
+	name = "Window Controls";
+	pixel_x = 5;
+	pixel_y = -3
+	},
+/obj/machinery/button/door{
+	id = "syndicate_depot_airlock_out";
+	req_access = list("syndicate");
+	name = "Outer Door Controls";
+	pixel_x = 5;
+	pixel_y = 6
+	},
+/obj/machinery/button/door{
+	id = "syndicate_depot_airlock_in";
+	req_access = list("syndicate");
+	name = "Inner Door Controls";
+	pixel_x = 5;
+	pixel_y = -12
+	},
+/turf/open/floor/iron/dark,
+/area/ruin/space/has_grav/syndicate_depot/security)
+"lz" = (
+/obj/machinery/growing/tray,
+/turf/open/misc/dirt/station,
+/area/ruin/space/has_grav/syndicate_depot/hydroponics)
+"lH" = (
+/obj/structure/plasticflaps/opaque,
+/obj/machinery/conveyor{
+	id = "syndicate_depot_manufacturing";
+	dir = 4
+	},
+/turf/open/floor/plating,
+/area/ruin/space/has_grav/syndicate_depot/manufacturing)
+"lO" = (
+/obj/structure/table/reinforced/plastitaniumglass,
+/obj/machinery/fax{
+	syndicate_network = 1;
+	name = "Depot Fax Machine";
+	fax_name = "Syndicate Supply Depot"
+	},
+/turf/open/floor/carpet/red,
+/area/ruin/space/has_grav/syndicate_depot/control_room)
+"ma" = (
+/obj/effect/turf_decal/sand/plating,
+/obj/machinery/porta_turret/syndicate/depot{
+	dir = 10;
+	desc = "A ballistic machine-gun auto-turret. This one has had one of its barrels replaced with a taser. You can see a little drawing of a face engraved into it, with the turret's cameras for eyes; silently mocking you."
+	},
+/obj/effect/turf_decal/stripes/asteroid/line{
+	dir = 10
+	},
+/turf/open/floor/plating/airless,
+/area/ruin/space/has_grav/syndicate_depot)
+"mu" = (
+/obj/effect/turf_decal/stripes/corner{
+	dir = 1
+	},
+/turf/open/floor/iron,
+/area/ruin/space/has_grav/syndicate_depot/hallway)
+"mz" = (
+/turf/closed/wall/r_wall/syndicate/nodiagonal,
+/area/ruin/space/has_grav/syndicate_depot/vault)
+"mQ" = (
+/obj/machinery/computer/crew/syndie{
+	dir = 4
+	},
+/turf/open/floor/carpet/red,
+/area/ruin/space/has_grav/syndicate_depot/control_room)
+"nk" = (
+/obj/machinery/atmospherics/components/unary/cryo_cell{
+	dir = 4
+	},
+/turf/open/floor/iron/white/small,
+/area/ruin/space/has_grav/syndicate_depot/infirmary)
+"nH" = (
+/turf/open/floor/circuit/red/anim,
+/area/ruin/space/has_grav/syndicate_depot/vault)
+"nM" = (
+/obj/machinery/button/door/directional/west{
+	id = "syndicate_depot_vault";
+	name = "Vault Bolts";
+	normaldoorcontrol = 1;
+	req_access = list("syndicate_leader");
+	specialfunctions = 4
+	},
+/turf/open/floor/iron,
+/area/ruin/space/has_grav/syndicate_depot/hallway)
+"nR" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 1
+	},
+/turf/open/floor/plating,
+/area/ruin/space/has_grav/syndicate_depot/cargo_bay)
+"og" = (
+/obj/machinery/camera/directional/west{
+	network = list("syndicate_depot");
+	c_tag = "Airlock Entrance"
+	},
+/turf/open/floor/iron/dark,
+/area/ruin/space/has_grav/syndicate_depot/security)
+"on" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 6
+	},
+/obj/structure/frame/machine/secured,
+/obj/item/circuitboard/machine/ore_silo,
+/turf/open/floor/pod/dark,
+/area/ruin/space/has_grav/syndicate_depot/vault)
+"oz" = (
+/turf/open/floor/iron/dark/smooth_large,
+/area/ruin/space/has_grav/syndicate_depot/manufacturing)
+"oC" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 1
+	},
+/turf/open/floor/iron,
+/area/ruin/space/has_grav/syndicate_depot/hallway)
+"oM" = (
+/obj/structure/table/reinforced/plastitaniumglass,
+/obj/item/storage/backpack/duffelbag/syndie/surgery{
+	pixel_x = -2;
+	pixel_y = 16
+	},
+/obj/item/disk/surgery/brainwashing{
+	pixel_x = -5;
+	pixel_y = 4
+	},
+/obj/item/disk/surgery/forgottenship{
+	pixel_x = 8;
+	pixel_y = 5
+	},
+/turf/open/floor/iron/white/small,
+/area/ruin/space/has_grav/syndicate_depot/infirmary)
+"pc" = (
+/obj/machinery/door/airlock/public/glass,
+/turf/open/floor/iron/grimy,
+/area/ruin/space/has_grav/syndicate_depot/crew_quarters)
+"pk" = (
+/turf/closed/wall/mineral/plastitanium/nodiagonal,
+/area/ruin/space/has_grav/syndicate_depot/infirmary)
+"pq" = (
+/obj/effect/turf_decal/stripes/line,
+/turf/open/floor/iron/dark,
+/area/ruin/space/has_grav/syndicate_depot/security)
+"pT" = (
+/turf/open/floor/iron/grimy,
+/area/ruin/space/has_grav/syndicate_depot/crew_quarters)
+"qg" = (
+/obj/machinery/computer/operating{
+	dir = 1
+	},
+/turf/open/floor/iron/white/small,
+/area/ruin/space/has_grav/syndicate_depot/infirmary)
+"qi" = (
+/obj/machinery/camera/directional/east{
+	network = list("syndicate_depot");
+	c_tag = "Security Room"
+	},
+/turf/open/floor/iron/dark,
+/area/ruin/space/has_grav/syndicate_depot/security)
+"qw" = (
+/obj/effect/spawner/structure/window/reinforced/plasma/plastitanium,
+/turf/open/floor/plating,
+/area/ruin/space/has_grav/syndicate_depot/hallway)
+"qX" = (
+/obj/structure/chair/office/tactical{
+	dir = 1
+	},
+/turf/open/floor/carpet/red,
+/area/ruin/space/has_grav/syndicate_depot/control_room)
+"sj" = (
+/obj/effect/turf_decal/sand/plating,
+/obj/effect/turf_decal/stripes/asteroid/line{
+	dir = 5
+	},
+/obj/machinery/porta_turret/syndicate/depot{
+	dir = 5
+	},
+/obj/machinery/light/small/directional/south,
+/turf/open/floor/plating/airless,
+/area/ruin/space/has_grav/syndicate_depot)
+"sv" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 4
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 8
+	},
+/obj/machinery/door/airlock/vault{
+	id_tag = "syndicate_depot_vault";
+	name = "Outpost Vault"
+	},
+/obj/effect/mapping_helpers/airlock/access/all/syndicate/general,
+/obj/effect/mapping_helpers/airlock/locked,
+/turf/open/floor/plating,
+/area/ruin/space/has_grav/syndicate_depot/vault)
+"sR" = (
+/turf/closed/wall/r_wall/syndicate/nodiagonal,
+/area/ruin/space/has_grav/syndicate_depot/security)
+"sY" = (
+/obj/effect/mob_spawn/ghost_role/human/lavaland_syndicate/depot_syndicate/guard,
+/turf/open/floor/wood,
+/area/ruin/space/has_grav/syndicate_depot/crew_quarters)
+"tu" = (
+/obj/machinery/atmospherics/components/unary/portables_connector/visible{
+	dir = 1
+	},
+/obj/machinery/portable_atmospherics/canister/anesthetic_mix,
+/turf/open/floor/plating,
+/area/ruin/space/has_grav/syndicate_depot/infirmary)
+"tF" = (
+/turf/closed/wall/r_wall/syndicate/nodiagonal,
+/area/ruin/space/has_grav/syndicate_depot/manufacturing)
+"tO" = (
+/obj/machinery/camera/directional/north{
+	c_tag = "EVA Storage";
+	network = list("syndicate_depot")
+	},
+/turf/open/floor/iron/dark,
+/area/ruin/space/has_grav/syndicate_depot/eva_storage)
+"tU" = (
+/obj/machinery/computer/security{
+	network = list("syndicate_depot");
+	dir = 4
+	},
+/turf/open/floor/iron/dark,
+/area/ruin/space/has_grav/syndicate_depot/security)
+"ut" = (
+/obj/machinery/autolathe/hacked,
+/turf/template_noop,
+/area/ruin/space/has_grav/syndicate_depot/engineering)
+"uP" = (
+/obj/machinery/atmospherics/components/unary/thermomachine/freezer/on{
+	dir = 8
+	},
+/turf/open/floor/plating,
+/area/ruin/space/has_grav/syndicate_depot/infirmary)
+"uX" = (
+/obj/machinery/camera/directional/south{
+	network = list("syndicate_depot");
+	c_tag = "Manufacturing"
+	},
+/obj/machinery/rnd/production/protolathe/offstation,
+/turf/open/floor/iron/dark/smooth_large,
+/area/ruin/space/has_grav/syndicate_depot/manufacturing)
+"vW" = (
+/obj/effect/turf_decal/delivery/white,
+/obj/structure/closet/crate/engineering,
+/turf/open/floor/iron/dark/smooth_large,
+/area/ruin/space/has_grav/syndicate_depot/cargo_bay)
+"wZ" = (
+/turf/open/floor/catwalk_floor/iron_smooth,
+/area/ruin/space/has_grav/syndicate_depot/cargo_bay)
+"xd" = (
+/obj/machinery/button/door/directional/east{
+	id = "syndicate_depot_vault";
+	name = "Vault Bolts";
+	normaldoorcontrol = 1;
+	req_access = list("syndicate");
+	specialfunctions = 4;
+	desc = "A door remote control switch. A note on it mentions that it has a reduced access requirement to use."
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 10
+	},
+/obj/structure/filingcabinet,
+/obj/item/folder/syndicate/red,
+/turf/open/floor/pod/dark,
+/area/ruin/space/has_grav/syndicate_depot/vault)
+"xo" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 6
+	},
+/turf/open/floor/plating,
+/area/ruin/space/has_grav/syndicate_depot/cargo_bay)
+"xw" = (
+/turf/open/floor/iron/smooth_half,
+/area/ruin/space/has_grav/syndicate_depot/engineering)
+"yo" = (
+/turf/closed/wall/r_wall/syndicate/nodiagonal,
+/area/ruin/space/has_grav/syndicate_depot/hydroponics)
+"yD" = (
+/obj/machinery/camera/directional/north{
+	c_tag = "Engineering Airlock";
+	network = list("syndicate_depot")
+	},
+/turf/open/floor/iron/smooth_half,
+/area/ruin/space/has_grav/syndicate_depot/engineering)
+"zl" = (
+/obj/effect/turf_decal/sand/plating,
+/obj/effect/turf_decal/stripes/asteroid/line{
+	dir = 5
+	},
+/obj/machinery/porta_turret/syndicate/depot{
+	dir = 5
+	},
+/turf/open/floor/plating/airless,
+/area/ruin/space/has_grav/syndicate_depot)
+"Af" = (
+/obj/effect/turf_decal/siding/wood/corner{
+	dir = 1
+	},
+/turf/open/floor/wood,
+/area/ruin/space/has_grav/syndicate_depot/crew_quarters)
+"Au" = (
+/obj/machinery/syndicatebomb/self_destruct,
+/turf/open/floor/circuit/red/anim,
+/area/ruin/space/has_grav/syndicate_depot/vault)
+"Ax" = (
+/obj/machinery/camera/directional/south{
+	network = list("syndicate_depot");
+	c_tag = "Exterior: Northeast"
+	},
+/obj/machinery/light/small/directional/south,
+/turf/open/misc/asteroid/airless,
+/area/ruin/space/has_grav/syndicate_depot)
+"Ay" = (
+/turf/open/floor/iron,
+/area/ruin/space/has_grav/syndicate_depot/hallway)
+"AM" = (
+/obj/machinery/conveyor{
+	id = "syndicate_depot_manufacturing";
+	dir = 1
+	},
+/turf/open/floor/plating,
+/area/ruin/space/has_grav/syndicate_depot/manufacturing)
+"BB" = (
+/obj/machinery/camera/directional/east{
+	network = list("syndicate_depot");
+	c_tag = "Exterior: Manufacturing"
+	},
+/obj/machinery/light/small/directional/east,
+/turf/open/misc/asteroid/airless,
+/area/ruin/space/has_grav/syndicate_depot)
+"BF" = (
+/turf/closed/mineral/random/high_chance,
+/area/ruin/space/has_grav/syndicate_depot)
+"BR" = (
+/turf/closed/wall/r_wall/syndicate/nodiagonal,
+/area/ruin/space/has_grav/syndicate_depot/eva_storage)
+"BW" = (
+/turf/open/floor/iron/dark,
+/area/ruin/space/has_grav/syndicate_depot/eva_storage)
+"Cb" = (
+/obj/structure/displaycase{
+	req_access = list("syndicate_leader");
+	start_showpiece_type = "/obj/item/gun/ballistic/revolver/mateba"
+	},
+/obj/item/ammo_box/a357,
+/obj/item/ammo_box/a357,
+/obj/structure/safe/floor,
+/turf/open/floor/carpet/red,
+/area/ruin/space/has_grav/syndicate_depot/control_room)
+"CG" = (
+/obj/effect/mob_spawn/ghost_role/human/lavaland_syndicate/depot_syndicate{
+	dir = 8
+	},
+/turf/open/floor/wood,
+/area/ruin/space/has_grav/syndicate_depot/crew_quarters)
+"Dt" = (
+/obj/effect/turf_decal/delivery/white,
+/turf/open/floor/iron/dark/smooth_large,
+/area/ruin/space/has_grav/syndicate_depot/cargo_bay)
+"DG" = (
+/obj/machinery/camera/directional/east{
+	network = list("syndicate_depot");
+	c_tag = "Exterior: West"
+	},
+/obj/machinery/light/small/directional/east,
+/turf/open/misc/asteroid/airless,
+/area/ruin/space/has_grav/syndicate_depot)
+"DP" = (
+/turf/closed/wall,
+/area/ruin/space/has_grav/syndicate_depot)
+"DQ" = (
+/turf/closed/wall/r_wall/syndicate/nodiagonal,
+/area/ruin/space/has_grav/syndicate_depot/crew_quarters)
+"Eb" = (
+/obj/machinery/camera/directional/north{
+	c_tag = "Exterior: South";
+	network = list("syndicate_depot")
+	},
+/obj/machinery/light/small/directional/north,
+/turf/open/misc/asteroid/airless,
+/area/ruin/space/has_grav/syndicate_depot)
+"EF" = (
+/obj/machinery/door/poddoor/shutters{
+	id = "syndicate_depot_eva"
+	},
+/turf/open/floor/iron/dark,
+/area/ruin/space/has_grav/syndicate_depot/eva_storage)
+"Fc" = (
+/turf/closed/wall/r_wall/syndicate/nodiagonal,
+/area/ruin/space/has_grav/syndicate_depot/cargo_bay)
+"FL" = (
+/obj/effect/turf_decal/stripes/corner,
+/turf/open/floor/plating,
+/area/ruin/space/has_grav/syndicate_depot/cargo_bay)
+"Gj" = (
+/obj/effect/turf_decal/stripes/line,
+/turf/open/floor/iron/dark,
+/area/ruin/space/has_grav/syndicate_depot/hydroponics)
+"GQ" = (
+/obj/machinery/camera/directional/north{
+	c_tag = "Exterior: Southwest";
+	network = list("syndicate_depot")
+	},
+/obj/machinery/light/small/directional/north,
+/turf/open/misc/asteroid/airless,
+/area/ruin/space/has_grav/syndicate_depot)
+"HB" = (
+/obj/effect/turf_decal/siding/wood{
+	dir = 10
+	},
+/obj/item/ammo_box/magazine/m9mm_aps,
+/obj/item/ammo_box/magazine/m9mm_aps,
+/obj/item/ammo_box/magazine/m9mm_aps,
+/obj/item/ammo_box/magazine/m9mm_aps/ap,
+/obj/item/ammo_box/magazine/m9mm_aps/fire,
+/obj/item/ammo_box/magazine/m9mm_aps/hp,
+/obj/structure/closet/syndicate,
+/obj/item/clothing/neck/large_scarf/syndie,
+/obj/item/binoculars,
+/obj/item/clothing/head/helmet/swat,
+/obj/item/clothing/head/hats/hos/cap/syndicate,
+/obj/item/choice_beacon/pet,
+/turf/open/floor/wood,
+/area/ruin/space/has_grav/syndicate_depot/control_room)
+"HU" = (
+/obj/effect/turf_decal/stripes/corner{
+	dir = 4
+	},
+/turf/open/floor/iron,
+/area/ruin/space/has_grav/syndicate_depot/hallway)
+"HX" = (
+/obj/effect/spawner/structure/window/reinforced/plasma/plastitanium,
+/obj/machinery/door/poddoor/shutters{
+	id = "syndicate_depot_airlock_windows";
+	dir = 8
+	},
+/turf/open/floor/plating,
+/area/ruin/space/has_grav/syndicate_depot/security)
+"Ix" = (
+/obj/structure/table/wood,
+/obj/machinery/camera/directional/east{
+	network = list("syndicate_depot");
+	c_tag = "Canteen"
+	},
+/turf/open/floor/iron/grimy,
+/area/ruin/space/has_grav/syndicate_depot/crew_quarters)
+"IE" = (
+/obj/structure/closet/syndicate,
+/turf/open/floor/wood,
+/area/ruin/space/has_grav/syndicate_depot/crew_quarters)
+"IR" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 8
+	},
+/turf/open/floor/plating,
+/area/ruin/space/has_grav/syndicate_depot/cargo_bay)
+"Je" = (
+/turf/template_noop,
+/area/template_noop)
+"JN" = (
+/obj/machinery/camera/directional/north{
+	c_tag = "Control Room";
+	network = list("syndicate_depot")
+	},
+/obj/machinery/computer/message_monitor,
+/turf/open/floor/carpet/red,
+/area/ruin/space/has_grav/syndicate_depot/control_room)
+"Kb" = (
+/obj/effect/spawner/structure/window/reinforced/plasma/plastitanium,
+/turf/open/floor/plating,
+/area/ruin/space/has_grav/syndicate_depot/cargo_bay)
+"Kw" = (
+/obj/effect/turf_decal/siding/wood/corner{
+	dir = 8
+	},
+/turf/open/floor/wood,
+/area/ruin/space/has_grav/syndicate_depot/crew_quarters)
+"KA" = (
+/turf/open/floor/carpet/red,
+/area/ruin/space/has_grav/syndicate_depot/control_room)
+"KC" = (
+/obj/machinery/turretid{
+	req_access = list("syndicate");
+	pixel_x = 0;
+	pixel_y = 25;
+	control_area = "/area/ruin/space/has_grav/syndicate_depot";
+	name = "base turret control panel";
+	lethal = 1;
+	icon_state = "control_kill"
+	},
+/turf/open/floor/iron/dark,
+/area/ruin/space/has_grav/syndicate_depot/security)
+"KN" = (
+/obj/effect/turf_decal/stripes/line,
+/turf/open/floor/plating,
+/area/ruin/space/has_grav/syndicate_depot/cargo_bay)
+"LD" = (
+/obj/machinery/camera/directional/north{
+	c_tag = "Engineering Kit Storage";
+	network = list("syndicate_depot")
+	},
+/turf/template_noop,
+/area/ruin/space/has_grav/syndicate_depot/engineering)
+"LW" = (
+/obj/machinery/suit_storage_unit,
+/obj/item/clothing/suit/space/syndicate/black/red,
+/obj/item/clothing/head/helmet/space/syndicate/black/red,
+/obj/item/clothing/mask/gas/syndicate,
+/obj/item/tank/jetpack/oxygen/harness,
+/turf/open/floor/iron/dark,
+/area/ruin/space/has_grav/syndicate_depot/eva_storage)
+"Ml" = (
+/obj/machinery/sleeper/syndie/fullupgrade{
+	dir = 8
+	},
+/turf/open/floor/iron/white/small,
+/area/ruin/space/has_grav/syndicate_depot/infirmary)
+"MA" = (
+/obj/machinery/rnd/production/circuit_imprinter,
+/turf/open/floor/iron/dark/smooth_large,
+/area/ruin/space/has_grav/syndicate_depot/manufacturing)
+"MD" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 1
+	},
+/turf/open/floor/iron/dark,
+/area/ruin/space/has_grav/syndicate_depot/security)
+"MN" = (
+/obj/effect/turf_decal/stripes/corner{
+	dir = 1
+	},
+/turf/open/floor/plating,
+/area/ruin/space/has_grav/syndicate_depot/cargo_bay)
+"Nb" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 5
+	},
+/obj/structure/closet/crate/engineering,
+/obj/item/stack/sheet/glass/fifty,
+/obj/item/stack/sheet/glass/fifty,
+/obj/item/stack/sheet/iron/fifty,
+/obj/item/stack/sheet/iron/fifty,
+/obj/item/stack/sheet/iron/fifty,
+/obj/item/stack/sheet/mineral/plasma/thirty,
+/obj/item/stack/sheet/mineral/plastitanium{
+	amount = 50
+	},
+/obj/item/stack/sheet/plasteel/fifty,
+/obj/item/stack/sheet/mineral/titanium/fifty,
+/obj/item/stack/sheet/mineral/diamond/five,
+/obj/item/stack/sheet/mineral/diamond/five,
+/obj/item/stack/sheet/mineral/gold/five,
+/obj/item/stack/sheet/mineral/gold/five,
+/obj/item/stack/sheet/mineral/silver/twenty,
+/turf/open/floor/pod/dark,
+/area/ruin/space/has_grav/syndicate_depot/vault)
+"Nu" = (
+/turf/closed/wall/mineral/plastitanium/nodiagonal,
+/area/ruin/space/has_grav/syndicate_depot/cargo_bay)
+"NQ" = (
+/obj/machinery/camera/directional/south{
+	network = list("syndicate_depot");
+	c_tag = "Exterior: North"
+	},
+/obj/machinery/light/small/directional/south,
+/turf/open/misc/asteroid/airless,
+/area/ruin/space/has_grav/syndicate_depot)
+"Oe" = (
+/turf/closed/wall/r_wall/syndicate/nodiagonal,
+/area/ruin/space/has_grav/syndicate_depot/infirmary)
+"Oz" = (
+/obj/machinery/camera/directional/west{
+	network = list("syndicate_depot");
+	c_tag = "Cargo Entrance"
+	},
+/turf/open/floor/iron,
+/area/ruin/space/has_grav/syndicate_depot/cargo_bay)
+"OD" = (
+/obj/structure/tank_dispenser/oxygen,
+/turf/open/floor/iron/dark,
+/area/ruin/space/has_grav/syndicate_depot/eva_storage)
+"OW" = (
+/turf/closed/wall/mineral/plastitanium/nodiagonal,
+/area/ruin/space/has_grav/syndicate_depot/hydroponics)
+"PC" = (
+/obj/machinery/door/poddoor{
+	id = "syndicate_depot_airlock_in"
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 1
+	},
+/obj/effect/turf_decal/stripes/line,
+/turf/open/floor/plating,
+/area/ruin/space/has_grav/syndicate_depot/security)
+"Qa" = (
+/obj/effect/turf_decal/siding/wood{
+	dir = 8
+	},
+/obj/effect/mob_spawn/ghost_role/human/lavaland_syndicate/depot_syndicate/quartermaster{
+	dir = 4
+	},
+/obj/structure/bed{
+	dir = 4
+	},
+/obj/item/bedsheet/syndie{
+	dir = 4
+	},
+/turf/open/floor/wood,
+/area/ruin/space/has_grav/syndicate_depot/control_room)
+"Qm" = (
+/obj/structure/chair/comfy/black{
+	dir = 4
+	},
+/turf/open/floor/iron/grimy,
+/area/ruin/space/has_grav/syndicate_depot/crew_quarters)
+"QC" = (
+/turf/template_noop,
+/area/ruin/space/has_grav/syndicate_depot/engineering)
+"QN" = (
+/obj/machinery/suit_storage_unit,
+/obj/item/clothing/suit/space/syndicate,
+/obj/item/clothing/head/helmet/space/syndicate,
+/obj/item/clothing/mask/gas/syndicate,
+/obj/item/tank/internals/oxygen,
+/obj/effect/turf_decal/siding/wood{
+	dir = 5
+	},
+/turf/open/floor/wood,
+/area/ruin/space/has_grav/syndicate_depot/control_room)
+"QU" = (
+/obj/machinery/door/airlock/highsecurity{
+	name = "Security Checkpoint"
+	},
+/obj/effect/mapping_helpers/airlock/access/all/syndicate/general,
+/obj/effect/turf_decal/stripes/line,
+/obj/effect/turf_decal/stripes/line{
+	dir = 1
+	},
+/turf/open/floor/plating,
+/area/ruin/space/has_grav/syndicate_depot/security)
+"Rm" = (
+/turf/open/floor/iron/dark,
+/area/ruin/space/has_grav/syndicate_depot/security)
+"RO" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 10
+	},
+/turf/open/floor/plating,
+/area/ruin/space/has_grav/syndicate_depot/cargo_bay)
+"Se" = (
+/turf/closed/wall/r_wall/syndicate/nodiagonal,
+/area/ruin/space/has_grav/syndicate_depot/control_room)
+"Sg" = (
+/obj/effect/spawner/structure/window/reinforced/plasma/plastitanium,
+/turf/open/floor/plating,
+/area/ruin/space/has_grav/syndicate_depot/crew_quarters)
+"SU" = (
+/turf/closed/wall/r_wall/syndicate/nodiagonal,
+/area/ruin/space/has_grav/syndicate_depot/engineering)
+"SX" = (
+/turf/closed/wall/mineral/plastitanium/nodiagonal,
+/area/ruin/space/has_grav/syndicate_depot/crew_quarters)
+"Ta" = (
+/obj/effect/turf_decal/siding/wood{
+	dir = 9
+	},
+/obj/structure/table/wood,
+/turf/open/floor/wood,
+/area/ruin/space/has_grav/syndicate_depot/control_room)
+"TG" = (
+/obj/structure/table/reinforced/plastitaniumglass,
+/obj/item/reagent_containers/cup/beaker/cryoxadone{
+	pixel_x = 3;
+	pixel_y = 16
+	},
+/obj/item/reagent_containers/cup/beaker/cryoxadone{
+	pixel_x = 9;
+	pixel_y = 15
+	},
+/turf/open/floor/iron/white/small,
+/area/ruin/space/has_grav/syndicate_depot/infirmary)
+"TU" = (
+/obj/effect/mapping_helpers/airlock/access/all/syndicate/leader,
+/obj/effect/turf_decal/stripes/line{
+	dir = 1
+	},
+/obj/effect/turf_decal/stripes/line,
+/obj/machinery/door/airlock/centcom{
+	name = "EVA Storage"
+	},
+/turf/open/floor/plating,
+/area/ruin/space/has_grav/syndicate_depot/eva_storage)
+"TW" = (
+/obj/effect/turf_decal/stripes/line,
+/obj/machinery/camera/directional/east{
+	network = list("syndicate_depot");
+	c_tag = "Hydroponics"
+	},
+/turf/open/floor/iron/dark,
+/area/ruin/space/has_grav/syndicate_depot/hydroponics)
+"Ua" = (
+/obj/effect/turf_decal/sand/plating,
+/obj/effect/turf_decal/stripes/asteroid/line{
+	dir = 1
+	},
+/turf/open/floor/plating/airless,
+/area/ruin/space/has_grav/syndicate_depot)
+"UR" = (
+/obj/effect/turf_decal/sand/plating,
+/obj/effect/turf_decal/stripes/asteroid/line{
+	dir = 9
+	},
+/obj/machinery/porta_turret/syndicate/depot{
+	dir = 9
+	},
+/obj/machinery/light/small/directional/south,
+/obj/machinery/camera/directional/south{
+	network = list("syndicate_depot");
+	c_tag = "Airlock Exterior"
+	},
+/turf/open/floor/plating/airless,
+/area/ruin/space/has_grav/syndicate_depot)
+"Vj" = (
+/obj/effect/turf_decal/sand/plating,
+/obj/machinery/porta_turret/syndicate/depot{
+	dir = 10
+	},
+/obj/effect/turf_decal/stripes/asteroid/line{
+	dir = 10
+	},
+/turf/open/floor/plating/airless,
+/area/ruin/space/has_grav/syndicate_depot)
+"Vn" = (
+/obj/structure/closet/secure_closet/freezer/fridge/all_access,
+/obj/item/storage/box/ingredients/vegetarian,
+/obj/item/storage/box/ingredients/italian,
+/obj/item/storage/box/ingredients/fruity,
+/obj/item/storage/box/ingredients/fiesta,
+/obj/item/storage/box/ingredients/american,
+/obj/item/reagent_containers/condiment/flour{
+	list_reagents = list(/datum/reagent/consumable/flour=600);
+	name = "Premium All-Purpose Flour (16KG)";
+	volume = 600
+	},
+/obj/item/reagent_containers/condiment/milk,
+/obj/item/reagent_containers/condiment/enzyme{
+	list_reagents = list(/datum/reagent/consumable/enzyme=500);
+	name = "universe-sized universal enyzyme";
+	volume = 500
+	},
+/obj/item/reagent_containers/condiment/rice{
+	list_reagents = list(/datum/reagent/consumable/rice=150);
+	name = "Basmati Rice Sack (4KG)";
+	volume = 150
+	},
+/obj/item/food/meat/slab,
+/obj/item/food/meat/slab,
+/obj/item/food/meat/slab,
+/obj/item/food/meat/rawbacon,
+/obj/item/food/meat/rawbacon,
+/obj/item/food/meat/rawbacon,
+/obj/item/food/meat/slab/chicken,
+/obj/item/food/meat/slab/chicken,
+/obj/item/food/meat/slab/chicken,
+/turf/open/floor/iron/kitchen/small,
+/area/ruin/space/has_grav/syndicate_depot/crew_quarters)
+"Wc" = (
+/turf/closed/mineral/random/low_chance,
+/area/ruin/space/has_grav/syndicate_depot)
+"WC" = (
+/obj/machinery/light/small/directional/north,
+/obj/machinery/camera/directional/north{
+	c_tag = "Exterior: Vault Auxiliary Turret";
+	network = list("syndicate_depot")
+	},
+/turf/open/misc/asteroid/airless,
+/area/ruin/space/has_grav/syndicate_depot)
+"WE" = (
+/obj/machinery/portable_atmospherics/canister/oxygen,
+/turf/open/floor/iron/dark,
+/area/ruin/space/has_grav/syndicate_depot/eva_storage)
+"WG" = (
+/obj/machinery/vending/medical/syndicate_access,
+/turf/open/floor/iron/white/small,
+/area/ruin/space/has_grav/syndicate_depot/infirmary)
+"WH" = (
+/obj/machinery/conveyor{
+	id = "syndicate_depot_manufacturing";
+	dir = 5
+	},
+/turf/open/floor/plating,
+/area/ruin/space/has_grav/syndicate_depot/manufacturing)
+"WU" = (
+/turf/open/floor/iron/dark,
+/area/ruin/space/has_grav/syndicate_depot/hydroponics)
+"WZ" = (
+/obj/machinery/camera/directional/north{
+	c_tag = "Hallway North";
+	network = list("syndicate_depot")
+	},
+/turf/open/floor/iron,
+/area/ruin/space/has_grav/syndicate_depot/hallway)
+"Xf" = (
+/obj/effect/turf_decal/delivery/red,
+/turf/open/floor/iron/dark/smooth_large,
+/area/ruin/space/has_grav/syndicate_depot/cargo_bay)
+"XE" = (
+/obj/machinery/camera/directional/south{
+	network = list("syndicate_depot");
+	c_tag = "Infirmary"
+	},
+/obj/structure/table/optable,
+/turf/open/floor/iron/white/small,
+/area/ruin/space/has_grav/syndicate_depot/infirmary)
+"XF" = (
+/obj/effect/turf_decal/stripes/end{
+	dir = 4
+	},
+/turf/open/floor/plating,
+/area/ruin/space/has_grav/syndicate_depot/cargo_bay)
+"XR" = (
+/obj/effect/turf_decal/siding/wood{
+	dir = 6
+	},
+/turf/open/floor/wood,
+/area/ruin/space/has_grav/syndicate_depot/control_room)
+"YQ" = (
+/obj/effect/mapping_helpers/airlock/access/all/syndicate/leader,
+/obj/effect/turf_decal/stripes/line{
+	dir = 1
+	},
+/obj/effect/turf_decal/stripes/line,
+/obj/machinery/door/airlock/centcom{
+	name = "Control Room"
+	},
+/turf/open/floor/plating,
+/area/ruin/space/has_grav/syndicate_depot/control_room)
+"Zh" = (
+/obj/structure/table/reinforced/plastitaniumglass,
+/turf/open/floor/iron/dark,
+/area/ruin/space/has_grav/syndicate_depot/security)
+"Zr" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/cyan/hidden,
+/turf/open/floor/plating,
+/area/ruin/space/has_grav/syndicate_depot/infirmary)
+"ZB" = (
+/turf/open/floor/plating,
+/area/ruin/space/has_grav/syndicate_depot/infirmary)
+
+(1,1,1) = {"
+Je
+Je
+Je
+Je
+Je
+Je
+Je
+BF
+BF
+BF
+BF
+BF
+BF
+Je
+Je
+Je
+Je
+BF
+BF
+BF
+BF
+BF
+BF
+Je
+Je
+Je
+Je
+Je
+Je
+BF
+BF
+BF
+BF
+BF
+BF
+Je
+Je
+BF
+BF
+Je
+Je
+Je
+Je
+Je
+Je
+Je
+Je
+Je
+Je
+Je
+"}
+(2,1,1) = {"
+Je
+Je
+Je
+Je
+Je
+Je
+BF
+BF
+BF
+BF
+BF
+BF
+BF
+BF
+BF
+BF
+BF
+BF
+BF
+BF
+BF
+BF
+BF
+BF
+BF
+BF
+BF
+BF
+BF
+BF
+BF
+BF
+BF
+BF
+BF
+BF
+BF
+BF
+BF
+BF
+BF
+BF
+BF
+BF
+BF
+Je
+Je
+Je
+Je
+Je
+"}
+(3,1,1) = {"
+Je
+Je
+Je
+Je
+Je
+BF
+BF
+BF
+BF
+BF
+BF
+BF
+BF
+BF
+BF
+BF
+BF
+BF
+BF
+BF
+BF
+BF
+BF
+BF
+BF
+BF
+BF
+BF
+BF
+BF
+BF
+BF
+BF
+BF
+BF
+BF
+BF
+BF
+BF
+BF
+BF
+BF
+BF
+BF
+BF
+BF
+Je
+Je
+Je
+Je
+"}
+(4,1,1) = {"
+Je
+Je
+Je
+BF
+BF
+BF
+BF
+BF
+BF
+BF
+BF
+BF
+BF
+BF
+BF
+BF
+BF
+BF
+BF
+BF
+BF
+BF
+BF
+BF
+BF
+BF
+BF
+BF
+BF
+BF
+BF
+BF
+BF
+BF
+BF
+BF
+BF
+BF
+BF
+BF
+BF
+BF
+BF
+BF
+BF
+BF
+BF
+Je
+Je
+Je
+"}
+(5,1,1) = {"
+Je
+Je
+BF
+BF
+BF
+BF
+BF
+BF
+BF
+BF
+BF
+et
+et
+BF
+BF
+BF
+BF
+et
+et
+BF
+BF
+BF
+et
+BF
+BF
+BF
+BF
+BF
+BF
+BF
+BF
+BF
+BF
+BF
+BF
+BF
+BF
+BF
+BF
+BF
+BF
+BF
+BF
+BF
+BF
+BF
+BF
+BF
+Je
+Je
+"}
+(6,1,1) = {"
+Je
+Je
+BF
+BF
+BF
+BF
+BF
+et
+et
+et
+et
+et
+et
+et
+et
+et
+et
+et
+et
+et
+BF
+et
+et
+et
+BF
+BF
+BF
+BF
+BF
+BF
+BF
+BF
+BF
+BF
+BF
+BF
+BF
+BF
+BF
+BF
+BF
+BF
+BF
+BF
+BF
+BF
+BF
+BF
+Je
+Je
+"}
+(7,1,1) = {"
+Je
+BF
+BF
+BF
+BF
+BF
+BF
+et
+et
+et
+et
+et
+et
+et
+et
+et
+et
+et
+et
+et
+et
+et
+et
+et
+et
+et
+et
+et
+et
+BF
+BF
+et
+et
+et
+BF
+BF
+BF
+BF
+BF
+BF
+BF
+BF
+BF
+BF
+BF
+BF
+BF
+BF
+Je
+Je
+"}
+(8,1,1) = {"
+Je
+BF
+BF
+BF
+BF
+BF
+et
+et
+et
+et
+et
+et
+et
+et
+et
+et
+et
+et
+et
+et
+et
+et
+et
+et
+et
+et
+et
+et
+et
+et
+et
+et
+et
+et
+et
+BF
+BF
+BF
+BF
+BF
+BF
+BF
+BF
+BF
+BF
+BF
+BF
+BF
+Je
+Je
+"}
+(9,1,1) = {"
+BF
+BF
+BF
+BF
+BF
+et
+et
+et
+et
+et
+et
+et
+et
+et
+et
+et
+et
+et
+et
+et
+et
+et
+et
+et
+DG
+et
+et
+et
+et
+et
+et
+et
+et
+et
+et
+et
+et
+et
+et
+et
+et
+BF
+BF
+BF
+BF
+BF
+BF
+BF
+BF
+Je
+"}
+(10,1,1) = {"
+BF
+BF
+BF
+BF
+et
+et
+et
+et
+et
+et
+et
+et
+et
+et
+et
+et
+et
+et
+et
+et
+kl
+Wc
+Wc
+Wc
+DP
+Wc
+Wc
+Vj
+et
+et
+et
+et
+BB
+et
+et
+et
+et
+et
+et
+et
+et
+et
+BF
+BF
+BF
+BF
+BF
+BF
+BF
+Je
+"}
+(11,1,1) = {"
+BF
+BF
+BF
+BF
+BF
+et
+et
+et
+et
+et
+et
+et
+et
+et
+et
+kl
+Wc
+Wc
+Wc
+Wc
+Wc
+Wc
+Wc
+Wc
+Wc
+Wc
+Wc
+Wc
+Wc
+Wc
+Wc
+Wc
+DP
+Wc
+Wc
+Wc
+Vj
+et
+et
+et
+et
+et
+BF
+BF
+BF
+BF
+BF
+BF
+BF
+Je
+"}
+(12,1,1) = {"
+BF
+BF
+BF
+BF
+BF
+et
+et
+et
+et
+et
+et
+et
+et
+et
+et
+Wc
+Wc
+Wc
+SU
+SU
+SU
+SU
+SU
+SU
+SU
+SU
+SU
+SU
+SU
+SU
+Wc
+Wc
+Wc
+Wc
+Wc
+Wc
+Wc
+Wc
+et
+et
+et
+et
+et
+BF
+BF
+BF
+BF
+BF
+BF
+BF
+"}
+(13,1,1) = {"
+BF
+BF
+BF
+BF
+et
+et
+et
+et
+et
+et
+et
+et
+et
+et
+Wc
+Wc
+Wc
+SU
+SU
+QC
+QC
+QC
+QC
+QC
+QC
+QC
+QC
+QC
+QC
+SU
+SU
+tF
+tF
+tF
+tF
+tF
+tF
+Wc
+Wc
+et
+et
+et
+et
+et
+BF
+BF
+BF
+BF
+BF
+BF
+"}
+(14,1,1) = {"
+BF
+BF
+BF
+BF
+et
+et
+et
+et
+et
+et
+et
+et
+et
+et
+Wc
+Wc
+SU
+SU
+QC
+QC
+QC
+QC
+QC
+QC
+QC
+QC
+QC
+QC
+QC
+QC
+SU
+tF
+WH
+AM
+AM
+AM
+tF
+Wc
+Wc
+et
+et
+et
+et
+et
+BF
+BF
+BF
+BF
+BF
+BF
+"}
+(15,1,1) = {"
+BF
+BF
+BF
+BF
+et
+et
+et
+et
+et
+et
+et
+et
+et
+et
+Wc
+Wc
+SU
+QC
+QC
+QC
+QC
+QC
+QC
+QC
+QC
+QC
+QC
+QC
+QC
+QC
+QC
+tF
+jW
+oz
+oz
+uX
+tF
+Wc
+Wc
+et
+et
+et
+et
+et
+BF
+BF
+BF
+BF
+BF
+Je
+"}
+(16,1,1) = {"
+BF
+BF
+BF
+BF
+et
+et
+et
+et
+et
+et
+et
+et
+et
+et
+Wc
+Wc
+SU
+QC
+QC
+QC
+QC
+QC
+QC
+QC
+QC
+QC
+QC
+QC
+QC
+QC
+QC
+tF
+jW
+oz
+oz
+MA
+tF
+Wc
+Wc
+et
+et
+et
+et
+et
+BF
+BF
+BF
+BF
+BF
+Je
+"}
+(17,1,1) = {"
+BF
+BF
+BF
+BF
+et
+et
+et
+et
+et
+et
+et
+et
+et
+et
+zl
+Wc
+SU
+LD
+QC
+QC
+SU
+SU
+dR
+SU
+SU
+Fc
+Fc
+Fc
+Fc
+Fc
+Fc
+tF
+lH
+aK
+oz
+aK
+tF
+Wc
+Wc
+Vj
+et
+et
+et
+et
+et
+BF
+BF
+BF
+BF
+Je
+"}
+(18,1,1) = {"
+BF
+BF
+BF
+BF
+BF
+et
+et
+et
+et
+et
+et
+et
+et
+et
+et
+Wc
+SU
+QC
+QC
+QC
+SU
+xw
+dR
+xw
+SU
+gp
+FL
+aI
+aI
+aI
+aI
+xo
+Xf
+XF
+wZ
+nR
+Fc
+Wc
+Wc
+Wc
+et
+et
+et
+et
+et
+BF
+BF
+BF
+BF
+Je
+"}
+(19,1,1) = {"
+Je
+BF
+BF
+BF
+BF
+et
+et
+et
+et
+et
+et
+et
+et
+et
+Wc
+Wc
+SU
+ut
+QC
+QC
+SU
+yD
+dR
+xw
+SU
+gp
+KN
+wZ
+wZ
+wZ
+wZ
+wZ
+wZ
+wZ
+wZ
+nR
+Fc
+Wc
+Wc
+DP
+GQ
+et
+et
+et
+et
+BF
+BF
+BF
+BF
+Je
+"}
+(20,1,1) = {"
+Je
+BF
+BF
+BF
+BF
+et
+et
+et
+et
+et
+et
+et
+et
+et
+Wc
+Wc
+SU
+SU
+SU
+SU
+SU
+SU
+dR
+SU
+fS
+iD
+KN
+wZ
+Dt
+wZ
+Dt
+aV
+wZ
+Dt
+wZ
+nR
+Fc
+Wc
+Wc
+Wc
+et
+et
+et
+et
+et
+BF
+BF
+BF
+BF
+Je
+"}
+(21,1,1) = {"
+Je
+BF
+BF
+BF
+BF
+et
+et
+et
+et
+et
+et
+et
+et
+NQ
+DP
+Wc
+Se
+Ta
+Qa
+HB
+Se
+Ay
+Ay
+Ay
+Ay
+iD
+KN
+wZ
+Dt
+wZ
+Dt
+Dt
+wZ
+vW
+wZ
+nR
+Fc
+Wc
+Wc
+Wc
+et
+et
+et
+et
+et
+BF
+BF
+BF
+BF
+Je
+"}
+(22,1,1) = {"
+Je
+BF
+BF
+BF
+BF
+et
+et
+et
+et
+et
+et
+et
+et
+et
+Wc
+Wc
+Se
+QN
+fY
+XR
+Se
+Ay
+Ay
+Ay
+Ay
+qw
+KN
+wZ
+Dt
+wZ
+Dt
+Dt
+wZ
+Dt
+wZ
+nR
+Fc
+Wc
+Wc
+Wc
+et
+et
+et
+et
+BF
+BF
+BF
+BF
+BF
+Je
+"}
+(23,1,1) = {"
+Je
+BF
+BF
+BF
+BF
+et
+et
+et
+et
+et
+et
+et
+et
+et
+et
+Wc
+Se
+Se
+Se
+db
+Se
+Ay
+Ay
+Ay
+Ay
+qw
+KN
+wZ
+Dt
+wZ
+ca
+Dt
+wZ
+cz
+wZ
+nR
+Fc
+Wc
+Wc
+Wc
+et
+et
+et
+et
+BF
+BF
+BF
+BF
+BF
+BF
+"}
+(24,1,1) = {"
+Je
+Je
+BF
+BF
+BF
+BF
+BF
+BF
+BF
+et
+et
+et
+et
+et
+et
+Wc
+Se
+Cb
+mQ
+KA
+Se
+Ay
+Ay
+Ay
+Ay
+qw
+KN
+wZ
+wZ
+wZ
+wZ
+wZ
+wZ
+wZ
+wZ
+nR
+Fc
+Wc
+Wc
+Wc
+et
+et
+et
+et
+BF
+BF
+BF
+BF
+BF
+BF
+"}
+(25,1,1) = {"
+Je
+Je
+BF
+BF
+et
+et
+et
+et
+BF
+BF
+et
+et
+et
+et
+Wc
+Wc
+Se
+ei
+qX
+KA
+YQ
+Ay
+Ay
+Ay
+Ay
+iD
+cv
+IR
+IR
+IR
+RO
+wZ
+iL
+IR
+IR
+MN
+Fc
+et
+et
+Wc
+et
+et
+et
+et
+BF
+BF
+BF
+BF
+BF
+BF
+"}
+(26,1,1) = {"
+Je
+BF
+BF
+et
+et
+et
+et
+et
+et
+BF
+et
+et
+et
+kl
+Wc
+Wc
+Se
+JN
+KA
+ge
+Se
+WZ
+Ay
+Ay
+BR
+BR
+BR
+BR
+BR
+Nu
+Kb
+kg
+Nu
+mz
+mz
+mz
+mz
+mz
+et
+Wc
+Vj
+et
+et
+et
+et
+BF
+BF
+BF
+BF
+BF
+"}
+(27,1,1) = {"
+Je
+BF
+BF
+et
+et
+BF
+BF
+BF
+et
+BF
+et
+et
+et
+Wc
+Wc
+Wc
+Se
+lO
+ge
+ge
+Se
+Ay
+Ay
+Ay
+BR
+OD
+LW
+LW
+BR
+Oz
+kg
+kg
+kg
+mz
+on
+nH
+Nb
+mz
+WC
+Wc
+Wc
+et
+et
+et
+et
+BF
+BF
+BF
+BF
+BF
+"}
+(28,1,1) = {"
+Je
+et
+et
+et
+et
+BF
+BF
+BF
+et
+et
+et
+et
+et
+sj
+sR
+sR
+sR
+sR
+sR
+sR
+sR
+HU
+Ay
+Ay
+BR
+tO
+BW
+BW
+EF
+kg
+kg
+kg
+kg
+mz
+cS
+Au
+hB
+mz
+ma
+Wc
+Wc
+Wc
+Vj
+et
+et
+BF
+BF
+BF
+BF
+BF
+"}
+(29,1,1) = {"
+Je
+et
+et
+et
+BF
+BF
+et
+et
+et
+et
+et
+et
+et
+Ua
+ec
+MD
+Rm
+og
+Rm
+pq
+PC
+oC
+Ay
+Ay
+TU
+BW
+WE
+dT
+BR
+kg
+kg
+kg
+kg
+mz
+xd
+nH
+kK
+mz
+Oe
+Oe
+Oe
+Wc
+Wc
+et
+et
+et
+BF
+BF
+BF
+BF
+"}
+(30,1,1) = {"
+Je
+BF
+BF
+BF
+BF
+BF
+et
+et
+et
+et
+et
+et
+et
+Ua
+ec
+MD
+Rm
+Rm
+Rm
+pq
+PC
+oC
+Ay
+Ay
+BR
+BR
+BR
+BR
+BR
+Nu
+kg
+Kb
+Nu
+mz
+mz
+sv
+mz
+mz
+nk
+TG
+Oe
+Oe
+Wc
+et
+et
+et
+BF
+BF
+BF
+BF
+"}
+(31,1,1) = {"
+Je
+Je
+BF
+BF
+BF
+et
+et
+et
+et
+et
+et
+et
+et
+UR
+sR
+sR
+HX
+HX
+HX
+sR
+sR
+mu
+Ay
+Ay
+Ay
+Ay
+Ay
+Ay
+Ay
+Ay
+Ay
+Ay
+Ay
+ha
+nM
+Ay
+pk
+WG
+aS
+ad
+qg
+Oe
+Wc
+et
+et
+et
+BF
+BF
+BF
+BF
+"}
+(32,1,1) = {"
+Je
+BF
+BF
+BF
+BF
+et
+et
+et
+et
+et
+et
+et
+et
+Wc
+Wc
+sR
+ln
+Zh
+tU
+sR
+Ay
+Ay
+Ay
+Ay
+Ay
+Ay
+Ay
+Ay
+Ay
+Ay
+Ay
+Ay
+Ay
+Ay
+Ay
+Ay
+ad
+aS
+aS
+ad
+XE
+Oe
+DP
+Eb
+et
+BF
+BF
+BF
+BF
+BF
+"}
+(33,1,1) = {"
+Je
+BF
+BF
+BF
+BF
+et
+et
+et
+et
+et
+et
+et
+et
+Wc
+Wc
+sR
+KC
+Rm
+Rm
+QU
+Ay
+Ay
+Ay
+Ay
+Ay
+bY
+Ay
+Ay
+Ay
+Ay
+Ay
+Ay
+Ay
+Ay
+Ay
+Ay
+pk
+aS
+ad
+ad
+oM
+Oe
+Wc
+et
+et
+BF
+BF
+BF
+BF
+Je
+"}
+(34,1,1) = {"
+BF
+BF
+BF
+BF
+et
+et
+et
+et
+et
+et
+et
+et
+et
+Wc
+Wc
+sR
+gh
+qi
+Rm
+sR
+fS
+fS
+fS
+DQ
+SX
+SX
+SX
+Sg
+Sg
+pc
+Sg
+Sg
+SX
+SX
+SX
+SX
+SX
+aS
+Ml
+Oe
+Oe
+Oe
+Wc
+et
+et
+BF
+BF
+BF
+BF
+Je
+"}
+(35,1,1) = {"
+BF
+BF
+BF
+BF
+et
+et
+et
+et
+et
+et
+et
+et
+et
+et
+Wc
+sR
+sR
+sR
+sR
+sR
+Wc
+Wc
+Wc
+DQ
+IE
+hQ
+hZ
+pT
+pT
+pT
+pT
+pT
+SX
+hw
+hw
+hw
+SX
+Zr
+pk
+Oe
+Wc
+Wc
+Wc
+et
+et
+BF
+BF
+BF
+BF
+BF
+"}
+(36,1,1) = {"
+BF
+BF
+BF
+BF
+BF
+et
+et
+et
+et
+et
+et
+et
+et
+et
+Wc
+Wc
+Wc
+Wc
+Wc
+Wc
+Wc
+Wc
+Wc
+DQ
+sY
+hZ
+SX
+pT
+Qm
+Qm
+Qm
+pT
+hw
+hw
+hw
+hw
+SX
+Zr
+ZB
+Oe
+Wc
+Wc
+bc
+et
+et
+BF
+BF
+BF
+BF
+BF
+"}
+(37,1,1) = {"
+Je
+BF
+BF
+BF
+BF
+BF
+et
+et
+et
+et
+et
+et
+et
+et
+et
+et
+Wc
+Wc
+Wc
+Wc
+Wc
+Wc
+Wc
+DQ
+DQ
+DQ
+DQ
+pT
+fy
+Ix
+fy
+pT
+DQ
+hw
+hw
+bG
+SX
+Zr
+tu
+Oe
+Wc
+et
+et
+et
+BF
+BF
+BF
+BF
+BF
+Je
+"}
+(38,1,1) = {"
+Je
+Je
+BF
+BF
+BF
+BF
+et
+et
+et
+et
+et
+et
+et
+et
+et
+et
+et
+et
+et
+et
+zl
+Wc
+Wc
+Wc
+Wc
+Wc
+DQ
+hZ
+SX
+SX
+SX
+hZ
+SX
+hw
+hw
+Vn
+SX
+uP
+Oe
+Oe
+et
+et
+et
+et
+BF
+BF
+BF
+BF
+BF
+Je
+"}
+(39,1,1) = {"
+Je
+Je
+Je
+BF
+BF
+BF
+BF
+et
+et
+et
+et
+et
+et
+et
+et
+et
+et
+et
+et
+et
+et
+et
+Wc
+Wc
+Wc
+Wc
+DQ
+Kw
+hZ
+SX
+hZ
+Af
+OW
+WU
+OW
+OW
+OW
+yo
+Oe
+Wc
+et
+et
+et
+et
+BF
+BF
+BF
+BF
+BF
+Je
+"}
+(40,1,1) = {"
+Je
+Je
+Je
+BF
+BF
+BF
+BF
+BF
+et
+et
+et
+et
+et
+et
+et
+et
+et
+et
+et
+et
+et
+et
+et
+et
+Wc
+Wc
+DQ
+IE
+CG
+SX
+IE
+CG
+OW
+WU
+WU
+Gj
+lz
+yo
+Wc
+Wc
+et
+et
+et
+et
+BF
+BF
+BF
+BF
+BF
+Je
+"}
+(41,1,1) = {"
+Je
+Je
+Je
+Je
+BF
+BF
+BF
+BF
+et
+et
+et
+et
+et
+et
+et
+et
+et
+et
+et
+et
+et
+et
+et
+et
+Ax
+DP
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+yo
+yo
+WU
+Gj
+lz
+yo
+Wc
+Wc
+et
+et
+et
+BF
+BF
+BF
+BF
+BF
+BF
+Je
+"}
+(42,1,1) = {"
+Je
+Je
+Je
+Je
+BF
+BF
+BF
+BF
+et
+et
+et
+et
+et
+et
+et
+et
+et
+et
+et
+et
+et
+et
+et
+et
+et
+Wc
+Wc
+Wc
+Wc
+Wc
+Wc
+Wc
+Wc
+yo
+WU
+TW
+lz
+yo
+Wc
+Wc
+et
+et
+BF
+BF
+BF
+BF
+BF
+BF
+Je
+Je
+"}
+(43,1,1) = {"
+Je
+Je
+Je
+Je
+BF
+BF
+BF
+BF
+BF
+et
+et
+et
+et
+et
+et
+et
+et
+et
+et
+et
+et
+et
+et
+et
+et
+zl
+Wc
+Wc
+Wc
+DP
+Wc
+Wc
+Wc
+yo
+yo
+yo
+yo
+yo
+Wc
+bc
+et
+et
+BF
+BF
+BF
+BF
+BF
+BF
+BF
+Je
+"}
+(44,1,1) = {"
+Je
+Je
+Je
+Je
+Je
+BF
+BF
+BF
+BF
+et
+et
+et
+et
+et
+et
+et
+et
+et
+et
+et
+et
+et
+et
+et
+et
+et
+et
+et
+et
+lg
+et
+et
+Wc
+Wc
+Wc
+Wc
+Wc
+Wc
+Wc
+et
+et
+BF
+BF
+BF
+BF
+BF
+BF
+BF
+Je
+Je
+"}
+(45,1,1) = {"
+Je
+Je
+Je
+Je
+Je
+BF
+BF
+BF
+BF
+et
+et
+et
+et
+et
+et
+et
+et
+et
+et
+et
+et
+et
+et
+et
+et
+et
+et
+et
+et
+et
+et
+et
+et
+et
+et
+et
+et
+et
+et
+et
+et
+BF
+BF
+BF
+BF
+BF
+BF
+BF
+Je
+Je
+"}
+(46,1,1) = {"
+Je
+Je
+Je
+Je
+Je
+BF
+BF
+BF
+BF
+BF
+et
+et
+BF
+BF
+BF
+BF
+BF
+et
+et
+et
+et
+BF
+BF
+BF
+BF
+BF
+BF
+BF
+et
+et
+et
+et
+et
+et
+et
+et
+et
+et
+et
+et
+BF
+BF
+BF
+BF
+BF
+BF
+BF
+Je
+Je
+Je
+"}
+(47,1,1) = {"
+Je
+Je
+Je
+Je
+Je
+BF
+BF
+BF
+BF
+BF
+BF
+BF
+BF
+BF
+BF
+BF
+BF
+BF
+BF
+BF
+BF
+BF
+BF
+BF
+BF
+BF
+BF
+BF
+BF
+BF
+et
+et
+et
+BF
+BF
+et
+et
+et
+BF
+BF
+BF
+BF
+BF
+BF
+BF
+BF
+Je
+Je
+Je
+Je
+"}
+(48,1,1) = {"
+Je
+Je
+Je
+Je
+Je
+Je
+BF
+BF
+BF
+BF
+BF
+BF
+BF
+BF
+BF
+BF
+BF
+BF
+BF
+BF
+BF
+BF
+BF
+BF
+BF
+BF
+BF
+BF
+BF
+BF
+BF
+BF
+BF
+BF
+BF
+BF
+BF
+BF
+BF
+BF
+BF
+BF
+BF
+BF
+Je
+Je
+Je
+Je
+Je
+Je
+"}
+(49,1,1) = {"
+Je
+Je
+Je
+Je
+Je
+Je
+Je
+Je
+BF
+BF
+BF
+BF
+BF
+BF
+BF
+BF
+BF
+BF
+BF
+BF
+BF
+BF
+BF
+BF
+BF
+BF
+BF
+BF
+BF
+BF
+BF
+BF
+BF
+BF
+BF
+BF
+BF
+BF
+BF
+BF
+Je
+Je
+Je
+Je
+Je
+Je
+Je
+Je
+Je
+Je
+"}
+(50,1,1) = {"
+Je
+Je
+Je
+Je
+Je
+Je
+Je
+Je
+Je
+Je
+BF
+BF
+BF
+BF
+BF
+Je
+Je
+Je
+Je
+Je
+Je
+BF
+BF
+BF
+BF
+Je
+Je
+Je
+Je
+Je
+Je
+Je
+Je
+Je
+BF
+BF
+BF
+Je
+Je
+Je
+Je
+Je
+Je
+Je
+Je
+Je
+Je
+Je
+Je
+Je
+"}
