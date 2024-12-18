@@ -23,6 +23,7 @@
 	uniform = /obj/item/clothing/under/rank/engineering/engineer/hazard
 	suit = /obj/item/clothing/suit/hooded/wintercoat
 	shoes = /obj/item/clothing/shoes/workboots
+	neck = /obj/item/flashlight/lantern/rayne //haha frostpunk go brrrrrrrrrrrrrrrr
 	id = /obj/item/card/id/advanced
 	id_trim = /datum/id_trim/crater_engi
 	back = /obj/item/storage/backpack/industrial/frontier_colonist
