@@ -1677,14 +1677,13 @@
 /obj/effect/turf_decal/tile/red/opposingcorners,
 /obj/machinery/light/small/directional/east,
 /obj/structure/table/reinforced,
+/obj/item/paper/fluff/ruins/listeningstation/briefing,
+/obj/item/paper/fluff/ruins/listeningstation/engineer,
 /obj/machinery/fax{
 	syndicate_network = 1;
-	visible_to_network = 0;
 	name = "listening post fax machine";
 	fax_name = "Syndicate Listening Post"
 	},
-/obj/item/paper/fluff/ruins/listeningstation/briefing,
-/obj/item/paper/fluff/ruins/listeningstation/engineer,
 /turf/open/floor/iron/dark,
 /area/ruin/space/has_grav/listeningstation/comms)
 "Tq" = (
