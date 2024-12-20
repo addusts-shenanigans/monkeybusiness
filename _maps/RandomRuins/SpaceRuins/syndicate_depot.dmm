@@ -406,6 +406,13 @@
 /obj/structure/cable,
 /turf/open/floor/iron,
 /area/ruin/space/has_grav/syndicate_depot/hallway)
+"hl" = (
+/obj/machinery/door/firedoor,
+/obj/machinery/door/airlock{
+	name = "Room 3"
+	},
+/turf/open/floor/wood,
+/area/ruin/space/has_grav/syndicate_depot/crew_quarters)
 "hq" = (
 /turf/closed/mineral/random/stationside/asteroid,
 /area/ruin/space/has_grav/syndicate_depot)
@@ -782,7 +789,7 @@
 "oh" = (
 /obj/machinery/door/firedoor,
 /obj/machinery/door/airlock{
-	name = "Room 3"
+	name = "Room 1"
 	},
 /turf/open/floor/wood,
 /area/ruin/space/has_grav/syndicate_depot/crew_quarters)
@@ -970,6 +977,19 @@
 /obj/machinery/light/small/directional/south,
 /turf/open/floor/plating/airless,
 /area/ruin/space/has_grav/syndicate_depot)
+"sF" = (
+/obj/structure/cable,
+/obj/machinery/turretid{
+	req_access = list("syndicate");
+	pixel_x = 0;
+	pixel_y = 35;
+	control_area = "/area/ruin/space/has_grav/syndicate_depot";
+	name = "base turret control panel";
+	lethal = 1;
+	icon_state = "control_kill"
+	},
+/turf/open/floor/mineral/plastitanium/red,
+/area/ruin/space/has_grav/syndicate_depot/security)
 "sG" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 1
@@ -979,6 +999,13 @@
 "sR" = (
 /turf/closed/wall/r_wall/syndicate/nodiagonal,
 /area/ruin/space/has_grav/syndicate_depot/security)
+"sS" = (
+/obj/machinery/door/firedoor,
+/obj/machinery/door/airlock{
+	name = "Room 2"
+	},
+/turf/open/floor/wood,
+/area/ruin/space/has_grav/syndicate_depot/crew_quarters)
 "sT" = (
 /obj/machinery/camera/directional/east{
 	network = list("syndicate_depot");
@@ -1389,14 +1416,22 @@
 /turf/open/floor/wood,
 /area/ruin/space/has_grav/syndicate_depot/crew_quarters)
 "zT" = (
-/obj/machinery/turretid{
-	req_access = list("syndicate");
-	pixel_x = 0;
-	pixel_y = 25;
-	control_area = "/area/ruin/space/has_grav/syndicate_depot";
-	name = "base turret control panel";
-	lethal = 1;
-	icon_state = "control_kill"
+/obj/structure/table/reinforced/plastitaniumglass,
+/obj/item/paper_bin{
+	pixel_x = -14;
+	pixel_y = 4
+	},
+/obj/item/stamp/granted{
+	pixel_x = 6;
+	pixel_y = 15
+	},
+/obj/item/stamp/denied{
+	pixel_x = -3;
+	pixel_y = 13
+	},
+/obj/item/pen{
+	pixel_x = -14;
+	pixel_y = 5
 	},
 /turf/open/floor/mineral/plastitanium/red,
 /area/ruin/space/has_grav/syndicate_depot/security)
@@ -1447,6 +1482,19 @@
 /obj/structure/cable,
 /turf/open/floor/iron/dark/smooth_large,
 /area/ruin/space/has_grav/syndicate_depot/engineering)
+"Bx" = (
+/obj/machinery/door/poddoor/shutters{
+	id = "syndicate_depot_airlock_windows";
+	dir = 8
+	},
+/obj/structure/cable,
+/obj/structure/table/reinforced/plastitaniumglass,
+/obj/machinery/door/window/brigdoor/right/directional/east{
+	req_access = list("syndicate")
+	},
+/obj/machinery/door/window/left/directional/west,
+/turf/open/floor/plating,
+/area/ruin/space/has_grav/syndicate_depot/security)
 "By" = (
 /turf/open/floor/iron/dark/smooth_large,
 /area/ruin/space/has_grav/syndicate_depot/engineering)
@@ -1522,8 +1570,10 @@
 /turf/open/floor/iron/dark/smooth_large,
 /area/ruin/space/has_grav/syndicate_depot/cargo_bay)
 "Dt" = (
-/obj/structure/table/reinforced/plastitaniumglass,
 /obj/structure/cable,
+/obj/structure/chair/office/tactical{
+	dir = 8
+	},
 /turf/open/floor/mineral/plastitanium/red,
 /area/ruin/space/has_grav/syndicate_depot/security)
 "DJ" = (
@@ -1692,13 +1742,6 @@
 	},
 /turf/open/floor/iron,
 /area/ruin/space/has_grav/syndicate_depot/hallway)
-"IO" = (
-/obj/machinery/door/firedoor,
-/obj/machinery/door/airlock{
-	name = "Room 1"
-	},
-/turf/open/floor/wood,
-/area/ruin/space/has_grav/syndicate_depot/crew_quarters)
 "Ja" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 4
@@ -1730,6 +1773,12 @@
 	},
 /obj/structure/cable,
 /turf/open/floor/mineral/plastitanium/red,
+/area/ruin/space/has_grav/syndicate_depot/security)
+"Ju" = (
+/obj/structure/chair{
+	dir = 4
+	},
+/turf/open/floor/iron/dark,
 /area/ruin/space/has_grav/syndicate_depot/security)
 "JA" = (
 /obj/machinery/light/small/directional/north,
@@ -2187,8 +2236,8 @@
 	id = "syndicate_depot_airlock_windows";
 	req_access = list("syndicate");
 	name = "Window Controls";
-	pixel_x = 5;
-	pixel_y = -3
+	pixel_x = -5;
+	pixel_y = 3
 	},
 /obj/machinery/button/door{
 	id = "syndicate_depot_airlock_out";
@@ -2202,7 +2251,7 @@
 	req_access = list("syndicate");
 	name = "Inner Door Controls";
 	pixel_x = 5;
-	pixel_y = -12
+	pixel_y = -2
 	},
 /turf/open/floor/mineral/plastitanium/red,
 /area/ruin/space/has_grav/syndicate_depot/security)
@@ -2487,13 +2536,6 @@
 	},
 /turf/open/floor/iron,
 /area/ruin/space/has_grav/syndicate_depot/hallway)
-"Yt" = (
-/obj/machinery/door/firedoor,
-/obj/machinery/door/airlock{
-	name = "Room 2"
-	},
-/turf/open/floor/wood,
-/area/ruin/space/has_grav/syndicate_depot/crew_quarters)
 "Yz" = (
 /obj/machinery/atmospherics/components/unary/portables_connector/visible{
 	dir = 1
@@ -4659,7 +4701,7 @@ tr
 YQ
 sG
 Rm
-Rm
+Ju
 Rm
 gF
 PC
@@ -4711,7 +4753,7 @@ cA
 sR
 sR
 HX
-HX
+Bx
 HX
 sR
 sR
@@ -4815,7 +4857,7 @@ hq
 hq
 sR
 zT
-EZ
+sF
 EZ
 kR
 vZ
@@ -4928,7 +4970,7 @@ hq
 DQ
 qi
 mX
-IO
+oh
 pT
 pT
 Rl
@@ -5085,11 +5127,11 @@ hq
 hq
 hq
 DQ
-Yt
+sS
 SX
 SX
 SX
-oh
+hl
 SX
 rq
 hw
