@@ -387,6 +387,9 @@
 "gS" = (
 /obj/machinery/door/firedoor,
 /obj/structure/cable,
+/obj/machinery/door/airlock/service{
+	name = "Kitchen"
+	},
 /turf/open/floor/iron/kitchen/small,
 /area/ruin/space/has_grav/syndicate_depot/crew_quarters)
 "ha" = (
@@ -766,6 +769,7 @@
 /area/ruin/space/has_grav/syndicate_depot/hallway)
 "nR" = (
 /obj/effect/turf_decal/stripes/corner,
+/obj/machinery/seed_extractor,
 /turf/open/floor/iron/dark,
 /area/ruin/space/has_grav/syndicate_depot/hydroponics)
 "og" = (
@@ -777,6 +781,9 @@
 /area/ruin/space/has_grav/syndicate_depot/engineering)
 "oh" = (
 /obj/machinery/door/firedoor,
+/obj/machinery/door/airlock{
+	name = "Room 3"
+	},
 /turf/open/floor/wood,
 /area/ruin/space/has_grav/syndicate_depot/crew_quarters)
 "om" = (
@@ -1102,6 +1109,10 @@
 	network = list("syndicate_depot");
 	c_tag = "Hydroponics"
 	},
+/obj/item/cultivator,
+/obj/item/shovel/spade,
+/obj/item/storage/bag/plants/portaseeder,
+/obj/item/storage/bag/plants,
 /turf/open/floor/iron/dark,
 /area/ruin/space/has_grav/syndicate_depot/hydroponics)
 "vT" = (
@@ -1116,7 +1127,8 @@
 /area/ruin/space/has_grav/syndicate_depot/hallway)
 "wn" = (
 /obj/machinery/atmospherics/components/tank/carbon_dioxide,
-/turf/open/misc/asteroid/airless,
+/obj/effect/turf_decal/sand/plating,
+/turf/open/floor/plating/airless,
 /area/ruin/space/has_grav/syndicate_depot/engineering)
 "wo" = (
 /obj/machinery/atmospherics/components/binary/pump/on/general/visible/layer4,
@@ -1323,6 +1335,9 @@
 "zh" = (
 /obj/machinery/door/firedoor,
 /obj/structure/cable,
+/obj/machinery/door/airlock/service{
+	name = "Hydroponics"
+	},
 /turf/open/floor/iron/dark,
 /area/ruin/space/has_grav/syndicate_depot/hydroponics)
 "zl" = (
@@ -1677,6 +1692,13 @@
 	},
 /turf/open/floor/iron,
 /area/ruin/space/has_grav/syndicate_depot/hallway)
+"IO" = (
+/obj/machinery/door/firedoor,
+/obj/machinery/door/airlock{
+	name = "Room 1"
+	},
+/turf/open/floor/wood,
+/area/ruin/space/has_grav/syndicate_depot/crew_quarters)
 "Ja" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 4
@@ -1813,6 +1835,7 @@
 /area/ruin/space/has_grav/syndicate_depot/engineering)
 "Mg" = (
 /obj/structure/cable,
+/obj/structure/sink/directional/south,
 /turf/open/floor/iron/dark,
 /area/ruin/space/has_grav/syndicate_depot/hydroponics)
 "Mi" = (
@@ -1834,6 +1857,7 @@
 /area/ruin/space/has_grav/syndicate_depot/vault)
 "Mz" = (
 /obj/machinery/biogenerator,
+/obj/item/reagent_containers/cup/beaker/large,
 /turf/open/floor/iron/dark,
 /area/ruin/space/has_grav/syndicate_depot/hydroponics)
 "MM" = (
@@ -2091,7 +2115,9 @@
 /turf/open/misc/asteroid/airless,
 /area/ruin/space/has_grav/syndicate_depot)
 "RF" = (
-/obj/machinery/door/airlock/public/glass,
+/obj/machinery/door/airlock/public/glass{
+	name = "Crew Quarters"
+	},
 /obj/machinery/door/firedoor,
 /obj/structure/cable,
 /obj/effect/mapping_helpers/airlock/access/all/syndicate/general,
@@ -2346,6 +2372,10 @@
 	dir = 8
 	},
 /obj/structure/table/reinforced/plastitaniumglass,
+/obj/item/reagent_containers/cup/bucket/wooden{
+	pixel_x = 7;
+	pixel_y = 14
+	},
 /turf/open/floor/iron/dark,
 /area/ruin/space/has_grav/syndicate_depot/hydroponics)
 "WE" = (
@@ -2457,6 +2487,13 @@
 	},
 /turf/open/floor/iron,
 /area/ruin/space/has_grav/syndicate_depot/hallway)
+"Yt" = (
+/obj/machinery/door/firedoor,
+/obj/machinery/door/airlock{
+	name = "Room 2"
+	},
+/turf/open/floor/wood,
+/area/ruin/space/has_grav/syndicate_depot/crew_quarters)
 "Yz" = (
 /obj/machinery/atmospherics/components/unary/portables_connector/visible{
 	dir = 1
@@ -4891,7 +4928,7 @@ hq
 DQ
 qi
 mX
-oh
+IO
 pT
 pT
 Rl
@@ -5048,7 +5085,7 @@ hq
 hq
 hq
 DQ
-oh
+Yt
 SX
 SX
 SX
