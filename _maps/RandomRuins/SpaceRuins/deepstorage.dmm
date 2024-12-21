@@ -1600,7 +1600,8 @@
 	dir = 1;
 	name = "Bunker Entrance monitor";
 	network = list("bunker1");
-	pixel_y = 2
+	pixel_y = 28;
+	pixel_x = -26
 	},
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/button/door/directional/west{
@@ -1630,6 +1631,20 @@
 	req_access = list("syndicate")
 	},
 /obj/item/pen,
+/obj/item/paper_bin,
+/obj/item/pen,
+/obj/item/stamp/denied{
+	pixel_x = 11;
+	pixel_y = 16
+	},
+/obj/item/stamp/granted{
+	pixel_x = 1;
+	pixel_y = 16
+	},
+/obj/item/stamp/syndicate{
+	pixel_x = -9;
+	pixel_y = 16
+	},
 /turf/open/floor/iron,
 /area/ruin/space/has_grav/deepstorage/airlock)
 "eJ" = (
