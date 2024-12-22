@@ -1015,6 +1015,7 @@
 	dir = 8
 	},
 /obj/item/crowbar/red,
+/obj/item/clothing/suit/armor/vest,
 /turf/open/floor/wood,
 /area/ruin/space/has_grav/syndicate_depot/crew_quarters)
 "nH" = (
@@ -1022,6 +1023,7 @@
 /obj/machinery/power/apc/auto_name/directional/west,
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/mapping_helpers/apc/syndicate_access,
+/obj/effect/mapping_helpers/apc/cell_10k,
 /turf/open/floor/circuit/red/anim,
 /area/ruin/space/has_grav/syndicate_depot/vault)
 "nM" = (
@@ -1470,6 +1472,7 @@
 /obj/machinery/power/apc/auto_name/directional/east,
 /obj/machinery/microwave,
 /obj/effect/mapping_helpers/apc/syndicate_access,
+/obj/effect/mapping_helpers/apc/cell_5k,
 /turf/open/floor/iron/grimy,
 /area/ruin/space/has_grav/syndicate_depot/crew_quarters)
 "uq" = (
@@ -1605,12 +1608,6 @@
 /obj/effect/turf_decal/stripes/asteroid/line,
 /turf/open/floor/plating/airless,
 /area/ruin/space/has_grav/syndicate_depot/engineering)
-"wH" = (
-/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/obj/machinery/light/small/directional/north,
-/turf/open/floor/iron/grimy,
-/area/ruin/space/has_grav/syndicate_depot/crew_quarters)
 "wJ" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 1
@@ -2085,6 +2082,12 @@
 	},
 /turf/open/floor/plating/airless,
 /area/ruin/space/has_grav/syndicate_depot)
+"CC" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/machinery/light/small/directional/north,
+/turf/open/floor/iron/grimy,
+/area/ruin/space/has_grav/syndicate_depot/crew_quarters)
 "CD" = (
 /obj/machinery/computer/operating{
 	dir = 1
@@ -2311,6 +2314,7 @@
 /obj/item/clothing/under/syndicate/nova/overalls,
 /obj/structure/closet/syndicate,
 /obj/item/crowbar/red,
+/obj/item/clothing/suit/armor/vest,
 /turf/open/floor/wood,
 /area/ruin/space/has_grav/syndicate_depot/crew_quarters)
 "Gj" = (
@@ -6100,7 +6104,7 @@ DQ
 DQ
 DQ
 DQ
-wH
+CC
 fy
 Ix
 up
