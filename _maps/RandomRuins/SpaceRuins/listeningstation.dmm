@@ -87,7 +87,7 @@
 /turf/open/misc/asteroid,
 /area/ruin/space/has_grav/listeningstation/asteroid)
 "bH" = (
-/turf/closed/wall/rust,
+/turf/closed/wall/r_wall/rust,
 /area/ruin/space/has_grav/listeningstation/lobby)
 "bK" = (
 /obj/structure/fluff/minepost,
@@ -636,7 +636,7 @@
 /area/ruin/space/has_grav/listeningstation/support)
 "rF" = (
 /obj/effect/baseturf_helper/asteroid/airless,
-/turf/closed/wall,
+/turf/closed/wall/r_wall,
 /area/ruin/space/has_grav/listeningstation/lobby)
 "rG" = (
 /turf/closed/wall,
@@ -2949,7 +2949,7 @@ BT
 BT
 BT
 BT
-rG
+BT
 Es
 BA
 BT
