@@ -1089,6 +1089,8 @@
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
 	dir = 8
 	},
+/obj/item/clothing/suit/toggle/labcoat/interdyne,
+/obj/item/clothing/accessory/armband/medblue,
 /turf/open/floor/iron/white/small,
 /area/ruin/space/has_grav/syndicate_depot/infirmary)
 "ox" = (
@@ -2082,12 +2084,6 @@
 	},
 /turf/open/floor/plating/airless,
 /area/ruin/space/has_grav/syndicate_depot)
-"CC" = (
-/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/obj/machinery/light/small/directional/north,
-/turf/open/floor/iron/grimy,
-/area/ruin/space/has_grav/syndicate_depot/crew_quarters)
 "CD" = (
 /obj/machinery/computer/operating{
 	dir = 1
@@ -3078,6 +3074,12 @@
 "SF" = (
 /turf/closed/wall/mineral/plastitanium/nodiagonal,
 /area/ruin/space/has_grav/syndicate_depot/engineering)
+"SN" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/machinery/light/small/directional/north,
+/turf/open/floor/iron/grimy,
+/area/ruin/space/has_grav/syndicate_depot/crew_quarters)
 "SO" = (
 /obj/effect/turf_decal/siding/wood{
 	dir = 8
@@ -6104,7 +6106,7 @@ DQ
 DQ
 DQ
 DQ
-CC
+SN
 fy
 Ix
 up
