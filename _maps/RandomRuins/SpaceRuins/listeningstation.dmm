@@ -3,12 +3,12 @@
 /obj/effect/turf_decal/tile/red/opposingcorners,
 /obj/structure/table/reinforced,
 /obj/item/stack/cable_coil{
-	pixel_x = -1;
-	pixel_y = 1
+	pixel_x = -8;
+	pixel_y = 13
 	},
 /obj/item/storage/toolbox/syndicate{
 	pixel_x = 6;
-	pixel_y = 7
+	pixel_y = 16
 	},
 /obj/machinery/power/apc/auto_name/directional/east,
 /obj/structure/cable,
@@ -168,10 +168,15 @@
 /turf/open/floor/iron,
 /area/ruin/space/has_grav/listeningstation/medical)
 "dW" = (
-/obj/machinery/hydroponics/soil,
-/obj/machinery/hydroponics/soil,
 /obj/machinery/light/small/maintenance/directional/north,
-/turf/open/misc/asteroid,
+/obj/machinery/porta_turret/syndicate/depot{
+	dir = 10
+	},
+/obj/effect/turf_decal/sand/plating,
+/obj/effect/turf_decal/stripes/asteroid/line{
+	dir = 10
+	},
+/turf/open/floor/plating/airless,
 /area/ruin/space/has_grav/listeningstation/asteroid)
 "ep" = (
 /mob/living/basic/mining/hivelord,
@@ -1332,6 +1337,11 @@
 /obj/effect/mapping_helpers/airlock/cutaiwire,
 /turf/open/floor/plating,
 /area/ruin/space/has_grav/listeningstation/support)
+"Kg" = (
+/obj/item/storage/bag/trash/filled,
+/obj/machinery/hydroponics/soil,
+/turf/open/misc/asteroid,
+/area/ruin/space/has_grav/listeningstation/asteroid)
 "Kt" = (
 /obj/structure/falsewall,
 /turf/open/floor/plating,
@@ -1342,6 +1352,16 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /turf/open/floor/plating,
 /area/ruin/space/has_grav/listeningstation/support)
+"KD" = (
+/obj/effect/turf_decal/sand/plating,
+/obj/effect/turf_decal/stripes/asteroid/line{
+	dir = 5
+	},
+/obj/machinery/porta_turret/syndicate/depot{
+	dir = 5
+	},
+/turf/open/floor/plating/airless,
+/area/ruin/space/has_grav/listeningstation/asteroid)
 "KI" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
@@ -1407,6 +1427,15 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/structure/cable,
+/obj/machinery/turretid{
+	req_access = list("syndicate");
+	pixel_x = 31;
+	pixel_y = 3;
+	control_area = "/area/ruin/space/has_grav/listeningstation/asteroid";
+	name = "base turret control panel";
+	lethal = 1;
+	icon_state = "control_kill"
+	},
 /turf/open/floor/iron/dark,
 /area/ruin/space/has_grav/listeningstation/comms)
 "ME" = (
@@ -1976,6 +2005,7 @@
 /obj/effect/turf_decal/tile/blue/anticorner/contrasted,
 /obj/machinery/iv_drip,
 /obj/structure/bed/medical/emergency,
+/obj/machinery/defibrillator_mount/loaded/directional/east,
 /turf/open/floor/iron,
 /area/ruin/space/has_grav/listeningstation/medical)
 
@@ -2339,7 +2369,7 @@ go
 go
 go
 Sx
-go
+KD
 go
 rE
 au
@@ -2844,7 +2874,7 @@ BT
 dg
 OT
 bi
-kt
+Kg
 go
 go
 QI
