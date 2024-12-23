@@ -16,7 +16,7 @@
 /turf/open/floor/engine,
 /area/ruin/space/has_grav/deepstorage/pharmacy)
 "ag" = (
-/turf/closed/wall/mineral/iron,
+/turf/closed/wall/r_wall,
 /area/ruin/space/has_grav/deepstorage/dorm)
 "ah" = (
 /obj/structure/kitchenspike,
@@ -43,8 +43,7 @@
 /turf/open/floor/iron/dark,
 /area/ruin/space/has_grav/deepstorage/crusher)
 "an" = (
-/obj/structure/sign/warning/explosives/alt/directional/east,
-/turf/open/floor/iron/dark,
+/turf/closed/wall/r_wall/syndicate/nodiagonal,
 /area/ruin/space/has_grav/deepstorage/crusher)
 "ao" = (
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
@@ -92,7 +91,7 @@
 /area/ruin/space/has_grav/deepstorage/crusher)
 "aw" = (
 /obj/effect/baseturf_helper/asteroid/airless,
-/turf/closed/wall/mineral/iron,
+/turf/closed/wall/r_wall,
 /area/ruin/space/has_grav/deepstorage/storage)
 "ax" = (
 /obj/machinery/processor{
@@ -224,7 +223,7 @@
 /area/ruin/space/has_grav/deepstorage/storage)
 "aM" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
-/turf/closed/wall/mineral/iron,
+/turf/closed/wall,
 /area/ruin/space/has_grav/deepstorage/kitchen)
 "aN" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
@@ -253,7 +252,7 @@
 /turf/open/floor/iron,
 /area/ruin/space/has_grav/deepstorage/crusher)
 "aQ" = (
-/turf/closed/wall/mineral/iron,
+/turf/closed/wall/r_wall,
 /area/ruin/space/has_grav/deepstorage/hydroponics)
 "aR" = (
 /obj/structure/closet/cardboard,
@@ -722,7 +721,7 @@
 /area/ruin/space/has_grav/deepstorage/storage)
 "bW" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/turf/closed/wall/mineral/iron,
+/turf/closed/wall,
 /area/ruin/space/has_grav/deepstorage/storage)
 "bX" = (
 /obj/machinery/door/airlock/highsecurity{
@@ -1075,7 +1074,7 @@
 /turf/open/floor/iron/white,
 /area/ruin/space/has_grav/deepstorage/dorm)
 "de" = (
-/turf/closed/wall/mineral/iron,
+/turf/closed/wall/r_wall,
 /area/ruin/space/has_grav/deepstorage/armory)
 "df" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2{
@@ -1088,7 +1087,7 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2{
 	dir = 4
 	},
-/turf/closed/wall/mineral/iron,
+/turf/closed/wall,
 /area/ruin/space/has_grav/deepstorage/storage)
 "dh" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
@@ -1126,7 +1125,7 @@
 /area/ruin/space/has_grav/deepstorage)
 "dp" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/turf/closed/wall/mineral/iron,
+/turf/closed/wall,
 /area/ruin/space/has_grav/deepstorage)
 "dq" = (
 /obj/machinery/door/airlock{
@@ -1244,13 +1243,13 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2{
 	dir = 6
 	},
-/turf/closed/wall/mineral/iron,
+/turf/closed/wall,
 /area/ruin/space/has_grav/deepstorage/storage)
 "dA" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2{
 	dir = 9
 	},
-/turf/closed/wall/mineral/iron,
+/turf/closed/wall,
 /area/ruin/space/has_grav/deepstorage/dorm)
 "dC" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
@@ -1443,7 +1442,7 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2{
 	dir = 4
 	},
-/turf/closed/wall/mineral/iron,
+/turf/closed/wall,
 /area/ruin/space/has_grav/deepstorage/dorm)
 "em" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
@@ -1476,7 +1475,7 @@
 /turf/open/floor/iron,
 /area/ruin/space/has_grav/deepstorage/airlock)
 "eq" = (
-/turf/closed/wall/mineral/iron,
+/turf/closed/wall/r_wall,
 /area/ruin/space/has_grav/deepstorage/airlock)
 "er" = (
 /obj/machinery/door/airlock/highsecurity{
@@ -1490,7 +1489,7 @@
 /area/ruin/space/has_grav/deepstorage/airlock)
 "es" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/turf/closed/wall/mineral/iron,
+/turf/closed/wall/r_wall,
 /area/ruin/space/has_grav/deepstorage/airlock)
 "et" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
@@ -1589,7 +1588,7 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/orange/hidden{
 	dir = 4
 	},
-/turf/closed/wall/mineral/iron,
+/turf/closed/wall/r_wall,
 /area/ruin/space/has_grav/deepstorage/airlock)
 "eI" = (
 /obj/structure/table,
@@ -1810,13 +1809,13 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/green/visible{
 	dir = 6
 	},
-/turf/closed/wall/mineral/iron,
+/turf/closed/wall/r_wall,
 /area/ruin/space/has_grav/deepstorage/armory)
 "fc" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/green/visible{
 	dir = 4
 	},
-/turf/closed/wall/mineral/iron,
+/turf/closed/wall/r_wall,
 /area/ruin/space/has_grav/deepstorage/power)
 "fd" = (
 /obj/machinery/atmospherics/components/unary/outlet_injector/on{
@@ -1842,6 +1841,9 @@
 /obj/machinery/atmospherics/components/unary/vent_pump/on,
 /turf/open/floor/iron,
 /area/ruin/space/has_grav/deepstorage/airlock)
+"fh" = (
+/turf/closed/wall,
+/area/ruin/space/has_grav/deepstorage/power)
 "fi" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/chair/office/tactical{
@@ -2034,7 +2036,7 @@
 /area/ruin/space/has_grav/deepstorage/power)
 "fN" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/turf/closed/wall/mineral/iron,
+/turf/closed/wall,
 /area/ruin/space/has_grav/deepstorage/dorm)
 "fO" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
@@ -2355,7 +2357,7 @@
 /turf/open/floor/plating/airless,
 /area/ruin/space/has_grav/deepstorage/power)
 "gF" = (
-/turf/closed/wall/mineral/iron,
+/turf/closed/wall/r_wall,
 /area/ruin/space/has_grav/deepstorage/pharmacy)
 "gG" = (
 /obj/machinery/iv_drip,
@@ -2558,7 +2560,7 @@
 /obj/machinery/atmospherics/pipe/layer_manifold/scrubbers/hidden{
 	dir = 4
 	},
-/turf/closed/wall/mineral/iron,
+/turf/closed/wall/r_wall,
 /area/ruin/space/has_grav/deepstorage/power)
 "hq" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/green/visible{
@@ -2581,37 +2583,46 @@
 /obj/machinery/light/directional/south,
 /turf/open/floor/iron/white/textured,
 /area/ruin/space/has_grav/deepstorage/xenobiology)
+"hy" = (
+/turf/closed/wall,
+/area/ruin/space/has_grav/deepstorage/dorm)
 "hA" = (
 /obj/effect/baseturf_helper/asteroid/airless,
-/turf/closed/wall/mineral/iron,
+/turf/closed/wall/r_wall,
 /area/ruin/space/has_grav/deepstorage/kitchen)
 "hB" = (
 /obj/effect/baseturf_helper/asteroid/airless,
-/turf/closed/wall/mineral/iron,
+/turf/closed/wall/r_wall,
 /area/ruin/space/has_grav/deepstorage/hydroponics)
 "hT" = (
 /obj/effect/baseturf_helper/asteroid/airless,
-/turf/closed/wall/mineral/iron,
+/turf/closed/wall,
 /area/ruin/space/has_grav/deepstorage)
 "hU" = (
-/turf/closed/wall/mineral/iron,
+/turf/closed/wall/r_wall,
 /area/ruin/space/has_grav/deepstorage/storage)
 "hV" = (
 /obj/effect/baseturf_helper/asteroid/airless,
-/turf/closed/wall/mineral/iron,
+/turf/closed/wall/r_wall,
 /area/ruin/space/has_grav/deepstorage/dorm)
 "hW" = (
 /obj/effect/baseturf_helper/asteroid/airless,
-/turf/closed/wall/mineral/iron,
+/turf/closed/wall/r_wall,
 /area/ruin/space/has_grav/deepstorage/armory)
 "hX" = (
 /obj/effect/baseturf_helper/asteroid/airless,
-/turf/closed/wall/mineral/iron,
+/turf/closed/wall/r_wall,
 /area/ruin/space/has_grav/deepstorage/airlock)
 "hY" = (
 /obj/effect/baseturf_helper/asteroid/airless,
-/turf/closed/wall/mineral/iron,
+/turf/closed/wall/r_wall,
 /area/ruin/space/has_grav/deepstorage/power)
+"ia" = (
+/turf/closed/wall,
+/area/ruin/space/has_grav/deepstorage/kitchen)
+"ic" = (
+/turf/closed/wall/r_wall,
+/area/ruin/space/has_grav/deepstorage/crusher)
 "ie" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/yellow/hidden{
 	dir = 4
@@ -3048,7 +3059,7 @@
 /turf/open/floor/iron/dark,
 /area/ruin/space/has_grav/deepstorage/crusher)
 "Dp" = (
-/turf/closed/wall/mineral/iron,
+/turf/closed/wall,
 /area/ruin/space/has_grav/deepstorage)
 "Em" = (
 /obj/machinery/growing/tray,
@@ -3074,7 +3085,7 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/yellow/hidden{
 	dir = 4
 	},
-/turf/closed/wall/mineral/iron,
+/turf/closed/wall/r_wall,
 /area/ruin/space/has_grav/deepstorage/airlock)
 "Fv" = (
 /obj/machinery/corral_corner{
@@ -3146,7 +3157,7 @@
 /turf/template_noop,
 /area/template_noop)
 "KZ" = (
-/turf/closed/wall/mineral/iron,
+/turf/closed/wall/r_wall,
 /area/ruin/space/has_grav/deepstorage/xenobiology)
 "LB" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2{
@@ -3172,7 +3183,7 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/green/visible{
 	dir = 4
 	},
-/turf/closed/wall/mineral/iron,
+/turf/closed/wall/r_wall,
 /area/ruin/space/has_grav/deepstorage/armory)
 "Mp" = (
 /obj/structure/table,
@@ -3194,6 +3205,9 @@
 /obj/machinery/growing/tray,
 /turf/open/floor/light,
 /area/ruin/space/has_grav/deepstorage/hydroponics)
+"MN" = (
+/turf/closed/wall/r_wall/syndicate,
+/area/ruin/space/has_grav/deepstorage/crusher)
 "Nc" = (
 /obj/effect/turf_decal/stripes{
 	dir = 1
@@ -3230,10 +3244,10 @@
 /turf/open/floor/engine,
 /area/ruin/space/has_grav/deepstorage/xenobiology)
 "Ob" = (
-/turf/closed/wall/mineral/iron,
+/turf/closed/wall,
 /area/ruin/space/has_grav/deepstorage/crusher)
 "OD" = (
-/turf/closed/wall/mineral/iron,
+/turf/closed/wall/r_wall,
 /area/ruin/space/has_grav/deepstorage/kitchen)
 "Pb" = (
 /obj/machinery/light/small/directional/south,
@@ -3265,6 +3279,9 @@
 	},
 /turf/open/floor/iron/white,
 /area/ruin/space/has_grav/deepstorage/dorm)
+"Qs" = (
+/turf/closed/wall,
+/area/ruin/space/has_grav/deepstorage/hydroponics)
 "Qt" = (
 /obj/machinery/washing_machine,
 /obj/machinery/light/directional/east,
@@ -3318,6 +3335,9 @@
 	},
 /turf/open/floor/engine,
 /area/ruin/space/has_grav/deepstorage/xenobiology)
+"SB" = (
+/turf/closed/wall/r_wall,
+/area/ruin/space/has_grav/deepstorage)
 "SJ" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/airalarm/directional/east,
@@ -3380,6 +3400,9 @@
 	},
 /turf/open/floor/engine,
 /area/ruin/space/has_grav/deepstorage/pharmacy)
+"Uv" = (
+/turf/closed/wall,
+/area/ruin/space/has_grav/deepstorage/storage)
 "UH" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/effect/decal/cleanable/dirt,
@@ -3492,7 +3515,7 @@
 /turf/open/floor/engine,
 /area/ruin/space/has_grav/deepstorage/pharmacy)
 "ZP" = (
-/turf/closed/wall/mineral/iron,
+/turf/closed/wall/r_wall,
 /area/ruin/space/has_grav/deepstorage/power)
 
 (1,1,1) = {"
@@ -3982,12 +4005,12 @@ iK
 yA
 Pb
 KZ
-ab
-ab
-ab
-ab
-ab
-ag
+hU
+hU
+hU
+hU
+hU
+hU
 ag
 ag
 ag
@@ -4049,7 +4072,7 @@ ag
 ag
 ag
 ag
-ag
+hy
 dc
 rD
 qN
@@ -4092,16 +4115,16 @@ cB
 cB
 Tp
 dw
-ag
+hy
 ei
 EG
-ag
+hy
 ei
 ey
-ag
+hy
 ei
 ey
-ag
+hy
 vs
 Qi
 gF
@@ -4144,16 +4167,16 @@ cB
 cB
 Va
 dx
-ag
+hy
 ej
 ez
-ag
+hy
 ej
 ez
-ag
+hy
 ej
 ez
-ag
+hy
 wJ
 UX
 gF
@@ -4189,23 +4212,23 @@ hU
 aG
 aR
 bm
-hU
+Uv
 bV
 SJ
 cC
 cQ
 df
 dy
-ag
+hy
 WR
 eA
-ag
+hy
 ek
 eA
-ag
+hy
 ek
 NA
-ag
+hy
 wJ
 UX
 gF
@@ -4241,11 +4264,11 @@ hU
 aH
 aS
 bn
-hU
-hU
-hU
+Uv
+Uv
+Uv
 cD
-hU
+Uv
 dg
 dz
 fN
@@ -4257,7 +4280,7 @@ eB
 fN
 fN
 ge
-ag
+hy
 gw
 zi
 gF
@@ -4351,7 +4374,7 @@ cF
 cF
 cS
 di
-ag
+hy
 dS
 Dp
 Dp
@@ -4398,7 +4421,7 @@ aK
 aV
 bq
 bG
-hU
+Uv
 cj
 cG
 cF
@@ -4410,7 +4433,7 @@ eD
 eD
 eD
 eD
-Dp
+SB
 ag
 ag
 ag
@@ -4450,7 +4473,7 @@ aL
 aW
 br
 bH
-hU
+Uv
 ck
 cH
 cT
@@ -4462,11 +4485,11 @@ eE
 eR
 ff
 fq
-Dp
+SB
 fQ
 fV
 fV
-Dp
+SB
 ab
 ab
 ab
@@ -4499,10 +4522,10 @@ iK
 Mv
 hU
 hA
-OD
-OD
-OD
-OD
+ia
+ia
+ia
+ia
 cl
 QH
 cT
@@ -4514,13 +4537,13 @@ Dp
 Dp
 Dp
 Dp
-Dp
+SB
 fR
 fT
 wI
-Dp
-Dp
-Dp
+SB
+SB
+SB
 ab
 Iy
 Iy
@@ -4554,7 +4577,7 @@ OD
 aX
 bs
 bI
-OD
+ia
 LB
 cI
 cU
@@ -4654,7 +4677,7 @@ OD
 ah
 ao
 ax
-OD
+ia
 Db
 bu
 bK
@@ -4674,9 +4697,9 @@ eq
 fU
 fT
 gn
-Dp
-Dp
-Dp
+SB
+SB
+SB
 ab
 ab
 Iy
@@ -4710,7 +4733,7 @@ aM
 ba
 bv
 bL
-OD
+ia
 Dp
 Dp
 Dp
@@ -4726,7 +4749,7 @@ hX
 hn
 fV
 YY
-Dp
+SB
 ab
 ab
 ab
@@ -4762,7 +4785,7 @@ aN
 bb
 bw
 bM
-OD
+ia
 cq
 cM
 cX
@@ -4810,11 +4833,11 @@ OD
 ah
 ar
 aA
-OD
+ia
 bc
 bu
 bN
-OD
+ia
 cr
 cN
 cY
@@ -4858,7 +4881,7 @@ ab
 ab
 ab
 ab
-Ob
+ic
 Ob
 Ob
 Ob
@@ -4866,7 +4889,7 @@ Ob
 bd
 bx
 bO
-OD
+ia
 iA
 cO
 cZ
@@ -4910,15 +4933,15 @@ ab
 ab
 ab
 ab
-Ob
+an
 Ob
 as
 aB
 Ob
-OD
-OD
-OD
-OD
+ia
+ia
+ia
+ia
 Dp
 Dp
 Dp
@@ -4962,7 +4985,7 @@ ab
 ab
 ab
 ab
-Ob
+an
 ak
 at
 aC
@@ -5014,7 +5037,7 @@ aa
 ab
 ab
 ab
-Ob
+an
 al
 au
 De
@@ -5066,11 +5089,11 @@ aa
 ab
 ab
 ab
-Ob
+an
 am
 sQ
 aE
-aQ
+Qs
 bg
 bA
 bQ
@@ -5118,11 +5141,11 @@ aa
 ab
 ab
 ab
-Ob
-rz
 an
+MN
+rz
 Bb
-aQ
+Qs
 bh
 bB
 sL
@@ -5170,10 +5193,10 @@ aa
 aa
 ab
 ab
-Ob
-Ob
-Ob
-Ob
+ab
+an
+an
+an
 aQ
 bi
 bC
@@ -5192,7 +5215,7 @@ ZP
 fB
 fK
 hq
-ZP
+fh
 fB
 fK
 hq
@@ -5244,7 +5267,7 @@ ZP
 fC
 fL
 qm
-ZP
+fh
 gv
 gD
 gP
@@ -5296,7 +5319,7 @@ ZP
 fD
 fM
 fD
-ZP
+fh
 fD
 gE
 fD
