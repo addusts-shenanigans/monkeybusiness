@@ -472,6 +472,11 @@
 	},
 /turf/open/floor/plating,
 /area/ruin/space/has_grav/listeningstation/support)
+"nc" = (
+/obj/item/storage/bag/trash/filled,
+/obj/machinery/hydroponics/soil,
+/turf/open/misc/asteroid,
+/area/ruin/space/has_grav/listeningstation/asteroid)
 "nB" = (
 /obj/structure/toilet{
 	pixel_y = 18
@@ -896,10 +901,7 @@
 /obj/machinery/light/small/directional/west,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/effect/decal/cleanable/dirt,
-/obj/structure/closet/crate/bin,
-/obj/effect/spawner/random/trash/food_packaging,
-/obj/effect/spawner/random/trash/cigbutt,
-/obj/effect/decal/cleanable/ash,
+/obj/machinery/photocopier/gratis,
 /turf/open/floor/iron/dark,
 /area/ruin/space/has_grav/listeningstation/comms)
 "Ag" = (
@@ -1061,6 +1063,8 @@
 	pixel_x = 24;
 	pixel_y = -9
 	},
+/obj/effect/spawner/random/trash/cigbutt,
+/obj/effect/spawner/random/trash/food_packaging,
 /turf/open/floor/iron,
 /area/ruin/space/has_grav/listeningstation/lounge)
 "Cm" = (
@@ -1337,11 +1341,6 @@
 /obj/effect/mapping_helpers/airlock/cutaiwire,
 /turf/open/floor/plating,
 /area/ruin/space/has_grav/listeningstation/support)
-"Kg" = (
-/obj/item/storage/bag/trash/filled,
-/obj/machinery/hydroponics/soil,
-/turf/open/misc/asteroid,
-/area/ruin/space/has_grav/listeningstation/asteroid)
 "Kt" = (
 /obj/structure/falsewall,
 /turf/open/floor/plating,
@@ -1352,16 +1351,6 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /turf/open/floor/plating,
 /area/ruin/space/has_grav/listeningstation/support)
-"KD" = (
-/obj/effect/turf_decal/sand/plating,
-/obj/effect/turf_decal/stripes/asteroid/line{
-	dir = 5
-	},
-/obj/machinery/porta_turret/syndicate/depot{
-	dir = 5
-	},
-/turf/open/floor/plating/airless,
-/area/ruin/space/has_grav/listeningstation/asteroid)
 "KI" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
@@ -1611,6 +1600,16 @@
 "Po" = (
 /turf/closed/wall,
 /area/ruin/space/has_grav/listeningstation/dorms)
+"Pq" = (
+/obj/effect/turf_decal/sand/plating,
+/obj/effect/turf_decal/stripes/asteroid/line{
+	dir = 5
+	},
+/obj/machinery/porta_turret/syndicate/depot{
+	dir = 5
+	},
+/turf/open/floor/plating/airless,
+/area/ruin/space/has_grav/listeningstation/asteroid)
 "Pz" = (
 /turf/closed/wall,
 /area/ruin/space/has_grav/listeningstation/support)
@@ -2369,7 +2368,7 @@ go
 go
 go
 Sx
-KD
+Pq
 go
 rE
 au
@@ -2874,7 +2873,7 @@ BT
 dg
 OT
 bi
-Kg
+nc
 go
 go
 QI
