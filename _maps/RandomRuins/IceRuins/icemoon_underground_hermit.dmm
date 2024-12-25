@@ -3,6 +3,7 @@
 /turf/open/misc/asteroid/snow/icemoon,
 /area/icemoon/underground/explored)
 "bp" = (
+/obj/item/hatchet,
 /turf/open/misc/dirt/station,
 /area/ruin/powered/hermit)
 "bM" = (
@@ -65,10 +66,14 @@
 /turf/closed/wall/ice,
 /area/icemoon/underground/explored)
 "mN" = (
-/turf/open/floor/grass,
+/turf/open/floor/iron/colony,
+/area/ruin/powered/hermit)
+"mR" = (
+/obj/machinery/growing/soil,
+/turf/open/misc/dirt/station,
 /area/ruin/powered/hermit)
 "oh" = (
-/turf/closed/wall/prefab_plastic,
+/turf/open/misc/dirt/station,
 /area/ruin/powered/hermit)
 "oJ" = (
 /obj/structure/glowshroom/single,
@@ -82,10 +87,6 @@
 "sC" = (
 /obj/item/chair/wood/wings,
 /turf/open/floor/iron/colony,
-/area/ruin/powered/hermit)
-"tD" = (
-/obj/machinery/growing/soil,
-/turf/open/misc/dirt/station,
 /area/ruin/powered/hermit)
 "uw" = (
 /obj/machinery/growing/soil,
@@ -101,6 +102,9 @@
 /obj/machinery/light/directional/east,
 /turf/open/misc/dirt/station,
 /area/ruin/powered/hermit)
+"xN" = (
+/turf/open/floor/grass,
+/area/ruin/powered/hermit)
 "zd" = (
 /obj/item/pickaxe/improvised,
 /obj/structure/table/wood,
@@ -111,10 +115,6 @@
 /obj/item/flashlight/lantern,
 /turf/open/misc/asteroid/snow/icemoon,
 /area/icemoon/underground/explored)
-"Gy" = (
-/obj/effect/mapping_helpers/burnt_floor,
-/turf/open/floor/iron/colony,
-/area/ruin/powered/hermit)
 "GU" = (
 /obj/item/paper/guides/jobs/hydroponics,
 /turf/open/misc/dirt/station,
@@ -124,6 +124,7 @@
 /turf/open/misc/dirt/station,
 /area/ruin/powered/hermit)
 "JI" = (
+/obj/effect/mapping_helpers/burnt_floor,
 /turf/open/floor/iron/colony,
 /area/ruin/powered/hermit)
 "Lf" = (
@@ -150,9 +151,12 @@
 /turf/open/floor/grass,
 /area/ruin/powered/hermit)
 "TL" = (
-/obj/item/hatchet,
-/turf/open/misc/dirt/station,
+/turf/closed/wall/prefab_plastic,
 /area/ruin/powered/hermit)
+"TW" = (
+/obj/effect/mob_spawn/corpse/human/crater_constructor,
+/turf/open/misc/asteroid/snow/icemoon,
+/area/icemoon/underground/explored)
 "WK" = (
 /obj/item/tank/internals/emergency_oxygen/engi,
 /turf/open/misc/dirt/station,
@@ -259,7 +263,7 @@ YN
 YN
 YN
 YN
-aM
+TW
 aM
 il
 aM
@@ -274,12 +278,12 @@ YN
 YN
 HD
 js
-oh
-oh
-oh
-oh
-oh
-oh
+TL
+TL
+TL
+TL
+TL
+TL
 aM
 aM
 Rr
@@ -289,15 +293,15 @@ aM
 YN
 YN
 YN
-tD
+mR
 Yi
 Lf
-oh
+TL
 ec
 ii
 ha
-JI
-oh
+mN
+TL
 aM
 aM
 aM
@@ -307,14 +311,14 @@ il
 YN
 YN
 uw
-bp
+oh
 GU
 cI
-oh
+TL
 hN
-Gy
 JI
-JI
+mN
+mN
 bM
 aM
 aM
@@ -325,15 +329,15 @@ aM
 YN
 jG
 sj
-mN
+xN
 Si
 oJ
 dY
-Gy
 JI
+mN
 sC
 wf
-oh
+TL
 aM
 aM
 aM
@@ -344,14 +348,14 @@ YN
 YN
 uw
 Rd
-bp
+oh
 YA
 Xl
 Xl
 Xl
-oh
-oh
-oh
+TL
+TL
+TL
 Qr
 aM
 aM
@@ -363,12 +367,12 @@ YN
 YN
 YN
 uw
+oh
 bp
-TL
 wH
 WK
 gr
-bp
+oh
 YN
 YN
 aM
