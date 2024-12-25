@@ -907,15 +907,14 @@
 /turf/open/misc/dirt/station,
 /area/ruin/space/has_grav/syndicate_depot/hydroponics)
 "lD" = (
-/obj/machinery/atmospherics/components/unary/outlet_injector/layer2{
-	dir = 8;
-	volume_rate = 200
-	},
 /obj/machinery/atmospherics/pipe/heat_exchanging/simple/layer2{
 	dir = 6
 	},
 /obj/machinery/atmospherics/pipe/heat_exchanging/simple/layer4{
 	dir = 6
+	},
+/obj/machinery/atmospherics/components/unary/outlet_injector/on/layer2{
+	dir = 8
 	},
 /turf/open/floor/engine/airless,
 /area/ruin/space/has_grav/syndicate_depot/engineering)
@@ -1016,6 +1015,7 @@
 	},
 /obj/item/crowbar/red,
 /obj/item/clothing/suit/armor/vest,
+/obj/item/storage/backpack/satchel,
 /turf/open/floor/wood,
 /area/ruin/space/has_grav/syndicate_depot/crew_quarters)
 "nH" = (
@@ -1066,7 +1066,7 @@
 "om" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/vehicle/sealed/mecha/working/ripley/cargo{
-	name = "\improper APLU \"Cairngorm\"";
+	name = "APLU 'Cairngorm'";
 	desc = "An ailing, old, repurposed cargo hauler. Most of its equipment wires are frayed or missing and its frame is rusted. A drawing of an old Syndicate battlecruiser is below the pilot's seat."
 	},
 /obj/machinery/light/small/directional/north,
@@ -1407,6 +1407,7 @@
 /obj/item/ammo_box/magazine/m9mm,
 /obj/item/clothing/under/syndicate/camo,
 /obj/item/clothing/under/syndicate/sniper,
+/obj/item/storage/backpack/satchel/sec,
 /turf/open/floor/wood,
 /area/ruin/space/has_grav/syndicate_depot/crew_quarters)
 "tp" = (
@@ -2311,6 +2312,7 @@
 /obj/structure/closet/syndicate,
 /obj/item/crowbar/red,
 /obj/item/clothing/suit/armor/vest,
+/obj/item/storage/backpack/satchel,
 /turf/open/floor/wood,
 /area/ruin/space/has_grav/syndicate_depot/crew_quarters)
 "Gj" = (
@@ -2593,7 +2595,7 @@
 	},
 /obj/effect/mapping_helpers/airlock/access/all/syndicate/general,
 /obj/machinery/atmospherics/pipe/layer_manifold/general/visible{
-	dir = 4
+	dir = 1
 	},
 /obj/structure/cable,
 /turf/open/floor/engine,
@@ -3381,9 +3383,8 @@
 /turf/open/floor/catwalk_floor/iron_smooth,
 /area/ruin/space/has_grav/syndicate_depot/engineering)
 "WB" = (
-/obj/machinery/atmospherics/components/unary/outlet_injector/layer2{
-	dir = 8;
-	volume_rate = 200
+/obj/machinery/atmospherics/components/unary/outlet_injector/on/layer2{
+	dir = 8
 	},
 /turf/open/misc/asteroid/airless,
 /area/ruin/space/has_grav/syndicate_depot)
@@ -3561,7 +3562,7 @@
 "YE" = (
 /obj/effect/turf_decal/stripes/corner,
 /obj/machinery/atmospherics/pipe/layer_manifold/general/visible{
-	dir = 4
+	dir = 1
 	},
 /obj/structure/cable,
 /obj/effect/decal/cleanable/dirt,
