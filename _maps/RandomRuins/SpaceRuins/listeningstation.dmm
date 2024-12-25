@@ -354,10 +354,8 @@
 /turf/open/floor/circuit/red/anim,
 /area/ruin/space/has_grav/listeningstation/dorms)
 "jq" = (
-/obj/machinery/power/smes{
-	charge = 5e+006
-	},
 /obj/structure/cable,
+/obj/machinery/power/smes/super/full,
 /turf/open/floor/plating,
 /area/ruin/space/has_grav/listeningstation/support)
 "jr" = (
