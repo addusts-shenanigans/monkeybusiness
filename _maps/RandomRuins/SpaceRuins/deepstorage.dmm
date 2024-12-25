@@ -1430,7 +1430,7 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2{
 	dir = 4
 	},
-/obj/effect/mob_spawn/ghost_role/human/deepstorage_syndicate{
+/obj/effect/mob_spawn/ghost_role/human/lavaland_syndicate/deepstorage{
 	dir = 8
 	},
 /turf/open/floor/wood,
@@ -1518,6 +1518,8 @@
 /obj/structure/closet/cabinet,
 /obj/item/clothing/suit/syndicate/interdyne_jacket,
 /obj/item/clothing/suit/toggle/labcoat/interdyne,
+/obj/item/clothing/head/hats/hos/beret/syndicate,
+/obj/item/clothing/neck/large_scarf/syndie,
 /turf/open/floor/wood,
 /area/ruin/space/has_grav/deepstorage/dorm)
 "ez" = (
@@ -3090,6 +3092,10 @@
 "EG" = (
 /obj/structure/closet/cabinet,
 /obj/item/flashlight/lantern/syndicate,
+/obj/item/clothing/under/syndicate/sniper,
+/obj/item/clothing/head/hats/hos/beret/syndicate,
+/obj/item/clothing/head/hats/hos/cap/syndicate,
+/obj/item/clothing/neck/large_scarf/syndie,
 /turf/open/floor/wood,
 /area/ruin/space/has_grav/deepstorage/dorm)
 "EP" = (
@@ -3476,7 +3482,7 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2{
 	dir = 4
 	},
-/obj/effect/mob_spawn/ghost_role/human/deepstorage_syndicate/comms{
+/obj/effect/mob_spawn/ghost_role/human/lavaland_syndicate/deepstorage/comms{
 	dir = 8
 	},
 /turf/open/floor/wood,
