@@ -72,6 +72,9 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /turf/open/floor/carpet/royalblack,
 /area/ruin/icemoon_syndicate/communications)
+"aM" = (
+/turf/closed/wall/r_wall,
+/area/ruin/icemoon_syndicate/crew)
 "aY" = (
 /obj/structure/cable,
 /mob/living/basic/mining/wolf,
@@ -5135,12 +5138,12 @@ tj
 Aa
 Aa
 Aa
-kZ
-kZ
-kZ
-kZ
-kZ
-kZ
+aM
+aM
+aM
+aM
+aM
+aM
 Aa
 Aa
 tj
@@ -5201,14 +5204,14 @@ tj
 tj
 Aa
 Aa
-kZ
-kZ
-kZ
+aM
+aM
+aM
 Ti
 pE
 he
 qc
-kZ
+aM
 Aa
 Aa
 Aa
@@ -5269,16 +5272,16 @@ tj
 tj
 Aa
 Aa
-kZ
+aM
 Ql
 Kt
 AA
 LR
 Kd
 DL
-kZ
-kZ
-kZ
+aM
+aM
+aM
 Aa
 tj
 tj
@@ -5337,7 +5340,7 @@ tj
 tj
 Aa
 Aa
-kZ
+aM
 Vr
 vF
 OZ
@@ -5346,7 +5349,7 @@ vw
 bz
 cx
 Tu
-kZ
+aM
 Aa
 Aa
 tj
@@ -5405,7 +5408,7 @@ tj
 tj
 Aa
 Aa
-kZ
+aM
 kZ
 kZ
 kZ
@@ -5413,8 +5416,8 @@ Pz
 kZ
 kZ
 kZ
-kZ
-kZ
+aM
+aM
 Aa
 Aa
 tj
@@ -5473,7 +5476,7 @@ tj
 tj
 Aa
 Aa
-kZ
+aM
 nq
 Sc
 hA
@@ -5481,7 +5484,7 @@ wf
 iW
 Yk
 kA
-kZ
+aM
 Aa
 Aa
 Aa
@@ -5541,7 +5544,7 @@ tj
 tj
 tj
 Aa
-kZ
+aM
 FJ
 wE
 kZ
@@ -5549,7 +5552,7 @@ wf
 kZ
 Db
 ad
-kZ
+aM
 Aa
 Aa
 Aa
@@ -5609,7 +5612,7 @@ tj
 tj
 Aa
 Aa
-kZ
+aM
 kZ
 kZ
 kZ
@@ -5617,7 +5620,7 @@ eS
 kZ
 kZ
 kZ
-kZ
+aM
 Aa
 Aa
 tj
@@ -5677,7 +5680,7 @@ tj
 tj
 Aa
 Aa
-kZ
+aM
 jv
 pV
 kZ
@@ -5685,7 +5688,7 @@ QH
 kZ
 vo
 WN
-kZ
+aM
 Aa
 Aa
 tj
@@ -5745,7 +5748,7 @@ tj
 tj
 Aa
 Aa
-kZ
+aM
 Tg
 Sc
 eb
@@ -5753,7 +5756,7 @@ wf
 Qm
 Yk
 kF
-kZ
+aM
 Aa
 Aa
 tj
@@ -5813,7 +5816,7 @@ tj
 tj
 Aa
 Aa
-kZ
+aM
 kZ
 kZ
 kZ
@@ -5821,7 +5824,7 @@ vN
 kZ
 kZ
 kZ
-kZ
+aM
 Aa
 Aa
 tj
@@ -5881,7 +5884,7 @@ tj
 tj
 Aa
 Aa
-kZ
+aM
 nq
 Sc
 yB
@@ -5889,7 +5892,7 @@ WC
 wr
 Yk
 ZF
-kZ
+aM
 Aa
 Aa
 tj
@@ -5949,7 +5952,7 @@ tj
 tj
 Aa
 Aa
-kZ
+aM
 FJ
 wE
 Hs
@@ -5957,7 +5960,7 @@ iw
 kZ
 Db
 UL
-kZ
+aM
 Aa
 Aa
 tj
@@ -6017,15 +6020,15 @@ tj
 tj
 tj
 Aa
-kZ
-kZ
-kZ
-kZ
+aM
+aM
+aM
+aM
 Ir
-kZ
-kZ
-kZ
-kZ
+aM
+aM
+aM
+aM
 Aa
 Aa
 Ua
