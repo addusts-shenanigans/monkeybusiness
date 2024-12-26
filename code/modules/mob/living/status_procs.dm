@@ -457,7 +457,7 @@
 		return
 	var/datum/status_effect/incapacitating/sleeping/S = IsSleeping()
 	if(S)
-		S.duration = STATUS_EFFECT_PERMANENT
+		S.duration = -1
 	else
 		S = apply_status_effect(/datum/status_effect/incapacitating/sleeping, -1)
 	return S

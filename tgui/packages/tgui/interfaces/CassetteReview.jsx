@@ -4,7 +4,7 @@ import { Section, Box, Button, Flex } from '../components';
 
 export const CassetteReview = (props) => {
   const { act, data } = useBackend();
-  const { ckey, submitters_name, side1, side2, reviewed, verdict } = data;
+  const { ckey, submitters_name, side1, side2 } = data;
   return (
     <Window width={600} height={313}>
       <Window.Content>
@@ -34,22 +34,8 @@ export const CassetteReview = (props) => {
             </Section>
           </Flex.Item>
           <Flex.Item>
-            {reviewed ? (
-              verdict === 'APPROVED' ? (
-                <Box backgroundColor="#0e7f1b">
-                  <div>Approved</div>
-                </Box>
-              ) : (
-                <Box backgroundColor="#F10303">
-                  <div>Denied</div>
-                </Box>
-              )
-            ) : (
-              <>
-                <Button onClick={() => act('approve')}>Approve</Button>
-                <Button onClick={() => act('deny')}>Deny</Button>
-              </>
-            )}
+            <Button onClick={() => act('approve')}>Approve</Button>
+            <Button onClick={() => act('deny')}>Deny</Button>
           </Flex.Item>
         </Flex>
       </Window.Content>

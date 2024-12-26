@@ -211,10 +211,6 @@
 	var/parried = FALSE
 	///how long we paralyze for as this is a disorient
 	var/paralyze_timer = 0
-	/// If this projectile inflicts debilitating
-	var/debilitating = FALSE
-	/// How many stacks the projectile applies per hit. Default is 1, each stack adds 0.05, it stacks up to 2x stamina damage
-	var/debilitate_mult = 1
 
 /obj/projectile/Initialize(mapload)
 	. = ..()
@@ -260,13 +256,13 @@
 
 	// i know that this is probably more with wands and gun mods in mind, but it's a bit silly that the projectile on_hit signal doesn't ping the projectile itself.
 	// maybe we care what the projectile thinks! See about combining these via args some time when it's not 5AM
-	if(debilitating == TRUE && isliving(target))
+	if(stamina >= 15 && isliving(target))
 		var/mob/living/living = target
 		var/datum/status_effect/stacking/debilitated/effect = living.has_status_effect(/datum/status_effect/stacking/debilitated)
 		if(effect)
-			effect.add_stacks(debilitate_mult)
+			effect.add_stacks(1)
 		else
-			living.apply_status_effect(/datum/status_effect/stacking/debilitated, debilitate_mult)
+			living.apply_status_effect(/datum/status_effect/stacking/debilitated, 1)
 
 	if(fired_from)
 		SEND_SIGNAL(fired_from, COMSIG_PROJECTILE_ON_HIT, firer, target, Angle, def_zone, blocked)

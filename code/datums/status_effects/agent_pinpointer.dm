@@ -10,7 +10,7 @@
 
 /datum/status_effect/agent_pinpointer
 	id = "agent_pinpointer"
-	duration = STATUS_EFFECT_PERMANENT
+	duration = -1
 	tick_interval = PINPOINTER_PING_TIME
 	alert_type = /atom/movable/screen/alert/status_effect/agent_pinpointer
 	///The minimum range to start pointing towards your target.

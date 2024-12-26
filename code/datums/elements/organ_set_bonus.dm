@@ -42,8 +42,8 @@
 
 /datum/status_effect/organ_set_bonus
 	id = "organ_set_bonus"
-	duration = STATUS_EFFECT_PERMANENT
-	tick_interval = STATUS_EFFECT_NO_TICK
+	duration = -1
+	tick_interval = -1
 	alert_type = null
 	///how many organs the carbon with this has in the set
 	var/organs = 0

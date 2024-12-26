@@ -1,8 +1,7 @@
 //Largely negative status effects go here, even if they have small benificial effects
 //STUN EFFECTS
 /datum/status_effect/incapacitating
-	id = STATUS_EFFECT_ID_ABSTRACT
-	tick_interval = STATUS_EFFECT_NO_TICK // monkestation edit
+	tick_interval = -1 // monkestation edit
 	status_type = STATUS_EFFECT_REPLACE
 	alert_type = null
 	remove_on_fullheal = TRUE
@@ -135,7 +134,7 @@
 	if(!.)
 		return
 	if(HAS_TRAIT(owner, TRAIT_SLEEPIMMUNE))
-		tick_interval = STATUS_EFFECT_NO_TICK
+		tick_interval = -1
 	else
 		ADD_TRAIT(owner, TRAIT_KNOCKEDOUT, TRAIT_STATUS_EFFECT(id))
 	RegisterSignal(owner, SIGNAL_ADDTRAIT(TRAIT_SLEEPIMMUNE), PROC_REF(on_owner_insomniac))
@@ -157,7 +156,7 @@
 /datum/status_effect/incapacitating/sleeping/proc/on_owner_insomniac(mob/living/source)
 	SIGNAL_HANDLER
 	REMOVE_TRAIT(owner, TRAIT_KNOCKEDOUT, TRAIT_STATUS_EFFECT(id))
-	tick_interval = STATUS_EFFECT_NO_TICK
+	tick_interval = -1
 
 ///If the mob has the TRAIT_SLEEPIMMUNE but somehow looses it we make him sleep and restart the tick()
 /datum/status_effect/incapacitating/sleeping/proc/on_owner_sleepy(mob/living/source)
@@ -238,7 +237,7 @@
 //STASIS
 /datum/status_effect/grouped/stasis
 	id = "stasis"
-	duration = STATUS_EFFECT_PERMANENT
+	duration = -1
 	alert_type = /atom/movable/screen/alert/status_effect/stasis
 	var/last_dead_time
 
@@ -290,7 +289,7 @@
 
 /datum/status_effect/his_wrath //does minor damage over time unless holding His Grace
 	id = "his_wrath"
-	duration = STATUS_EFFECT_PERMANENT
+	duration = -1
 	tick_interval = 4
 	alert_type = /atom/movable/screen/alert/status_effect/his_wrath
 
@@ -310,7 +309,7 @@
 
 /datum/status_effect/cultghost //is a cult ghost and can't use manifest runes
 	id = "cult_ghost"
-	duration = STATUS_EFFECT_PERMANENT
+	duration = -1
 	alert_type = null
 
 /datum/status_effect/cultghost/on_apply()
@@ -387,7 +386,7 @@
 	id = "neck_slice"
 	status_type = STATUS_EFFECT_UNIQUE
 	alert_type = null
-	duration = STATUS_EFFECT_PERMANENT
+	duration = -1
 
 /datum/status_effect/neck_slice/on_apply()
 	if(!ishuman(owner))
@@ -512,7 +511,7 @@
 /datum/status_effect/gonbola_pacify
 	id = "gonbolaPacify"
 	status_type = STATUS_EFFECT_MULTIPLE
-	tick_interval = STATUS_EFFECT_NO_TICK
+	tick_interval = -1
 	alert_type = null
 
 /datum/status_effect/gonbola_pacify/on_apply()
@@ -694,9 +693,9 @@
 
 /datum/status_effect/go_away
 	id = "go_away"
-	duration = 10 SECONDS
+	duration = 100
 	status_type = STATUS_EFFECT_REPLACE
-	tick_interval = 0.2 SECONDS
+	tick_interval = 1
 	alert_type = /atom/movable/screen/alert/status_effect/go_away
 	var/direction
 
@@ -717,11 +716,11 @@
 
 /datum/status_effect/fake_virus
 	id = "fake_virus"
-	duration = 3 MINUTES //3 minutes
+	duration = 1800//3 minutes
 	status_type = STATUS_EFFECT_REPLACE
-	tick_interval = 0.2 SECONDS
+	tick_interval = 1
 	alert_type = null
-	var/msg_stage = 0//so you don't get the most intense messages immediately
+	var/msg_stage = 0//so you dont get the most intense messages immediately
 
 /datum/status_effect/fake_virus/on_apply()
 	if(HAS_TRAIT(owner, TRAIT_VIRUSIMMUNE))
@@ -938,8 +937,7 @@
 	id = "teleport_madness"
 	duration = 10 SECONDS
 	status_type = STATUS_EFFECT_REPLACE
-	tick_interval = 0.2 SECONDS
-	alert_type = null
+	tick_interval = 0.1 SECONDS
 
 /datum/status_effect/teleport_madness/tick()
 	dump_in_space(owner)

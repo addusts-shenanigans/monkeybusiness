@@ -2,7 +2,7 @@
 /// then turns them back to how they were before transformation.
 /datum/status_effect/temporary_transformation
 	id = "temp_dna_transformation"
-	tick_interval = STATUS_EFFECT_NO_TICK
+	tick_interval = -1
 	duration = 1 MINUTES // set in on creation, this just needs to be any value to process
 	alert_type = null
 	remove_on_fullheal = TRUE
@@ -85,7 +85,7 @@
 			return // Already paused
 
 		time_before_pause = duration - world.time
-		duration = STATUS_EFFECT_PERMANENT
+		duration = -1
 
 	// Resume if we're none of the above and also were paused
 	else if(time_before_pause != -1)

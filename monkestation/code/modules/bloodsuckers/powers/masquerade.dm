@@ -79,8 +79,8 @@
 
 /datum/status_effect/masquerade
 	id = "masquerade"
-	duration = STATUS_EFFECT_PERMANENT
-	tick_interval = STATUS_EFFECT_NO_TICK
+	duration = -1
+	tick_interval = -1
 	alert_type = /atom/movable/screen/alert/status_effect/masquerade
 
 /atom/movable/screen/alert/status_effect/masquerade

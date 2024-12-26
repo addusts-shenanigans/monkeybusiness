@@ -82,7 +82,6 @@ const ALTTITLES = {
   Artist: BASEICONS['Assistant'],
   'Off-Duty Staff': BASEICONS['Assistant'],
   'Off-Duty Crew': BASEICONS['Assistant'],
-  'Test Subject': BASEICONS['Assistant'],
   // Atmospheric Technician - fan
   'Life Support Technician': BASEICONS['Atmospheric Technician'],
   'Emergency Fire Technician': BASEICONS['Atmospheric Technician'],
@@ -99,10 +98,6 @@ const ALTTITLES = {
   // Blueshield - shield-dog
   'Command Bodyguard': BASEICONS['Blueshield'],
   'Executive Protection Agent': BASEICONS['Blueshield'],
-  Bodyguard: BASEICONS['Blueshield'],
-  'Revolutionary Repellent': BASEICONS['Blueshield'],
-  'Heavily Armed Butler': BASEICONS['Blueshield'],
-  'Honor Guard': BASEICONS['Blueshield'],
   // Botanist - seedling
   Hydroponicist: BASEICONS['Botanist'],
   Gardener: BASEICONS['Botanist'],
@@ -115,8 +110,6 @@ const ALTTITLES = {
   'Station Commander': BASEICONS['Captain'],
   'Commanding Officer': BASEICONS['Captain'],
   'Site Manager': BASEICONS['Captain'],
-  'Criminally Underpaid Babysitter': BASEICONS['Captain'],
-  Princess: BASEICONS['Captain'],
   // Cargo Technician - box
   'Warehouse Technician': BASEICONS['Cargo Technician'],
   'Deck Worker': BASEICONS['Cargo Technician'],
@@ -154,7 +147,6 @@ const ALTTITLES = {
   Butcher: BASEICONS['Cook'],
   'Culinary Artist': BASEICONS['Cook'],
   'Sous-Chef': BASEICONS['Cook'],
-  Pizzaiolo: BASEICONS['Cook'],
   // Coroner - skull
   Mortician: BASEICONS['Coroner'],
   'Funeral Director': BASEICONS['Coroner'],
@@ -162,7 +154,6 @@ const ALTTITLES = {
   Librarian: BASEICONS['Curator'],
   Journalist: BASEICONS['Curator'],
   Archivist: BASEICONS['Curator'],
-  'Radio Host': BASEICONS['Curator'],
   // Cyborg - robot
   Robot: BASEICONS['Cyborg'],
   Android: BASEICONS['Cyborg'],
@@ -207,10 +198,6 @@ const ALTTITLES = {
   Pantomimist: BASEICONS['Mime'],
   // Nanotrasen Consultant - clipboard-check
   'Nanotrasen Diplomat': BASEICONS['Nanotrasen Consultant'],
-  'Corporate Liaison': BASEICONS['Nanotrasen Consultant'],
-  'Nanotrasen Fax Operater': BASEICONS['Nanotrasen Consultant'],
-  'Nanotrasen Official': BASEICONS['Nanotrasen Consultant'],
-  'Nanotrasen Informant': BASEICONS['Nanotrasen Consultant'],
   // Paramedic - truck-medical
   'Emergency Medical Technician': BASEICONS['Paramedic'],
   'Search and Rescue Technician': BASEICONS['Paramedic'],
@@ -222,7 +209,6 @@ const ALTTITLES = {
   Convict: BASEICONS['Prisoner'],
   Felon: BASEICONS['Prisoner'],
   Inmate: BASEICONS['Prisoner'],
-  Gamer: BASEICONS['Prisoner'],
   // Psychologist - brain
   Psychiatrist: BASEICONS['Psychologist'],
   Therapist: BASEICONS['Psychologist'],
@@ -234,7 +220,6 @@ const ALTTITLES = {
   'Supply Foreman': BASEICONS['Quartermaster'],
   'Head of Supply': BASEICONS['Quartermaster'],
   'Logistics Coordinator': BASEICONS['Quartermaster'],
-  'Cargyptian Overseer': BASEICONS['Quartermaster'],
   // Research Director - user-graduate
   'Silicon Administrator': BASEICONS['Research Director'],
   'Lead Researcher': BASEICONS['Research Director'],
@@ -246,7 +231,6 @@ const ALTTITLES = {
   'Biomechanical Engineer': BASEICONS['Roboticist'],
   'Mechatronic Engineer': BASEICONS['Roboticist'],
   'Apprentice Roboticist': BASEICONS['Roboticist'],
-  Ripperdoc: BASEICONS['Roboticist'],
   // Scientist - flask
   'Circuitry Designer': BASEICONS['Scientist'],
   Xenobiologist: BASEICONS['Scientist'],
@@ -266,8 +250,6 @@ const ALTTITLES = {
   Peacekeeper: BASEICONS['Security Officer'],
   'Security Cadet': BASEICONS['Security Officer'],
   // Security Assistant - file-invoice-dollar
-  'Correctional Officer': BASEICONS['Security Assistant'],
-  Deputy: BASEICONS['Security Assistant'],
   'Hall Monitor': BASEICONS['Security Assistant'],
   'Assistant Officer': BASEICONS['Security Assistant'],
   'Professional Snitch': BASEICONS['Security Assistant'],
@@ -290,9 +272,7 @@ const ALTTITLES = {
   'Engineering Trainee': BASEICONS['Station Engineer'],
   // Virologist - virus
   Pathologist: BASEICONS['Virologist'],
-  'Fish Doctor': BASEICONS['Virologist'],
   'Junior Pathologist': BASEICONS['Virologist'],
-  'Plague Doctor': BASEICONS['Virologist'],
   // Warden - handcuffs
   'Brig Sergeant': BASEICONS['Warden'],
   'Dispatch Officer': BASEICONS['Warden'],

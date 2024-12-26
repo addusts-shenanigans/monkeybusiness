@@ -72,7 +72,7 @@
 	id = "determination_crash"
 	alert_type = null
 	remove_on_fullheal = TRUE
-	tick_interval = STATUS_EFFECT_NO_TICK
+	tick_interval = -1
 	duration = 10 SECONDS
 
 /datum/status_effect/determination_crash/on_apply()
@@ -101,7 +101,7 @@
 /datum/status_effect/limp
 	id = "limp"
 	status_type = STATUS_EFFECT_REPLACE
-	tick_interval = STATUS_EFFECT_NO_TICK // monkestation edit
+	tick_interval = -1 // monkestation edit
 	on_remove_on_mob_delete = TRUE
 	alert_type = /atom/movable/screen/alert/status_effect/limp
 	var/msg_stage = 0//so you dont get the most intense messages immediately
@@ -216,7 +216,6 @@
 	id = "wound"
 	status_type = STATUS_EFFECT_MULTIPLE
 	on_remove_on_mob_delete = TRUE
-	alert_type = null
 	var/obj/item/bodypart/linked_limb
 	var/datum/wound/linked_wound
 

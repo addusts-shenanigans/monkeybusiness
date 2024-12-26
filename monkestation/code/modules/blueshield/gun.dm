@@ -104,7 +104,7 @@
 	burst_size = 4
 	fire_delay = 1
 
-	icon = 'monkestation/icons/obj/weapons/guns/tech9.dmi'
+	icon = 'monkestation/code/modules/blueshield/icons/gun.dmi'
 	icon_state = "tech9"
 
 	fire_sound = 'monkestation/code/modules/blueshift/sounds/pistol_light.ogg'
