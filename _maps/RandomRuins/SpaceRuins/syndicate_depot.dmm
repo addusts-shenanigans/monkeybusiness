@@ -2237,6 +2237,10 @@
 "Fc" = (
 /turf/closed/wall/r_wall/syndicate/nodiagonal,
 /area/ruin/space/has_grav/syndicate_depot/cargo_bay)
+"Fp" = (
+/obj/machinery/smartfridge/organ,
+/turf/open/floor/iron/white/small,
+/area/ruin/space/has_grav/syndicate_depot/infirmary)
 "Ft" = (
 /obj/structure/table/reinforced/plastitaniumglass,
 /turf/open/floor/iron,
@@ -5678,7 +5682,7 @@ YP
 hq
 hq
 hq
-Vj
+hq
 et
 et
 BF
@@ -5729,7 +5733,7 @@ mz
 Oe
 Oe
 Oe
-hq
+Oe
 hq
 et
 et
@@ -5780,10 +5784,10 @@ mz
 mz
 dt
 lU
-Oe
+Fp
 Oe
 hq
-et
+hq
 et
 et
 BF
