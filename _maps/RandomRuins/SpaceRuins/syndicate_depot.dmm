@@ -437,6 +437,10 @@
 /obj/structure/table/wood,
 /obj/machinery/airalarm/directional/east,
 /obj/effect/mapping_helpers/airalarm/syndicate_access,
+/obj/item/toy/cards/deck/syndicate{
+	pixel_x = -5;
+	pixel_y = 9
+	},
 /turf/open/floor/iron/grimy,
 /area/ruin/space/has_grav/syndicate_depot/crew_quarters)
 "fF" = (
@@ -2154,6 +2158,7 @@
 /area/ruin/space/has_grav/syndicate_depot/security)
 "Ds" = (
 /obj/effect/turf_decal/delivery/white,
+/obj/structure/reagent_dispensers/watertank,
 /turf/open/floor/iron/dark/smooth_large,
 /area/ruin/space/has_grav/syndicate_depot/cargo_bay)
 "Dt" = (
@@ -2165,6 +2170,11 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/yellow/hidden/layer4,
 /turf/open/floor/mineral/plastitanium/red,
 /area/ruin/space/has_grav/syndicate_depot/security)
+"DA" = (
+/obj/effect/turf_decal/delivery/white,
+/obj/structure/reagent_dispensers/fueltank,
+/turf/open/floor/iron/dark/smooth_large,
+/area/ruin/space/has_grav/syndicate_depot/cargo_bay)
 "DG" = (
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
@@ -2237,10 +2247,6 @@
 "Fc" = (
 /turf/closed/wall/r_wall/syndicate/nodiagonal,
 /area/ruin/space/has_grav/syndicate_depot/cargo_bay)
-"Fp" = (
-/obj/machinery/smartfridge/organ,
-/turf/open/floor/iron/white/small,
-/area/ruin/space/has_grav/syndicate_depot/infirmary)
 "Ft" = (
 /obj/structure/table/reinforced/plastitaniumglass,
 /turf/open/floor/iron,
@@ -2424,6 +2430,14 @@
 	},
 /obj/machinery/light/small/directional/east,
 /obj/machinery/light_switch/directional/east,
+/obj/item/toy/cards/deck/cas{
+	pixel_x = -6;
+	pixel_y = 7
+	},
+/obj/item/toy/cards/deck/cas/black{
+	pixel_x = 3;
+	pixel_y = 6
+	},
 /turf/open/floor/iron/grimy,
 /area/ruin/space/has_grav/syndicate_depot/crew_quarters)
 "IB" = (
@@ -2595,6 +2609,10 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/violet/visible/layer2,
 /turf/closed/wall/r_wall/syndicate/nodiagonal,
 /area/ruin/space/has_grav/syndicate_depot/engineering)
+"Lm" = (
+/obj/machinery/smartfridge/organ,
+/turf/open/floor/iron/white/small,
+/area/ruin/space/has_grav/syndicate_depot/infirmary)
 "Lo" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/orange/visible,
 /obj/effect/decal/cleanable/dirt,
@@ -5358,7 +5376,7 @@ bt
 mk
 hJ
 wZ
-Ds
+DA
 yV
 wZ
 bf
@@ -5784,7 +5802,7 @@ mz
 mz
 dt
 lU
-Fp
+Lm
 Oe
 hq
 hq
