@@ -244,6 +244,10 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plating,
 /area/ruin/space/has_grav/syndicate_depot/engineering)
+"dn" = (
+/obj/machinery/smartfridge/organ,
+/turf/open/floor/iron/white/small,
+/area/ruin/space/has_grav/syndicate_depot/infirmary)
 "dp" = (
 /obj/machinery/camera/directional/east{
 	network = list("syndicate_depot");
@@ -620,6 +624,7 @@
 /obj/structure/closet/crate,
 /obj/item/flashlight/lantern/rayne,
 /obj/effect/spawner/random/maintenance/three,
+/obj/item/mod/construction/broken_core,
 /turf/open/floor/iron/dark/smooth_large,
 /area/ruin/space/has_grav/syndicate_depot/cargo_bay)
 "hM" = (
@@ -1624,6 +1629,11 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/iron/dark/smooth_large,
 /area/ruin/space/has_grav/syndicate_depot/engineering)
+"wp" = (
+/obj/effect/turf_decal/delivery/white,
+/obj/structure/reagent_dispensers/watertank,
+/turf/open/floor/iron/dark/smooth_large,
+/area/ruin/space/has_grav/syndicate_depot/cargo_bay)
 "wt" = (
 /obj/effect/turf_decal/sand/plating,
 /obj/effect/turf_decal/stripes/asteroid/line,
@@ -1743,6 +1753,9 @@
 /obj/effect/turf_decal/delivery/white,
 /obj/structure/closet/crate,
 /obj/effect/spawner/random/maintenance/eight,
+/obj/item/mod/construction/broken_core,
+/obj/item/mod/construction/broken_core,
+/obj/item/mod/construction/broken_core,
 /turf/open/floor/iron/dark/smooth_large,
 /area/ruin/space/has_grav/syndicate_depot/cargo_bay)
 "xu" = (
@@ -2410,10 +2423,6 @@
 /obj/structure/cable,
 /turf/open/floor/plating,
 /area/ruin/space/has_grav/syndicate_depot/security)
-"HZ" = (
-/obj/machinery/smartfridge/organ,
-/turf/open/floor/iron/white/small,
-/area/ruin/space/has_grav/syndicate_depot/infirmary)
 "Ir" = (
 /mob/living/basic/bot/medbot/nukie{
 	name = "Ludwig";
@@ -2960,11 +2969,6 @@
 /obj/machinery/light/small/directional/east,
 /turf/open/floor/plating,
 /area/ruin/space/has_grav/syndicate_depot/engineering)
-"QM" = (
-/obj/effect/turf_decal/delivery/white,
-/obj/structure/reagent_dispensers/watertank,
-/turf/open/floor/iron/dark/smooth_large,
-/area/ruin/space/has_grav/syndicate_depot/cargo_bay)
 "QN" = (
 /obj/machinery/atmospherics/pipe/layer_manifold/general/visible,
 /turf/closed/wall/r_wall/syndicate/nodiagonal,
@@ -5324,7 +5328,7 @@ RS
 iD
 rT
 mk
-QM
+wp
 wZ
 ja
 sU
@@ -5804,7 +5808,7 @@ mz
 mz
 dt
 lU
-HZ
+dn
 Oe
 hq
 hq
