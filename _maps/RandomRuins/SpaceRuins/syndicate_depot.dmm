@@ -129,6 +129,7 @@
 /obj/effect/turf_decal/stripes/corner{
 	dir = 8
 	},
+/obj/machinery/light_switch/directional/east,
 /turf/open/floor/iron/dark,
 /area/ruin/space/has_grav/syndicate_depot/eva_storage)
 "bG" = (
@@ -197,6 +198,14 @@
 /obj/effect/mapping_helpers/airalarm/syndicate_access,
 /turf/open/floor/iron/smooth_half,
 /area/ruin/space/has_grav/syndicate_depot/engineering)
+"cw" = (
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/machinery/duct,
+/obj/machinery/light_switch/directional/east,
+/turf/open/floor/iron/kitchen/small,
+/area/ruin/space/has_grav/syndicate_depot/crew_quarters)
 "cA" = (
 /obj/effect/turf_decal/sand/plating,
 /obj/effect/turf_decal/stripes/asteroid/line{
@@ -357,6 +366,11 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /turf/open/floor/wood,
 /area/ruin/space/has_grav/syndicate_depot/crew_quarters)
+"eY" = (
+/obj/machinery/growing/tray,
+/obj/machinery/light_switch/directional/south,
+/turf/open/misc/dirt/station,
+/area/ruin/space/has_grav/syndicate_depot/hydroponics)
 "fc" = (
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
@@ -683,6 +697,7 @@
 	dir = 8
 	},
 /obj/machinery/light/directional/east,
+/obj/machinery/light_switch/directional/south,
 /turf/open/floor/iron/white/small,
 /area/ruin/space/has_grav/syndicate_depot/infirmary)
 "iY" = (
@@ -1306,6 +1321,7 @@
 /obj/item/ammo_box/advanced/s12gauge/magnum,
 /obj/item/ammo_box/advanced/s12gauge/buckshot,
 /obj/item/ammo_box/advanced/s12gauge/buckshot,
+/obj/machinery/light_switch/directional/east,
 /turf/open/floor/mineral/plastitanium/red,
 /area/ruin/space/has_grav/syndicate_depot/security)
 "sA" = (
@@ -2403,6 +2419,7 @@
 	c_tag = "Canteen"
 	},
 /obj/machinery/light/small/directional/east,
+/obj/machinery/light_switch/directional/east,
 /turf/open/floor/iron/grimy,
 /area/ruin/space/has_grav/syndicate_depot/crew_quarters)
 "IB" = (
@@ -2601,6 +2618,13 @@
 /obj/structure/cable,
 /turf/open/floor/engine,
 /area/ruin/space/has_grav/syndicate_depot/engineering)
+"LH" = (
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/machinery/light_switch/directional/east,
+/turf/open/floor/iron,
+/area/ruin/space/has_grav/syndicate_depot/hallway)
 "LW" = (
 /obj/machinery/door/airlock/engineering{
 	name = "Engineering"
@@ -2871,6 +2895,7 @@
 	},
 /obj/structure/filingcabinet,
 /obj/machinery/light/directional/north,
+/obj/machinery/light_switch/directional/east,
 /turf/open/floor/iron,
 /area/ruin/space/has_grav/syndicate_depot/cargo_bay)
 "PR" = (
@@ -3100,6 +3125,7 @@
 	dir = 4
 	},
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2,
+/obj/machinery/light_switch/directional/west,
 /turf/open/floor/wood,
 /area/ruin/space/has_grav/syndicate_depot/control_room)
 "SP" = (
@@ -5891,7 +5917,7 @@ sF
 EZ
 kR
 Nz
-Xk
+LH
 Uf
 uf
 xM
@@ -6163,7 +6189,7 @@ SX
 SX
 hl
 SX
-rq
+cw
 rq
 Vn
 SX
@@ -6374,7 +6400,7 @@ yo
 RN
 wh
 zd
-lz
+eY
 yo
 hq
 hq
