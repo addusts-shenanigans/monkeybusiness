@@ -24,12 +24,7 @@
 		TRAIT_NODISMEMBER,
 		TRAIT_NOHUNGER,
 		TRAIT_NOBLOOD,
-		// monkestation addition: pain system
-		TRAIT_ABATES_SHOCK,
-		TRAIT_ANALGESIA,
-		TRAIT_NO_PAIN_EFFECTS,
-		TRAIT_NO_SHOCK_BUILDUP,
-		// monkestation end
+		TRAIT_NO_PAIN_EFFECTS, // monkestation edit
 	)
 
 	mutantheart = /obj/item/organ/internal/heart/nightmare

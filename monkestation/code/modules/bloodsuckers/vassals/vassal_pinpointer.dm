@@ -14,7 +14,7 @@
 	alert_type = /atom/movable/screen/alert/status_effect/agent_pinpointer/vassal_edition
 	minimum_range = VASSAL_SCAN_MIN_DISTANCE
 	tick_interval = VASSAL_SCAN_PING_TIME
-	duration = STATUS_EFFECT_PERMANENT
+	duration = -1
 	range_fuzz_factor = 0
 
 /datum/status_effect/agent_pinpointer/vassal_edition/on_creation(mob/living/new_owner, ...)

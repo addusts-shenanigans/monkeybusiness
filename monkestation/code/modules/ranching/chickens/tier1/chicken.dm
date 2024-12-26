@@ -4,6 +4,4 @@
 	instability = 25 // 25% more likely to mutate than other chickens
 
 /datum/status_effect/ranching
-	id = STATUS_EFFECT_ID_ABSTRACT
-	alert_type = null
 	show_duration = TRUE

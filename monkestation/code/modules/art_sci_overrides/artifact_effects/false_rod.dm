@@ -44,7 +44,7 @@
 /datum/status_effect/forced_oath
 	id = "Forced Oath"
 	status_type = STATUS_EFFECT_UNIQUE
-	duration = STATUS_EFFECT_PERMANENT
+	duration = -1
 	tick_interval = 25
 	alert_type = null
 	var/datum/component/aura_healing/our_aura

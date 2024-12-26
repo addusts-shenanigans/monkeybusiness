@@ -1,5 +1,5 @@
 /datum/status_effect/speech
-	id = STATUS_EFFECT_ID_ABSTRACT
+	id = null
 	alert_type = null
 	remove_on_fullheal = TRUE
 
