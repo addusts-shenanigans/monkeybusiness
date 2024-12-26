@@ -45,3 +45,15 @@ GLOBAL_LIST_EMPTY(tram_landmarks)
 
 	///what specific id we give to the tram we're placed on, should explicitely set this if its a subtype, or weird things might happen
 	var/specific_lift_id = MAIN_STATION_TRAM
+
+/obj/effect/landmark/tram/crater
+	specific_lift_id = "CRATER_PRISON"
+/obj/effect/landmark/tram/crater/prison
+	name = "Prison"
+	platform_code = "CRATER_PRISON"
+	tgui_icons = list("Prison" = "gavel")
+
+/obj/effect/landmark/tram/crater/processing
+	name = "Processing Facility"
+	platform_code = "CRATER_PROCESSING"
+	tgui_icons = list("Processing Area" = "bullhorn")

@@ -507,6 +507,7 @@
 	mood_trait = TRAIT_EXTROVERT
 	sound_environment = SOUND_AREA_SMALL_SOFTFLOOR
 
+
 /area/station/commons/fitness
 	name = "\improper Fitness Room"
 	icon_state = "fitness"
@@ -1488,6 +1489,7 @@
 	power_light = FALSE
 	requires_power = TRUE
 	ambience_index = AMBIENCE_MINING
+	outdoors = TRUE
 
 // Telecommunications Satellite
 
@@ -1704,3 +1706,4 @@
 /area/station/maintenance/floor4/starboard/aft
 	name = "\improper 4th Floor Aft Starboard Maint"
 	icon_state = "maintaft"
+

@@ -34,9 +34,11 @@
 
 
 /// Runs byond's html encoding sanitization proc, after replacing new-lines and tabs for the # character.
-/proc/sanitize(text)
+/proc/sanitize(text, encode = TRUE)
 	var/static/regex/regex = regex(@"[\n\t]", "g")
-	return html_encode(regex.Replace(text, "#"))
+	. = replacetext(text, regex, "#")
+	if(encode)
+		return html_encode(.)
 
 
 /// Runs STRIP_HTML_SIMPLE and sanitize.
@@ -1193,3 +1195,10 @@ GLOBAL_LIST_INIT(binary, list("0","1"))
 		text2num(semver_regex.group[2]),
 		text2num(semver_regex.group[3]),
 	)
+
+/// Returns TRUE if the input_text starts with any of the beginnings
+/proc/starts_with_any(input_text, list/beginnings)
+	for(var/beginning in beginnings)
+		if(!!findtext(input_text, beginning, 1, LAZYLEN(beginning)+1))
+			return TRUE
+	return FALSE

@@ -55,6 +55,8 @@
 #define TRAIT_GHOST_CRITTER "ghost_critter"
 /// This mob is *currently* being flashed by someone with CAN_BYPASS_INNATE_FLASH_RESISTANCE returning TRUE. Used to make IPCs not immune to rev and bb conversions.
 #define TRAIT_CONVERSION_FLASHED "conversion_flashed"
+/// For when a mob has been consumed by a zombie
+#define TRAIT_ZOMBIE_CONSUMED "zombie_consumed"
 
 // /datum/mind + /mob/living
 /// Prevents the user from casting spells using sign language. Works on both /datum/mind and /mob/living.
@@ -79,6 +81,7 @@
 // Traits given by quirks
 #define TRAIT_ANIME				"anime"
 #define TRAIT_CAT				"cat"
+#define TRAIT_FEEBLE			"feeble"
 #define TRAIT_GOURMAND			"gourmand"
 #define TRAIT_HIDDEN_CLOWN		"clown_disbelief"
 #define TRAIT_HIDDEN_IMAGE		"generic-hidden-image"
@@ -86,6 +89,7 @@
 #define TRAIT_LOUD_ASS			"loud_ass"
 #define TRAIT_MINING_CALLOUTS	"miner_callouts"
 #define TRAIT_PARANOIA			"paranoia"
+#define TRAIT_PRIDE_PIN			"pride_pin"
 #define TRAIT_STABLE_ASS		"stable_ass"
 #define TRAIT_STOWAWAY			"stowaway"
 #define TRAIT_UNSTABLE_ASS		"unstable_ass"
@@ -117,6 +121,8 @@
 #define TRAIT_BYPASS_COMPRESS_CHECK	"can_compress_anyways"
 /// This item is considered "trash" (and will be eaten by cleaner slimes)
 #define TRAIT_TRASH_ITEM			"trash_item"
+/// This item came from a gift.
+#define TRAIT_GIFT_ITEM				"gift_item"
 
 // /atom/movable
 /// Things with this trait can pass through wooden barricades.
