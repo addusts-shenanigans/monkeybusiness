@@ -2158,7 +2158,7 @@
 /area/ruin/space/has_grav/syndicate_depot/security)
 "Ds" = (
 /obj/effect/turf_decal/delivery/white,
-/obj/structure/reagent_dispensers/watertank,
+/obj/structure/reagent_dispensers/fueltank,
 /turf/open/floor/iron/dark/smooth_large,
 /area/ruin/space/has_grav/syndicate_depot/cargo_bay)
 "Dt" = (
@@ -2170,11 +2170,6 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/yellow/hidden/layer4,
 /turf/open/floor/mineral/plastitanium/red,
 /area/ruin/space/has_grav/syndicate_depot/security)
-"DA" = (
-/obj/effect/turf_decal/delivery/white,
-/obj/structure/reagent_dispensers/fueltank,
-/turf/open/floor/iron/dark/smooth_large,
-/area/ruin/space/has_grav/syndicate_depot/cargo_bay)
 "DG" = (
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
@@ -2415,6 +2410,10 @@
 /obj/structure/cable,
 /turf/open/floor/plating,
 /area/ruin/space/has_grav/syndicate_depot/security)
+"HZ" = (
+/obj/machinery/smartfridge/organ,
+/turf/open/floor/iron/white/small,
+/area/ruin/space/has_grav/syndicate_depot/infirmary)
 "Ir" = (
 /mob/living/basic/bot/medbot/nukie{
 	name = "Ludwig";
@@ -2609,10 +2608,6 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/violet/visible/layer2,
 /turf/closed/wall/r_wall/syndicate/nodiagonal,
 /area/ruin/space/has_grav/syndicate_depot/engineering)
-"Lm" = (
-/obj/machinery/smartfridge/organ,
-/turf/open/floor/iron/white/small,
-/area/ruin/space/has_grav/syndicate_depot/infirmary)
 "Lo" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/orange/visible,
 /obj/effect/decal/cleanable/dirt,
@@ -2667,7 +2662,9 @@
 /obj/structure/sink/directional/south,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/obj/machinery/composters,
+/obj/machinery/composters{
+	name = "Waffle Co. Auto-Composter"
+	},
 /obj/machinery/power/apc/auto_name/directional/west,
 /obj/effect/mapping_helpers/apc/syndicate_access,
 /turf/open/floor/iron/dark,
@@ -2963,6 +2960,11 @@
 /obj/machinery/light/small/directional/east,
 /turf/open/floor/plating,
 /area/ruin/space/has_grav/syndicate_depot/engineering)
+"QM" = (
+/obj/effect/turf_decal/delivery/white,
+/obj/structure/reagent_dispensers/watertank,
+/turf/open/floor/iron/dark/smooth_large,
+/area/ruin/space/has_grav/syndicate_depot/cargo_bay)
 "QN" = (
 /obj/machinery/atmospherics/pipe/layer_manifold/general/visible,
 /turf/closed/wall/r_wall/syndicate/nodiagonal,
@@ -5322,7 +5324,7 @@ RS
 iD
 rT
 mk
-Ds
+QM
 wZ
 ja
 sU
@@ -5376,7 +5378,7 @@ bt
 mk
 hJ
 wZ
-DA
+Ds
 yV
 wZ
 bf
@@ -5802,7 +5804,7 @@ mz
 mz
 dt
 lU
-Lm
+HZ
 Oe
 hq
 hq
