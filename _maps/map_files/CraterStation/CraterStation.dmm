@@ -555,6 +555,7 @@
 	desc = "An armband, worn by medics."
 	},
 /obj/item/tank/internals/emergency_oxygen/double,
+/obj/item/flashlight/lantern/rayne,
 /turf/open/floor/iron/white,
 /area/station/security/medical)
 "cO" = (
@@ -839,6 +840,13 @@
 /obj/effect/turf_decal/stripes/corner,
 /turf/open/floor/plating/snowed/icemoon,
 /area/icemoon/surface/outdoors/nospawn)
+"et" = (
+/obj/machinery/door/airlock/hos{
+	name = "Head of Security"
+	},
+/obj/effect/mapping_helpers/airlock/access/all/security/hos,
+/turf/open/floor/carpet/red,
+/area/station/command/heads_quarters/hos)
 "ev" = (
 /obj/structure/disposalpipe/segment{
 	dir = 4
@@ -1027,6 +1035,9 @@
 "ft" = (
 /turf/closed/wall/r_wall,
 /area/station/maintenance/radshelter/weathershelter/bunkhouse)
+"fv" = (
+/turf/closed/wall/r_wall,
+/area/station/ai_monitored/security/armory)
 "fw" = (
 /obj/structure/stairs/west,
 /turf/open/floor/iron,
@@ -4009,8 +4020,8 @@
 /turf/open/floor/plating/snowed/smoothed/icemoon,
 /area/icemoon/surface/outdoors/nospawn)
 "uC" = (
-/turf/open/misc/asteroid/snow/icemoon,
-/area/station/security/execution/transfer)
+/turf/open/floor/iron/dark,
+/area/station/ai_monitored/security/armory)
 "uF" = (
 /obj/effect/spawner/structure/window/reinforced,
 /turf/open/floor/plating,
@@ -6554,6 +6565,11 @@
 /obj/machinery/modular_computer/preset/id,
 /turf/open/floor/wood,
 /area/station/command/bridge)
+"GA" = (
+/obj/item/flashlight/lantern/rayne,
+/obj/structure/closet/secure_closet/hos,
+/turf/open/floor/carpet/red,
+/area/station/command/heads_quarters/hos)
 "GC" = (
 /obj/structure/lattice/catwalk,
 /obj/structure/railing{
@@ -8531,7 +8547,10 @@
 /turf/open/floor/plating,
 /area/station/cargo/sorting)
 "QS" = (
-/obj/machinery/door/airlock/hos,
+/obj/effect/mapping_helpers/airlock/access/all/security/hos,
+/obj/machinery/door/airlock/hos{
+	name = "Head of Security"
+	},
 /turf/open/floor/carpet/red,
 /area/station/command/heads_quarters/hos)
 "QV" = (
@@ -9434,6 +9453,11 @@
 	},
 /turf/open/floor/plating,
 /area/station/commons/dorms/bunkhouse/floor1)
+"Ux" = (
+/obj/item/flashlight/lantern/rayne,
+/obj/structure/closet/secure_closet/warden,
+/turf/open/floor/iron/dark,
+/area/station/security/warden)
 "Uz" = (
 /obj/structure/cable,
 /turf/open/floor/engine/hull/reinforced/planetary/icemoon,
@@ -9543,6 +9567,7 @@
 /obj/machinery/door/airlock/security{
 	name = "Warden's Watchtower"
 	},
+/obj/effect/mapping_helpers/airlock/access/all/security/armory,
 /turf/open/floor/iron/dark,
 /area/station/security/warden)
 "UU" = (
@@ -108907,9 +108932,9 @@ AD
 AD
 AD
 AD
-AD
-AD
-AD
+fv
+fv
+fv
 VF
 VF
 VF
@@ -109163,12 +109188,12 @@ AD
 AD
 AD
 AD
-AD
-AD
-AD
-AD
-AD
-AD
+fv
+fv
+uC
+uC
+uC
+uC
 uC
 Eo
 pH
@@ -109420,12 +109445,12 @@ AD
 AD
 AD
 AD
-AD
-AD
-AD
-AD
-AD
-AD
+fv
+uC
+uC
+uC
+uC
+uC
 uC
 Eo
 pH
@@ -109677,12 +109702,12 @@ AD
 AD
 AD
 AD
-AD
-AD
-AD
-AD
-AD
-AD
+fv
+uC
+uC
+uC
+uC
+uC
 zW
 zW
 zW
@@ -109934,12 +109959,12 @@ AD
 AD
 AD
 AD
-AD
-AD
-AD
-AD
-AD
-AD
+fv
+uC
+uC
+uC
+uC
+uC
 zW
 kB
 kB
@@ -110191,12 +110216,12 @@ AD
 AD
 AD
 AD
-AD
-AD
-AD
-AD
-AD
-AD
+fv
+uC
+uC
+uC
+uC
+uC
 zW
 kB
 kB
@@ -110448,13 +110473,13 @@ mU
 AD
 AD
 AD
-AD
-AD
-AD
-AD
-AD
-AD
-zW
+fv
+uC
+uC
+uC
+uC
+uC
+kB
 kB
 kB
 kB
@@ -110705,14 +110730,14 @@ AD
 AD
 AD
 AD
-AD
-AD
-AD
-AD
-AD
-AD
+fv
+fv
+uC
+uC
+uC
+uC
 zW
-kB
+Ux
 kB
 kB
 Fv
@@ -110962,12 +110987,12 @@ AD
 AD
 AD
 AD
-mU
 AD
-AD
-mU
-AD
-AD
+fv
+fv
+fv
+fv
+fv
 zW
 zW
 xd
@@ -171615,7 +171640,7 @@ AL
 AL
 AL
 AL
-AL
+GA
 Is
 Is
 Is
@@ -172132,7 +172157,7 @@ AL
 AL
 Is
 AL
-QS
+et
 eg
 bd
 aX
@@ -174443,9 +174468,9 @@ fO
 fO
 fO
 fO
-fO
-fO
-fO
+ds
+ds
+ds
 ds
 ds
 ds
@@ -174699,13 +174724,13 @@ fO
 fO
 fO
 fO
-fO
-fO
-fO
-fO
-fO
-fO
-fO
+ds
+ds
+ds
+ds
+ds
+ds
+ds
 ds
 ds
 ds
@@ -174956,13 +174981,13 @@ fO
 fO
 fO
 fO
-fO
-fO
-fO
-fO
-fO
-fO
-fO
+ds
+ds
+ds
+ds
+ds
+ds
+ds
 ds
 ds
 ds
@@ -175213,12 +175238,12 @@ fO
 fO
 fO
 fO
-fO
-fO
-fO
-fO
-fO
-fO
+ds
+ds
+ds
+ds
+ds
+ds
 ds
 ds
 ds
@@ -175470,12 +175495,12 @@ fO
 fO
 fO
 fO
-fO
-fO
-fO
-fO
-fO
-fO
+ds
+ds
+ds
+ds
+ds
+ds
 ds
 ds
 ds
@@ -175727,12 +175752,12 @@ fO
 fO
 fO
 fO
-fO
-fO
-fO
-fO
-fO
-fO
+ds
+ds
+ds
+ds
+ds
+ds
 ds
 ds
 ds
@@ -175984,12 +176009,12 @@ Zt
 aS
 sS
 fO
-fO
-fO
-fO
-fO
-fO
-fO
+ds
+ds
+ds
+ds
+ds
+ds
 ds
 ds
 ds

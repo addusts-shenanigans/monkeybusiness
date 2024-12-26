@@ -1,7 +1,7 @@
 {
 	"version": 1,
 	"map_name": "Crater Station",
-	"map_path": "map_files/IceBoxStation",
+	"map_path": "map_files/CraterStation",
 	"map_file": "CraterStation.dmm",
 	"space_ruin_levels": 0,
 	"space_empty_levels": 0,
@@ -12,7 +12,7 @@
 		"whiteship": "whiteship_box",
 		"emergency": "emergency_crater"
 	},
-	"orbit_shift_replacement": "Attention crew, it appears that someone has transmitted your outpost's location on unsecure wideband frequencies. Expect increased threats.",
+	"orbit_shift_replacement": "Attention crew, it appears that someone has transmitted your outpost's location on unsecure wideband frequencies.",
 	"particle_weathers": [
     	"weather_snow"
     ],
