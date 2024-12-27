@@ -11,6 +11,9 @@
 /obj/item/paper/crumpled/craterstation/medbay_stasis
 	default_raw_text = "Sorry we couldn't finish the stasis unit during fitting-out. We got the boards late since RnD still isn't up, and we're pretty strained out here."
 
+/obj/item/paper/crumpled/craterstation/remember_us
+	default_raw_text = "Everything's ready. Finally. Command crews, if you read this, remember our labours well. We fought to build this place against the cold, and we won."
+
 //custom corpse - Constructor
 
 /obj/effect/mob_spawn/corpse/human/crater_constructor
@@ -18,7 +21,7 @@
 	outfit = /datum/outfit/constructor
 
 /datum/outfit/constructor
-	name = "Construction Worker"
+	name = "Frozen Construction Worker (Empty Internals)"
 	ears = /obj/item/radio/headset
 	uniform = /obj/item/clothing/under/rank/engineering/engineer/hazard
 	suit = /obj/item/clothing/suit/hooded/wintercoat
@@ -36,7 +39,7 @@
 	gloves = /obj/item/clothing/gloves/color/black
 
 /datum/outfit/constructor/internals_full
-	name = "Construction Worker (With Internals)"
+	name = "Craterstation Construction Worker"
 	r_pocket = /obj/item/tank/internals/emergency_oxygen/double //for events and testing
 
 /datum/id_trim/crater_engi

@@ -205,6 +205,12 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /turf/open/lava/plasma/ice_moon,
 /area/ruin/icemoon_syndicate/engineering)
+"dq" = (
+/obj/structure/fence/corner{
+	dir = 8
+	},
+/turf/open/misc/asteroid/snow/icemoon,
+/area/icemoon/underground/explored)
 "dr" = (
 /obj/machinery/door/airlock/mining{
 	name = "Cargo Office"
@@ -3610,22 +3616,6 @@
 /area/ruin/icemoon_syndicate/crew)
 "WJ" = (
 /obj/structure/table/reinforced/plastitaniumglass,
-/obj/item/storage/box/lethalshot{
-	pixel_x = 5;
-	pixel_y = 2
-	},
-/obj/item/storage/box/lethalshot{
-	pixel_x = 7;
-	pixel_y = -6
-	},
-/obj/item/storage/box/rubbershot{
-	pixel_x = -3;
-	pixel_y = 1
-	},
-/obj/item/storage/box/rubbershot{
-	pixel_x = -3;
-	pixel_y = -6
-	},
 /obj/item/storage/toolbox/ammobox/a762{
 	pixel_x = -7;
 	pixel_y = 11
@@ -3633,6 +3623,30 @@
 /obj/item/storage/toolbox/ammobox/a762{
 	pixel_x = -8;
 	pixel_y = 8
+	},
+/obj/item/ammo_box/advanced/s12gauge/rubber{
+	pixel_x = 8;
+	pixel_y = 17
+	},
+/obj/item/ammo_box/advanced/s12gauge/rubber{
+	pixel_x = 9;
+	pixel_y = 21
+	},
+/obj/item/ammo_box/advanced/s12gauge/magnum{
+	pixel_x = 9;
+	pixel_y = 0
+	},
+/obj/item/ammo_box/advanced/s12gauge/incendiary{
+	pixel_x = 10;
+	pixel_y = 6
+	},
+/obj/item/ammo_box/advanced/s12gauge/buckshot{
+	pixel_x = -6;
+	pixel_y = -3
+	},
+/obj/item/ammo_box/advanced/s12gauge/buckshot{
+	pixel_x = -14;
+	pixel_y = -1
 	},
 /turf/open/floor/iron/dark,
 /area/ruin/icemoon_syndicate/checkpoint)
@@ -5578,9 +5592,9 @@ tj
 tj
 tj
 tj
-tj
-tj
-Ua
+dq
+KJ
+KJ
 DO
 DO
 DO
@@ -5645,8 +5659,8 @@ lF
 lF
 lF
 lF
-tj
 Ua
+SZ
 Bt
 Ua
 Ua
@@ -5714,7 +5728,7 @@ lF
 lF
 lF
 lF
-lF
+Rj
 bE
 bE
 bE
