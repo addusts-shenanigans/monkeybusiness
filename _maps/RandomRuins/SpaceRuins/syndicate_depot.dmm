@@ -1439,7 +1439,8 @@
 	pixel_x = -9;
 	pixel_y = -22;
 	id = "depot_bathroom";
-	name = "Bathroom Lock"
+	name = "Bathroom Lock";
+	specialfunctions = 4
 	},
 /obj/machinery/light/small/red/directional/south,
 /obj/machinery/duct,
