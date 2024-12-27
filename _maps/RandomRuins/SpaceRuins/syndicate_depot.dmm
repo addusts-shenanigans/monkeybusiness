@@ -909,9 +909,8 @@
 	req_access = list("syndicate_leader");
 	start_showpiece_type = "/obj/item/gun/ballistic/revolver/mateba"
 	},
-/obj/item/ammo_box/a357,
-/obj/item/ammo_box/a357,
 /obj/structure/safe/floor,
+/obj/item/reagent_containers/cup/glass/bottle/vodka,
 /turf/open/floor/carpet/red,
 /area/ruin/space/has_grav/syndicate_depot/control_room)
 "la" = (
@@ -3078,11 +3077,15 @@
 /area/ruin/space/has_grav/syndicate_depot/cargo_bay)
 "PR" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/cyan/hidden,
-/obj/item/wrench/medical,
 /obj/structure/cable,
 /obj/machinery/power/apc/auto_name/directional/north,
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/mapping_helpers/apc/syndicate_access,
+/obj/structure/closet/crate/freezer/blood,
+/obj/item/reagent_containers/blood/o_minus,
+/obj/item/reagent_containers/blood/o_minus,
+/obj/item/reagent_containers/blood/o_minus,
+/obj/item/reagent_containers/blood/o_minus,
 /turf/open/floor/plating,
 /area/ruin/space/has_grav/syndicate_depot/infirmary)
 "Qa" = (
@@ -3186,6 +3189,7 @@
 /obj/structure/cable,
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/spawner/random/maintenance/two,
+/obj/machinery/iv_drip,
 /turf/open/floor/plating,
 /area/ruin/space/has_grav/syndicate_depot/infirmary)
 "RB" = (
@@ -3549,6 +3553,7 @@
 /obj/structure/table,
 /obj/machinery/cell_charger,
 /obj/effect/decal/cleanable/dirt,
+/obj/item/wrench/medical,
 /turf/open/floor/plating,
 /area/ruin/space/has_grav/syndicate_depot/infirmary)
 "VI" = (
@@ -3736,7 +3741,9 @@
 	},
 /obj/machinery/mineral/ore_redemption{
 	dir = 4;
-	req_access = list("syndicate")
+	req_access = list("syndicate");
+	input_dir = 4;
+	output_dir = 8
 	},
 /obj/structure/window/reinforced/spawner/directional/north,
 /obj/machinery/door/firedoor,
