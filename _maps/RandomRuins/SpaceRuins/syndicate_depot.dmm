@@ -1075,6 +1075,7 @@
 /obj/effect/turf_decal/siding/wood{
 	dir = 5
 	},
+/obj/item/clothing/head/soft/black,
 /turf/open/floor/wood,
 /area/ruin/space/has_grav/syndicate_depot/crew_quarters)
 "nH" = (
@@ -1511,6 +1512,9 @@
 /obj/item/storage/backpack/satchel/sec,
 /obj/effect/turf_decal/siding/wood{
 	dir = 5
+	},
+/obj/item/clothing/head/hats/imperial/hos{
+	name = "syndicate field cap"
 	},
 /turf/open/floor/wood,
 /area/ruin/space/has_grav/syndicate_depot/crew_quarters)
@@ -2465,6 +2469,7 @@
 /obj/effect/turf_decal/siding/wood{
 	dir = 6
 	},
+/obj/item/clothing/head/soft/black,
 /turf/open/floor/wood,
 /area/ruin/space/has_grav/syndicate_depot/crew_quarters)
 "Gj" = (
