@@ -914,8 +914,14 @@
 /obj/structure/closet/crate/secure/gear{
 	req_access = list("syndicate")
 	},
-/obj/item/gps/advanced,
-/obj/item/gps/advanced,
+/obj/item/gps/advanced{
+	pixel_x = -7;
+	pixel_y = 0
+	},
+/obj/item/gps/advanced{
+	pixel_x = 4;
+	pixel_y = 0
+	},
 /turf/open/floor/pod/dark,
 /area/ruin/space/has_grav/syndicate_depot/vault)
 "kR" = (
@@ -1113,9 +1119,7 @@
 	id = "syndicate_depot_disposals";
 	dir = 4
 	},
-/obj/machinery/recycler/deathtrap{
-	eat_dir = 4
-	},
+/obj/machinery/recycler/deathtrap,
 /turf/open/floor/plating,
 /area/ruin/space/has_grav/syndicate_depot/cargo_bay)
 "nH" = (
