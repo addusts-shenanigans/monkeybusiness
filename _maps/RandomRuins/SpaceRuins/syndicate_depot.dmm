@@ -1982,6 +1982,9 @@
 	dir = 1
 	},
 /obj/effect/decal/cleanable/dirt,
+/mob/living/basic/bot/cleanbot{
+	faction = list("neutral","silicon","turret","Syndicate")
+	},
 /turf/open/floor/plating,
 /area/ruin/space/has_grav/syndicate_depot/cargo_bay)
 "yD" = (
