@@ -30,6 +30,10 @@
 "af" = (
 /turf/open/floor/iron,
 /area/station/cargo/storage)
+"ah" = (
+/obj/effect/turf_decal/stripes/corner,
+/turf/open/floor/iron,
+/area/station/hallway/secondary/entry/outpost)
 "al" = (
 /turf/closed/wall/ice,
 /area/station/cargo/warehouse/upper)
@@ -48,6 +52,12 @@
 "ao" = (
 /turf/open/openspace,
 /area/station/medical/medbay)
+"aq" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 4
+	},
+/turf/open/floor/iron,
+/area/station/hallway/secondary/entry/outpost)
 "ar" = (
 /obj/machinery/door/airlock/external/glass{
 	name = "Supermatter Reactor Tower Access"
@@ -66,6 +76,10 @@
 /obj/machinery/light_switch/directional/north,
 /turf/open/floor/carpet/green,
 /area/station/command/heads_quarters/nt_rep)
+"at" = (
+/obj/effect/landmark/start/virologist,
+/turf/open/floor/iron/dark/textured,
+/area/station/medical/pathology)
 "au" = (
 /obj/effect/mapping_helpers/ianbirthday,
 /turf/open/floor/iron/grimy,
@@ -172,6 +186,10 @@
 "aX" = (
 /turf/open/openspace,
 /area/station/security/office)
+"ba" = (
+/obj/structure/marker_beacon/indigo,
+/turf/open/floor/plating/snowed/icemoon,
+/area/icemoon/surface/outdoors/nospawn)
 "bd" = (
 /obj/structure/railing,
 /turf/open/floor/iron,
@@ -188,6 +206,20 @@
 /obj/structure/flora/tree/dead/style_3,
 /turf/open/misc/asteroid/snow/icemoon,
 /area/icemoon/underground/explored)
+"bh" = (
+/obj/structure/industrial_lift/tram/white,
+/obj/structure/window/reinforced/tram/directional/west,
+/obj/structure/chair/sofa/bench/tram{
+	dir = 4
+	},
+/obj/structure/fluff/tram_rail/anchor{
+	icon = 'monkestation/code/modules/blueshift/icons/obj/fluff.dmi';
+	icon_state = "poleanchor";
+	dir = 4
+	},
+/obj/effect/landmark/start/hangover,
+/turf/open/floor/plating,
+/area/station/hallway/secondary/entry/tram)
 "bj" = (
 /obj/machinery/light/small/directional/north,
 /turf/open/floor/iron/kitchen/small,
@@ -605,6 +637,16 @@
 /obj/machinery/recharger,
 /turf/open/floor/wood,
 /area/station/command/bridge)
+"cY" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 4
+	},
+/obj/structure/sign/warning/directional/south{
+	desc = "A warning sign promising a 500 credit fine if you dare think of stepping on the railway.";
+	name = "NO TRESPASSING ON RAILWAY sign"
+	},
+/turf/open/floor/iron,
+/area/station/hallway/secondary/entry/outpost)
 "cZ" = (
 /obj/machinery/light/small/directional/east,
 /turf/open/floor/iron/kitchen/small,
@@ -642,7 +684,7 @@
 "dh" = (
 /obj/structure/window/reinforced/spawner/directional/north,
 /turf/open/floor/iron,
-/area/station/hallway/secondary/entry)
+/area/station/hallway/secondary/entry/outpost)
 "dj" = (
 /obj/effect/turf_decal/tile/neutral/fourcorners,
 /obj/effect/decal/cleanable/blood/old,
@@ -702,7 +744,7 @@
 /area/station/security/execution/transfer)
 "dJ" = (
 /turf/open/floor/iron,
-/area/station/hallway/secondary/entry)
+/area/station/hallway/secondary/entry/outpost)
 "dL" = (
 /obj/structure/lattice/catwalk/mining,
 /obj/structure/railing{
@@ -1247,9 +1289,6 @@
 /obj/machinery/door/firedoor,
 /turf/open/floor/iron/white,
 /area/station/medical/medbay)
-"gn" = (
-/turf/open/genturf,
-/area/station/hallway/primary/tram)
 "go" = (
 /obj/machinery/vending/medical,
 /turf/open/floor/iron/dark,
@@ -1325,7 +1364,7 @@
 	specific_lift_id = "arrivals_elevator"
 	},
 /turf/open/openspace,
-/area/station/hallway/secondary/entry)
+/area/station/hallway/secondary/entry/outpost)
 "gH" = (
 /obj/structure/table/reinforced,
 /obj/effect/turf_decal/stripes/line{
@@ -1351,6 +1390,10 @@
 "gM" = (
 /turf/closed/wall/ice,
 /area/station/security/prison)
+"gN" = (
+/obj/effect/landmark/tram/crater/arrivals/main,
+/turf/open/floor/noslip/tram_plate,
+/area/station/hallway/secondary/entry/tram)
 "gO" = (
 /obj/machinery/food_cart,
 /obj/machinery/light/small/directional/south,
@@ -1415,7 +1458,7 @@
 	elevator_linked_id = "arrivals_elevator"
 	},
 /turf/open/floor/iron,
-/area/station/hallway/secondary/entry)
+/area/station/hallway/secondary/entry/outpost)
 "hp" = (
 /obj/structure/stairs/wood{
 	dir = 8
@@ -1535,9 +1578,6 @@
 	},
 /turf/open/floor/plating/snowed/smoothed/icemoon,
 /area/icemoon/surface/outdoors/nospawn)
-"hM" = (
-/turf/open/floor/plating,
-/area/station/hallway/primary/tram)
 "hN" = (
 /obj/effect/turf_decal/siding/wood/corner{
 	dir = 1
@@ -1699,7 +1739,7 @@
 	layer = 4.1
 	},
 /turf/open/floor/iron,
-/area/station/hallway/secondary/entry)
+/area/station/hallway/secondary/entry/outpost)
 "iD" = (
 /obj/structure/fluff/metalpole/anchor{
 	dir = 1
@@ -1781,10 +1821,6 @@
 /obj/effect/turf_decal/stripes,
 /turf/open/floor/iron,
 /area/station/maintenance/department/cargo)
-"iQ" = (
-/obj/structure/marker_beacon/indigo,
-/turf/open/floor/plating/snowed/icemoon,
-/area/icemoon/surface/outdoors/nospawn)
 "iS" = (
 /obj/machinery/atmospherics/components/binary/pump/on{
 	name = "Engine Coolant Bypass"
@@ -1992,6 +2028,16 @@
 /obj/machinery/vending/imported,
 /turf/open/floor/iron,
 /area/station/hallway/secondary/command)
+"jP" = (
+/obj/structure/industrial_lift/tram/white,
+/obj/structure/chair/sofa/bench/tram,
+/obj/effect/landmark/start/hangover,
+/turf/open/floor/plating,
+/area/station/hallway/secondary/entry/tram)
+"jR" = (
+/obj/structure/industrial_lift/tram,
+/turf/open/floor/plating,
+/area/station/hallway/secondary/entry/tram)
 "jS" = (
 /obj/effect/spawner/structure/window,
 /turf/open/floor/plating,
@@ -2196,6 +2242,10 @@
 /obj/structure/table/reinforced/rglass,
 /turf/open/floor/iron/white,
 /area/station/medical/treatment_center)
+"kV" = (
+/obj/effect/turf_decal/stripes/line,
+/turf/open/floor/iron,
+/area/station/hallway/secondary/entry/outpost)
 "kW" = (
 /obj/effect/turf_decal/siding/wood{
 	dir = 8;
@@ -2270,6 +2320,20 @@
 /obj/item/stack/sheet/glass/fifty,
 /turf/open/floor/plating/icemoon,
 /area/station/cargo/warehouse)
+"ln" = (
+/obj/structure/industrial_lift/tram/white,
+/obj/structure/window/reinforced/tram/directional/west,
+/obj/structure/chair/sofa/bench/tram/left{
+	dir = 4
+	},
+/obj/structure/fluff/tram_rail{
+	icon = 'monkestation/code/modules/blueshift/icons/obj/fluff.dmi';
+	icon_state = "pole";
+	dir = 4
+	},
+/obj/effect/landmark/start/hangover,
+/turf/open/floor/plating,
+/area/station/hallway/secondary/entry/tram)
 "lo" = (
 /obj/structure/railing{
 	dir = 8
@@ -2403,6 +2467,12 @@
 	},
 /turf/open/floor/wood,
 /area/station/command/bridge)
+"mh" = (
+/obj/effect/turf_decal/stripes/corner{
+	dir = 4
+	},
+/turf/open/floor/iron,
+/area/station/hallway/primary/fore)
 "mi" = (
 /obj/structure/industrial_lift/tram,
 /turf/open/floor/noslip/tram_plate,
@@ -2415,6 +2485,14 @@
 	},
 /turf/open/misc/asteroid/snow/icemoon,
 /area/icemoon/surface/outdoors/nospawn)
+"mk" = (
+/obj/structure/industrial_lift/tram/white,
+/obj/structure/chair/sofa/bench/tram{
+	dir = 1
+	},
+/obj/effect/landmark/start/hangover,
+/turf/open/floor/plating,
+/area/station/hallway/secondary/entry/tram)
 "ml" = (
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/wood,
@@ -2461,7 +2539,7 @@
 	},
 /obj/structure/railing,
 /turf/open/floor/iron,
-/area/station/hallway/secondary/entry)
+/area/station/hallway/secondary/entry/outpost)
 "mw" = (
 /obj/structure/fluff/metalpole/anchor{
 	dir = 8
@@ -2725,6 +2803,13 @@
 /obj/structure/falsewall,
 /turf/open/floor/iron/white,
 /area/station/medical/surgery)
+"nR" = (
+/obj/effect/turf_decal/stripes/corner{
+	dir = 8
+	},
+/obj/structure/fence/door,
+/turf/open/floor/iron,
+/area/station/hallway/secondary/entry/tram)
 "nU" = (
 /obj/effect/mapping_helpers/airlock/access/all/service/bar,
 /obj/machinery/door/airlock/external{
@@ -2925,6 +3010,14 @@
 /obj/structure/cable,
 /turf/open/misc/asteroid/snow/icemoon,
 /area/icemoon/surface/outdoors/nospawn)
+"oX" = (
+/obj/structure/fluff/tram_rail/anchor{
+	icon = 'monkestation/code/modules/blueshift/icons/obj/fluff.dmi';
+	icon_state = "poleanchor";
+	dir = 8
+	},
+/turf/open/floor/plating,
+/area/station/hallway/secondary/entry/tram)
 "oY" = (
 /obj/machinery/door/airlock/external{
 	name = "Escape Shuttle Dock"
@@ -2975,9 +3068,6 @@
 /obj/item/multitool,
 /turf/open/floor/plating,
 /area/station/cargo/sorting)
-"pq" = (
-/turf/closed/wall/r_wall,
-/area/station/hallway/primary/tram)
 "pr" = (
 /obj/structure/window/fulltile/colony_fabricator,
 /obj/effect/mapping_helpers/damaged_window,
@@ -3304,6 +3394,7 @@
 /obj/effect/turf_decal/siding/wood{
 	dir = 9
 	},
+/obj/item/paper/crumpled/craterstation/remember_us,
 /turf/open/floor/wood,
 /area/station/command/heads_quarters/captain)
 "qT" = (
@@ -3437,6 +3528,13 @@
 /obj/machinery/door/airlock/external,
 /turf/open/floor/iron/dark,
 /area/station/engineering/lobby)
+"ru" = (
+/obj/effect/turf_decal/stripes/corner{
+	dir = 1
+	},
+/obj/structure/fence/door,
+/turf/open/floor/iron,
+/area/station/hallway/secondary/entry/tram)
 "rv" = (
 /obj/structure/flora/bush/grassy/style_random,
 /turf/open/floor/grass,
@@ -3458,6 +3556,20 @@
 /obj/effect/spawner/random/engineering/atmospherics_portable,
 /turf/open/floor/plating,
 /area/station/maintenance/port/lesser)
+"rB" = (
+/obj/structure/industrial_lift/tram/white,
+/obj/structure/window/reinforced/tram/directional/east,
+/obj/structure/chair/sofa/bench/tram/right{
+	dir = 8
+	},
+/obj/structure/fluff/tram_rail{
+	icon = 'monkestation/code/modules/blueshift/icons/obj/fluff.dmi';
+	icon_state = "pole";
+	dir = 8
+	},
+/obj/effect/landmark/start/hangover,
+/turf/open/floor/plating,
+/area/station/hallway/secondary/entry/tram)
 "rC" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/cyan/visible,
 /turf/open/floor/iron/white,
@@ -3539,6 +3651,20 @@
 	},
 /turf/open/floor/wood,
 /area/station/command/heads_quarters/captain)
+"rT" = (
+/obj/structure/industrial_lift/tram/white,
+/obj/structure/window/reinforced/tram/directional/east,
+/obj/structure/chair/sofa/bench/tram{
+	dir = 8
+	},
+/obj/structure/fluff/tram_rail/anchor{
+	icon = 'monkestation/code/modules/blueshift/icons/obj/fluff.dmi';
+	icon_state = "poleanchor";
+	dir = 8
+	},
+/obj/effect/landmark/start/hangover,
+/turf/open/floor/plating,
+/area/station/hallway/secondary/entry/tram)
 "rV" = (
 /obj/effect/turf_decal/siding/wood{
 	dir = 4
@@ -3565,7 +3691,7 @@
 	layer = 4.1
 	},
 /turf/open/floor/iron,
-/area/station/hallway/secondary/entry)
+/area/station/hallway/secondary/entry/outpost)
 "se" = (
 /obj/effect/spawner/structure/window/reinforced,
 /turf/open/floor/plating,
@@ -3597,10 +3723,7 @@
 "sl" = (
 /obj/structure/railing,
 /turf/open/floor/iron,
-/area/station/hallway/secondary/entry)
-"so" = (
-/turf/closed/mineral/random/snow,
-/area/station/hallway/primary/tram)
+/area/station/hallway/secondary/entry/outpost)
 "sq" = (
 /obj/structure/cable/multilayer/multiz,
 /turf/open/floor/iron/dark,
@@ -4095,7 +4218,10 @@
 "uF" = (
 /obj/effect/spawner/structure/window/reinforced,
 /turf/open/floor/plating,
-/area/station/hallway/secondary/entry)
+/area/station/hallway/secondary/entry/outpost)
+"uG" = (
+/turf/closed/wall,
+/area/station/hallway/secondary/entry/tram)
 "uI" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 8
@@ -4112,10 +4238,6 @@
 	},
 /turf/open/floor/iron,
 /area/station/commons/storage/tools)
-"uK" = (
-/obj/structure/marker_beacon/burgundy,
-/turf/open/floor/plating/snowed/icemoon,
-/area/icemoon/surface/outdoors/nospawn)
 "uM" = (
 /turf/closed/wall,
 /area/station/commons/dorms/laundry)
@@ -4144,6 +4266,14 @@
 /obj/machinery/modular_computer/preset/engineering,
 /turf/open/floor/wood,
 /area/station/command/bridge)
+"uT" = (
+/obj/structure/fluff/tram_rail{
+	icon = 'monkestation/code/modules/blueshift/icons/obj/fluff.dmi';
+	icon_state = "pole";
+	dir = 8
+	},
+/turf/open/floor/plating,
+/area/station/hallway/secondary/entry/tram)
 "uU" = (
 /obj/structure/railing,
 /obj/structure/railing{
@@ -4225,10 +4355,28 @@
 	},
 /turf/open/floor/wood/tile,
 /area/station/command/heads_quarters/hop)
+"vl" = (
+/obj/effect/landmark/tram/crater/sec/prison,
+/turf/open/floor/noslip/tram_plate,
+/area/station/security/prison)
 "vn" = (
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/iron/colony,
 /area/station/maintenance/abandoned_camp/tent)
+"vo" = (
+/obj/structure/industrial_lift/tram/white,
+/obj/structure/window/reinforced/tram/directional/east,
+/obj/structure/chair/sofa/bench/tram/right{
+	dir = 1
+	},
+/obj/structure/fluff/tram_rail{
+	icon = 'monkestation/code/modules/blueshift/icons/obj/fluff.dmi';
+	icon_state = "pole";
+	dir = 8
+	},
+/obj/effect/landmark/start/hangover,
+/turf/open/floor/plating,
+/area/station/hallway/secondary/entry/tram)
 "vp" = (
 /obj/structure/railing,
 /obj/structure/railing{
@@ -4270,6 +4418,16 @@
 	name = "Holodeck Projector Floor"
 	},
 /area/station/holodeck/rec_center)
+"vw" = (
+/obj/structure/industrial_lift/tram/subfloor,
+/obj/structure/window/reinforced/tram/front,
+/obj/structure/fluff/tram_rail{
+	icon = 'monkestation/code/modules/blueshift/icons/obj/fluff.dmi';
+	icon_state = "pole";
+	dir = 8
+	},
+/turf/open/floor/plating,
+/area/station/hallway/secondary/entry/tram)
 "vy" = (
 /obj/structure/table,
 /turf/open/floor/iron,
@@ -4278,6 +4436,20 @@
 /obj/structure/marker_beacon/bronze,
 /turf/open/misc/asteroid/snow/icemoon,
 /area/icemoon/surface/outdoors/nospawn)
+"vG" = (
+/obj/structure/industrial_lift/tram/white,
+/obj/structure/window/reinforced/tram/directional/east,
+/obj/structure/chair/sofa/bench/tram/left{
+	dir = 8
+	},
+/obj/structure/fluff/tram_rail{
+	icon = 'monkestation/code/modules/blueshift/icons/obj/fluff.dmi';
+	icon_state = "pole";
+	dir = 8
+	},
+/obj/effect/landmark/start/hangover,
+/turf/open/floor/plating,
+/area/station/hallway/secondary/entry/tram)
 "vI" = (
 /obj/effect/landmark/start/hangover,
 /turf/open/floor/engine{
@@ -4670,6 +4842,18 @@
 "xo" = (
 /turf/closed/wall,
 /area/station/hallway/primary/starboard)
+"xq" = (
+/obj/structure/industrial_lift/tram/white,
+/obj/structure/window/reinforced/tram/directional/west,
+/obj/structure/chair/sofa/bench/tram/right,
+/obj/structure/fluff/tram_rail{
+	icon = 'monkestation/code/modules/blueshift/icons/obj/fluff.dmi';
+	icon_state = "pole";
+	dir = 4
+	},
+/obj/effect/landmark/start/hangover,
+/turf/open/floor/plating,
+/area/station/hallway/secondary/entry/tram)
 "xr" = (
 /obj/effect/spawner/structure/window/reinforced,
 /obj/structure/cable,
@@ -4703,7 +4887,7 @@
 	},
 /obj/effect/turf_decal/stripes/line,
 /turf/open/floor/plating,
-/area/station/hallway/secondary/entry)
+/area/station/hallway/secondary/entry/outpost)
 "xv" = (
 /obj/structure/table/wood,
 /turf/open/floor/wood,
@@ -4759,6 +4943,19 @@
 	},
 /turf/open/floor/wood,
 /area/station/cargo/quartermaster)
+"xJ" = (
+/obj/structure/industrial_lift/tram,
+/obj/machinery/door/window/tram/hilbert{
+	dir = 4;
+	associated_lift = "CRATER_ARRIVALS"
+	},
+/obj/structure/fluff/tram_rail{
+	icon = 'monkestation/code/modules/blueshift/icons/obj/fluff.dmi';
+	icon_state = "pole";
+	dir = 8
+	},
+/turf/open/floor/plating,
+/area/station/hallway/secondary/entry/tram)
 "xK" = (
 /turf/open/floor/wood,
 /area/station/command/meeting_room)
@@ -5325,8 +5522,12 @@
 /turf/open/floor/plating/icemoon,
 /area/station/cargo/warehouse)
 "Ag" = (
-/turf/open/genturf,
-/area/station/hallway/secondary/entry)
+/obj/effect/turf_decal/stripes/line{
+	dir = 4
+	},
+/obj/machinery/light/dim/directional/west,
+/turf/open/floor/iron,
+/area/station/hallway/secondary/entry/tram)
 "Ah" = (
 /obj/machinery/space_heater/wall_mounted/directional/east,
 /obj/machinery/light/small/directional/north,
@@ -5478,6 +5679,16 @@
 	},
 /turf/open/floor/wood,
 /area/station/commons/lounge/public_house)
+"AU" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 8
+	},
+/obj/structure/sign/warning/directional/north{
+	name = "NO TRESPASSING ON RAILWAY sign";
+	desc = "A warning sign promising a 500 credit fine if you dare think of stepping on the railway."
+	},
+/turf/open/floor/iron,
+/area/station/hallway/primary/fore)
 "AV" = (
 /obj/structure/railing{
 	dir = 8;
@@ -5544,6 +5755,22 @@
 	},
 /turf/open/misc/asteroid/snow/icemoon,
 /area/icemoon/surface/outdoors/nospawn)
+"Bi" = (
+/obj/structure/industrial_lift/tram,
+/obj/machinery/door/window/tram/hilbert{
+	dir = 8;
+	associated_lift = "CRATER_ARRIVALS"
+	},
+/obj/structure/fluff/tram_rail{
+	icon = 'monkestation/code/modules/blueshift/icons/obj/fluff.dmi';
+	icon_state = "pole";
+	dir = 4
+	},
+/turf/open/floor/plating,
+/area/station/hallway/secondary/entry/tram)
+"Bj" = (
+/turf/open/floor/plating,
+/area/station/hallway/secondary/entry/tram)
 "Bm" = (
 /obj/effect/turf_decal/siding/white/corner,
 /obj/item/storage/box/gloves{
@@ -5582,6 +5809,10 @@
 /obj/structure/closet/crate/goldcrate,
 /turf/open/floor/iron/bluespace,
 /area/station/ai_monitored/command/nuke_storage)
+"Bu" = (
+/obj/structure/marker_beacon/burgundy,
+/turf/open/floor/plating/snowed/icemoon,
+/area/icemoon/surface/outdoors/nospawn)
 "Bx" = (
 /turf/open/openspace,
 /area/station/engineering/lobby)
@@ -5775,6 +6006,16 @@
 /obj/structure/cable,
 /turf/open/floor/iron/dark,
 /area/station/command/bridge)
+"Cn" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 8
+	},
+/obj/structure/sign/warning/directional/south{
+	desc = "A warning sign promising a 500 credit fine if you dare think of stepping on the railway.";
+	name = "NO TRESPASSING ON RAILWAY sign"
+	},
+/turf/open/floor/iron,
+/area/station/hallway/secondary/entry/outpost)
 "Cp" = (
 /turf/closed/wall/ice,
 /area/station/cargo/crater_elevator)
@@ -5834,7 +6075,7 @@
 	layer = 4.1
 	},
 /turf/open/floor/iron,
-/area/station/hallway/secondary/entry)
+/area/station/hallway/secondary/entry/outpost)
 "CG" = (
 /obj/structure/fluff/tram_rail{
 	icon = 'monkestation/code/modules/blueshift/icons/obj/fluff.dmi';
@@ -5917,6 +6158,16 @@
 /obj/structure/railing,
 /turf/open/floor/iron/white,
 /area/station/medical/medbay)
+"Dk" = (
+/obj/structure/industrial_lift/tram/subfloor,
+/obj/structure/window/reinforced/tram/front,
+/obj/structure/fluff/tram_rail{
+	icon = 'monkestation/code/modules/blueshift/icons/obj/fluff.dmi';
+	icon_state = "pole";
+	dir = 4
+	},
+/turf/open/floor/plating,
+/area/station/hallway/secondary/entry/tram)
 "Dl" = (
 /obj/docking_port/stationary{
 	dir = 2;
@@ -5962,10 +6213,6 @@
 /obj/item/shard,
 /turf/open/misc/asteroid/snow/icemoon,
 /area/icemoon/surface/outdoors/nospawn)
-"Dw" = (
-/obj/effect/landmark/tram/crater/sec/prison,
-/turf/open/floor/noslip/tram_plate,
-/area/station/security/prison)
 "Dx" = (
 /obj/machinery/space_heater/wall_mounted/directional/south,
 /obj/structure/cable,
@@ -6032,7 +6279,7 @@
 	linked_elevator_id = "arrivals_elevator"
 	},
 /turf/open/floor/iron,
-/area/station/hallway/secondary/entry)
+/area/station/hallway/secondary/entry/outpost)
 "DM" = (
 /obj/effect/turf_decal/siding/wood{
 	dir = 6
@@ -6132,7 +6379,7 @@
 	dir = 8
 	},
 /turf/open/floor/iron,
-/area/station/hallway/secondary/entry)
+/area/station/hallway/secondary/entry/outpost)
 "Ei" = (
 /obj/machinery/light/small/directional/west,
 /turf/open/floor/iron/kitchen/small,
@@ -6266,7 +6513,7 @@
 	linked_elevator_id = "arrivals_elevator"
 	},
 /turf/open/openspace,
-/area/station/hallway/secondary/entry)
+/area/station/hallway/secondary/entry/outpost)
 "EF" = (
 /obj/effect/turf_decal/siding/wood{
 	dir = 6
@@ -6290,6 +6537,10 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/iron/colony,
 /area/station/maintenance/abandoned_camp/hothouse)
+"EM" = (
+/obj/effect/spawner/structure/window/reinforced/plasma,
+/turf/open/floor/plating,
+/area/station/hallway/secondary/entry/tram)
 "EN" = (
 /turf/closed/wall,
 /area/station/service/kitchen/coldroom)
@@ -6337,6 +6588,12 @@
 /obj/effect/spawner/random/engineering/material,
 /turf/open/floor/plating/snowed/icemoon,
 /area/station/cargo/warehouse)
+"Fa" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 4
+	},
+/turf/open/floor/iron,
+/area/station/hallway/primary/fore)
 "Fc" = (
 /turf/open/floor/noslip/tram_plate,
 /area/station/security/prison)
@@ -6720,6 +6977,12 @@
 	},
 /turf/open/floor/iron/white,
 /area/station/medical/cryo)
+"GH" = (
+/obj/machinery/button/tram/directional/south{
+	id = "CRATER_ARRIVALS_DOCK"
+	},
+/turf/open/floor/iron,
+/area/station/hallway/secondary/entry/outpost)
 "GI" = (
 /obj/structure/table/reinforced,
 /obj/structure/window/spawner/directional/east,
@@ -7181,6 +7444,12 @@
 /obj/effect/turf_decal/siding/wood,
 /turf/open/floor/wood,
 /area/station/command/meeting_room)
+"IL" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 8
+	},
+/turf/open/floor/iron,
+/area/station/hallway/primary/fore)
 "IM" = (
 /obj/effect/turf_decal/siding/wood{
 	dir = 1
@@ -7268,6 +7537,14 @@
 	},
 /turf/open/floor/iron/dark,
 /area/station/maintenance/radshelter/weathershelter/bunkhouse)
+"Jh" = (
+/obj/structure/industrial_lift/tram/subfloor,
+/obj/machinery/computer/tram_controls/directional/north{
+	specific_lift_id = "CRATER_ARRIVALS"
+	},
+/obj/structure/window/reinforced/tram/front,
+/turf/open/floor/noslip/tram_plate,
+/area/station/hallway/secondary/entry/tram)
 "Jj" = (
 /obj/machinery/door/airlock/maintenance/external/glass{
 	name = "Supermatter Core"
@@ -7435,6 +7712,7 @@
 /obj/effect/turf_decal/trimline/dark_green/line{
 	dir = 10
 	},
+/obj/effect/landmark/start/virologist,
 /turf/open/floor/iron/dark/textured,
 /area/station/medical/pathology)
 "JL" = (
@@ -7558,6 +7836,12 @@
 /obj/effect/turf_decal/siding/wood,
 /turf/open/floor/stone,
 /area/station/commons/lounge/public_house)
+"Kr" = (
+/obj/machinery/button/tram/directional/north{
+	id = "CRATER_ARRIVALS_STATION"
+	},
+/turf/open/floor/iron,
+/area/station/hallway/primary/fore)
 "Kt" = (
 /obj/structure/cable,
 /obj/machinery/power/emitter/welded{
@@ -7595,6 +7879,12 @@
 	},
 /turf/open/openspace/icemoon/keep_below,
 /area/icemoon/surface/outdoors/nospawn)
+"KO" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 1
+	},
+/turf/open/floor/iron,
+/area/station/hallway/primary/fore)
 "KQ" = (
 /obj/structure/sign/poster/contraband/icebox_moment/directional/west,
 /turf/open/floor/carpet/red,
@@ -7625,7 +7915,7 @@
 "Lc" = (
 /obj/structure/sign/clock/directional/south,
 /turf/open/openspace,
-/area/station/hallway/secondary/entry)
+/area/station/hallway/secondary/entry/outpost)
 "Le" = (
 /obj/effect/decal/cleanable/dirt,
 /mob/living/basic/mining/wolf,
@@ -7638,7 +7928,7 @@
 	dir = 4
 	},
 /turf/open/floor/iron,
-/area/station/hallway/secondary/entry)
+/area/station/hallway/secondary/entry/outpost)
 "Lg" = (
 /turf/open/floor/glass/reinforced,
 /area/station/command/heads_quarters/ce)
@@ -7664,13 +7954,27 @@
 /area/icemoon/surface/outdoors/nospawn)
 "Ll" = (
 /turf/open/floor/plating/elevatorshaft,
-/area/station/hallway/secondary/entry)
+/area/station/hallway/secondary/entry/outpost)
 "Lm" = (
 /obj/machinery/atmospherics/components/binary/pump/on{
 	name = "Gas to Cold Loop"
 	},
 /turf/open/floor/plating/icemoon,
 /area/station/engineering/supermatter)
+"Ln" = (
+/obj/structure/industrial_lift/tram/white,
+/obj/structure/window/reinforced/tram/directional/west,
+/obj/structure/chair/sofa/bench/tram/left{
+	dir = 1
+	},
+/obj/structure/fluff/tram_rail{
+	icon = 'monkestation/code/modules/blueshift/icons/obj/fluff.dmi';
+	icon_state = "pole";
+	dir = 4
+	},
+/obj/effect/landmark/start/hangover,
+/turf/open/floor/plating,
+/area/station/hallway/secondary/entry/tram)
 "Lp" = (
 /obj/effect/turf_decal/siding/wood/corner{
 	dir = 8
@@ -7721,9 +8025,6 @@
 "LA" = (
 /turf/open/floor/iron/white,
 /area/station/medical/surgery)
-"LD" = (
-/turf/closed/wall,
-/area/station/hallway/primary/tram)
 "LE" = (
 /obj/structure/fireplace,
 /obj/item/lighter{
@@ -7767,11 +8068,19 @@
 	},
 /obj/structure/railing,
 /turf/open/floor/iron,
-/area/station/hallway/secondary/entry)
+/area/station/hallway/secondary/entry/outpost)
 "LN" = (
 /obj/structure/stairs/west,
 /turf/open/floor/iron,
 /area/station/cargo/lobby)
+"LO" = (
+/obj/effect/landmark/lift_id{
+	specific_lift_id = "CRATER_ARRIVALS"
+	},
+/obj/structure/industrial_lift/tram,
+/obj/effect/landmark/tram/crater/arrivals/dock,
+/turf/open/floor/noslip/tram_plate,
+/area/station/hallway/secondary/entry/tram)
 "LP" = (
 /turf/closed/wall,
 /area/station/medical/medbay)
@@ -7828,6 +8137,9 @@
 /obj/structure/cable,
 /turf/open/floor/plating,
 /area/station/command/heads_quarters/cmo)
+"Mg" = (
+/turf/closed/wall/r_wall,
+/area/station/hallway/secondary/entry/outpost)
 "Mi" = (
 /turf/open/floor/iron/dark/herringbone,
 /area/station/cargo/storage)
@@ -7945,7 +8257,7 @@
 "MN" = (
 /obj/structure/closet/firecloset,
 /turf/open/floor/iron,
-/area/station/hallway/secondary/entry)
+/area/station/hallway/secondary/entry/outpost)
 "MO" = (
 /obj/structure/closet/emcloset,
 /turf/open/floor/iron/white,
@@ -8031,7 +8343,7 @@
 /area/station/engineering/supermatter)
 "Nd" = (
 /turf/closed/wall,
-/area/station/hallway/secondary/entry)
+/area/station/hallway/secondary/entry/outpost)
 "Nf" = (
 /obj/structure/railing{
 	dir = 4
@@ -8061,6 +8373,20 @@
 	},
 /turf/open/misc/asteroid/snow/icemoon,
 /area/icemoon/surface/outdoors/nospawn)
+"Nn" = (
+/obj/structure/industrial_lift/tram/white,
+/obj/structure/window/reinforced/tram/directional/west,
+/obj/structure/chair/sofa/bench/tram/right{
+	dir = 4
+	},
+/obj/structure/fluff/tram_rail{
+	icon = 'monkestation/code/modules/blueshift/icons/obj/fluff.dmi';
+	icon_state = "pole";
+	dir = 4
+	},
+/obj/effect/landmark/start/hangover,
+/turf/open/floor/plating,
+/area/station/hallway/secondary/entry/tram)
 "Np" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 6
@@ -8082,7 +8408,7 @@
 "Nr" = (
 /obj/structure/industrial_lift/public,
 /turf/open/openspace,
-/area/station/hallway/secondary/entry)
+/area/station/hallway/secondary/entry/outpost)
 "Nv" = (
 /obj/effect/turf_decal/siding/wood/end{
 	dir = 8
@@ -8129,9 +8455,6 @@
 /obj/machinery/door/window/right/directional/east,
 /turf/open/floor/iron/dark,
 /area/station/commons/fitness/recreation)
-"NN" = (
-/turf/closed/wall/r_wall,
-/area/station/hallway/secondary/entry)
 "NO" = (
 /obj/structure/stairs{
 	dir = 4
@@ -8149,7 +8472,7 @@
 	layer = 4.1
 	},
 /turf/open/floor/iron,
-/area/station/hallway/secondary/entry)
+/area/station/hallway/secondary/entry/outpost)
 "NR" = (
 /turf/open/openspace,
 /area/station/security/warden)
@@ -8263,7 +8586,7 @@
 /area/station/medical/treatment_center)
 "Ov" = (
 /turf/open/openspace,
-/area/station/hallway/secondary/entry)
+/area/station/hallway/secondary/entry/outpost)
 "Ow" = (
 /obj/structure/cable,
 /obj/machinery/power/apc/auto_name/directional/south,
@@ -8470,6 +8793,14 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/iron/colony/white,
 /area/station/maintenance/abandoned_camp/hothouse)
+"PA" = (
+/obj/structure/fluff/tram_rail{
+	icon = 'monkestation/code/modules/blueshift/icons/obj/fluff.dmi';
+	icon_state = "pole";
+	dir = 4
+	},
+/turf/open/floor/plating,
+/area/station/hallway/secondary/entry/tram)
 "PB" = (
 /turf/closed/wall,
 /area/station/commons/toilet/restrooms)
@@ -8549,6 +8880,12 @@
 	},
 /turf/open/floor/wood,
 /area/station/command/heads_quarters/cmo)
+"Qe" = (
+/obj/effect/turf_decal/stripes/corner{
+	dir = 1
+	},
+/turf/open/floor/iron,
+/area/station/hallway/primary/fore)
 "Qf" = (
 /obj/machinery/atmospherics/components/unary/portables_connector/visible,
 /turf/open/floor/iron/dark,
@@ -9285,6 +9622,12 @@
 	},
 /turf/open/floor/plating/snowed/icemoon,
 /area/icemoon/surface/outdoors/nospawn)
+"SS" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 8
+	},
+/turf/open/floor/iron,
+/area/station/hallway/secondary/entry/outpost)
 "ST" = (
 /obj/item/reagent_containers/cup/bowl{
 	pixel_x = -3;
@@ -9370,9 +9713,14 @@
 	},
 /turf/open/floor/plating,
 /area/station/cargo/sorting)
+"Ti" = (
+/obj/effect/turf_decal/stripes/corner,
+/obj/structure/fence/door,
+/turf/open/floor/iron,
+/area/station/hallway/secondary/entry/tram)
 "Tj" = (
-/turf/open/floor/noslip/tram_plate,
-/area/station/hallway/primary/tram)
+/turf/closed/wall/r_wall,
+/area/station/hallway/secondary/entry/tram)
 "Tk" = (
 /obj/effect/mapping_helpers/airlock/access/all/security/general,
 /obj/machinery/door/airlock/security/glass{
@@ -9679,10 +10027,16 @@
 	dir = 1
 	},
 /turf/open/floor/plating,
-/area/station/hallway/secondary/entry)
+/area/station/hallway/secondary/entry/outpost)
 "UE" = (
 /turf/open/floor/iron,
 /area/station/commons/dorms/bunkhouse/floor2)
+"UG" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 4
+	},
+/turf/open/floor/iron,
+/area/station/hallway/secondary/entry/tram)
 "UH" = (
 /obj/structure/chair/stool/directional/north,
 /obj/effect/decal/cleanable/dirt,
@@ -9712,6 +10066,14 @@
 	},
 /turf/open/floor/iron/white,
 /area/station/medical/treatment_center)
+"UJ" = (
+/obj/structure/industrial_lift/tram/subfloor,
+/obj/machinery/computer/tram_controls/directional/south{
+	specific_lift_id = "CRATER_ARRIVALS"
+	},
+/obj/structure/window/reinforced/tram/front,
+/turf/open/floor/noslip/tram_plate,
+/area/station/hallway/secondary/entry/tram)
 "UK" = (
 /obj/structure/bed/pod,
 /obj/structure/curtain/cloth,
@@ -9746,7 +10108,7 @@
 "UR" = (
 /obj/structure/closet/emcloset,
 /turf/open/floor/iron,
-/area/station/hallway/secondary/entry)
+/area/station/hallway/secondary/entry/outpost)
 "US" = (
 /obj/machinery/door/airlock/security{
 	name = "Warden's Watchtower"
@@ -9767,6 +10129,9 @@
 	},
 /turf/open/floor/iron,
 /area/station/cargo/sorting)
+"UW" = (
+/turf/open/floor/noslip/tram_plate,
+/area/station/hallway/secondary/entry/tram)
 "UX" = (
 /obj/item/storage/medkit/brute,
 /obj/structure/table,
@@ -9831,6 +10196,14 @@
 /obj/item/flashlight/lantern/rayne,
 /turf/open/floor/iron/colony/bolts,
 /area/station/maintenance/abandoned_camp/tent)
+"Vn" = (
+/obj/structure/fluff/tram_rail/anchor{
+	icon = 'monkestation/code/modules/blueshift/icons/obj/fluff.dmi';
+	icon_state = "poleanchor";
+	dir = 4
+	},
+/turf/open/floor/plating,
+/area/station/hallway/secondary/entry/tram)
 "Vs" = (
 /obj/effect/turf_decal/siding/wood/corner{
 	dir = 4
@@ -9885,6 +10258,18 @@
 "VF" = (
 /turf/closed/wall/r_wall,
 /area/station/security/medical)
+"VH" = (
+/obj/structure/industrial_lift/tram/white,
+/obj/structure/window/reinforced/tram/directional/east,
+/obj/structure/chair/sofa/bench/tram/left,
+/obj/structure/fluff/tram_rail{
+	icon = 'monkestation/code/modules/blueshift/icons/obj/fluff.dmi';
+	icon_state = "pole";
+	dir = 8
+	},
+/obj/effect/landmark/start/hangover,
+/turf/open/floor/plating,
+/area/station/hallway/secondary/entry/tram)
 "VI" = (
 /obj/structure/lattice/catwalk,
 /obj/structure/railing{
@@ -9928,6 +10313,12 @@
 /obj/structure/reagent_dispensers/cooking_oil,
 /turf/open/floor/iron/kitchen_coldroom/freezerfloor,
 /area/station/service/kitchen/coldroom)
+"VT" = (
+/obj/effect/turf_decal/stripes/corner{
+	dir = 8
+	},
+/turf/open/floor/iron,
+/area/station/hallway/secondary/entry/outpost)
 "VU" = (
 /turf/open/floor/iron/dark,
 /area/station/engineering/lobby)
@@ -10027,12 +10418,26 @@
 "Wy" = (
 /turf/open/openspace,
 /area/station/command/corporate_showroom)
+"Wz" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 8
+	},
+/obj/effect/landmark/start/hangover,
+/turf/open/floor/iron,
+/area/station/hallway/secondary/entry/tram)
 "WA" = (
 /obj/structure/railing{
 	dir = 1
 	},
 /turf/open/floor/iron/kitchen/small,
 /area/station/service/kitchen)
+"WB" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 4
+	},
+/obj/effect/landmark/start/hangover,
+/turf/open/floor/iron,
+/area/station/hallway/secondary/entry/tram)
 "WC" = (
 /obj/structure/window/spawner/directional/south,
 /obj/effect/landmark/start/hangover,
@@ -10066,7 +10471,7 @@
 	layer = 4.1
 	},
 /turf/open/misc/asteroid/snow/icemoon,
-/area/station/hallway/secondary/entry)
+/area/station/hallway/secondary/entry/outpost)
 "WH" = (
 /obj/effect/turf_decal/siding/wood{
 	dir = 8
@@ -10154,6 +10559,16 @@
 /obj/effect/turf_decal/siding/wood,
 /turf/open/floor/wood,
 /area/station/commons/lounge/public_house)
+"WZ" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 4
+	},
+/obj/structure/sign/warning/directional/north{
+	name = "NO TRESPASSING ON RAILWAY sign";
+	desc = "A warning sign promising a 500 credit fine if you dare think of stepping on the railway."
+	},
+/turf/open/floor/iron,
+/area/station/hallway/primary/fore)
 "Xa" = (
 /obj/machinery/light/small/directional/south,
 /turf/open/floor/iron/dark,
@@ -10334,6 +10749,12 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/iron/colony,
 /area/station/maintenance/abandoned_camp/hothouse)
+"XR" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 8
+	},
+/turf/open/floor/iron,
+/area/station/hallway/secondary/entry/tram)
 "XS" = (
 /obj/machinery/vending/wardrobe/medi_wardrobe,
 /turf/open/floor/iron/dark,
@@ -10431,6 +10852,13 @@
 	},
 /turf/open/floor/iron/dark/textured,
 /area/station/medical/pathology)
+"YC" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 8
+	},
+/obj/machinery/light/dim/directional/east,
+/turf/open/floor/iron,
+/area/station/hallway/secondary/entry/tram)
 "YD" = (
 /obj/structure/flora/bush/grassy/style_3,
 /turf/open/floor/grass,
@@ -10454,6 +10882,13 @@
 	},
 /turf/open/floor/iron/dark/herringbone,
 /area/station/cargo/storage)
+"YI" = (
+/obj/effect/turf_decal/stripes/corner{
+	dir = 4
+	},
+/obj/structure/fence/door,
+/turf/open/floor/iron,
+/area/station/hallway/secondary/entry/tram)
 "YJ" = (
 /obj/machinery/door/airlock/command{
 	name = "Captain's Quarters"
@@ -10763,7 +11198,7 @@
 	linked_elevator_id = "arrivals_elevator"
 	},
 /turf/open/floor/iron,
-/area/station/hallway/secondary/entry)
+/area/station/hallway/secondary/entry/outpost)
 "ZP" = (
 /obj/machinery/atmospherics/components/binary/pump{
 	dir = 1;
@@ -38091,17 +38526,17 @@ jw
 jw
 jw
 jw
-NN
-NN
-NN
-NN
-NN
-NN
-NN
-NN
-NN
-NN
-NN
+Mg
+Mg
+Mg
+Mg
+Mg
+Mg
+Mg
+Mg
+Mg
+Mg
+Mg
 jw
 jw
 jw
@@ -38348,17 +38783,17 @@ jw
 jw
 jw
 jw
-NN
-Ag
-Ag
-Ag
-Ag
-Ag
-Ag
-Ag
-Ag
-Ag
-NN
+Mg
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+Mg
 jw
 jw
 jw
@@ -38403,18 +38838,18 @@ Fg
 Fg
 Fg
 CK
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
+fl
+fl
+fl
+fl
+fl
+fl
+fl
+fl
+fl
+fl
+fl
+fl
 CK
 Fg
 Fg
@@ -38601,77 +39036,77 @@ jw
 jw
 jw
 jw
-NN
-NN
-NN
-NN
-NN
-Ag
-Ag
-Ag
-Ag
-Ag
-Ag
-Ag
-Ag
-Ag
-NN
-pq
-pq
-pq
-pq
-pq
-pq
-pq
-pq
-pq
-pq
-pq
-pq
-pq
-pq
-pq
-pq
-pq
-pq
-pq
-pq
-pq
-pq
-pq
-pq
-pq
-pq
-pq
-pq
-pq
-pq
-pq
-pq
-pq
-pq
-pq
-pq
-pq
-pq
-pq
-pq
-pq
-LD
-LD
+Mg
+Mg
+Mg
+Mg
+Mg
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+Mg
+jw
+jw
+jw
+jw
+jw
+jw
+jw
+jw
+jw
+jw
+jw
+jw
+jw
+jw
+jw
+jw
+jw
+jw
+jw
+jw
+jw
+jw
+jw
+jw
+jw
+jw
+jw
+jw
+jw
+jw
+jw
+jw
+jw
+jw
+jw
+jw
+jw
+jw
+jw
+jw
+Fg
+Fg
+Fg
 CK
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
+fl
+fl
+fl
+fl
+fl
+fl
+fl
+fl
+fl
+fl
+fl
+fl
 CK
 Fg
 Fg
@@ -38858,77 +39293,77 @@ jw
 jw
 jw
 jw
-NN
-Ag
-Ag
-Ag
-Ag
-Ag
-Ag
-Ag
-Ag
-Ag
-Ag
-Ag
-Ag
-Ag
-Nd
-gn
-gn
-gn
-gn
-gn
-gn
-gn
-gn
-gn
-gn
-gn
-gn
-gn
-gn
-gn
-gn
-gn
-gn
-gn
-gn
-gn
-gn
-gn
-gn
-gn
-gn
-gn
-gn
-gn
-gn
-gn
-gn
-gn
-gn
-gn
-gn
-gn
-gn
-gn
-so
-so
-so
-so
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
+Mg
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+Tj
+Tj
+Tj
+EM
+EM
+EM
+Tj
+Tj
+Tj
+EM
+EM
+EM
+Tj
+Tj
+Tj
+EM
+EM
+EM
+Tj
+Tj
+Tj
+EM
+EM
+EM
+Tj
+Tj
+Tj
+EM
+EM
+EM
+Tj
+Tj
+Tj
+EM
+EM
+EM
+Tj
+Tj
+Tj
+EM
+EM
+EM
+uG
+uG
+uG
+fl
+fl
+fl
+fl
+fl
+fl
+fl
+fl
+fl
+fl
+fl
+fl
 CK
 Fg
 Fg
@@ -39112,80 +39547,80 @@ jw
 jw
 jw
 jw
-NN
-NN
-NN
-NN
+Mg
+Mg
+Mg
+Mg
 Nd
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+Ti
 Ag
+UG
+UG
+UG
+UG
+WB
 Ag
+UG
+UG
+UG
+UG
+UG
 Ag
+UG
+UG
+UG
+UG
+UG
 Ag
-hM
-hM
-hM
-hM
-hM
-hM
-hM
-hM
-hM
-hM
-hM
-hM
-hM
-hM
-hM
-hM
-hM
-hM
-hM
-hM
-hM
-hM
-hM
-hM
-hM
-hM
-hM
-hM
-hM
-hM
-hM
-hM
-hM
-hM
-hM
-hM
-hM
-hM
-hM
-hM
-hM
-hM
-hM
-hM
-hM
-hM
-hM
-hM
-hM
-hM
-hM
-hM
-hM
-hM
-hM
-hM
-hM
-hM
-hM
-hM
-DQ
-DQ
-DQ
-DQ
-DQ
+UG
+UG
+WB
+UG
+UG
+Ag
+UG
+UG
+UG
+UG
+UG
+Ag
+UG
+UG
+UG
+UG
+UG
+Ag
+UG
+UG
+UG
+UG
+UG
+Ag
+YI
+fl
+fl
+fl
+fl
+fl
+fl
+fl
+fl
+fl
+fl
+fl
+fl
 CK
 Fg
 Fg
@@ -39364,85 +39799,85 @@ jw
 jw
 jw
 jw
-NN
-NN
-NN
-NN
-NN
-NN
+Mg
+Mg
+Mg
+Mg
+Mg
+Mg
 dJ
 dJ
 NQ
 Nd
-Ag
-Ag
-Ag
-Ag
-hM
-hM
-hM
-hM
-hM
-hM
-hM
-hM
-hM
-hM
-hM
-hM
-hM
-hM
-hM
-hM
-hM
-hM
-hM
-hM
-hM
-hM
-hM
-hM
-hM
-hM
-hM
-hM
-hM
-hM
-hM
-hM
-hM
-hM
-hM
-hM
-hM
-hM
-hM
-hM
-hM
-hM
-hM
-hM
-hM
-hM
-hM
-hM
-hM
-hM
-hM
-hM
-hM
-hM
-hM
-hM
-hM
-hM
-hM
-hM
-DQ
-DQ
-DQ
-DQ
-DQ
+dJ
+dJ
+dJ
+ah
+aq
+aq
+aq
+aq
+aq
+aq
+aq
+cY
+uG
+Bj
+Bj
+Bj
+Bj
+Bj
+Bj
+Bj
+Bj
+Bj
+Bj
+Bj
+Bj
+Bj
+Bj
+Bj
+Bj
+Bj
+Bj
+Bj
+Bj
+Bj
+Bj
+Bj
+Bj
+Bj
+Bj
+Bj
+Bj
+Bj
+Bj
+Bj
+Bj
+Bj
+Bj
+Bj
+Bj
+Bj
+Bj
+Bj
+Bj
+Bj
+Bj
+Bj
+uG
+WZ
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+mh
+fl
+fl
+fl
+fl
 CK
 Fg
 Fg
@@ -39621,7 +40056,7 @@ jw
 jw
 jw
 jw
-NN
+Mg
 Ll
 Ll
 dh
@@ -39631,75 +40066,75 @@ dJ
 dJ
 dJ
 Nd
-Ag
-Ag
-Ag
-Ag
-hM
-hM
-hM
-hM
-hM
-hM
-hM
-hM
-hM
-hM
-hM
-hM
-hM
-hM
-hM
-hM
-hM
-hM
-hM
-hM
-hM
-hM
-hM
-hM
-hM
-hM
-hM
-hM
-hM
-hM
-hM
-hM
-hM
-hM
-hM
-hM
-hM
-hM
-hM
-hM
-hM
-hM
-hM
-hM
-hM
-hM
-hM
-hM
-hM
-hM
-hM
-hM
-hM
-hM
-hM
-hM
-hM
-hM
-hM
-hM
-DQ
-DQ
-DQ
-DQ
-DQ
+dJ
+dJ
+dJ
+kV
+Dk
+xq
+Bi
+ln
+bh
+Nn
+Bi
+Ln
+Dk
+PA
+PA
+PA
+Vn
+PA
+PA
+PA
+PA
+PA
+Vn
+PA
+PA
+PA
+PA
+PA
+Vn
+PA
+PA
+PA
+PA
+PA
+Vn
+PA
+PA
+PA
+PA
+PA
+Vn
+PA
+PA
+PA
+PA
+PA
+Vn
+PA
+PA
+PA
+PA
+PA
+Vn
+PA
+PA
+PA
+PA
+PA
+PA
+Vn
+PA
+PA
+PA
+PA
+KO
+fl
+fl
+fl
+fl
 CK
 Fg
 Fg
@@ -39878,7 +40313,7 @@ jw
 jw
 jw
 jw
-NN
+Mg
 Ll
 Ll
 ho
@@ -39888,75 +40323,75 @@ dJ
 dJ
 dJ
 dJ
-Ag
-Ag
-Ag
-Ag
-Tj
-Tj
-Tj
-Tj
-Tj
-Tj
-Tj
-Tj
-Tj
-Tj
-Tj
-Tj
-Tj
-Tj
-Tj
-Tj
-Tj
-Tj
-Tj
-Tj
-Tj
-Tj
-Tj
-Tj
-Tj
-Tj
-Tj
-Tj
-Tj
-Tj
-Tj
-Tj
-Tj
-Tj
-Tj
-Tj
-Tj
-Tj
-Tj
-Tj
-Tj
-Tj
-Tj
-Tj
-Tj
-Tj
-Tj
-Tj
-Tj
-Tj
-Tj
-Tj
-Tj
-Tj
-Tj
-Tj
-Tj
-Tj
-Tj
-Tj
-DQ
-DQ
-DQ
-DQ
-DQ
+dJ
+dJ
+GH
+Nd
+Jh
+jP
+jR
+jR
+LO
+jR
+jR
+mk
+UJ
+UW
+UW
+UW
+UW
+UW
+UW
+UW
+UW
+UW
+UW
+UW
+UW
+UW
+UW
+UW
+UW
+UW
+UW
+UW
+UW
+UW
+UW
+UW
+UW
+UW
+UW
+UW
+UW
+UW
+UW
+UW
+UW
+UW
+UW
+UW
+UW
+UW
+UW
+UW
+UW
+UW
+UW
+UW
+UW
+UW
+UW
+gN
+UW
+UW
+UW
+UW
+CK
+Kr
+fl
+fl
+fl
 CK
 Fg
 Fg
@@ -40135,7 +40570,7 @@ jw
 jw
 jw
 jw
-NN
+Mg
 Ll
 Ll
 dh
@@ -40145,75 +40580,75 @@ dJ
 dJ
 dJ
 Nd
-Ag
-Ag
-Ag
-Ag
-hM
-hM
-hM
-hM
-hM
-hM
-hM
-hM
-hM
-hM
-hM
-hM
-hM
-hM
-hM
-hM
-hM
-hM
-hM
-hM
-hM
-hM
-hM
-hM
-hM
-hM
-hM
-hM
-hM
-hM
-hM
-hM
-hM
-hM
-hM
-hM
-hM
-hM
-hM
-hM
-hM
-hM
-hM
-hM
-hM
-hM
-hM
-hM
-hM
-hM
-hM
-hM
-hM
-hM
-hM
-hM
-hM
-hM
-hM
-hM
-DQ
-DQ
-DQ
-DQ
-DQ
+dJ
+dJ
+dJ
+kV
+vw
+VH
+xJ
+rB
+rT
+vG
+xJ
+vo
+vw
+uT
+uT
+uT
+oX
+uT
+uT
+uT
+uT
+uT
+oX
+uT
+uT
+uT
+uT
+uT
+oX
+uT
+uT
+uT
+uT
+uT
+oX
+uT
+uT
+uT
+uT
+uT
+oX
+uT
+uT
+uT
+uT
+uT
+oX
+uT
+uT
+uT
+uT
+uT
+oX
+uT
+uT
+uT
+uT
+uT
+uT
+oX
+uT
+uT
+uT
+uT
+KO
+fl
+fl
+fl
+fl
 CK
 Fg
 Fg
@@ -40392,85 +40827,85 @@ jw
 jw
 jw
 jw
-NN
-NN
-NN
-NN
-NN
-NN
+Mg
+Mg
+Mg
+Mg
+Mg
+Mg
 dJ
 dJ
 CE
 Nd
-Ag
-Ag
-Ag
-Ag
-hM
-hM
-hM
-hM
-hM
-hM
-hM
-hM
-hM
-hM
-hM
-hM
-hM
-hM
-hM
-hM
-hM
-hM
-hM
-hM
-hM
-hM
-hM
-hM
-hM
-hM
-hM
-hM
-hM
-hM
-hM
-hM
-hM
-hM
-hM
-hM
-hM
-hM
-hM
-hM
-hM
-hM
-hM
-hM
-hM
-hM
-hM
-hM
-hM
-hM
-hM
-hM
-hM
-hM
-hM
-hM
-hM
-hM
-hM
-hM
-DQ
-DQ
-DQ
-DQ
-DQ
+dJ
+dJ
+dJ
+VT
+SS
+SS
+SS
+SS
+SS
+SS
+SS
+Cn
+uG
+Bj
+Bj
+Bj
+Bj
+Bj
+Bj
+Bj
+Bj
+Bj
+Bj
+Bj
+Bj
+Bj
+Bj
+Bj
+Bj
+Bj
+Bj
+Bj
+Bj
+Bj
+Bj
+Bj
+Bj
+Bj
+Bj
+Bj
+Bj
+Bj
+Bj
+Bj
+Bj
+Bj
+Bj
+Bj
+Bj
+Bj
+Bj
+Bj
+Bj
+Bj
+Bj
+Bj
+uG
+AU
+IL
+IL
+IL
+IL
+IL
+IL
+Qe
+fl
+fl
+fl
+fl
 CK
 Fg
 Fg
@@ -40654,80 +41089,80 @@ jw
 jw
 jw
 jw
-NN
-NN
-NN
-NN
+Mg
+Mg
+Mg
+Mg
 Nd
-Ag
-Ag
-Ag
-Ag
-hM
-hM
-hM
-hM
-hM
-hM
-hM
-hM
-hM
-hM
-hM
-hM
-hM
-hM
-hM
-hM
-hM
-hM
-hM
-hM
-hM
-hM
-hM
-hM
-hM
-hM
-hM
-hM
-hM
-hM
-hM
-hM
-hM
-hM
-hM
-hM
-hM
-hM
-hM
-hM
-hM
-hM
-hM
-hM
-hM
-hM
-hM
-hM
-hM
-hM
-hM
-hM
-hM
-hM
-hM
-hM
-hM
-hM
-hM
-hM
-DQ
-DQ
-DQ
-DQ
-DQ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+nR
+YC
+XR
+XR
+XR
+XR
+XR
+YC
+XR
+XR
+XR
+XR
+XR
+YC
+XR
+XR
+XR
+Wz
+XR
+YC
+XR
+XR
+XR
+XR
+XR
+YC
+XR
+XR
+XR
+XR
+XR
+YC
+XR
+XR
+XR
+XR
+XR
+YC
+XR
+XR
+XR
+XR
+XR
+YC
+ru
+fl
+fl
+fl
+fl
+fl
+fl
+fl
+fl
+fl
+fl
+fl
+fl
 CK
 Fg
 Fg
@@ -40914,77 +41349,77 @@ jw
 jw
 jw
 jw
-NN
-Ag
-Ag
-Ag
-Ag
-Ag
-Ag
-Ag
-Ag
-Ag
-Ag
-Ag
-Ag
-Ag
-Nd
-gn
-gn
-gn
-gn
-gn
-gn
-gn
-gn
-gn
-gn
-gn
-gn
-gn
-gn
-gn
-gn
-gn
-gn
-gn
-gn
-gn
-gn
-gn
-gn
-gn
-gn
-gn
-gn
-gn
-gn
-gn
-gn
-gn
-gn
-gn
-gn
-gn
-gn
-gn
-so
-so
-so
-so
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
+Mg
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+Tj
+Tj
+Tj
+EM
+EM
+EM
+Tj
+Tj
+Tj
+EM
+EM
+EM
+Tj
+Tj
+Tj
+EM
+EM
+EM
+Tj
+Tj
+Tj
+EM
+EM
+EM
+Tj
+Tj
+Tj
+EM
+EM
+EM
+Tj
+Tj
+Tj
+EM
+EM
+EM
+Tj
+Tj
+Tj
+EM
+EM
+EM
+uG
+uG
+uG
+fl
+fl
+fl
+fl
+fl
+fl
+fl
+fl
+fl
+fl
+fl
+fl
 CK
 Fg
 Fg
@@ -41171,77 +41606,77 @@ jw
 jw
 jw
 jw
-NN
-NN
-NN
-NN
-NN
-Ag
-Ag
-Ag
-Ag
-Ag
-Ag
-Ag
-Ag
-Ag
-NN
-pq
-pq
-pq
-pq
-pq
-pq
-pq
-pq
-pq
-pq
-pq
-pq
-pq
-pq
-pq
-pq
-pq
-pq
-pq
-pq
-pq
-pq
-pq
-pq
-pq
-pq
-pq
-pq
-pq
-pq
-pq
-pq
-pq
-pq
-pq
-pq
-pq
-pq
-pq
-pq
-pq
-LD
-LD
+Mg
+Mg
+Mg
+Mg
+Mg
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+Mg
+jw
+jw
+jw
+jw
+jw
+jw
+jw
+jw
+jw
+jw
+jw
+jw
+jw
+jw
+jw
+jw
+jw
+jw
+jw
+jw
+jw
+jw
+jw
+jw
+jw
+jw
+jw
+jw
+jw
+jw
+jw
+jw
+jw
+jw
+jw
+jw
+jw
+jw
+jw
+Fg
+Fg
+Fg
+Fg
 CK
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
+fl
+fl
+fl
+fl
+fl
+fl
+fl
+fl
+fl
+fl
+fl
+fl
 CK
 Fg
 Fg
@@ -41432,17 +41867,17 @@ jw
 jw
 jw
 jw
-NN
-Ag
-Ag
-Ag
-Ag
-Ag
-Ag
-Ag
-Ag
-Ag
-NN
+Mg
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+Mg
 jw
 jw
 jw
@@ -41487,18 +41922,18 @@ Fg
 Fg
 Fg
 CK
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
+fl
+fl
+fl
+fl
+fl
+fl
+fl
+fl
+fl
+fl
+fl
+fl
 CK
 Fg
 Fg
@@ -41689,17 +42124,17 @@ jw
 jw
 jw
 jw
-NN
-NN
-NN
-NN
-NN
-NN
-NN
-NN
-NN
-NN
-NN
+Mg
+Mg
+Mg
+Mg
+Mg
+Mg
+Mg
+Mg
+Mg
+Mg
+Mg
 jw
 jw
 jw
@@ -110740,7 +111175,7 @@ Fc
 Fc
 Fc
 Fc
-Dw
+vl
 Fc
 Fc
 Fc
@@ -168443,7 +168878,7 @@ fO
 fO
 se
 fg
-su
+at
 pg
 su
 lX
@@ -168957,7 +169392,7 @@ fO
 fO
 se
 jc
-su
+at
 su
 su
 lX
@@ -169145,12 +169580,12 @@ aC
 aC
 aC
 AD
-iQ
+ba
 AD
 AD
 AD
 AD
-uK
+Bu
 AD
 AD
 Nd
@@ -169704,7 +170139,7 @@ AD
 AD
 AD
 AD
-fO
+AD
 fO
 fO
 fO
@@ -169961,7 +170396,7 @@ AD
 AD
 AD
 AD
-fO
+AD
 fO
 fO
 fO
@@ -170731,7 +171166,7 @@ AD
 AD
 AD
 AD
-fO
+AD
 fO
 fO
 fO
@@ -170988,7 +171423,7 @@ AD
 AD
 AD
 AD
-fO
+AD
 fO
 fO
 fO
@@ -171245,7 +171680,7 @@ AD
 AD
 AD
 AD
-fO
+AD
 fO
 fO
 fO
@@ -171502,7 +171937,7 @@ AD
 AD
 AD
 AD
-fO
+AD
 fO
 fO
 fO
@@ -171759,7 +172194,7 @@ AD
 AD
 AD
 AD
-fO
+AD
 fO
 fO
 fO
@@ -172016,7 +172451,7 @@ AD
 AD
 AD
 AD
-fO
+AD
 fO
 fO
 fO
@@ -172273,7 +172708,7 @@ AD
 AD
 AD
 AD
-fO
+AD
 fO
 fO
 fO
@@ -172530,7 +172965,7 @@ AD
 AD
 AD
 AD
-fO
+AD
 fO
 fO
 fO
@@ -172743,12 +173178,12 @@ aC
 aC
 aC
 AD
-uK
+Bu
 AD
 AD
 AD
 AD
-iQ
+ba
 AD
 AD
 Nd
@@ -172787,7 +173222,7 @@ AD
 AD
 AD
 AD
-fO
+AD
 fO
 fO
 fO

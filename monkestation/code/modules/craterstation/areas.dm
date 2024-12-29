@@ -37,3 +37,9 @@
 
 /area/station/maintenance/abandoned_camp/medical
 	name = "Abandoned Medical Post"
+
+/area/station/hallway/secondary/entry/outpost
+	name = "Arrivals Shuttle Landing Site"
+
+/area/station/hallway/secondary/entry/tram
+	name = "Arrivals Tram Line"

@@ -19,6 +19,7 @@
 
 /obj/effect/landmark/tram/crater/sec
 	specific_lift_id = "CRATER_PRISON"
+
 /obj/effect/landmark/tram/crater/sec/prison
 	name = "Prison"
 	platform_code = "CRATER_PRISON"
