@@ -47,3 +47,7 @@
 	assignment = "Construction Worker"
 	trim_state = "trim_stationengineer"
 	department_color = CIRCUIT_COLOR_SUPPLY
+
+/obj/structure/sign/plaques/kiddie/crater_memorial
+	name = "Memorial Plaque"
+	desc = "A plaque listing the names of those who died building Crater outpost. May their sacrifice forever be rememebered by those who tread its paths."
