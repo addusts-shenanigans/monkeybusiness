@@ -191,6 +191,10 @@
 "aX" = (
 /turf/open/openspace,
 /area/station/security/office)
+"aZ" = (
+/obj/structure/cable,
+/turf/open/floor/iron,
+/area/station/hallway/primary/port)
 "ba" = (
 /obj/structure/marker_beacon/indigo,
 /turf/open/floor/plating/snowed/icemoon,
@@ -782,6 +786,7 @@
 	dir = 1
 	},
 /obj/effect/turf_decal/stripes/line,
+/obj/structure/cable,
 /turf/open/floor/iron,
 /area/station/maintenance/department/cargo)
 "dQ" = (
@@ -929,6 +934,7 @@
 	},
 /obj/machinery/door/airlock/maintenance,
 /obj/effect/mapping_helpers/airlock/access/all/engineering/maintenance,
+/obj/structure/cable,
 /turf/open/floor/plating,
 /area/station/maintenance/disposal)
 "ex" = (
@@ -1297,6 +1303,7 @@
 /obj/machinery/door/airlock/mining{
 	name = "Cargo Bay"
 	},
+/obj/structure/cable,
 /turf/open/floor/iron,
 /area/station/cargo/lobby)
 "gm" = (
@@ -1309,11 +1316,8 @@
 /turf/open/floor/iron/dark,
 /area/station/medical/storage)
 "gp" = (
-/obj/effect/turf_decal/stripes{
-	dir = 1
-	},
 /obj/structure/industrial_lift,
-/turf/open/floor/plating/icemoon,
+/turf/open/openspace/icemoon/keep_below,
 /area/station/cargo/crater_elevator)
 "gq" = (
 /obj/structure/railing{
@@ -1836,6 +1840,7 @@
 	dir = 5
 	},
 /obj/effect/turf_decal/stripes,
+/obj/structure/cable,
 /turf/open/floor/iron,
 /area/station/maintenance/department/cargo)
 "iS" = (
@@ -2152,6 +2157,10 @@
 /obj/effect/turf_decal/siding/white,
 /turf/open/floor/iron/dark,
 /area/station/medical/storage)
+"kt" = (
+/obj/structure/cable,
+/turf/open/floor/plating,
+/area/station/hallway/primary/port)
 "kv" = (
 /obj/effect/turf_decal/siding/wood{
 	dir = 9
@@ -2420,6 +2429,10 @@
 /obj/structure/table/wood,
 /turf/open/floor/wood,
 /area/station/commons/dorms/bunkhouse/floor1)
+"lO" = (
+/obj/structure/cable,
+/turf/closed/wall,
+/area/station/cargo/lobby)
 "lP" = (
 /obj/machinery/door/airlock/mining{
 	name = "Cargo Bay"
@@ -2913,6 +2926,13 @@
 /obj/machinery/vending/imported,
 /turf/open/floor/carpet/blue,
 /area/station/command/meeting_room)
+"ol" = (
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/obj/structure/cable,
+/turf/open/floor/plating,
+/area/station/maintenance/department/cargo)
 "om" = (
 /turf/open/openspace,
 /area/station/maintenance/radshelter/weathershelter)
@@ -3351,12 +3371,8 @@
 /turf/open/floor/iron/dark,
 /area/station/command/bridge)
 "qv" = (
-/obj/effect/turf_decal/stripes{
-	dir = 6
-	},
-/obj/structure/industrial_lift,
-/turf/open/floor/plating/icemoon,
-/area/station/cargo/crater_elevator)
+/turf/open/floor/plating,
+/area/station/maintenance/port/fore)
 "qw" = (
 /obj/structure/cable,
 /obj/effect/turf_decal/trimline/dark_green/corner{
@@ -3387,6 +3403,10 @@
 /obj/structure/window/spawner/directional/east,
 /turf/open/floor/iron/white,
 /area/station/medical/surgery/theatre)
+"qG" = (
+/obj/structure/cable/multilayer/multiz,
+/turf/open/floor/iron,
+/area/station/cargo/lobby)
 "qH" = (
 /obj/effect/turf_decal/siding/wood{
 	dir = 10
@@ -4147,6 +4167,9 @@
 /obj/structure/industrial_lift/tram,
 /turf/open/floor/noslip/tram_plate,
 /area/station/security/execution/transfer)
+"tW" = (
+/turf/open/floor/plating/icemoon,
+/area/station/cargo/crater_elevator)
 "tX" = (
 /turf/open/floor/iron,
 /area/station/cargo/sorting)
@@ -4788,11 +4811,7 @@
 /turf/open/floor/iron/dark,
 /area/station/command/cc_dock)
 "wO" = (
-/obj/effect/turf_decal/stripes{
-	dir = 8
-	},
-/obj/structure/industrial_lift,
-/turf/open/floor/plating/icemoon,
+/turf/closed/wall,
 /area/station/cargo/crater_elevator)
 "wP" = (
 /obj/effect/turf_decal/stripes/line,
@@ -5186,6 +5205,10 @@
 	},
 /turf/open/floor/iron/white,
 /area/station/medical/medbay/lobby)
+"yC" = (
+/obj/structure/cable/multilayer/multiz,
+/turf/closed/wall,
+/area/station/cargo/lobby)
 "yD" = (
 /obj/effect/turf_decal/siding/wood{
 	dir = 9
@@ -5299,6 +5322,10 @@
 /obj/structure/cable,
 /turf/open/floor/iron/dark,
 /area/station/engineering/power_station)
+"ze" = (
+/obj/structure/cable,
+/turf/open/floor/iron,
+/area/station/cargo/office)
 "zg" = (
 /turf/closed/wall,
 /area/station/maintenance/department/security/brig)
@@ -5675,6 +5702,7 @@
 /obj/effect/turf_decal/stripes/line{
 	dir = 8
 	},
+/obj/structure/cable,
 /turf/open/floor/iron,
 /area/station/maintenance/department/cargo)
 "AH" = (
@@ -6081,10 +6109,9 @@
 /turf/closed/wall/ice,
 /area/station/cargo/crater_elevator)
 "Ct" = (
-/obj/effect/turf_decal/stripes,
-/obj/structure/industrial_lift,
-/turf/open/floor/plating/icemoon,
-/area/station/cargo/crater_elevator)
+/obj/structure/cable,
+/turf/open/floor/plating,
+/area/station/maintenance/port/fore)
 "Cu" = (
 /obj/structure/railing/wood{
 	dir = 1
@@ -6600,6 +6627,10 @@
 "EN" = (
 /turf/closed/wall,
 /area/station/service/kitchen/coldroom)
+"EP" = (
+/obj/structure/cable,
+/turf/open/floor/iron,
+/area/station/cargo/lobby)
 "ER" = (
 /obj/effect/mapping_helpers/airlock/access/all/supply/general,
 /obj/machinery/door/airlock/external,
@@ -7218,10 +7249,22 @@
 "Hp" = (
 /turf/closed/wall/r_wall,
 /area/station/security/office)
+"Hq" = (
+/obj/structure/window/spawner/directional/west,
+/obj/structure/sign/plaques/kiddie/crater_memorial{
+	pixel_x = 32;
+	pixel_y = 0
+	},
+/turf/open/floor/wood,
+/area/station/command/corporate_showroom)
 "Hr" = (
 /obj/effect/turf_decal/loading_area,
 /turf/open/floor/plating,
 /area/station/cargo/sorting)
+"Hv" = (
+/obj/structure/cable,
+/turf/open/floor/plating/icemoon,
+/area/station/cargo/crater_elevator)
 "Hx" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/turf_decal/box/corners,
@@ -7229,6 +7272,19 @@
 /obj/item/stack/sheet/iron/fifty,
 /turf/open/floor/plating/icemoon,
 /area/station/cargo/warehouse)
+"Hy" = (
+/obj/machinery/button/elevator{
+	id = "crater_main_access_elevator";
+	pixel_x = -7;
+	pixel_y = 0
+	},
+/obj/machinery/lift_indicator{
+	linked_elevator_id = "crater_main_access_elevator";
+	pixel_x = -5;
+	pixel_y = -2
+	},
+/turf/closed/wall,
+/area/station/cargo/crater_elevator)
 "Hz" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/green/visible,
 /turf/open/floor/plating/icemoon,
@@ -7879,12 +7935,8 @@
 /turf/open/floor/wood/large,
 /area/station/command/heads_quarters/nt_rep)
 "Kn" = (
-/obj/effect/turf_decal/stripes{
-	dir = 5
-	},
-/obj/structure/industrial_lift,
-/turf/open/floor/plating/icemoon,
-/area/station/cargo/crater_elevator)
+/turf/closed/wall,
+/area/station/maintenance/port/fore)
 "Kp" = (
 /turf/open/floor/iron,
 /area/station/hallway/primary/central)
@@ -7978,6 +8030,10 @@
 /obj/structure/sign/clock/directional/south,
 /turf/open/openspace,
 /area/station/hallway/secondary/entry/outpost)
+"Ld" = (
+/obj/structure/cable,
+/turf/open/floor/iron,
+/area/station/maintenance/disposal)
 "Le" = (
 /obj/effect/decal/cleanable/dirt,
 /mob/living/basic/mining/wolf,
@@ -8720,6 +8776,10 @@
 /obj/structure/table/reinforced/rglass,
 /turf/open/floor/iron/white,
 /area/station/medical/treatment_center)
+"OB" = (
+/obj/structure/cable,
+/turf/open/floor/plating,
+/area/station/cargo/crater_elevator)
 "OC" = (
 /obj/machinery/light/directional/north,
 /turf/open/openspace/icemoon/keep_below,
@@ -8813,14 +8873,6 @@
 	},
 /turf/open/floor/wood,
 /area/station/commons/dorms/bunkhouse/floor1)
-"OZ" = (
-/obj/structure/window/spawner/directional/west,
-/obj/structure/sign/plaques/kiddie/crater_memorial{
-	pixel_x = 32;
-	pixel_y = 0
-	},
-/turf/open/floor/wood,
-/area/station/command/corporate_showroom)
 "Pb" = (
 /obj/effect/turf_decal/siding/wood/corner{
 	dir = 8
@@ -8940,6 +8992,12 @@
 	},
 /turf/open/floor/wood,
 /area/station/commons/dorms/bunkhouse/floor1)
+"PU" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 8
+	},
+/turf/open/floor/plating/icemoon,
+/area/station/cargo/crater_elevator)
 "PW" = (
 /obj/effect/spawner/structure/window/reinforced,
 /obj/structure/cable,
@@ -9452,6 +9510,13 @@
 /obj/machinery/portable_atmospherics/canister/oxygen,
 /turf/open/floor/iron/dark,
 /area/station/maintenance/aux_eva)
+"RG" = (
+/obj/machinery/door/airlock/maintenance/external{
+	name = "Elevator Maintenance"
+	},
+/obj/structure/cable,
+/turf/open/floor/plating,
+/area/station/cargo/crater_elevator)
 "RH" = (
 /obj/machinery/power/port_gen/pacman/solid_fuel,
 /obj/structure/cable,
@@ -9870,7 +9935,7 @@
 /obj/effect/landmark/lift_id{
 	specific_lift_id = "crater_main_access_elevator"
 	},
-/turf/open/floor/plating/icemoon,
+/turf/open/openspace/icemoon/keep_below,
 /area/station/cargo/crater_elevator)
 "Tv" = (
 /obj/structure/rack,
@@ -10389,6 +10454,11 @@
 	},
 /turf/open/openspace,
 /area/station/engineering/power_station)
+"VJ" = (
+/obj/effect/turf_decal/stripes,
+/obj/structure/cable,
+/turf/open/floor/iron,
+/area/station/maintenance/department/cargo)
 "VL" = (
 /obj/effect/decal/cleanable/glass/titanium,
 /turf/open/floor/plating/snowed/icemoon,
@@ -10449,10 +10519,6 @@
 /obj/effect/mapping_helpers/airlock/cyclelink_helper,
 /turf/open/floor/iron/white,
 /area/station/medical/medbay/lobby)
-"Wb" = (
-/obj/machinery/power/apc/auto_name/directional/north,
-/turf/open/floor/plating/snowed/smoothed/icemoon,
-/area/station/cargo/crater_elevator)
 "Wc" = (
 /turf/closed/wall,
 /area/station/cargo/quartermaster)
@@ -10500,6 +10566,7 @@
 /obj/structure/disposalpipe/segment{
 	dir = 6
 	},
+/obj/structure/cable,
 /turf/open/floor/plating,
 /area/station/maintenance/disposal)
 "Wm" = (
@@ -10618,12 +10685,9 @@
 /turf/open/floor/iron/white,
 /area/station/medical/office)
 "WN" = (
-/obj/effect/turf_decal/stripes{
-	dir = 9
-	},
-/obj/structure/industrial_lift,
-/turf/open/floor/plating/icemoon,
-/area/station/cargo/crater_elevator)
+/obj/structure/cable,
+/turf/open/floor/plating,
+/area/station/maintenance/department/cargo)
 "WO" = (
 /obj/structure/fluff/metalpole{
 	dir = 4
@@ -10742,14 +10806,11 @@
 /turf/open/floor/iron,
 /area/station/service/bar)
 "Xl" = (
-/obj/effect/turf_decal/stripes{
-	dir = 4
-	},
 /obj/structure/industrial_lift,
 /obj/machinery/elevator_control_panel/directional/east{
 	linked_elevator_id = "crater_main_access_elevator"
 	},
-/turf/open/floor/plating/icemoon,
+/turf/open/openspace/icemoon/keep_below,
 /area/station/cargo/crater_elevator)
 "Xo" = (
 /obj/structure/chair/stool/bar/directional/west,
@@ -10826,6 +10887,10 @@
 /obj/machinery/defibrillator_mount/directional/west,
 /turf/open/floor/iron/white,
 /area/station/medical/treatment_center)
+"XE" = (
+/obj/structure/cable,
+/turf/open/floor/plating,
+/area/station/maintenance/disposal)
 "XF" = (
 /obj/effect/turf_decal/siding/wood/corner,
 /turf/open/floor/iron/dark,
@@ -10893,6 +10958,11 @@
 /obj/machinery/vending/access/command,
 /turf/open/floor/carpet/blue,
 /area/station/command/meeting_room)
+"Yb" = (
+/obj/machinery/power/apc/auto_name/directional/north,
+/obj/structure/cable,
+/turf/open/floor/plating/icemoon,
+/area/station/cargo/crater_elevator)
 "Yd" = (
 /obj/machinery/conveyor/inverted{
 	id = "QMLoad";
@@ -11167,12 +11237,9 @@
 /turf/open/floor/plating,
 /area/station/command/heads_quarters/nt_rep)
 "Zo" = (
-/obj/effect/turf_decal/stripes{
-	dir = 10
-	},
-/obj/structure/industrial_lift,
-/turf/open/floor/plating/icemoon,
-/area/station/cargo/crater_elevator)
+/obj/structure/cable,
+/turf/open/floor/iron,
+/area/station/maintenance/department/cargo)
 "Zp" = (
 /obj/effect/turf_decal/siding/white{
 	dir = 9
@@ -28463,11 +28530,11 @@ jw
 jw
 jw
 jw
-jw
-jw
-Fg
-Fg
-Fg
+wO
+wO
+wO
+wO
+wO
 Fg
 Fg
 Fg
@@ -28720,11 +28787,11 @@ jw
 jw
 Fg
 Fg
-Fg
-Fg
-Fg
-Fg
-Fg
+wO
+YY
+YY
+YY
+wO
 Fg
 Fg
 Fg
@@ -28977,11 +29044,11 @@ Fg
 Fg
 Fg
 Fg
-Fg
-Fg
-Fg
-Fg
-Fg
+wO
+YY
+YY
+YY
+wO
 Fg
 Fg
 Fg
@@ -29234,11 +29301,11 @@ Fg
 Fg
 Fg
 Fg
-Fg
-Fg
-Fg
-Fg
-Fg
+wO
+YY
+YY
+YY
+wO
 Fg
 Fg
 Fg
@@ -29491,11 +29558,11 @@ Fg
 Fg
 Fg
 Fg
-Fg
-Fg
-Fg
-Fg
-Fg
+wO
+PU
+wO
+PU
+wO
 Fg
 Fg
 Fg
@@ -29748,11 +29815,11 @@ Fg
 Fg
 Fg
 Fg
-Fg
-Fg
-Fg
-Fg
-Fg
+wO
+Yb
+Hv
+tW
+wO
 Fg
 Fg
 Fg
@@ -30005,11 +30072,11 @@ Fg
 Fg
 Fg
 Fg
-Fg
-Fg
-Fg
-Fg
-Fg
+wO
+tW
+Hv
+tW
+wO
 Fg
 Fg
 Fg
@@ -30262,11 +30329,11 @@ Fg
 Fg
 Fg
 Fg
-Fg
-Fg
-Fg
-Fg
-Fg
+wO
+wO
+RG
+Hy
+wO
 Fg
 Fg
 Fg
@@ -30520,9 +30587,9 @@ Fg
 Fg
 Fg
 Fg
-Fg
-Fg
-Fg
+wO
+OB
+wO
 Fg
 Fg
 Fg
@@ -30776,11 +30843,11 @@ Fg
 Fg
 Fg
 Fg
-Fg
-Fg
-Fg
-Fg
-Fg
+wO
+wO
+RG
+wO
+wO
 Fg
 Fg
 Fg
@@ -31033,11 +31100,11 @@ Fg
 Fg
 Fg
 Fg
-Fg
-Fg
-Fg
-Fg
-Fg
+Kn
+qv
+Ct
+qv
+Kn
 Fg
 Fg
 Fg
@@ -31290,18 +31357,18 @@ Fg
 Fg
 Fg
 Fg
-Fg
-Fg
-Fg
-Fg
-Fg
+Kn
+qv
+Ct
+qv
+Kn
 Fg
 Fg
 Fg
 Fg
 mc
-Vg
-Vg
+qG
+EP
 Vg
 mc
 Fg
@@ -31547,18 +31614,18 @@ Fg
 Fg
 Fg
 Fg
-Fg
-Fg
-Fg
-Fg
-Fg
+Kn
+qv
+Ct
+qv
+Kn
 Fg
 Fg
 Fg
 Fg
 mc
 Vg
-Vg
+EP
 Vg
 mc
 Fg
@@ -31804,18 +31871,18 @@ Fg
 Fg
 Fg
 Fg
-Fg
-Fg
-Fg
-Fg
-Fg
+Kn
+qv
+Ct
+qv
+Kn
 Fg
 Fg
 Fg
 Fg
 mc
 mc
-Vg
+EP
 JO
 mc
 Fg
@@ -32061,18 +32128,18 @@ Fg
 Fg
 Fg
 Fg
-Fg
-Fg
-Fg
-Fg
-Fg
-Fg
-Fg
-Fg
-Fg
-Fg
+Kn
+qv
+Ct
+qv
+Kn
+Kn
+Kn
+Kn
+Kn
+Kn
 gr
-ZS
+aZ
 ZS
 gr
 Fg
@@ -32318,18 +32385,18 @@ Fg
 Fg
 Fg
 Fg
-Fg
-Fg
-Fg
-Fg
-Fg
-Fg
-Fg
-Fg
-Fg
-Fg
-gr
-ZS
+Kn
+qv
+Ct
+Ct
+Ct
+Ct
+Ct
+Ct
+Ct
+Ct
+kt
+aZ
 ZS
 gr
 Fg
@@ -32575,16 +32642,16 @@ Fg
 Fg
 Fg
 Fg
-Fg
-Fg
-Fg
-Fg
-Fg
-Fg
-Fg
-Fg
-Fg
-Fg
+Kn
+qv
+qv
+qv
+qv
+qv
+Ct
+qv
+qv
+qv
 gr
 ZS
 ZS
@@ -32832,16 +32899,16 @@ Fg
 Fg
 Fg
 Fg
-Fg
-Fg
-Fg
-Fg
-Fg
-Fg
-Fg
-Fg
-Fg
-Fg
+Kn
+Kn
+Kn
+Kn
+Kn
+Kn
+Kn
+Kn
+Kn
+Kn
 gr
 ZS
 ZS
@@ -89902,8 +89969,8 @@ Ez
 Ez
 sC
 sC
-Yp
-kc
+Ld
+XE
 Wl
 Gb
 sC
@@ -90417,8 +90484,8 @@ Ez
 Ez
 Ez
 Ie
-ya
-aV
+WN
+ol
 Ie
 Ez
 Ez
@@ -90674,7 +90741,7 @@ Ez
 Ez
 Ez
 Ie
-ya
+WN
 aV
 Ie
 AD
@@ -90931,7 +90998,7 @@ Ez
 Ie
 Ie
 Ie
-HF
+Zo
 aV
 Ie
 AD
@@ -91188,7 +91255,7 @@ AD
 Ie
 ya
 HF
-ya
+WN
 aV
 zC
 xP
@@ -91445,7 +91512,7 @@ AD
 Ie
 HF
 HF
-HF
+Zo
 aV
 cO
 tX
@@ -91702,7 +91769,7 @@ Ie
 Ie
 HF
 HF
-HF
+Zo
 Us
 Rf
 BO
@@ -91959,7 +92026,7 @@ Ie
 ya
 ya
 HF
-ya
+WN
 aV
 rM
 Th
@@ -92216,7 +92283,7 @@ Vx
 Vx
 Vx
 Vx
-HF
+Zo
 aV
 rM
 sz
@@ -92473,7 +92540,7 @@ Vx
 fw
 fw
 Vx
-HF
+Zo
 aV
 rM
 GJ
@@ -92730,7 +92797,7 @@ Vx
 Ia
 Ia
 Vx
-HF
+Zo
 aV
 rM
 YQ
@@ -93244,7 +93311,7 @@ Vx
 Ia
 Ia
 Ie
-wH
+VJ
 Re
 VP
 Ie
@@ -93501,7 +93568,7 @@ Vx
 Ia
 Ia
 Ie
-wH
+VJ
 hD
 vJ
 Ie
@@ -93758,7 +93825,7 @@ Vx
 lP
 FF
 Ie
-wH
+VJ
 hD
 vJ
 Ie
@@ -94015,7 +94082,7 @@ Ia
 Ia
 Ia
 cq
-wH
+VJ
 hD
 vJ
 Ie
@@ -94257,9 +94324,9 @@ AD
 AD
 GQ
 GQ
-WN
-wO
-Zo
+gp
+gp
+gp
 GQ
 GQ
 AD
@@ -94269,8 +94336,8 @@ VC
 Wc
 Ia
 Ia
-Ia
-Ia
+ze
+ze
 dP
 iM
 hD
@@ -94516,7 +94583,7 @@ GQ
 GQ
 gp
 Tu
-Ct
+gp
 GQ
 GQ
 AD
@@ -94526,7 +94593,7 @@ Wc
 Wc
 Ia
 Ia
-Ia
+ze
 Ia
 Ie
 FQ
@@ -94771,9 +94838,9 @@ AD
 AD
 GQ
 GQ
-Kn
+gp
 Xl
-qv
+gp
 GQ
 GQ
 AD
@@ -94783,7 +94850,7 @@ Il
 Ia
 Ia
 Ia
-Ia
+ze
 Ia
 Ie
 oI
@@ -95040,7 +95107,7 @@ Vx
 Ia
 Ia
 Ia
-Ia
+ze
 YR
 Ie
 wH
@@ -95284,7 +95351,7 @@ AD
 AD
 AD
 Cp
-Wb
+GQ
 GQ
 GQ
 GQ
@@ -95554,7 +95621,7 @@ AD
 mc
 Vg
 Vg
-Vg
+EP
 SY
 Vg
 Vg
@@ -95811,7 +95878,7 @@ AD
 mc
 Vg
 Vg
-Vg
+EP
 Vg
 Vg
 Vg
@@ -96066,9 +96133,9 @@ AD
 AD
 AD
 mc
-Vg
-Vg
-Vg
+EP
+EP
+EP
 Vg
 Vg
 Vg
@@ -96322,8 +96389,8 @@ AD
 AD
 AD
 AD
-mc
-Vg
+lO
+EP
 Vg
 Vg
 Vg
@@ -96579,7 +96646,7 @@ AD
 AD
 AD
 AD
-mc
+lO
 ri
 mc
 JO
@@ -96836,7 +96903,7 @@ AD
 AD
 AD
 AD
-mc
+yC
 ri
 mc
 Vg
@@ -176238,7 +176305,7 @@ ds
 rx
 TL
 aD
-OZ
+Hq
 aD
 Ng
 Ox
