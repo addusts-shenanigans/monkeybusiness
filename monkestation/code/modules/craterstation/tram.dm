@@ -15,17 +15,3 @@
 	name = "Crater Outpost Station"
 	platform_code = "CRATER_ARRIVALS_STATION"
 	tgui_icons = list("Crater Outpost" = "wrench")
-
-
-/obj/effect/landmark/tram/crater/sec
-	specific_lift_id = "CRATER_PRISON"
-
-/obj/effect/landmark/tram/crater/sec/prison
-	name = "Prison"
-	platform_code = "CRATER_PRISON"
-	tgui_icons = list("Prison" = "gavel")
-
-/obj/effect/landmark/tram/crater/sec/processing
-	name = "Processing Facility"
-	platform_code = "CRATER_PROCESSING"
-	tgui_icons = list("Processing Area" = "bullhorn")

@@ -43,3 +43,6 @@
 
 /area/station/hallway/secondary/entry/tram
 	name = "Arrivals Tram Line"
+
+/area/station/maintenance/department/engine/abandoned_generator
+	name = "Decommissioned Generator"

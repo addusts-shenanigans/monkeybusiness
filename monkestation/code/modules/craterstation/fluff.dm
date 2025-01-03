@@ -14,6 +14,9 @@
 /obj/item/paper/crumpled/craterstation/remember_us
 	default_raw_text = "Everything's ready. Finally. Command crews, if you read this, remember our labours well. We fought to build this place against the cold, and we won."
 
+/obj/item/paper/crumpled/craterstation/generator_blowout
+	default_raw_text = "John noticed some pressure irregularities in the generator's main burn chamber, so we're preparing to reduce power in order to do a maintenance check. Hopefully we'll- *The writing past here is practically unreadable, seemingly affected by some sort of seismic event - or an explosion.*"
+
 //custom corpse - Constructor
 
 /obj/effect/mob_spawn/corpse/human/crater_constructor
@@ -51,3 +54,9 @@
 /obj/structure/sign/plaques/kiddie/crater_memorial
 	name = "Memorial Plaque"
 	desc = "A plaque listing the names of those who died building Crater outpost. May their sacrifice forever be rememebered by those who tread its paths."
+
+
+// dirt but COLD
+
+/turf/open/misc/dirt/icemoon
+	initial_gas_mix = ICEMOON_DEFAULT_ATMOS
