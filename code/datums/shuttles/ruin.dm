@@ -26,3 +26,8 @@
 	suffix = "syndicate_fighter_shiv"
 	name = "Syndicate Fighter"
 	description = "A small Syndicate vessel with exactly one tile of useful interior space and 4 laser turrets. Starts with a Syndicate mob in the pilot's seat, and extremely cramped."
+
+/datum/map_template/shuttle/ruin/syndicate_lavaland
+	suffix = "syndicate_lavaland_transport"
+	name = "Syndicate Lavaland Transport"
+	description = "A light-weight Syndicate transport cutter designed to survive atmospheric entry and exit. Has no hostiles or turrets, and is meant for use with the Syndicate Lavaland ruin."

@@ -1,0 +1,396 @@
+//MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
+"a" = (
+/obj/effect/spawner/structure/window/reinforced/plasma/plastitanium,
+/turf/open/floor/plating,
+/area/shuttle/syndicate_lavaland)
+"b" = (
+/turf/template_noop,
+/area/template_noop)
+"c" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 8
+	},
+/turf/open/floor/plating,
+/area/shuttle/syndicate_lavaland)
+"d" = (
+/obj/machinery/power/port_gen/pacman/pre_loaded,
+/obj/structure/cable,
+/obj/effect/turf_decal/stripes/line{
+	dir = 8
+	},
+/turf/open/floor/plating,
+/area/shuttle/syndicate_lavaland)
+"e" = (
+/obj/machinery/light/small/directional/north,
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/chair/comfy/shuttle/tactical,
+/turf/open/floor/mineral/plastitanium/red,
+/area/shuttle/syndicate_lavaland)
+"f" = (
+/obj/structure/cable,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/catwalk_floor/iron_smooth,
+/area/shuttle/syndicate_lavaland)
+"i" = (
+/turf/open/floor/mineral/plastitanium/red,
+/area/shuttle/syndicate_lavaland)
+"j" = (
+/obj/structure/table/reinforced/plastitaniumglass,
+/obj/machinery/recharger,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/mineral/plastitanium/red,
+/area/shuttle/syndicate_lavaland)
+"k" = (
+/obj/machinery/computer/shuttle/syndicate_lavaland{
+	dir = 8
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/mineral/plastitanium/red,
+/area/shuttle/syndicate_lavaland)
+"l" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 8
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 4
+	},
+/turf/open/floor/plating,
+/area/shuttle/syndicate_lavaland)
+"m" = (
+/obj/structure/closet/generic/wall/directional/east,
+/obj/item/storage/box/syndie_kit/space_suit,
+/obj/item/storage/box/syndie_kit/space_suit,
+/obj/item/storage/box/syndie_kit/space_suit,
+/obj/item/clothing/mask/gas/syndicate,
+/obj/item/clothing/mask/gas/syndicate,
+/obj/item/clothing/mask/gas/syndicate,
+/obj/item/tank/internals/oxygen,
+/obj/item/tank/internals/oxygen,
+/obj/item/tank/internals/oxygen,
+/obj/effect/turf_decal/stripes/line{
+	dir = 9
+	},
+/turf/open/floor/plating,
+/area/shuttle/syndicate_lavaland)
+"n" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 8
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 4
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plating,
+/area/shuttle/syndicate_lavaland)
+"o" = (
+/obj/machinery/door/airlock/highsecurity{
+	name = "Cockpit"
+	},
+/obj/effect/mapping_helpers/airlock/access/all/syndicate/general,
+/obj/effect/mapping_helpers/airlock/cutaiwire,
+/turf/open/floor/mineral/plastitanium/red,
+/area/shuttle/syndicate_lavaland)
+"p" = (
+/obj/effect/turf_decal/bot_red,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/iron/dark/smooth_large,
+/area/shuttle/syndicate_lavaland)
+"q" = (
+/obj/structure/table/reinforced/plastitaniumglass,
+/turf/open/floor/mineral/plastitanium/red,
+/area/shuttle/syndicate_lavaland)
+"r" = (
+/obj/structure/cable,
+/obj/structure/fans/tiny,
+/obj/machinery/door/airlock/hatch{
+	name = "Transport Shuttle Airlock"
+	},
+/obj/effect/mapping_helpers/airlock/access/all/syndicate/general,
+/obj/effect/mapping_helpers/airlock/cutaiwire,
+/turf/open/floor/catwalk_floor/iron_smooth,
+/area/shuttle/syndicate_lavaland)
+"u" = (
+/obj/effect/turf_decal/stripes/end,
+/turf/open/floor/plating,
+/area/shuttle/syndicate_lavaland)
+"v" = (
+/obj/machinery/light/directional/north,
+/obj/effect/turf_decal/bot_red,
+/turf/open/floor/iron/dark/smooth_large,
+/area/shuttle/syndicate_lavaland)
+"w" = (
+/obj/machinery/light/directional/south,
+/obj/effect/turf_decal/bot_red,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/iron/dark/smooth_large,
+/area/shuttle/syndicate_lavaland)
+"x" = (
+/obj/structure/closet/generic/wall/directional/east,
+/obj/item/stack/sheet/mineral/plasma/thirty,
+/obj/effect/turf_decal/stripes/line{
+	dir = 10
+	},
+/turf/open/floor/plating,
+/area/shuttle/syndicate_lavaland)
+"y" = (
+/turf/open/floor/catwalk_floor/iron_smooth,
+/area/shuttle/syndicate_lavaland)
+"z" = (
+/turf/closed/wall/r_wall/syndicate,
+/area/shuttle/syndicate_lavaland)
+"A" = (
+/obj/machinery/power/shuttle_engine/propulsion/burst/left{
+	dir = 8
+	},
+/turf/open/floor/plating/airless,
+/area/shuttle/syndicate_lavaland)
+"D" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/catwalk_floor/iron_smooth,
+/area/shuttle/syndicate_lavaland)
+"E" = (
+/obj/structure/cable,
+/obj/effect/turf_decal/bot_red,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/iron/dark/smooth_large,
+/area/shuttle/syndicate_lavaland)
+"F" = (
+/obj/docking_port/mobile{
+	dir = 2;
+	shuttle_id = "syndie_lavaland";
+	name = "Syndicate Lavaland Transport Shuttle";
+	port_direction = 8;
+	preferred_direction = 4
+	},
+/obj/structure/cable,
+/obj/structure/fans/tiny,
+/obj/machinery/door/airlock/hatch{
+	name = "Transport Shuttle Airlock"
+	},
+/obj/effect/mapping_helpers/airlock/access/all/syndicate/general,
+/obj/effect/mapping_helpers/airlock/cutaiwire,
+/turf/open/floor/catwalk_floor/iron_smooth,
+/area/shuttle/syndicate_lavaland)
+"G" = (
+/obj/item/radio/intercom/directional/south{
+	frequency = 1213;
+	freqlock = 1;
+	syndie = 1;
+	name = "syndicate intercom";
+	desc = "An intercom bearing the signature serpentine emblem of the Syndicate, usually used on their support vessels to send distress signals in emergencies."
+	},
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/chair/comfy/shuttle/tactical{
+	dir = 4
+	},
+/turf/open/floor/mineral/plastitanium/red,
+/area/shuttle/syndicate_lavaland)
+"H" = (
+/obj/structure/cable,
+/obj/machinery/power/terminal{
+	dir = 8
+	},
+/turf/open/floor/catwalk_floor/iron_smooth,
+/area/shuttle/syndicate_lavaland)
+"I" = (
+/obj/structure/table/reinforced/plastitaniumglass,
+/obj/item/paper_bin{
+	pixel_x = 5;
+	pixel_y = 6
+	},
+/obj/item/pen{
+	pixel_x = 5;
+	pixel_y = 7
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/mineral/plastitanium/red,
+/area/shuttle/syndicate_lavaland)
+"J" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/mineral/plastitanium/red,
+/area/shuttle/syndicate_lavaland)
+"K" = (
+/obj/effect/turf_decal/bot_red,
+/turf/open/floor/iron/dark/smooth_large,
+/area/shuttle/syndicate_lavaland)
+"N" = (
+/obj/machinery/power/apc/auto_name/directional/west,
+/obj/structure/cable,
+/obj/effect/mapping_helpers/apc/syndicate_access,
+/obj/effect/mapping_helpers/apc/cut_AI_wire,
+/obj/effect/mapping_helpers/apc/cell_5k,
+/obj/effect/mapping_helpers/apc/full_charge,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/catwalk_floor/iron_smooth,
+/area/shuttle/syndicate_lavaland)
+"O" = (
+/obj/machinery/power/shuttle_engine/propulsion/burst/right{
+	dir = 8
+	},
+/turf/open/floor/plating/airless,
+/area/shuttle/syndicate_lavaland)
+"Q" = (
+/obj/structure/cable,
+/turf/open/floor/catwalk_floor/iron_smooth,
+/area/shuttle/syndicate_lavaland)
+"S" = (
+/turf/closed/wall/r_wall/syndicate/nodiagonal,
+/area/shuttle/syndicate_lavaland)
+"T" = (
+/obj/machinery/light/small/directional/south,
+/obj/structure/chair/comfy/shuttle/tactical{
+	dir = 1
+	},
+/turf/open/floor/mineral/plastitanium/red,
+/area/shuttle/syndicate_lavaland)
+"U" = (
+/obj/machinery/power/smes/super/full,
+/obj/structure/cable,
+/obj/effect/turf_decal/stripes/end{
+	dir = 1
+	},
+/turf/open/floor/plating,
+/area/shuttle/syndicate_lavaland)
+"X" = (
+/obj/machinery/power/shuttle_engine/heater{
+	dir = 8
+	},
+/obj/structure/window/reinforced/spawner/directional/east,
+/turf/open/floor/plating/airless,
+/area/shuttle/syndicate_lavaland)
+
+(1,1,1) = {"
+b
+A
+O
+b
+A
+O
+b
+"}
+(2,1,1) = {"
+z
+X
+X
+S
+X
+X
+z
+"}
+(3,1,1) = {"
+S
+y
+D
+N
+D
+D
+S
+"}
+(4,1,1) = {"
+S
+K
+K
+f
+p
+p
+S
+"}
+(5,1,1) = {"
+S
+K
+K
+Q
+p
+p
+S
+"}
+(6,1,1) = {"
+S
+v
+K
+Q
+E
+w
+S
+"}
+(7,1,1) = {"
+S
+l
+u
+y
+U
+n
+S
+"}
+(8,1,1) = {"
+F
+Q
+Q
+Q
+H
+f
+r
+"}
+(9,1,1) = {"
+S
+d
+x
+y
+m
+c
+S
+"}
+(10,1,1) = {"
+z
+S
+S
+o
+S
+S
+z
+"}
+(11,1,1) = {"
+b
+S
+e
+i
+T
+S
+b
+"}
+(12,1,1) = {"
+b
+a
+j
+J
+q
+a
+b
+"}
+(13,1,1) = {"
+b
+a
+I
+G
+q
+a
+b
+"}
+(14,1,1) = {"
+b
+a
+a
+k
+a
+a
+b
+"}
+(15,1,1) = {"
+b
+b
+a
+a
+a
+b
+b
+"}

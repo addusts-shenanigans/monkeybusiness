@@ -16,6 +16,11 @@
 	important_text = "DO NOT leave the base. You are not a field agent, and are not permitted to do their job for them."
 	spawner_job_path = /datum/job/lavaland_syndicate/space
 
+/datum/outfit/lavaland_syndicate/comms
+	name = "Syndicate Comms Agent"
+	suit = /obj/item/clothing/suit/armor/vest
+	mask = /obj/item/clothing/mask/chameleon/gps
+	r_hand = /obj/item/melee/energy/sword/saber
 
 
 /obj/effect/mob_spawn/ghost_role/human/lavaland_syndicate/comms/space/anderson //the last agent according to lore, spawns rarely, has some flavour text, should start blinded

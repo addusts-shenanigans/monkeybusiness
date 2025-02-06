@@ -303,7 +303,12 @@
 /obj/item/circuitboard/computer/syndicate_shuttle/Destroy()
 	GLOB.syndicate_shuttle_boards -= src
 	return ..()
-
+//MONKESTATION EDIT
+/obj/item/circuitboard/computer/syndicate_lavaland_shuttle
+	name = "Syndicate Lavaland Shuttle"
+	greyscale_colors = CIRCUIT_COLOR_GENERIC
+	build_path = /obj/machinery/computer/shuttle/syndicate_lavaland
+//MONKEY BUSINESS END
 /obj/item/circuitboard/computer/syndicatedoor
 	name = "ProComp Executive"
 	greyscale_colors = CIRCUIT_COLOR_GENERIC
