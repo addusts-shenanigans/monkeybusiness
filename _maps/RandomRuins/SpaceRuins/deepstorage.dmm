@@ -2638,6 +2638,7 @@
 /obj/effect/turf_decal/stripes{
 	dir = 8
 	},
+/obj/machinery/duct,
 /turf/open/floor/iron/white/textured,
 /area/ruin/space/has_grav/deepstorage/xenobiology)
 "kB" = (
@@ -2742,6 +2743,17 @@
 /obj/structure/cable,
 /turf/open/floor/iron/dark,
 /area/ruin/space/has_grav/deepstorage/armory)
+"py" = (
+/obj/docking_port/stationary{
+	height = 16;
+	shuttle_id = "deep_storage";
+	name = "Deep Storage Research Bunker";
+	width = 16;
+	dwidth = 6;
+	dir = 2
+	},
+/turf/template_noop,
+/area/template_noop)
 "pP" = (
 /turf/closed/wall,
 /area/ruin/space/has_grav/deepstorage)
@@ -2854,6 +2866,7 @@
 /obj/effect/turf_decal/stripes{
 	dir = 4
 	},
+/obj/machinery/duct,
 /turf/open/floor/iron/white/textured,
 /area/ruin/space/has_grav/deepstorage/xenobiology)
 "vs" = (
@@ -5349,7 +5362,7 @@ ab
 Iy
 Iy
 Iy
-aa
+py
 aa
 aa
 aa
