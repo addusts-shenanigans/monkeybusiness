@@ -244,6 +244,11 @@
 /area/shuttle/ruin/caravan/freighter3
 	name = "Tiny Freighter"
 
+// Syndicate Lavaland's transit shuttle, capable of flying to all other Syndicate outposts.
+
+/area/shuttle/syndicate_lavaland
+	name = "Syndicate Transport Shuttle"
+
 // ----------- Cyborg Mothership
 
 /area/shuttle/ruin/cyborg_mothership
