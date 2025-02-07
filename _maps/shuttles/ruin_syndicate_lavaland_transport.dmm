@@ -1,121 +1,19 @@
 //MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
-"cn" = (
-/obj/machinery/power/apc/auto_name/directional/west,
+"ah" = (
 /obj/structure/cable,
-/obj/effect/mapping_helpers/apc/syndicate_access,
-/obj/effect/mapping_helpers/apc/cut_AI_wire,
-/obj/effect/mapping_helpers/apc/cell_5k,
-/obj/effect/mapping_helpers/apc/full_charge,
-/obj/effect/decal/cleanable/dirt,
+/obj/machinery/atmospherics/components/binary/valve/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /turf/open/floor/catwalk_floor/iron_smooth,
 /area/shuttle/syndicate_lavaland)
-"cp" = (
-/obj/structure/cable,
+"aT" = (
+/obj/machinery/light/small/directional/north,
 /obj/effect/decal/cleanable/dirt,
-/obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
-	dir = 4
-	},
-/turf/open/floor/catwalk_floor/iron_smooth,
-/area/shuttle/syndicate_lavaland)
-"dt" = (
-/obj/structure/cable,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/turf/open/floor/catwalk_floor/iron_smooth,
-/area/shuttle/syndicate_lavaland)
-"gs" = (
-/obj/effect/turf_decal/stripes/end,
-/obj/machinery/atmospherics/pipe/layer_manifold/supply/visible/layer4,
-/obj/machinery/portable_atmospherics/scrubber,
-/turf/open/floor/plating,
-/area/shuttle/syndicate_lavaland)
-"gv" = (
-/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/turf/open/floor/catwalk_floor/iron_smooth,
-/area/shuttle/syndicate_lavaland)
-"it" = (
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/catwalk_floor/iron_smooth,
-/area/shuttle/syndicate_lavaland)
-"ke" = (
-/obj/machinery/light/directional/north,
-/obj/effect/turf_decal/bot_red,
-/turf/open/floor/iron/dark/smooth_large,
-/area/shuttle/syndicate_lavaland)
-"lu" = (
-/obj/machinery/power/port_gen/pacman/pre_loaded,
-/obj/structure/cable,
-/obj/effect/turf_decal/stripes/line{
-	dir = 8
-	},
-/turf/open/floor/plating,
-/area/shuttle/syndicate_lavaland)
-"nC" = (
-/obj/structure/cable,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
-/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2{
-	dir = 4
-	},
-/turf/open/floor/catwalk_floor/iron_smooth,
-/area/shuttle/syndicate_lavaland)
-"pu" = (
-/obj/machinery/power/shuttle_engine/heater{
-	dir = 8
-	},
-/obj/structure/window/reinforced/spawner/directional/east,
-/turf/open/floor/plating/airless,
-/area/shuttle/syndicate_lavaland)
-"tJ" = (
-/obj/effect/turf_decal/bot_red,
-/turf/open/floor/iron/dark/smooth_large,
-/area/shuttle/syndicate_lavaland)
-"tK" = (
-/obj/effect/turf_decal/stripes/line{
-	dir = 8
-	},
-/obj/effect/turf_decal/stripes/line{
-	dir = 4
-	},
-/obj/effect/decal/cleanable/dirt,
-/obj/structure/rack,
-/obj/item/storage/toolbox/syndicate,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/turf/open/floor/plating,
-/area/shuttle/syndicate_lavaland)
-"ui" = (
-/obj/effect/turf_decal/stripes/line{
-	dir = 8
-	},
-/obj/effect/turf_decal/stripes/line{
-	dir = 4
-	},
-/obj/machinery/atmospherics/components/tank/air,
-/turf/open/floor/plating,
-/area/shuttle/syndicate_lavaland)
-"vD" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/machinery/atmospherics/components/binary/valve/layer2,
-/turf/open/floor/catwalk_floor/iron_smooth,
-/area/shuttle/syndicate_lavaland)
-"wv" = (
-/obj/machinery/door/airlock/highsecurity{
-	name = "Cockpit"
-	},
-/obj/effect/mapping_helpers/airlock/access/all/syndicate/general,
-/obj/effect/mapping_helpers/airlock/cutaiwire,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
-/obj/structure/cable,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/structure/chair/comfy/shuttle/tactical,
+/obj/machinery/airalarm/directional/west,
+/obj/effect/mapping_helpers/airalarm/syndicate_access,
 /turf/open/floor/mineral/plastitanium/red,
 /area/shuttle/syndicate_lavaland)
-"ym" = (
-/obj/effect/spawner/structure/window/reinforced/plasma/plastitanium,
-/obj/structure/cable,
-/turf/open/floor/plating,
-/area/shuttle/syndicate_lavaland)
-"yx" = (
+"bj" = (
 /obj/item/radio/intercom/directional/south{
 	frequency = 1213;
 	freqlock = 1;
@@ -132,25 +30,113 @@
 	},
 /turf/open/floor/mineral/plastitanium/red,
 /area/shuttle/syndicate_lavaland)
-"zz" = (
-/obj/structure/table/reinforced/plastitaniumglass,
-/obj/machinery/recharger,
+"cr" = (
+/obj/structure/cable,
 /obj/effect/decal/cleanable/dirt,
-/obj/structure/cable,
-/turf/open/floor/mineral/plastitanium/red,
-/area/shuttle/syndicate_lavaland)
-"Cf" = (
-/obj/structure/cable,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
+	dir = 4
+	},
 /turf/open/floor/catwalk_floor/iron_smooth,
 /area/shuttle/syndicate_lavaland)
-"Cx" = (
-/turf/closed/wall/r_wall/syndicate/nodiagonal,
+"en" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 8
+	},
+/obj/machinery/airalarm/directional/east,
+/obj/effect/mapping_helpers/airalarm/syndicate_access,
+/obj/structure/closet/l3closet/janitor,
+/obj/item/reagent_containers/spray/cleaner,
+/obj/item/mop/advanced,
+/turf/open/floor/plating,
 /area/shuttle/syndicate_lavaland)
-"Ee" = (
+"er" = (
+/obj/machinery/power/shuttle_engine/heater{
+	dir = 8
+	},
+/obj/structure/window/reinforced/spawner/directional/east,
+/turf/open/floor/plating/airless,
+/area/shuttle/syndicate_lavaland)
+"eO" = (
+/obj/structure/table/reinforced/plastitaniumglass,
+/obj/item/paper_bin{
+	pixel_x = 5;
+	pixel_y = 6
+	},
+/obj/item/pen{
+	pixel_x = 5;
+	pixel_y = 7
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/mineral/plastitanium/red,
+/area/shuttle/syndicate_lavaland)
+"fD" = (
 /turf/closed/wall/r_wall/syndicate,
 /area/shuttle/syndicate_lavaland)
-"EB" = (
+"fU" = (
+/obj/effect/spawner/structure/window/reinforced/plasma/plastitanium,
+/obj/structure/cable,
+/obj/machinery/door/poddoor/preopen{
+	id = "syndicate_lavaland_cargo_ship_windows"
+	},
+/turf/open/floor/plating,
+/area/shuttle/syndicate_lavaland)
+"gl" = (
+/obj/effect/turf_decal/bot_red,
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/closet/crate,
+/obj/item/circuitboard/computer/syndicate_lavaland_shuttle{
+	pixel_x = -1;
+	pixel_y = 1
+	},
+/obj/item/circuitboard/computer/syndicate_lavaland_shuttle{
+	pixel_x = -1;
+	pixel_y = 1
+	},
+/obj/item/circuitboard/computer/syndicate_lavaland_shuttle{
+	pixel_x = 0;
+	pixel_y = -1
+	},
+/obj/item/circuitboard/computer/syndicate_lavaland_shuttle{
+	pixel_x = 1;
+	pixel_y = -3
+	},
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/turf/open/floor/iron/dark/smooth_large,
+/area/shuttle/syndicate_lavaland)
+"hl" = (
+/obj/machinery/light/small/directional/south,
+/obj/structure/chair/comfy/shuttle/tactical{
+	dir = 1
+	},
+/turf/open/floor/mineral/plastitanium/red,
+/area/shuttle/syndicate_lavaland)
+"hn" = (
+/obj/effect/turf_decal/bot_red,
+/turf/open/floor/iron/dark/smooth_large,
+/area/shuttle/syndicate_lavaland)
+"iK" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 8
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 4
+	},
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/rack,
+/obj/item/storage/toolbox/syndicate,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/turf/open/floor/plating,
+/area/shuttle/syndicate_lavaland)
+"iQ" = (
+/turf/open/floor/catwalk_floor/iron_smooth,
+/area/shuttle/syndicate_lavaland)
+"jo" = (
+/obj/machinery/atmospherics/components/unary/outlet_injector/on/layer2{
+	dir = 4
+	},
+/turf/open/floor/plating/airless,
+/area/shuttle/syndicate_lavaland)
+"lK" = (
 /obj/structure/closet/generic/wall/directional/east,
 /obj/item/stack/sheet/mineral/plasma/thirty,
 /obj/effect/turf_decal/stripes/line{
@@ -158,26 +144,40 @@
 	},
 /turf/open/floor/plating,
 /area/shuttle/syndicate_lavaland)
-"EN" = (
-/obj/docking_port/mobile{
-	dir = 2;
-	shuttle_id = "syndie_lavaland";
-	name = "Syndicate Lavaland Transport Shuttle";
-	port_direction = 8;
-	preferred_direction = 4
-	},
+"mE" = (
 /obj/structure/cable,
-/obj/structure/fans/tiny,
-/obj/machinery/door/airlock/hatch{
-	name = "Transport Shuttle Airlock"
-	},
-/obj/effect/mapping_helpers/airlock/access/all/syndicate/general,
-/obj/effect/mapping_helpers/airlock/cutaiwire,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/effect/turf_decal/bot_red,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/iron/dark/smooth_large,
+/area/shuttle/syndicate_lavaland)
+"mI" = (
+/obj/machinery/power/apc/auto_name/directional/west,
+/obj/structure/cable,
+/obj/effect/mapping_helpers/apc/syndicate_access,
+/obj/effect/mapping_helpers/apc/cut_AI_wire,
+/obj/effect/mapping_helpers/apc/cell_5k,
+/obj/effect/mapping_helpers/apc/full_charge,
+/obj/effect/decal/cleanable/dirt,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /turf/open/floor/catwalk_floor/iron_smooth,
 /area/shuttle/syndicate_lavaland)
-"Ff" = (
+"nf" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/turf/open/floor/catwalk_floor/iron_smooth,
+/area/shuttle/syndicate_lavaland)
+"og" = (
+/obj/machinery/computer/shuttle/syndicate_lavaland{
+	dir = 8
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/mineral/plastitanium/red,
+/area/shuttle/syndicate_lavaland)
+"oH" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/turf/closed/wall/r_wall/syndicate/nodiagonal,
+/area/shuttle/syndicate_lavaland)
+"pU" = (
 /obj/item/poster/random_contraband{
 	pixel_x = -4;
 	pixel_y = -7
@@ -235,10 +235,185 @@
 /obj/effect/turf_decal/bot_red,
 /turf/open/floor/iron/dark/smooth_large,
 /area/shuttle/syndicate_lavaland)
-"Ge" = (
-/turf/template_noop,
-/area/template_noop)
-"In" = (
+"rf" = (
+/obj/structure/cable,
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/atmospherics/components/binary/valve/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/turf/open/floor/catwalk_floor/iron_smooth,
+/area/shuttle/syndicate_lavaland)
+"rH" = (
+/obj/docking_port/mobile{
+	dir = 2;
+	shuttle_id = "syndie_lavaland";
+	name = "Syndicate Lavaland Transport Shuttle";
+	port_direction = 8;
+	preferred_direction = 4
+	},
+/obj/structure/cable,
+/obj/structure/fans/tiny,
+/obj/machinery/door/airlock/hatch{
+	name = "Transport Shuttle Airlock"
+	},
+/obj/effect/mapping_helpers/airlock/access/all/syndicate/general,
+/obj/effect/mapping_helpers/airlock/cutaiwire,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/turf/open/floor/catwalk_floor/iron_smooth,
+/area/shuttle/syndicate_lavaland)
+"sl" = (
+/obj/structure/table/reinforced/plastitaniumglass,
+/obj/machinery/recharger,
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/cable,
+/turf/open/floor/mineral/plastitanium/red,
+/area/shuttle/syndicate_lavaland)
+"ug" = (
+/obj/machinery/power/shuttle_engine/propulsion/burst/left{
+	dir = 8
+	},
+/turf/open/floor/plating/airless,
+/area/shuttle/syndicate_lavaland)
+"uw" = (
+/obj/effect/turf_decal/stripes/end,
+/obj/machinery/atmospherics/pipe/layer_manifold/supply/visible/layer4,
+/obj/machinery/portable_atmospherics/scrubber,
+/turf/open/floor/plating,
+/area/shuttle/syndicate_lavaland)
+"uY" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/turf/open/floor/catwalk_floor/iron_smooth,
+/area/shuttle/syndicate_lavaland)
+"wz" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/turf/open/floor/catwalk_floor/iron_smooth,
+/area/shuttle/syndicate_lavaland)
+"yq" = (
+/obj/machinery/door/airlock/highsecurity{
+	name = "Cockpit"
+	},
+/obj/effect/mapping_helpers/airlock/access/all/syndicate/general,
+/obj/effect/mapping_helpers/airlock/cutaiwire,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/turf/open/floor/mineral/plastitanium/red,
+/area/shuttle/syndicate_lavaland)
+"yL" = (
+/obj/structure/cable,
+/obj/machinery/power/terminal{
+	dir = 8
+	},
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/turf/open/floor/catwalk_floor/iron_smooth,
+/area/shuttle/syndicate_lavaland)
+"zR" = (
+/obj/effect/spawner/structure/window/reinforced/plasma/plastitanium,
+/obj/structure/cable,
+/obj/machinery/door/poddoor/preopen{
+	id = "syndicate_lavaland_cargo_ship_windows";
+	dir = 4
+	},
+/turf/open/floor/plating,
+/area/shuttle/syndicate_lavaland)
+"AB" = (
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2{
+	dir = 4
+	},
+/turf/open/floor/catwalk_floor/iron_smooth,
+/area/shuttle/syndicate_lavaland)
+"BL" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 8
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 4
+	},
+/obj/machinery/atmospherics/components/tank/air,
+/turf/open/floor/plating,
+/area/shuttle/syndicate_lavaland)
+"Ck" = (
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/turf/open/floor/catwalk_floor/iron_smooth,
+/area/shuttle/syndicate_lavaland)
+"DX" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/catwalk_floor/iron_smooth,
+/area/shuttle/syndicate_lavaland)
+"DZ" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/atmospherics/components/binary/valve/layer2,
+/turf/open/floor/catwalk_floor/iron_smooth,
+/area/shuttle/syndicate_lavaland)
+"Eq" = (
+/turf/closed/wall/r_wall/syndicate/nodiagonal,
+/area/shuttle/syndicate_lavaland)
+"EV" = (
+/obj/machinery/power/shuttle_engine/propulsion/burst/right{
+	dir = 8
+	},
+/turf/open/floor/plating/airless,
+/area/shuttle/syndicate_lavaland)
+"GA" = (
+/obj/structure/table/reinforced/plastitaniumglass,
+/turf/open/floor/mineral/plastitanium/red,
+/area/shuttle/syndicate_lavaland)
+"GN" = (
+/obj/machinery/power/port_gen/pacman/pre_loaded,
+/obj/structure/cable,
+/obj/effect/turf_decal/stripes/line{
+	dir = 8
+	},
+/turf/open/floor/plating,
+/area/shuttle/syndicate_lavaland)
+"HN" = (
+/obj/structure/table/reinforced/plastitaniumglass,
+/obj/structure/cable,
+/obj/machinery/button/door{
+	pixel_x = 16;
+	pixel_y = 9;
+	req_access = list("syndicate");
+	id = "syndicate_lavaland_cargo_ship_windows"
+	},
+/turf/open/floor/mineral/plastitanium/red,
+/area/shuttle/syndicate_lavaland)
+"Ib" = (
+/obj/effect/turf_decal/bot_red,
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/turf/open/floor/iron/dark/smooth_large,
+/area/shuttle/syndicate_lavaland)
+"JG" = (
+/obj/effect/turf_decal/bot_red,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/iron/dark/smooth_large,
+/area/shuttle/syndicate_lavaland)
+"Kr" = (
+/obj/structure/cable,
+/obj/structure/fans/tiny,
+/obj/machinery/door/airlock/hatch{
+	name = "Transport Shuttle Airlock"
+	},
+/obj/effect/mapping_helpers/airlock/access/all/syndicate/general,
+/obj/effect/mapping_helpers/airlock/cutaiwire,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/turf/open/floor/catwalk_floor/iron_smooth,
+/area/shuttle/syndicate_lavaland)
+"LG" = (
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/turf/open/floor/catwalk_floor/iron_smooth,
+/area/shuttle/syndicate_lavaland)
+"Me" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/structure/cable,
@@ -247,15 +422,37 @@
 	},
 /turf/open/floor/mineral/plastitanium/red,
 /area/shuttle/syndicate_lavaland)
-"Iu" = (
-/obj/machinery/light/small/directional/north,
-/obj/effect/decal/cleanable/dirt,
-/obj/structure/chair/comfy/shuttle/tactical,
-/obj/machinery/airalarm/directional/west,
-/obj/effect/mapping_helpers/airalarm/syndicate_access,
+"MP" = (
+/turf/template_noop,
+/area/template_noop)
+"OR" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /turf/open/floor/mineral/plastitanium/red,
 /area/shuttle/syndicate_lavaland)
-"IB" = (
+"Pf" = (
+/obj/structure/closet/generic/wall/directional/east,
+/obj/item/storage/box/syndie_kit/space_suit,
+/obj/item/storage/box/syndie_kit/space_suit,
+/obj/item/storage/box/syndie_kit/space_suit,
+/obj/item/clothing/mask/gas/syndicate,
+/obj/item/clothing/mask/gas/syndicate,
+/obj/item/clothing/mask/gas/syndicate,
+/obj/item/tank/internals/oxygen,
+/obj/item/tank/internals/oxygen,
+/obj/item/tank/internals/oxygen,
+/obj/effect/turf_decal/stripes/line{
+	dir = 9
+	},
+/turf/open/floor/plating,
+/area/shuttle/syndicate_lavaland)
+"RU" = (
+/obj/machinery/light/directional/north,
+/obj/effect/turf_decal/bot_red,
+/turf/open/floor/iron/dark/smooth_large,
+/area/shuttle/syndicate_lavaland)
+"VV" = (
 /obj/effect/turf_decal/bot_red,
 /obj/structure/closet/crate/freezer,
 /obj/item/food/rationpack{
@@ -276,108 +473,7 @@
 	},
 /turf/open/floor/iron/dark/smooth_large,
 /area/shuttle/syndicate_lavaland)
-"Ki" = (
-/obj/machinery/power/shuttle_engine/propulsion/burst/left{
-	dir = 8
-	},
-/turf/open/floor/plating/airless,
-/area/shuttle/syndicate_lavaland)
-"Lf" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/turf/open/floor/catwalk_floor/iron_smooth,
-/area/shuttle/syndicate_lavaland)
-"Lm" = (
-/obj/machinery/power/shuttle_engine/propulsion/burst/right{
-	dir = 8
-	},
-/turf/open/floor/plating/airless,
-/area/shuttle/syndicate_lavaland)
-"LF" = (
-/obj/structure/cable,
-/obj/effect/turf_decal/bot_red,
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/iron/dark/smooth_large,
-/area/shuttle/syndicate_lavaland)
-"Md" = (
-/obj/structure/cable,
-/obj/machinery/atmospherics/components/binary/valve/layer4,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/turf/open/floor/catwalk_floor/iron_smooth,
-/area/shuttle/syndicate_lavaland)
-"Mu" = (
-/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/turf/closed/wall/r_wall/syndicate/nodiagonal,
-/area/shuttle/syndicate_lavaland)
-"Ne" = (
-/obj/machinery/computer/shuttle/syndicate_lavaland{
-	dir = 8
-	},
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/mineral/plastitanium/red,
-/area/shuttle/syndicate_lavaland)
-"Nq" = (
-/obj/structure/table/reinforced/plastitaniumglass,
-/turf/open/floor/mineral/plastitanium/red,
-/area/shuttle/syndicate_lavaland)
-"Pb" = (
-/obj/machinery/atmospherics/components/unary/outlet_injector/on/layer2{
-	dir = 4
-	},
-/turf/open/floor/plating/airless,
-/area/shuttle/syndicate_lavaland)
-"Pg" = (
-/obj/structure/cable,
-/obj/machinery/power/terminal{
-	dir = 8
-	},
-/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/turf/open/floor/catwalk_floor/iron_smooth,
-/area/shuttle/syndicate_lavaland)
-"Pp" = (
-/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
-/obj/structure/cable,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/turf/open/floor/mineral/plastitanium/red,
-/area/shuttle/syndicate_lavaland)
-"Pv" = (
-/obj/structure/table/reinforced/plastitaniumglass,
-/obj/item/paper_bin{
-	pixel_x = 5;
-	pixel_y = 6
-	},
-/obj/item/pen{
-	pixel_x = 5;
-	pixel_y = 7
-	},
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/mineral/plastitanium/red,
-/area/shuttle/syndicate_lavaland)
-"QC" = (
-/obj/effect/turf_decal/bot_red,
-/obj/effect/decal/cleanable/dirt,
-/obj/structure/closet/crate,
-/obj/item/circuitboard/computer/syndicate_lavaland_shuttle{
-	pixel_x = -1;
-	pixel_y = 1
-	},
-/obj/item/circuitboard/computer/syndicate_lavaland_shuttle{
-	pixel_x = -1;
-	pixel_y = 1
-	},
-/obj/item/circuitboard/computer/syndicate_lavaland_shuttle{
-	pixel_x = 0;
-	pixel_y = -1
-	},
-/obj/item/circuitboard/computer/syndicate_lavaland_shuttle{
-	pixel_x = 1;
-	pixel_y = -3
-	},
-/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/turf/open/floor/iron/dark/smooth_large,
-/area/shuttle/syndicate_lavaland)
-"QJ" = (
+"WJ" = (
 /obj/machinery/power/smes/super/full,
 /obj/structure/cable,
 /obj/effect/turf_decal/stripes/end{
@@ -385,221 +481,146 @@
 	},
 /turf/open/floor/plating,
 /area/shuttle/syndicate_lavaland)
-"Sg" = (
-/turf/open/floor/catwalk_floor/iron_smooth,
-/area/shuttle/syndicate_lavaland)
-"Tn" = (
-/obj/structure/cable,
-/obj/structure/fans/tiny,
-/obj/machinery/door/airlock/hatch{
-	name = "Transport Shuttle Airlock"
-	},
-/obj/effect/mapping_helpers/airlock/access/all/syndicate/general,
-/obj/effect/mapping_helpers/airlock/cutaiwire,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/turf/open/floor/catwalk_floor/iron_smooth,
-/area/shuttle/syndicate_lavaland)
-"VJ" = (
-/obj/structure/cable,
-/obj/effect/decal/cleanable/dirt,
-/obj/machinery/atmospherics/components/binary/valve/layer4,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/turf/open/floor/catwalk_floor/iron_smooth,
-/area/shuttle/syndicate_lavaland)
-"VN" = (
-/obj/effect/turf_decal/bot_red,
-/obj/effect/decal/cleanable/dirt,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/turf/open/floor/iron/dark/smooth_large,
-/area/shuttle/syndicate_lavaland)
-"VU" = (
-/obj/effect/turf_decal/bot_red,
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/iron/dark/smooth_large,
-/area/shuttle/syndicate_lavaland)
-"Xa" = (
-/obj/structure/table/reinforced/plastitaniumglass,
-/obj/structure/cable,
-/turf/open/floor/mineral/plastitanium/red,
-/area/shuttle/syndicate_lavaland)
-"Xk" = (
-/obj/effect/turf_decal/stripes/line{
-	dir = 8
-	},
-/obj/machinery/airalarm/directional/east,
-/obj/effect/mapping_helpers/airalarm/syndicate_access,
-/turf/open/floor/plating,
-/area/shuttle/syndicate_lavaland)
-"Xo" = (
-/obj/structure/closet/generic/wall/directional/east,
-/obj/item/storage/box/syndie_kit/space_suit,
-/obj/item/storage/box/syndie_kit/space_suit,
-/obj/item/storage/box/syndie_kit/space_suit,
-/obj/item/clothing/mask/gas/syndicate,
-/obj/item/clothing/mask/gas/syndicate,
-/obj/item/clothing/mask/gas/syndicate,
-/obj/item/tank/internals/oxygen,
-/obj/item/tank/internals/oxygen,
-/obj/item/tank/internals/oxygen,
-/obj/effect/turf_decal/stripes/line{
-	dir = 9
-	},
-/turf/open/floor/plating,
-/area/shuttle/syndicate_lavaland)
-"XK" = (
-/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
-/obj/structure/cable,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/turf/open/floor/catwalk_floor/iron_smooth,
-/area/shuttle/syndicate_lavaland)
-"YN" = (
+"XS" = (
 /obj/machinery/light/directional/south,
 /obj/effect/turf_decal/bot_red,
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /turf/open/floor/iron/dark/smooth_large,
 /area/shuttle/syndicate_lavaland)
-"ZL" = (
-/obj/machinery/light/small/directional/south,
-/obj/structure/chair/comfy/shuttle/tactical{
-	dir = 1
-	},
-/turf/open/floor/mineral/plastitanium/red,
-/area/shuttle/syndicate_lavaland)
 
 (1,1,1) = {"
-Ge
-Ki
-Lm
-Pb
-Ki
-Lm
-Ge
+MP
+ug
+EV
+jo
+ug
+EV
+MP
 "}
 (2,1,1) = {"
-Ee
-pu
-pu
-Mu
-pu
-pu
-Ee
+fD
+er
+er
+oH
+er
+er
+fD
 "}
 (3,1,1) = {"
-Cx
-Sg
-it
-cn
-vD
-Lf
-Cx
+Eq
+iQ
+DX
+mI
+DZ
+nf
+Eq
 "}
 (4,1,1) = {"
-Cx
-IB
-tJ
-cp
-VU
-QC
-Cx
+Eq
+VV
+hn
+cr
+JG
+gl
+Eq
 "}
 (5,1,1) = {"
-Cx
-tJ
-tJ
-Cf
-VU
-VN
-Cx
+Eq
+hn
+hn
+LG
+JG
+Ib
+Eq
 "}
 (6,1,1) = {"
-Cx
-ke
-Ff
-nC
-LF
-YN
-Cx
+Eq
+RU
+pU
+AB
+mE
+XS
+Eq
 "}
 (7,1,1) = {"
-Cx
-ui
-gs
-gv
-QJ
-tK
-Cx
+Eq
+BL
+uw
+uY
+WJ
+iK
+Eq
 "}
 (8,1,1) = {"
-EN
-Md
-dt
-dt
-Pg
-VJ
-Tn
+rH
+ah
+Ck
+Ck
+yL
+rf
+Kr
 "}
 (9,1,1) = {"
-Cx
-lu
-EB
-XK
-Xo
-Xk
-Cx
+Eq
+GN
+lK
+wz
+Pf
+en
+Eq
 "}
 (10,1,1) = {"
-Ee
-Cx
-Cx
-wv
-Cx
-Cx
-Ee
+fD
+Eq
+Eq
+yq
+Eq
+Eq
+fD
 "}
 (11,1,1) = {"
-Ge
-Cx
-Iu
-Pp
-ZL
-Cx
-Ge
+MP
+Eq
+aT
+OR
+hl
+Eq
+MP
 "}
 (12,1,1) = {"
-Ge
-ym
-zz
-In
-Xa
-ym
-Ge
+MP
+fU
+sl
+Me
+HN
+fU
+MP
 "}
 (13,1,1) = {"
-Ge
-ym
-Pv
-yx
-Nq
-ym
-Ge
+MP
+fU
+eO
+bj
+GA
+fU
+MP
 "}
 (14,1,1) = {"
-Ge
-ym
-ym
-Ne
-ym
-ym
-Ge
+MP
+fU
+zR
+og
+zR
+fU
+MP
 "}
 (15,1,1) = {"
-Ge
-Ge
-ym
-ym
-ym
-Ge
-Ge
+MP
+MP
+zR
+zR
+zR
+MP
+MP
 "}
