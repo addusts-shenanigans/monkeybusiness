@@ -50,7 +50,7 @@
 		/obj/item/gun/ballistic/rifle/sniper_rifle/syndicate = 1, //makes it obvious that the gun fits in the backpack
 		/obj/item/storage/medkit/surgery = 1 //interdyne does medicine too, you know
 	)
-	belt = /obj/item/storage/belt/utility/full //basic utility belt, but not as good as the technician's belt]
+	belt = /obj/item/storage/belt/utility/full //basic utility belt, but not as good as the technician's belt
 
 /obj/effect/mob_spawn/ghost_role/human/lavaland_syndicate/engineer
 	name = "Syndicate Technician"
@@ -62,11 +62,25 @@
 
 /datum/outfit/lavaland_syndicate/engineer
 	name = "Lavaland Syndicate Technician"
-	suit = /obj/item/clothing/suit/hazardvest
+	suit = /obj/item/clothing/suit/hazardvest/syndicate
+	head = /obj/item/clothing/head/utility/hardhat/red //evil. EVIL. EVIL!!!!!
 	backpack_contents = list(
-		/obj/item/storage/medkit/surgery = 1 //interdyne does medicine too, you know
+		/obj/item/storage/box/emptysandbags = 1
 	)
-	belt = /obj/item/storage/belt/utility/full //basic utility belt, but not as good as the technician's belt
+	belt = /obj/item/storage/belt/utility/full/engi
+	glasses = /obj/item/clothing/glasses/welding
+	uniform = /obj/item/clothing/under/syndicate/nova/overalls
+
+/obj/item/clothing/suit/hazardvest/syndicate
+	name = "syndicate hazard vest"
+	desc = "A durathread-weave hazard vest in the signature colours of the Syndicate."
+	icon_state = "hazard_syndicate"
+	icon = 'icons/obj/clothing/suits/utility.dmi'
+	worn_icon = 'icons/mob/clothing/suits/utility.dmi'
+	inhand_icon_state = null
+	blood_overlay_type = "armor"
+	armor_type = /datum/armor/vest_durathread //not the best but it'll work
+
 
 /obj/effect/mob_spawn/ghost_role/human/lavaland_syndicate/commander
 	name = "Syndicate Commander"
@@ -85,7 +99,7 @@
 	suit = /obj/item/clothing/suit/armor/vest/capcarapace/syndicate
 	ears = /obj/item/radio/headset/syndicate/alt/leader //big man, needs authority. if you use it over common and get BSA'd, your fault.
 	head = /obj/item/clothing/head/hats/hos/cap/syndicate
-	under = /obj/item/clothing/under/syndicate/sniper //distinguished gentleman
+	uniform = /obj/item/clothing/under/syndicate/sniper //distinguished gentleman
 	belt = /obj/item/gun/ballistic/automatic/pistol/aps/restricted //setting a precedent that commanders get cooler pistols. also their colleagues get fucking sniper rifles but there's no good weapons here for suppressive fire. this also keeps miners from using it with zero effort
 	backpack_contents = list(
 		/obj/item/melee/energy/sword/saber/red = 1
