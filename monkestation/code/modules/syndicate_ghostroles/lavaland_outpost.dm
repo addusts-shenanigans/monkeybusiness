@@ -3,11 +3,11 @@
 ///Syndicate Listening Post
 
 /obj/effect/mob_spawn/ghost_role/human/lavaland_syndicate
-	name = "Syndicate Bioweapon Scientist"
+	name = "Syndicate Operative"
 	icon = 'icons/obj/machines/sleeper.dmi'
 	icon_state = "sleeper_s"
-	prompt_name = "a syndicate science technician"
-	you_are_text = "You are a syndicate science technician, employed in a top secret research facility developing biological weapons."
+	prompt_name = "a syndicate technician"
+	you_are_text = "You are a syndicate technician, employed in a top secret research facility developing biological weapons."
 	flavour_text = "Unfortunately, your hated enemy, Nanotrasen, has begun mining in this sector. Continue your research as best you can, and try to keep a low profile."
 	important_text = "The base is rigged with explosives, DO NOT abandon it or let it fall into enemy hands! While you can take the shuttle in the hangar to visit other active Syndicate outposts, you must stay within those outposts or the ship while in orbit. Do not attempt to explore space."
 	outfit = /datum/outfit/lavaland_syndicate
@@ -17,26 +17,16 @@
 	. = ..()
 	new_spawn.grant_language(/datum/language/codespeak, TRUE, TRUE, LANGUAGE_MIND)
 
-/obj/effect/mob_spawn/ghost_role/human/lavaland_syndicate/commander
-	name = "Syndicate Commander"
-	prompt_name = "a syndicate comms agent"
-	you_are_text = "You are the commander of the Syndicate's outpost on Lavaland, developing biological and chemical weapons."
-	flavour_text = "Unfortunately, your hated enemy, Nanotrasen, has begun mining in this sector. Monitor enemy activity as best you can, and try to keep a low profile. Use the communication equipment to provide support to any field agents, and sow disinformation to throw Nanotrasen off your trail. Do not let the base fall into enemy hands!"
-	important_text = "DO NOT abandon the base or attempt to interfere with Nanotrasen mining operations. While you are allowed to visit other syndicate outposts, don't spend too long in orbit. Be warned: the base is rigged with explosives."
-	outfit = /datum/outfit/lavaland_syndicate/commander
-
 /datum/outfit/lavaland_syndicate
 	name = "Lavaland Syndicate Agent"
 	id = /obj/item/card/id/advanced/chameleon
 	id_trim = /datum/id_trim/chameleon/operative
 	uniform = /obj/item/clothing/under/syndicate
-	suit = /obj/item/clothing/suit/toggle/labcoat/interdyne
 	back = /obj/item/storage/backpack
 	gloves = /obj/item/clothing/gloves/tackler/combat/insulated
 	ears = /obj/item/radio/headset/syndicate/alt
 	shoes = /obj/item/clothing/shoes/combat
 	r_pocket = /obj/item/gun/ballistic/automatic/pistol
-	r_hand = /obj/item/gun/ballistic/rifle/sniper_rifle
 	box = /obj/item/storage/box/survival/syndie
 
 	implants = list(/obj/item/implant/weapons_auth)
@@ -44,10 +34,66 @@
 /datum/outfit/lavaland_syndicate/post_equip(mob/living/carbon/human/syndicate, visualsOnly = FALSE)
 	syndicate.faction |= ROLE_SYNDICATE
 
+
+/obj/effect/mob_spawn/ghost_role/human/lavaland_syndicate/scientist
+	name = "Syndicate Researcher"
+	prompt_name = "a syndicate scientist"
+	you_are_text = "You are an Interdyne scientist, employed in a top secret research facility developing biological weapons."
+	flavour_text = "Unfortunately, your hated enemy, Nanotrasen, has begun mining in this sector. Continue your research as best you can, and try to keep a low profile."
+	important_text = "The base is rigged with explosives, DO NOT abandon it or let it fall into enemy hands! While you can take the shuttle in the hangar to visit other active Syndicate outposts, you must stay within those outposts or the ship while in orbit. Do not attempt to explore space."
+	outfit = /datum/outfit/lavaland_syndicate/scientist
+
+/datum/outfit/lavaland_syndicate/scientist
+	name = "Lavaland Syndicate Scientist"
+	suit = /obj/item/clothing/suit/toggle/labcoat/interdyne
+	backpack_contents = list(
+		/obj/item/gun/ballistic/rifle/sniper_rifle/syndicate = 1, //makes it obvious that the gun fits in the backpack
+		/obj/item/storage/medkit/surgery = 1 //interdyne does medicine too, you know
+	)
+	belt = /obj/item/storage/belt/utility/full //basic utility belt, but not as good as the technician's belt]
+
+/obj/effect/mob_spawn/ghost_role/human/lavaland_syndicate/engineer
+	name = "Syndicate Technician"
+	prompt_name = "a syndicate technician"
+	you_are_text = "You are a Waffle Co engineer, employed in a top secret research facility developing biological weapons."
+	flavour_text = "Unfortunately, your hated enemy, Nanotrasen, has begun mining in this sector. Maintain the outpost's integrity as best as you can, and try to keep a low profile."
+	important_text = "The base is rigged with explosives, DO NOT abandon it or let it fall into enemy hands! While you can take the shuttle in the hangar to visit other active Syndicate outposts, you must stay within those outposts or the ship while in orbit. Do not attempt to explore space."
+	outfit = /datum/outfit/lavaland_syndicate/engineer
+
+/datum/outfit/lavaland_syndicate/engineer
+	name = "Lavaland Syndicate Technician"
+	suit = /obj/item/clothing/suit/hazardvest
+	backpack_contents = list(
+		/obj/item/storage/medkit/surgery = 1 //interdyne does medicine too, you know
+	)
+	belt = /obj/item/storage/belt/utility/full //basic utility belt, but not as good as the technician's belt
+
+/obj/effect/mob_spawn/ghost_role/human/lavaland_syndicate/commander
+	name = "Syndicate Commander"
+	prompt_name = "a syndicate commander"
+	you_are_text = "You are the commander of the Syndicate's outpost on Lavaland, developing biological and chemical weapons."
+	flavour_text = "Unfortunately, your hated enemy, Nanotrasen, has begun mining in this sector. Monitor enemy activity as best you can, and try to keep a low profile. If you wish, you may use the communication equipment to assist field agents and throw hostiles off your trail. Do not let the base fall into enemy hands!"
+	important_text = "DO NOT abandon the base or attempt to interfere with Nanotrasen mining operations. While you are allowed to visit other syndicate outposts, don't spend too long in orbit. The base has been rigged with a self-destruct to prevent capture, located within the vault behind your office."
+	outfit = /datum/outfit/lavaland_syndicate/commander
+	spawner_job_path = /datum/job/lavaland_syndicate/commander
+
 /datum/outfit/lavaland_syndicate/commander
 	name = "Lavaland Syndicate Commander"
+	id = /obj/item/card/id/advanced/chameleon/black
+	id_trim = /datum/id_trim/chameleon/operative/nuke_leader //gets exclusive control over the self-destruct
 	mask = /obj/item/clothing/mask/chameleon/gps
+	suit = /obj/item/clothing/suit/armor/vest/capcarapace/syndicate
+	ears = /obj/item/radio/headset/syndicate/alt/leader //big man, needs authority. if you use it over common and get BSA'd, your fault.
+	head = /obj/item/clothing/head/hats/hos/cap/syndicate
+	under = /obj/item/clothing/under/syndicate/sniper //distinguished gentleman
+	belt = /obj/item/gun/ballistic/automatic/pistol/aps/restricted //setting a precedent that commanders get cooler pistols. also their colleagues get fucking sniper rifles but there's no good weapons here for suppressive fire. this also keeps miners from using it with zero effort
+	backpack_contents = list(
+		/obj/item/melee/energy/sword/saber/red = 1
+	)
+	r_pocket = /obj/item/flashlight/lantern/syndicate //evil lamp
 
+/obj/item/gun/ballistic/automatic/pistol/aps/restricted //miners have a bit more of an edge on planetary combat, so they should need more effort to commandeer the APS compared to their spaceborne counterparts
+	pin = /obj/item/firing_pin/implant/pindicate
 
 // AREAS
 
@@ -187,7 +233,7 @@
 	desc = "A ballistic machine-gun auto-turret. Not only has it been reinforced against close-quarters attacks, it's also been equipped with a plasma cutter to deal with hostile fauna."
 	stun_projectile = /obj/projectile/plasma/turret/syndicate
 	stun_projectile_sound = 'sound/weapons/plasma_cutter.ogg'
-	armor = /datum/armor/syndicate_turret/lavaland
+	armor_type = /datum/armor/syndicate_turret/lavaland
 
 /obj/projectile/plasma/turret/syndicate //go on, cross the moat, innocent legion. go on, i fucking dare you.
 	name = "heavy plasma beam"

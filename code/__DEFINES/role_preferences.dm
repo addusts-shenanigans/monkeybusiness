@@ -103,6 +103,7 @@
 #define ROLE_HERMIT "Hermit"
 #define ROLE_HOTEL_STAFF "Hotel Staff"
 #define ROLE_LAVALAND_SYNDICATE "Lavaland Syndicate"
+#define ROLE_LAVALAND_SYNDICATE_COMMANDER "Lavaland Syndicate Commander" //monkestation addition
 #define ROLE_LIFEBRINGER "Lifebringer"
 #define ROLE_MAINTENANCE_DRONE "Maintenance Drone"
 #define ROLE_SKELETON "Skeleton"
