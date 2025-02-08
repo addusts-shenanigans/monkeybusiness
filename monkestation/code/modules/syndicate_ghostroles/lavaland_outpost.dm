@@ -9,7 +9,7 @@
 	prompt_name = "a syndicate technician"
 	you_are_text = "You are a syndicate technician, employed in a top secret research facility developing biological weapons."
 	flavour_text = "Unfortunately, your hated enemy, Nanotrasen, has begun mining in this sector. Continue your research as best you can, and try to keep a low profile."
-	important_text = "The base is rigged with explosives, DO NOT abandon it or let it fall into enemy hands! While you can take the shuttle in the hangar to visit other active Syndicate outposts, you must stay within those outposts or the ship while in orbit. Do not attempt to explore space."
+	important_text = "The base is rigged with explosives, DO NOT abandon it or let it fall into enemy hands! Do not interfere with Nanotrasen mining operations either! While you can take the shuttle in the hangar to visit other active Syndicate outposts, you must stay within those outposts or the ship while in orbit. Do not attempt to explore space."
 	outfit = /datum/outfit/lavaland_syndicate
 	spawner_job_path = /datum/job/lavaland_syndicate
 
@@ -40,7 +40,6 @@
 	prompt_name = "a syndicate scientist"
 	you_are_text = "You are an Interdyne scientist, employed in a top secret research facility developing biological weapons."
 	flavour_text = "Unfortunately, your hated enemy, Nanotrasen, has begun mining in this sector. Continue your research as best you can, and try to keep a low profile."
-	important_text = "The base is rigged with explosives, DO NOT abandon it or let it fall into enemy hands! While you can take the shuttle in the hangar to visit other active Syndicate outposts, you must stay within those outposts or the ship while in orbit. Do not attempt to explore space."
 	outfit = /datum/outfit/lavaland_syndicate/scientist
 
 /datum/outfit/lavaland_syndicate/scientist
@@ -57,7 +56,6 @@
 	prompt_name = "a syndicate technician"
 	you_are_text = "You are a Waffle Co engineer, employed in a top secret research facility developing biological weapons."
 	flavour_text = "Unfortunately, your hated enemy, Nanotrasen, has begun mining in this sector. Maintain the outpost's integrity as best as you can, and try to keep a low profile."
-	important_text = "The base is rigged with explosives, DO NOT abandon it or let it fall into enemy hands! While you can take the shuttle in the hangar to visit other active Syndicate outposts, you must stay within those outposts or the ship while in orbit. Do not attempt to explore space."
 	outfit = /datum/outfit/lavaland_syndicate/engineer
 
 /datum/outfit/lavaland_syndicate/engineer
@@ -186,7 +184,6 @@
 	possible_destinations = "syndicate_depot;syndicate_listening_post;syndicate_lavaland;deep_storage"
 
 //UNIQUE OBJECTS
-
 
 /obj/machinery/vending/syndichem
 	name = "\improper SyndiChem"
