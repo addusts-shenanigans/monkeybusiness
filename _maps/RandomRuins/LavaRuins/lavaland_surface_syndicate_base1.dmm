@@ -5,12 +5,24 @@
 "ab" = (
 /turf/open/lava/smooth/lava_land_surface,
 /area/lavaland/surface/outdoors)
+"be" = (
+/obj/structure/cable,
+/turf/open/floor/circuit/red/anim,
+/area/ruin/syndicate_lava_base/vault)
 "bo" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 10
 	},
 /turf/open/floor/plating,
 /area/ruin/syndicate_lava_base/shuttle_bay)
+"br" = (
+/obj/effect/turf_decal/stripes/line,
+/obj/effect/turf_decal/stripes/line{
+	dir = 1
+	},
+/obj/structure/cable,
+/turf/open/floor/plating,
+/area/ruin/syndicate_lava_base/control_room)
 "bv" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 1
@@ -31,16 +43,48 @@
 /obj/effect/turf_decal/sand/plating/volcanic,
 /turf/open/floor/plating/lavaland_atmos,
 /area/lavaland/surface/outdoors)
+"gY" = (
+/obj/structure/table/reinforced/plastitaniumglass,
+/obj/item/pen/fountain{
+	pixel_x = 8;
+	pixel_y = -9
+	},
+/turf/open/floor/wood,
+/area/ruin/syndicate_lava_base/control_room)
 "hQ" = (
 /obj/structure/marker_beacon/burgundy,
 /turf/open/misc/asteroid/basalt/lava_land_surface,
 /area/lavaland/surface/outdoors)
+"iE" = (
+/obj/machinery/button/door{
+	id = "syndie_lavaland_vault";
+	name = "Vault Bolt Control";
+	normaldoorcontrol = 1;
+	pixel_x = 24;
+	pixel_y = 24;
+	req_access = list("syndicate");
+	specialfunctions = 4
+	},
+/obj/structure/cable,
+/turf/open/floor/mineral/plastitanium,
+/area/ruin/syndicate_lava_base/control_room)
 "jC" = (
 /turf/open/misc/asteroid/basalt/lava_land_surface,
 /area/lavaland/surface/outdoors)
 "jR" = (
 /turf/open/lava/smooth/lava_land_surface,
 /area/ruin/syndicate_lava_base/chemistry)
+"kF" = (
+/obj/structure/table/reinforced/plastitaniumglass,
+/obj/effect/turf_decal/siding/wood{
+	dir = 4
+	},
+/turf/open/floor/wood,
+/area/ruin/syndicate_lava_base/control_room)
+"kM" = (
+/obj/structure/closet/crate/secure/freezer/commsagent,
+/turf/open/floor/mineral/plastitanium,
+/area/ruin/syndicate_lava_base/control_room)
 "kN" = (
 /turf/open/lava/smooth/lava_land_surface,
 /area/ruin/syndicate_lava_base/cargo)
@@ -54,6 +98,15 @@
 /obj/effect/turf_decal/stripes/line,
 /turf/open/floor/plating,
 /area/ruin/syndicate_lava_base/shuttle_bay)
+"nN" = (
+/turf/open/space/basic,
+/area/ruin/syndicate_lava_base/engineering)
+"oK" = (
+/obj/effect/turf_decal/siding/thinplating/dark{
+	dir = 10
+	},
+/turf/open/floor/iron/dark/textured_large,
+/area/ruin/syndicate_lava_base/vault)
 "qk" = (
 /turf/open/lava/smooth/lava_land_surface,
 /area/ruin/syndicate_lava_base/main)
@@ -63,12 +116,30 @@
 	},
 /turf/open/floor/plating,
 /area/ruin/syndicate_lava_base/shuttle_bay)
+"rO" = (
+/obj/effect/mob_spawn/ghost_role/human/lavaland_syndicate/commander{
+	dir = 4
+	},
+/turf/open/floor/wood,
+/area/ruin/syndicate_lava_base/control_room)
 "sz" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 9
 	},
 /turf/open/floor/plating,
 /area/ruin/syndicate_lava_base/shuttle_bay)
+"tA" = (
+/obj/machinery/computer/message_monitor,
+/turf/open/floor/wood,
+/area/ruin/syndicate_lava_base/control_room)
+"uD" = (
+/obj/effect/turf_decal/siding/thinplating/dark{
+	dir = 5
+	},
+/obj/structure/filingcabinet,
+/obj/item/folder/syndicate/red,
+/turf/open/floor/iron/dark/textured_large,
+/area/ruin/syndicate_lava_base/vault)
 "uW" = (
 /obj/effect/turf_decal/stripes/corner,
 /turf/open/floor/plating,
@@ -85,6 +156,17 @@
 	},
 /turf/open/floor/plating,
 /area/ruin/syndicate_lava_base/shuttle_bay)
+"xs" = (
+/obj/structure/cable,
+/turf/open/floor/mineral/plastitanium,
+/area/ruin/syndicate_lava_base/control_room)
+"yJ" = (
+/turf/closed/wall/r_wall/syndicate/nodiagonal,
+/area/ruin/syndicate_lava_base/vault)
+"yK" = (
+/obj/structure/table/wood/fancy/red,
+/turf/open/floor/wood,
+/area/ruin/syndicate_lava_base/control_room)
 "yS" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 4
@@ -112,22 +194,123 @@
 "BG" = (
 /turf/open/lava/smooth/lava_land_surface,
 /area/ruin/syndicate_lava_base/science)
+"BP" = (
+/obj/structure/table/reinforced/plastitaniumglass,
+/obj/item/stamp/chameleon{
+	pixel_x = -5;
+	pixel_y = 14
+	},
+/obj/item/stamp/syndicate{
+	pixel_x = 5;
+	pixel_y = 13
+	},
+/obj/item/paper_bin{
+	pixel_x = -3;
+	pixel_y = -3
+	},
+/obj/item/pen,
+/turf/open/floor/wood,
+/area/ruin/syndicate_lava_base/control_room)
+"BR" = (
+/obj/machinery/door/airlock/vault{
+	id_tag = "syndie_lavaland_vault"
+	},
+/obj/effect/mapping_helpers/airlock/access/all/syndicate/leader,
+/obj/effect/mapping_helpers/airlock/cutaiwire,
+/obj/effect/turf_decal/stripes/line{
+	dir = 4
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 8
+	},
+/obj/structure/cable,
+/turf/open/floor/plating,
+/area/ruin/syndicate_lava_base/vault)
+"Ce" = (
+/turf/open/floor/engine,
+/area/ruin/syndicate_lava_base/engineering)
+"Da" = (
+/turf/open/floor/circuit/red/anim,
+/area/ruin/syndicate_lava_base/vault)
+"ED" = (
+/turf/closed/wall/r_wall/syndicate/nodiagonal,
+/area/ruin/syndicate_lava_base/medbay)
+"Ff" = (
+/obj/effect/turf_decal/siding/thinplating/dark{
+	dir = 6
+	},
+/turf/open/floor/iron/dark/textured_large,
+/area/ruin/syndicate_lava_base/vault)
+"FM" = (
+/obj/structure/falsewall/plastitanium,
+/turf/open/floor/mineral/plastitanium,
+/area/ruin/syndicate_lava_base/control_room)
+"Hm" = (
+/turf/closed/wall/mineral/plastitanium/nodiagonal,
+/area/ruin/syndicate_lava_base/control_room)
 "Iv" = (
 /turf/closed/wall/r_wall/syndicate/nodiagonal,
 /area/ruin/syndicate_lava_base/shuttle_bay)
+"IL" = (
+/turf/open/lava/smooth/lava_land_surface,
+/area/ruin/syndicate_lava_base/testlab)
+"IM" = (
+/obj/machinery/syndicatebomb/self_destruct,
+/obj/effect/turf_decal/siding/thinplating/dark{
+	dir = 9
+	},
+/turf/open/floor/iron/dark/textured_large,
+/area/ruin/syndicate_lava_base/vault)
+"IN" = (
+/obj/machinery/power/apc/auto_name/directional/south,
+/obj/effect/mapping_helpers/apc/syndicate_access,
+/obj/effect/mapping_helpers/apc/cut_AI_wire,
+/obj/structure/cable,
+/turf/open/floor/mineral/plastitanium,
+/area/ruin/syndicate_lava_base/control_room)
 "IU" = (
 /obj/effect/baseturf_helper/lava_land/surface,
 /turf/template_noop,
 /area/template_noop)
 "IV" = (
-/turf/open/lava/smooth/lava_land_surface,
-/area/ruin/syndicate_lava_base/vault)
+/turf/closed/wall/r_wall/syndicate/nodiagonal,
+/area/ruin/syndicate_lava_base/engineering)
 "IY" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 6
 	},
 /turf/open/floor/plating,
 /area/ruin/syndicate_lava_base/shuttle_bay)
+"Jh" = (
+/obj/machinery/power/apc/auto_name/directional/east,
+/obj/effect/mapping_helpers/apc/syndicate_access,
+/obj/effect/mapping_helpers/apc/cell_10k,
+/obj/effect/mapping_helpers/apc/full_charge,
+/obj/effect/mapping_helpers/apc/cut_AI_wire,
+/obj/structure/cable,
+/turf/open/floor/circuit/red/anim,
+/area/ruin/syndicate_lava_base/vault)
+"JE" = (
+/obj/structure/closet/syndicate,
+/turf/open/floor/wood,
+/area/ruin/syndicate_lava_base/control_room)
+"JN" = (
+/obj/machinery/turretid{
+	ailock = 1;
+	control_area = "/area/ruin/syndicate_lava_base/control_room";
+	dir = 1;
+	icon_state = "control_kill";
+	lethal = 1;
+	name = "facility turret controls";
+	req_access = list("syndicate");
+	desc = "Used to control the base's automated defenses.";
+	pixel_y = -30
+	},
+/obj/effect/turf_decal/siding/wood{
+	dir = 4
+	},
+/turf/open/floor/wood,
+/area/ruin/syndicate_lava_base/control_room)
 "JY" = (
 /obj/effect/turf_decal/stripes/corner{
 	dir = 8
@@ -139,6 +322,12 @@
 /obj/effect/turf_decal/sand/plating/volcanic,
 /turf/open/floor/plating/lavaland_atmos,
 /area/lavaland/surface/outdoors)
+"LL" = (
+/obj/machinery/computer/camera_advanced/syndie{
+	dir = 1
+	},
+/turf/open/floor/wood,
+/area/ruin/syndicate_lava_base/control_room)
 "MH" = (
 /obj/effect/turf_decal/stripes/corner{
 	dir = 1
@@ -164,21 +353,66 @@
 "OV" = (
 /turf/open/floor/plating,
 /area/ruin/syndicate_lava_base/shuttle_bay)
+"Px" = (
+/obj/machinery/power/supermatter_crystal/shard/syndicate,
+/turf/open/floor/engine,
+/area/ruin/syndicate_lava_base/engineering)
+"Qi" = (
+/turf/open/floor/wood,
+/area/ruin/syndicate_lava_base/control_room)
+"QB" = (
+/obj/machinery/door/airlock/highsecurity{
+	name = "Captain's Quarters"
+	},
+/obj/effect/mapping_helpers/airlock/access/all/syndicate/leader,
+/obj/effect/mapping_helpers/airlock/cutaiwire,
+/obj/effect/turf_decal/stripes/line,
+/obj/effect/turf_decal/stripes/line{
+	dir = 1
+	},
+/turf/open/floor/plating,
+/area/ruin/syndicate_lava_base/control_room)
+"QC" = (
+/obj/structure/filingcabinet/medical,
+/obj/effect/turf_decal/siding/thinplating/dark{
+	dir = 1
+	},
+/turf/open/floor/circuit/green/anim,
+/area/ruin/syndicate_lava_base/control_room)
 "QR" = (
-/turf/open/lava/smooth/lava_land_surface,
+/turf/closed/wall/r_wall/syndicate/nodiagonal,
 /area/ruin/syndicate_lava_base/control_room)
 "Rd" = (
 /turf/open/lava/smooth/lava_land_surface,
 /area/ruin/syndicate_lava_base/bar)
+"Rp" = (
+/obj/machinery/fax{
+	syndicate_network = 1;
+	name = "Syndicate Fax Machine";
+	fax_name = "Syndicate Lavaland Control Room"
+	},
+/obj/structure/table/reinforced/plastitaniumglass,
+/turf/open/floor/wood,
+/area/ruin/syndicate_lava_base/control_room)
 "Si" = (
 /turf/open/lava/smooth/lava_land_surface,
 /area/ruin/syndicate_lava_base/arrivals)
+"SP" = (
+/obj/structure/filingcabinet/security,
+/obj/effect/turf_decal/siding/thinplating/dark{
+	dir = 5
+	},
+/turf/open/floor/circuit/red/anim,
+/area/ruin/syndicate_lava_base/control_room)
 "Ty" = (
 /turf/closed/wall/r_wall/syndicate,
 /area/ruin/syndicate_lava_base/shuttle_bay)
 "VW" = (
 /turf/open/lava/smooth/lava_land_surface,
 /area/ruin/syndicate_lava_base/medbay)
+"ZM" = (
+/turf/open/floor/mineral/plastitanium,
+/area/ruin/syndicate_lava_base/control_room)
 "ZQ" = (
 /turf/open/lava/smooth/lava_land_surface,
 /area/ruin/syndicate_lava_base/engineering)
@@ -226,6 +460,11 @@ ab
 ab
 ab
 ab
+aa
+aa
+aa
+aa
+aa
 aa
 aa
 aa
@@ -282,6 +521,11 @@ ab
 aa
 aa
 aa
+aa
+aa
+aa
+aa
+aa
 "}
 (3,1,1) = {"
 aa
@@ -332,6 +576,11 @@ ab
 ab
 ab
 aa
+aa
+aa
+aa
+aa
+aa
 "}
 (4,1,1) = {"
 aa
@@ -380,6 +629,11 @@ ab
 ab
 ab
 ab
+aa
+aa
+aa
+aa
+aa
 aa
 aa
 "}
@@ -432,6 +686,11 @@ ab
 ab
 ab
 aa
+aa
+aa
+aa
+aa
+aa
 "}
 (6,1,1) = {"
 aa
@@ -480,6 +739,11 @@ ab
 ab
 ab
 ab
+aa
+aa
+aa
+aa
+aa
 aa
 aa
 "}
@@ -532,6 +796,11 @@ ab
 ab
 ab
 aa
+aa
+aa
+aa
+aa
+aa
 "}
 (8,1,1) = {"
 aa
@@ -581,6 +850,11 @@ ab
 ab
 ab
 ab
+aa
+aa
+aa
+aa
+aa
 aa
 "}
 (9,1,1) = {"
@@ -632,6 +906,11 @@ ab
 ab
 ab
 ab
+aa
+aa
+aa
+aa
+aa
 "}
 (10,1,1) = {"
 aa
@@ -674,14 +953,19 @@ jR
 jR
 jR
 jR
-VW
-VW
+ED
+ED
 ab
 ab
 ab
 ab
 ab
 ab
+aa
+aa
+aa
+aa
+aa
 "}
 (11,1,1) = {"
 aa
@@ -725,13 +1009,18 @@ VW
 VW
 VW
 VW
-VW
+ED
 ab
 ab
 ab
 ab
 ab
 ab
+ab
+aa
+aa
+aa
+aa
 "}
 (12,1,1) = {"
 aa
@@ -775,13 +1064,18 @@ VW
 VW
 VW
 VW
-VW
+ED
 ab
 ab
 ab
 ab
 ab
 ab
+ab
+aa
+aa
+aa
+aa
 "}
 (13,1,1) = {"
 aa
@@ -832,6 +1126,11 @@ ab
 ab
 ab
 ab
+aa
+aa
+aa
+aa
+aa
 "}
 (14,1,1) = {"
 aa
@@ -862,7 +1161,7 @@ Si
 Si
 qk
 qk
-qk
+QR
 QR
 QR
 QR
@@ -882,6 +1181,11 @@ ab
 ab
 ab
 ab
+ab
+aa
+aa
+aa
+aa
 "}
 (15,1,1) = {"
 ab
@@ -912,13 +1216,13 @@ Si
 Si
 qk
 qk
-qk
 QR
-QR
-QR
-QR
-QR
-QR
+ZM
+kM
+Hm
+gY
+BP
+Rp
 QR
 VW
 VW
@@ -932,6 +1236,11 @@ ab
 ab
 ab
 ab
+ab
+ab
+aa
+aa
+aa
 "}
 (16,1,1) = {"
 aa
@@ -962,26 +1271,31 @@ Si
 Si
 qk
 qk
-qk
 QR
-QR
-QR
-QR
-QR
-QR
+FM
+Hm
+Hm
+tA
+Qi
+LL
 QR
 VW
 VW
 VW
 VW
 VW
-VW
+ED
 ab
 ab
 ab
 ab
 ab
 ab
+ab
+aa
+aa
+aa
+aa
 "}
 (17,1,1) = {"
 ab
@@ -1012,25 +1326,30 @@ Si
 Si
 qk
 qk
-qk
 QR
+JE
+rO
+Hm
+kF
+JN
+kF
 QR
-QR
-QR
-QR
-QR
-QR
-VW
-VW
-VW
-VW
-VW
-VW
+ED
+ED
+ED
+ED
+ED
+ED
+ZQ
+ZQ
+ZQ
+ZQ
+ZQ
 ab
 ab
 ab
-ab
-ab
+aa
+aa
 aa
 "}
 (18,1,1) = {"
@@ -1062,14 +1381,18 @@ Si
 Si
 qk
 qk
-qk
 QR
+yK
+Qi
+QB
+ZM
+ZM
+QC
 QR
-QR
-QR
-QR
-QR
-QR
+ZQ
+ZQ
+ZQ
+ZQ
 ZQ
 ZQ
 ZQ
@@ -1080,7 +1403,8 @@ ZQ
 ab
 ab
 ab
-ab
+aa
+aa
 aa
 "}
 (19,1,1) = {"
@@ -1112,13 +1436,13 @@ Si
 Si
 qk
 qk
-qk
 QR
-QR
-QR
-QR
-QR
-QR
+yK
+Qi
+Hm
+ZM
+ZM
+SP
 QR
 ZQ
 ZQ
@@ -1127,6 +1451,11 @@ ZQ
 ZQ
 ZQ
 ZQ
+ZQ
+ZQ
+ZQ
+ZQ
+ab
 ab
 ab
 ab
@@ -1162,14 +1491,18 @@ Si
 Si
 qk
 qk
-qk
 QR
 QR
 QR
 QR
+ZM
+ZM
+ZM
 QR
-QR
-QR
+ZQ
+ZQ
+ZQ
+ZQ
 ZQ
 ZQ
 ZQ
@@ -1181,6 +1514,7 @@ ab
 ab
 ab
 ab
+aa
 aa
 "}
 (21,1,1) = {"
@@ -1215,16 +1549,20 @@ qk
 qk
 qk
 qk
-QR
-QR
-QR
-QR
+br
+xs
+xs
+ZM
 QR
 ZQ
 ZQ
-ZQ
-ZQ
-ZQ
+IV
+IV
+IV
+nN
+IV
+IV
+IV
 ZQ
 ZQ
 ab
@@ -1232,6 +1570,7 @@ ab
 ab
 ab
 ab
+aa
 "}
 (22,1,1) = {"
 aa
@@ -1266,17 +1605,22 @@ qk
 qk
 qk
 QR
+ZM
+xs
+IN
 QR
-QR
-QR
-QR
 ZQ
 ZQ
 ZQ
 ZQ
+Ce
+Ce
+Ce
 ZQ
 ZQ
 ZQ
+ZQ
+ab
 ab
 ab
 ab
@@ -1316,13 +1660,17 @@ qk
 qk
 qk
 QR
+ZM
+xs
+ZM
 QR
-QR
-QR
-QR
 ZQ
 ZQ
 ZQ
+ZQ
+Ce
+Px
+Ce
 ZQ
 ZQ
 ZQ
@@ -1332,6 +1680,7 @@ ab
 ab
 ab
 ab
+aa
 "}
 (24,1,1) = {"
 aa
@@ -1366,13 +1715,17 @@ qk
 qk
 qk
 QR
+ZM
+iE
+ZM
 QR
-QR
-QR
-QR
 ZQ
 ZQ
 ZQ
+ZQ
+Ce
+Ce
+Ce
 ZQ
 ZQ
 ZQ
@@ -1382,6 +1735,7 @@ ab
 ab
 ab
 ab
+aa
 "}
 (25,1,1) = {"
 aa
@@ -1415,18 +1769,23 @@ kN
 qk
 qk
 qk
+yJ
+yJ
+BR
+yJ
+yJ
+ZQ
+ZQ
 IV
 IV
 IV
+ZQ
 IV
 IV
+IV
 ZQ
 ZQ
-ZQ
-ZQ
-ZQ
-ZQ
-ZQ
+ab
 ab
 ab
 ab
@@ -1465,18 +1824,23 @@ kN
 qk
 qk
 qk
+yJ
+Ff
+be
+uD
+yJ
+ZQ
+ZQ
+ZQ
 IV
+ZQ
+ZQ
+ZQ
 IV
-IV
-IV
-IV
 ZQ
 ZQ
 ZQ
-ZQ
-ZQ
-ZQ
-ZQ
+ab
 ab
 ab
 ab
@@ -1515,14 +1879,19 @@ kN
 qk
 qk
 qk
-IV
-IV
-IV
-IV
-IV
+yJ
+Da
+be
+Da
+yJ
 ZQ
 ZQ
 ZQ
+IV
+IV
+ZQ
+IV
+IV
 ZQ
 ZQ
 ZQ
@@ -1531,7 +1900,7 @@ ab
 ab
 ab
 ab
-aa
+ab
 "}
 (28,1,1) = {"
 aa
@@ -1565,11 +1934,16 @@ kN
 qk
 qk
 qk
-IV
-IV
-IV
-IV
-IV
+yJ
+oK
+Jh
+IM
+yJ
+ZQ
+ZQ
+ZQ
+ZQ
+ZQ
 ZQ
 ZQ
 ZQ
@@ -1615,11 +1989,16 @@ kN
 qk
 qk
 qk
-IV
-IV
-IV
-IV
-IV
+yJ
+yJ
+yJ
+yJ
+yJ
+ZQ
+ZQ
+ZQ
+ZQ
+ZQ
 ZQ
 ZQ
 ZQ
@@ -1631,7 +2010,7 @@ ab
 ab
 ab
 ab
-ab
+aa
 "}
 (30,1,1) = {"
 aa
@@ -1676,12 +2055,17 @@ ZQ
 ZQ
 ZQ
 ZQ
+ZQ
+ZQ
+ZQ
+ZQ
+ZQ
 ab
 ab
 ab
 ab
 ab
-ab
+aa
 "}
 (31,1,1) = {"
 aa
@@ -1726,6 +2110,11 @@ ZQ
 ZQ
 ZQ
 ZQ
+ab
+ab
+ab
+ab
+ab
 ab
 ab
 ab
@@ -1782,6 +2171,11 @@ ab
 ab
 ab
 ab
+ab
+ab
+ab
+ab
+aa
 "}
 (33,1,1) = {"
 aa
@@ -1832,6 +2226,11 @@ ab
 ab
 ab
 ab
+ab
+ab
+ab
+ab
+aa
 "}
 (34,1,1) = {"
 aa
@@ -1881,6 +2280,11 @@ ab
 ab
 ab
 ab
+ab
+ab
+ab
+ab
+aa
 aa
 "}
 (35,1,1) = {"
@@ -1932,6 +2336,11 @@ ab
 ab
 ab
 ab
+ab
+ab
+ab
+ab
+aa
 "}
 (36,1,1) = {"
 aa
@@ -1981,6 +2390,11 @@ ab
 ab
 ab
 ab
+ab
+ab
+ab
+aa
+aa
 aa
 "}
 (37,1,1) = {"
@@ -2032,6 +2446,11 @@ ab
 ab
 ab
 ab
+ab
+ab
+ab
+aa
+aa
 "}
 (38,1,1) = {"
 ab
@@ -2043,7 +2462,7 @@ ab
 ab
 ab
 ab
-ab
+jC
 jC
 jC
 Nn
@@ -2082,6 +2501,11 @@ ab
 ab
 ab
 ab
+ab
+ab
+aa
+aa
+aa
 "}
 (39,1,1) = {"
 aa
@@ -2093,7 +2517,7 @@ ab
 ab
 ab
 ab
-ab
+jC
 jC
 jC
 Nn
@@ -2132,6 +2556,11 @@ ab
 ab
 ab
 ab
+ab
+aa
+aa
+aa
+aa
 "}
 (40,1,1) = {"
 aa
@@ -2147,15 +2576,15 @@ ab
 jC
 jC
 Nn
+Ly
+eu
 Nn
-Nn
-Nn
-Nn
-Nn
+Ly
+eu
 Nn
 jC
 jC
-ab
+jC
 Or
 Or
 Or
@@ -2182,6 +2611,11 @@ ab
 ab
 ab
 ab
+ab
+aa
+aa
+aa
+aa
 "}
 (41,1,1) = {"
 aa
@@ -2194,18 +2628,18 @@ ab
 ab
 ab
 ab
-ab
+jC
+jC
+Nn
+Ly
+eu
+Nn
+Ly
+eu
+Nn
 jC
 jC
 jC
-jC
-jC
-jC
-jC
-jC
-jC
-jC
-ab
 Or
 Or
 Or
@@ -2217,14 +2651,14 @@ Or
 Or
 Or
 Or
+qk
+qk
+qk
 Rd
 Rd
 Rd
 Rd
 Rd
-Rd
-Rd
-Rd
 ab
 ab
 ab
@@ -2232,6 +2666,11 @@ ab
 ab
 ab
 ab
+aa
+aa
+aa
+aa
+aa
 "}
 (42,1,1) = {"
 aa
@@ -2244,18 +2683,18 @@ ab
 ab
 ab
 ab
-ab
+jC
+jC
+Nn
+Ly
+eu
+Nn
+Ly
+eu
+Nn
 jC
 jC
 jC
-jC
-jC
-jC
-jC
-jC
-jC
-jC
-ab
 Or
 Or
 Or
@@ -2267,20 +2706,25 @@ Or
 Or
 Or
 Or
+qk
+qk
+qk
 Rd
 Rd
 Rd
 Rd
 Rd
-Rd
-Rd
-Rd
 ab
 ab
 ab
 ab
 ab
 ab
+aa
+aa
+aa
+aa
+aa
 aa
 "}
 (43,1,1) = {"
@@ -2294,18 +2738,18 @@ ab
 ab
 ab
 ab
-ab
-ab
+jC
+jC
+Nn
+Ly
+eu
+Nn
+Ly
+eu
+Nn
 jC
 jC
 jC
-jC
-jC
-jC
-ab
-ab
-ab
-ab
 Or
 Or
 Or
@@ -2317,9 +2761,9 @@ Or
 Or
 Or
 Or
-Rd
-Rd
-Rd
+qk
+qk
+qk
 Rd
 Rd
 Rd
@@ -2331,6 +2775,11 @@ ab
 ab
 ab
 ab
+aa
+aa
+aa
+aa
+aa
 aa
 "}
 (44,1,1) = {"
@@ -2343,43 +2792,48 @@ ab
 ab
 ab
 ab
-ab
-ab
-ab
-ab
-ab
-ab
-ab
-ab
-ab
-ab
-ab
-ab
-ab
-ab
-ab
-ab
-ab
-ab
-ab
+jC
+jC
+jC
+Nn
+Ly
+eu
+Nn
+Ly
+eu
+Nn
+jC
+jC
+jC
+qk
+qk
+qk
+qk
+qk
+qk
+qk
+qk
+qk
+qk
+qk
+qk
+qk
+qk
 Rd
 Rd
 Rd
 Rd
 Rd
-Rd
-Rd
-Rd
-Rd
-Rd
-Rd
-Rd
-Rd
 ab
 ab
 ab
 ab
 ab
+aa
+aa
+aa
+aa
+aa
 aa
 aa
 "}
@@ -2393,44 +2847,49 @@ ab
 ab
 ab
 ab
-ab
-ab
-ab
-ab
-ab
-ab
-ab
-ab
-ab
-ab
-ab
-ab
-ab
-ab
-ab
-ab
-ab
-ab
-ab
+jC
+jC
+jC
+Nn
+Ly
+eu
+Nn
+Ly
+eu
+Nn
+jC
+jC
+jC
+qk
+qk
+qk
+qk
+qk
+qk
+qk
+qk
+qk
+qk
+qk
+qk
+qk
+qk
 Rd
 Rd
 Rd
 Rd
 Rd
-Rd
-Rd
-Rd
-Rd
-Rd
-Rd
-Rd
-Rd
 ab
 ab
 ab
 ab
 ab
 ab
+aa
+aa
+aa
+aa
+aa
 aa
 "}
 (46,1,1) = {"
@@ -2444,42 +2903,47 @@ ab
 ab
 ab
 ab
-ab
-ab
-ab
-ab
-ab
-ab
-ab
-ab
-ab
-ab
-ab
-ab
-ab
-ab
-ab
-ab
-ab
-ab
+jC
+jC
+Nn
+Ly
+eu
+Nn
+Ly
+eu
+Nn
+jC
+jC
+IL
+qk
+qk
+qk
+qk
+qk
+qk
+qk
+qk
+qk
+qk
+qk
+qk
+qk
+qk
 Rd
 Rd
 Rd
 Rd
 Rd
-Rd
-Rd
-Rd
-Rd
-Rd
-Rd
-Rd
-Rd
 ab
 ab
 ab
 ab
 ab
+aa
+aa
+aa
+aa
+aa
 aa
 aa
 "}
@@ -2494,25 +2958,25 @@ ab
 ab
 ab
 ab
-ab
-ab
-ab
-ab
-ab
-ab
-ab
-ab
-ab
-ab
-ab
-ab
-ab
-ab
-ab
-ab
-ab
-ab
-ab
+jC
+jC
+Nn
+Ly
+eu
+Nn
+Ly
+eu
+Nn
+jC
+jC
+IL
+IL
+IL
+IL
+IL
+IL
+IL
+IL
 Rd
 Rd
 Rd
@@ -2530,6 +2994,11 @@ ab
 ab
 ab
 ab
+aa
+aa
+aa
+aa
+aa
 aa
 aa
 "}
@@ -2544,41 +3013,46 @@ ab
 ab
 ab
 ab
+jC
+jC
+Nn
+Nn
+Nn
+Nn
+Nn
+Nn
+Nn
+jC
+jC
+IL
+IL
+IL
+IL
+IL
+IL
+IL
+IL
+Rd
+Rd
+Rd
+Rd
+Rd
+Rd
+Rd
+Rd
+Rd
+Rd
+Rd
+Rd
 ab
 ab
 ab
 ab
-ab
-ab
-ab
-ab
-ab
-ab
-ab
-ab
-ab
-ab
-ab
-ab
-ab
-ab
-ab
-ab
-ab
-ab
-ab
-ab
-ab
-ab
-ab
-ab
-ab
-ab
-ab
-ab
-ab
-ab
-ab
+aa
+aa
+aa
+aa
+aa
 aa
 aa
 aa
@@ -2594,40 +3068,45 @@ ab
 ab
 ab
 ab
+jC
+jC
+jC
+jC
+jC
+jC
+jC
+jC
+jC
+jC
+jC
+IL
+IL
+IL
+IL
+IL
+IL
+IL
+IL
+Rd
+Rd
+Rd
+Rd
+Rd
+Rd
+Rd
+Rd
+Rd
+Rd
+Rd
+Rd
 ab
 ab
 ab
-ab
-ab
-ab
-ab
-ab
-ab
-ab
-ab
-ab
-ab
-ab
-ab
-ab
-ab
-ab
-ab
-ab
-ab
-ab
-ab
-ab
-ab
-ab
-ab
-ab
-ab
-ab
-ab
-ab
-ab
-ab
+aa
+aa
+aa
+aa
+aa
 aa
 aa
 aa
@@ -2645,40 +3124,45 @@ ab
 ab
 ab
 ab
+jC
+jC
+jC
+jC
+jC
+jC
+jC
+jC
+jC
+jC
+IL
+IL
+IL
+IL
+IL
+IL
+IL
+IL
+Rd
+Rd
+Rd
+Rd
+Rd
+Rd
+Rd
+Rd
+Rd
+Rd
+Rd
+Rd
 ab
 ab
 ab
 ab
-ab
-ab
-ab
-ab
-ab
-ab
-ab
-ab
-ab
-ab
-ab
-ab
-ab
-ab
-ab
-ab
-ab
-ab
-ab
-ab
-ab
-ab
-ab
-ab
-ab
-ab
-ab
-ab
-ab
-ab
+aa
+aa
+aa
+aa
+aa
 aa
 aa
 aa
@@ -2696,39 +3180,44 @@ ab
 ab
 ab
 ab
+jC
+jC
+jC
+jC
+jC
+jC
+ab
+ab
+ab
+IL
+IL
+IL
+IL
+IL
+IL
+IL
+IL
+Rd
+Rd
+Rd
+Rd
+Rd
+Rd
+Rd
+Rd
+Rd
+Rd
+Rd
 ab
 ab
 ab
 ab
 ab
-ab
-ab
-ab
-ab
-ab
-ab
-ab
-ab
-ab
-ab
-ab
-ab
-ab
-ab
-ab
-ab
-ab
-ab
-ab
-ab
-ab
-ab
-ab
-ab
-ab
-ab
-ab
-ab
+aa
+aa
+aa
+aa
+aa
 aa
 aa
 aa
@@ -2746,6 +3235,33 @@ ab
 ab
 ab
 ab
+jC
+jC
+jC
+jC
+ab
+ab
+ab
+ab
+ab
+IL
+IL
+IL
+IL
+IL
+IL
+IL
+IL
+Rd
+Rd
+Rd
+Rd
+Rd
+Rd
+Rd
+Rd
+Rd
+Rd
 ab
 ab
 ab
@@ -2753,33 +3269,11 @@ ab
 ab
 ab
 ab
-ab
-ab
-ab
-ab
-ab
-ab
-ab
-ab
-ab
-ab
-ab
-ab
-ab
-ab
-ab
-ab
-ab
-ab
-ab
-ab
-ab
-ab
-ab
-ab
-ab
-ab
-ab
+aa
+aa
+aa
+aa
+aa
 aa
 aa
 "}
@@ -2805,6 +3299,14 @@ ab
 ab
 ab
 ab
+IL
+IL
+IL
+IL
+IL
+IL
+IL
+IL
 ab
 ab
 ab
@@ -2821,14 +3323,11 @@ ab
 ab
 ab
 ab
-ab
-ab
-ab
-ab
-ab
-ab
-ab
-ab
+aa
+aa
+aa
+aa
+aa
 aa
 aa
 aa
@@ -2882,6 +3381,11 @@ ab
 aa
 aa
 aa
+aa
+aa
+aa
+aa
+aa
 "}
 (55,1,1) = {"
 aa
@@ -2928,6 +3432,11 @@ ab
 ab
 ab
 ab
+aa
+aa
+aa
+aa
+aa
 aa
 aa
 aa
@@ -2982,6 +3491,11 @@ aa
 aa
 aa
 aa
+aa
+aa
+aa
+aa
+aa
 "}
 (57,1,1) = {"
 aa
@@ -3032,6 +3546,11 @@ aa
 aa
 aa
 aa
+aa
+aa
+aa
+aa
+aa
 "}
 (58,1,1) = {"
 aa
@@ -3072,6 +3591,11 @@ ab
 ab
 ab
 ab
+aa
+aa
+aa
+aa
+aa
 aa
 aa
 aa
@@ -3132,6 +3656,11 @@ aa
 aa
 aa
 aa
+aa
+aa
+aa
+aa
+aa
 "}
 (60,1,1) = {"
 aa
@@ -3182,6 +3711,11 @@ aa
 aa
 aa
 aa
+aa
+aa
+aa
+aa
+aa
 "}
 (61,1,1) = {"
 aa
@@ -3218,6 +3752,11 @@ ab
 ab
 ab
 ab
+aa
+aa
+aa
+aa
+aa
 aa
 aa
 aa
@@ -3282,6 +3821,11 @@ aa
 aa
 aa
 aa
+aa
+aa
+aa
+aa
+aa
 "}
 (63,1,1) = {"
 aa
@@ -3312,6 +3856,11 @@ ab
 aa
 aa
 ab
+aa
+aa
+aa
+aa
+aa
 aa
 aa
 aa
@@ -3382,8 +3931,18 @@ aa
 aa
 aa
 aa
+aa
+aa
+aa
+aa
+aa
 "}
 (65,1,1) = {"
+aa
+aa
+aa
+aa
+aa
 aa
 aa
 aa

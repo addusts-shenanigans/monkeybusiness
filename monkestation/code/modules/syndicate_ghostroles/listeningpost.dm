@@ -15,6 +15,7 @@
 	flavour_text = "Monitor enemy activity as best you can, and try to keep a low profile. Monitor enemy activity as best you can, and try to keep a low profile. Use the communication equipment to provide support to any field agents, and sow disinformation to throw Nanotrasen off your trail. Do not let the base fall into enemy hands!"
 	important_text = "DO NOT leave the base. You are not a field agent, and are not permitted to do their job for them."
 	spawner_job_path = /datum/job/lavaland_syndicate/space
+	outfit = /datum/outfit/lavaland_syndicate/comms
 
 /datum/outfit/lavaland_syndicate/comms
 	name = "Syndicate Comms Agent"
