@@ -9,6 +9,15 @@
 /obj/structure/cable,
 /turf/open/floor/circuit/red/anim,
 /area/ruin/syndicate_lava_base/vault)
+"bn" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 8
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 4
+	},
+/turf/open/floor/plating,
+/area/ruin/syndicate_lava_base/engineering)
 "bo" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 10
@@ -43,6 +52,12 @@
 /obj/effect/turf_decal/sand/plating/volcanic,
 /turf/open/floor/plating/lavaland_atmos,
 /area/lavaland/surface/outdoors)
+"fo" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 8
+	},
+/turf/open/floor/engine,
+/area/ruin/syndicate_lava_base/engineering)
 "gY" = (
 /obj/structure/table/reinforced/plastitaniumglass,
 /obj/item/pen/fountain{
@@ -68,6 +83,10 @@
 /obj/structure/cable,
 /turf/open/floor/mineral/plastitanium,
 /area/ruin/syndicate_lava_base/control_room)
+"jh" = (
+/obj/effect/turf_decal/stripes/line,
+/turf/open/floor/engine,
+/area/ruin/syndicate_lava_base/engineering)
 "jC" = (
 /turf/open/misc/asteroid/basalt/lava_land_surface,
 /area/lavaland/surface/outdoors)
@@ -99,7 +118,13 @@
 /turf/open/floor/plating,
 /area/ruin/syndicate_lava_base/shuttle_bay)
 "nN" = (
-/turf/template_noop,
+/turf/open/floor/plating,
+/area/ruin/syndicate_lava_base/engineering)
+"oE" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 5
+	},
+/turf/open/floor/engine,
 /area/ruin/syndicate_lava_base/engineering)
 "oK" = (
 /obj/effect/turf_decal/siding/thinplating/dark{
@@ -122,6 +147,12 @@
 	},
 /turf/open/floor/wood,
 /area/ruin/syndicate_lava_base/control_room)
+"st" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 1
+	},
+/turf/open/floor/engine,
+/area/ruin/syndicate_lava_base/engineering)
 "sz" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 9
@@ -144,6 +175,12 @@
 /obj/effect/turf_decal/stripes/corner,
 /turf/open/floor/plating,
 /area/ruin/syndicate_lava_base/shuttle_bay)
+"vr" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 9
+	},
+/turf/open/floor/engine,
+/area/ruin/syndicate_lava_base/engineering)
 "wd" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 8
@@ -156,10 +193,19 @@
 	},
 /turf/open/floor/plating,
 /area/ruin/syndicate_lava_base/shuttle_bay)
+"we" = (
+/obj/effect/turf_decal/stripes/line,
+/obj/effect/turf_decal/vg_decals/radiation,
+/turf/open/floor/plating,
+/area/ruin/syndicate_lava_base/engineering)
 "xs" = (
 /obj/structure/cable,
 /turf/open/floor/mineral/plastitanium,
 /area/ruin/syndicate_lava_base/control_room)
+"xQ" = (
+/obj/effect/turf_decal/stripes/line,
+/turf/open/floor/plating,
+/area/ruin/syndicate_lava_base/engineering)
 "yJ" = (
 /turf/closed/wall/r_wall/syndicate/nodiagonal,
 /area/ruin/syndicate_lava_base/vault)
@@ -226,7 +272,17 @@
 /obj/structure/cable,
 /turf/open/floor/plating,
 /area/ruin/syndicate_lava_base/vault)
+"Cc" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 1
+	},
+/obj/effect/turf_decal/vg_decals/radiation,
+/turf/open/floor/plating,
+/area/ruin/syndicate_lava_base/engineering)
 "Ce" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 10
+	},
 /turf/open/floor/engine,
 /area/ruin/syndicate_lava_base/engineering)
 "Da" = (
@@ -248,6 +304,9 @@
 "Hm" = (
 /turf/closed/wall/mineral/plastitanium/nodiagonal,
 /area/ruin/syndicate_lava_base/control_room)
+"HV" = (
+/turf/closed/wall/r_wall/syndicate,
+/area/ruin/syndicate_lava_base/engineering)
 "Iv" = (
 /turf/closed/wall/r_wall/syndicate/nodiagonal,
 /area/ruin/syndicate_lava_base/shuttle_bay)
@@ -355,6 +414,7 @@
 /area/ruin/syndicate_lava_base/shuttle_bay)
 "Px" = (
 /obj/machinery/power/supermatter_crystal/shard/syndicate,
+/obj/effect/turf_decal/delivery/red,
 /turf/open/floor/engine,
 /area/ruin/syndicate_lava_base/engineering)
 "Qi" = (
@@ -404,15 +464,36 @@
 	},
 /turf/open/floor/circuit/red/anim,
 /area/ruin/syndicate_lava_base/control_room)
+"Tp" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 1
+	},
+/turf/open/floor/plating,
+/area/ruin/syndicate_lava_base/engineering)
+"Tq" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 4
+	},
+/turf/open/floor/engine,
+/area/ruin/syndicate_lava_base/engineering)
 "Ty" = (
 /turf/closed/wall/r_wall/syndicate,
 /area/ruin/syndicate_lava_base/shuttle_bay)
+"TJ" = (
+/turf/open/floor/mineral/plastitanium,
+/area/ruin/syndicate_lava_base/engineering)
 "VW" = (
 /turf/open/lava/smooth/lava_land_surface,
 /area/ruin/syndicate_lava_base/medbay)
 "Yy" = (
 /turf/closed/wall/r_wall/syndicate/nodiagonal,
 /area/ruin/syndicate_lava_base/chemistry)
+"Zn" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 6
+	},
+/turf/open/floor/engine,
+/area/ruin/syndicate_lava_base/engineering)
 "ZM" = (
 /turf/open/floor/mineral/plastitanium,
 /area/ruin/syndicate_lava_base/control_room)
@@ -1391,12 +1472,12 @@ ED
 ED
 ED
 ED
-ZQ
-ZQ
-ZQ
-ZQ
-ZQ
-ZQ
+IV
+IV
+IV
+IV
+HV
+ab
 ab
 ab
 ab
@@ -1443,18 +1524,18 @@ ZM
 ZM
 QC
 QR
-ZQ
-ZQ
-ZQ
-ZQ
-ZQ
-ZQ
-ZQ
-ZQ
-ZQ
-ZQ
-ZQ
-ZQ
+TJ
+TJ
+TJ
+nN
+nN
+nN
+nN
+nN
+TJ
+TJ
+IV
+HV
 ab
 ab
 ab
@@ -1501,18 +1582,18 @@ ZM
 ZM
 SP
 QR
-ZQ
-ZQ
-ZQ
-ZQ
-ZQ
-ZQ
-ZQ
-ZQ
-ZQ
-ZQ
-ZQ
-ZQ
+TJ
+TJ
+TJ
+TJ
+TJ
+nN
+TJ
+TJ
+TJ
+TJ
+TJ
+IV
 ab
 ab
 ab
@@ -1559,18 +1640,18 @@ ZM
 ZM
 ZM
 QR
-ZQ
-ZQ
-ZQ
-ZQ
-ZQ
-ZQ
-ZQ
-ZQ
-ZQ
-ZQ
-ZQ
-ZQ
+TJ
+TJ
+TJ
+TJ
+TJ
+nN
+TJ
+TJ
+TJ
+TJ
+TJ
+IV
 ab
 ab
 ab
@@ -1617,8 +1698,8 @@ xs
 xs
 ZM
 QR
-ZQ
-ZQ
+TJ
+TJ
 IV
 IV
 IV
@@ -1626,9 +1707,9 @@ nN
 IV
 IV
 IV
-ZQ
-ZQ
-ZQ
+TJ
+TJ
+IV
 ab
 ab
 ab
@@ -1675,18 +1756,18 @@ ZM
 xs
 IN
 QR
-ZQ
-ZQ
-ZQ
-ZQ
+TJ
+TJ
+Tp
+xQ
+vr
+fo
 Ce
-Ce
-Ce
-ZQ
-ZQ
-ZQ
-ZQ
-ZQ
+Tp
+xQ
+TJ
+TJ
+IV
 ab
 ab
 ab
@@ -1733,18 +1814,18 @@ ZM
 xs
 ZM
 QR
-ZQ
-ZQ
-ZQ
-ZQ
-Ce
+TJ
+TJ
+Cc
+xQ
+st
 Px
-Ce
-ZQ
-ZQ
-ZQ
-ZQ
-ZQ
+jh
+Tp
+we
+TJ
+TJ
+IV
 ab
 ab
 ab
@@ -1791,18 +1872,18 @@ ZM
 iE
 ZM
 QR
-ZQ
-ZQ
-ZQ
-ZQ
-Ce
-Ce
-Ce
-ZQ
-ZQ
-ZQ
-ZQ
-ZQ
+TJ
+TJ
+Tp
+xQ
+oE
+Tq
+Zn
+Tp
+xQ
+TJ
+TJ
+IV
 ab
 ab
 ab
@@ -1849,18 +1930,18 @@ yJ
 BR
 yJ
 yJ
-ZQ
-ZQ
+TJ
+TJ
 IV
 IV
 IV
-ZQ
+bn
 IV
 IV
 IV
-ZQ
-ZQ
-ZQ
+TJ
+TJ
+IV
 ab
 ab
 ab
@@ -1907,18 +1988,18 @@ Ff
 be
 uD
 yJ
-ZQ
-ZQ
-ZQ
+TJ
+TJ
+TJ
 IV
-ZQ
-ZQ
-ZQ
+nN
+nN
+nN
 IV
-ZQ
-ZQ
-ZQ
-ZQ
+TJ
+TJ
+TJ
+IV
 ab
 ab
 ab
@@ -1965,18 +2046,18 @@ Da
 be
 Da
 yJ
-ZQ
-ZQ
-ZQ
+TJ
+TJ
+TJ
 IV
 IV
-ZQ
+bn
 IV
 IV
-ZQ
-ZQ
-ZQ
-ZQ
+TJ
+TJ
+TJ
+IV
 ab
 ab
 ab
@@ -2023,18 +2104,18 @@ oK
 Jh
 IM
 yJ
-ZQ
-ZQ
-ZQ
-ZQ
-ZQ
-ZQ
-ZQ
-ZQ
-ZQ
-ZQ
-ZQ
-ZQ
+TJ
+TJ
+TJ
+TJ
+TJ
+TJ
+TJ
+TJ
+TJ
+TJ
+TJ
+IV
 ab
 ab
 ab
@@ -2081,18 +2162,18 @@ yJ
 yJ
 yJ
 yJ
-ZQ
-ZQ
-ZQ
-ZQ
-ZQ
-ZQ
-ZQ
-ZQ
-ZQ
-ZQ
-ZQ
-ZQ
+TJ
+TJ
+TJ
+TJ
+TJ
+TJ
+TJ
+TJ
+TJ
+TJ
+TJ
+IV
 ab
 ab
 ab
@@ -2140,17 +2221,17 @@ ZQ
 ZQ
 ZQ
 ZQ
-ZQ
-ZQ
-ZQ
-ZQ
-ZQ
-ZQ
-ZQ
-ZQ
-ZQ
-ZQ
-ZQ
+TJ
+TJ
+TJ
+TJ
+TJ
+TJ
+TJ
+TJ
+TJ
+TJ
+IV
 ab
 ab
 ab
@@ -2203,12 +2284,12 @@ ZQ
 ZQ
 ZQ
 ZQ
-ZQ
-ZQ
-ZQ
-ZQ
-ZQ
-ZQ
+IV
+IV
+IV
+IV
+IV
+HV
 ab
 ab
 ab

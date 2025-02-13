@@ -70,7 +70,7 @@
 /turf/open/floor/mineral/plastitanium/red,
 /area/shuttle/syndicate_lavaland)
 "fD" = (
-/turf/closed/wall/r_wall/syndicate,
+/turf/closed/wall/r_wall/syndicate/hull,
 /area/shuttle/syndicate_lavaland)
 "fU" = (
 /obj/effect/spawner/structure/window/reinforced/plasma/plastitanium,
@@ -175,7 +175,7 @@
 /area/shuttle/syndicate_lavaland)
 "oH" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/turf/closed/wall/r_wall/syndicate/nodiagonal,
+/turf/closed/wall/r_wall/syndicate/hull/nodiagonal,
 /area/shuttle/syndicate_lavaland)
 "pU" = (
 /obj/item/poster/random_contraband{
@@ -354,7 +354,7 @@
 /turf/open/floor/catwalk_floor/iron_smooth,
 /area/shuttle/syndicate_lavaland)
 "Eq" = (
-/turf/closed/wall/r_wall/syndicate/nodiagonal,
+/turf/closed/wall/r_wall/syndicate/hull/nodiagonal,
 /area/shuttle/syndicate_lavaland)
 "EV" = (
 /obj/machinery/power/shuttle_engine/propulsion/burst/right{
