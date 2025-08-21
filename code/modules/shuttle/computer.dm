@@ -28,6 +28,8 @@
 	var/locked = FALSE
 	/// List of head revs who have already clicked through the warning about not using the console
 	var/static/list/dumb_rev_heads = list()
+	/// What to say when departing
+	var/flight_message = "Shuttle departing. Please stand away from the doors."
 	/// Authorization request cooldown to prevent request spam to admin staff
 	COOLDOWN_DECLARE(request_cooldown)
 
@@ -168,7 +170,7 @@
 		return SHUTTLE_CONSOLE_DESTINVALID
 	switch(SSshuttle.moveShuttle(shuttleId, dest_id, TRUE))
 		if(DOCKING_SUCCESS)
-			say("Shuttle departing. Please stand away from the doors.")
+			say(flight_message)
 			log_shuttle("[key_name(user)] has sent shuttle \"[shuttleId]\" towards \"[dest_id]\", using [src].")
 			return SHUTTLE_CONSOLE_SUCCESS
 		else

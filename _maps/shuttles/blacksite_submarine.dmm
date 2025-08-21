@@ -1,0 +1,151 @@
+//MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
+"a" = (
+/turf/open/floor/engine/hull/reinforced{
+	initial_gas_mix = "o2=22;n2=82;TEMP=293.15"
+	},
+/area/shuttle/blacksite)
+"b" = (
+/obj/structure/railing{
+	dir = 4
+	},
+/turf/open/floor/engine/hull/reinforced{
+	initial_gas_mix = "o2=22;n2=82;TEMP=293.15"
+	},
+/area/shuttle/blacksite)
+"g" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 4
+	},
+/turf/open/floor/engine/hull/reinforced{
+	initial_gas_mix = "o2=22;n2=82;TEMP=293.15"
+	},
+/area/shuttle/blacksite)
+"i" = (
+/obj/structure/railing,
+/obj/structure/railing{
+	dir = 4
+	},
+/turf/open/floor/engine/hull/reinforced{
+	initial_gas_mix = "o2=22;n2=82;TEMP=293.15"
+	},
+/area/shuttle/blacksite)
+"m" = (
+/obj/structure/railing{
+	dir = 4
+	},
+/obj/structure/railing,
+/turf/open/floor/engine/hull/reinforced{
+	initial_gas_mix = "o2=22;n2=82;TEMP=293.15"
+	},
+/area/shuttle/blacksite)
+"q" = (
+/obj/structure/ladder/unbreakable{
+	height = 2;
+	id = "blacksitesub"
+	},
+/obj/effect/turf_decal/bot,
+/turf/open/floor/engine/hull/reinforced{
+	initial_gas_mix = "o2=22;n2=82;TEMP=293.15"
+	},
+/area/shuttle/blacksite)
+"B" = (
+/obj/docking_port/mobile/blacksite,
+/turf/open/floor/engine/hull/reinforced{
+	initial_gas_mix = "o2=22;n2=82;TEMP=293.15"
+	},
+/area/shuttle/blacksite)
+"J" = (
+/turf/closed/wall/mineral/titanium/survival/pod,
+/area/shuttle/blacksite)
+"O" = (
+/turf/template_noop,
+/area/template_noop)
+"X" = (
+/obj/structure/railing{
+	dir = 4
+	},
+/obj/structure/railing{
+	dir = 1
+	},
+/turf/open/floor/engine/hull/reinforced{
+	initial_gas_mix = "o2=22;n2=82;TEMP=293.15"
+	},
+/area/shuttle/blacksite)
+
+(1,1,1) = {"
+a
+a
+J
+a
+a
+"}
+(2,1,1) = {"
+a
+a
+J
+a
+a
+"}
+(3,1,1) = {"
+g
+g
+J
+g
+g
+"}
+(4,1,1) = {"
+a
+a
+a
+a
+a
+"}
+(5,1,1) = {"
+a
+a
+a
+a
+a
+"}
+(6,1,1) = {"
+a
+a
+q
+a
+B
+"}
+(7,1,1) = {"
+a
+a
+a
+a
+a
+"}
+(8,1,1) = {"
+a
+a
+a
+a
+a
+"}
+(9,1,1) = {"
+a
+a
+a
+a
+a
+"}
+(10,1,1) = {"
+X
+a
+a
+a
+i
+"}
+(11,1,1) = {"
+O
+X
+b
+m
+O
+"}
