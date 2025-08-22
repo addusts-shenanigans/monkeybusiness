@@ -213,9 +213,19 @@
 /obj/structure/blacksite_sub_beacon/attack_robot(mob/user)
 	return attack_hand(user) //So borgies can help
 
-#undef ZONE_SET
-#undef BAD_ZLEVEL
-#undef BAD_AREA
-#undef BAD_COORDS
-#undef BAD_TURF
-#undef BAD_LAYER
+/obj/machinery/camera/autoname/blacksite
+	network = list("blacksite")
+	status = 0
+
+MAPPING_DIRECTIONAL_HELPERS(/obj/machinery/camera/autoname/blacksite, 0)
+
+/obj/machinery/computer/security/blacksite
+	name = "blacksite security camera console"
+	desc = "Used to access the facility's camera network."
+	network = list("blacksite")
+	circuit = /obj/item/circuitboard/computer/security/blacksite
+
+/obj/item/circuitboard/computer/security/blacksite
+	name = "Blacksite Security Cameras"
+	greyscale_colors = CIRCUIT_COLOR_SECURITY
+	build_path = /obj/machinery/computer/security/blacksite
