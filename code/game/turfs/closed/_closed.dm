@@ -269,6 +269,17 @@ INITIALIZE_IMMEDIATE(/turf/closed/indestructible/splashscreen)
 /turf/closed/indestructible/fakedoor/engineering
 	icon = 'icons/obj/doors/airlocks/station/engineering.dmi'
 
+/turf/closed/indestructible/fakedoor/poddoor
+	name = "blast door"
+	desc = "A sealed blast door. Effectively impervious to conventional means of destruction."
+	icon = 'icons/obj/doors/blastdoor.dmi'
+	icon_state = "closed"
+
+/turf/closed/indestructible/fakedoor/poddoor/shutters
+	name = "shutters"
+	desc = "Some sealed shutters. Effectively impervious to conventional means of destruction."
+	icon = 'icons/obj/doors/shutters.dmi'
+
 /turf/closed/indestructible/rock
 	name = "dense rock"
 	desc = "An extremely densely-packed rock, most mining tools or explosives would never get through this."

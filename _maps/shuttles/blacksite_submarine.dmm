@@ -8,6 +8,15 @@
 /obj/structure/railing{
 	dir = 4
 	},
+/obj/effect/decal/cleanable/plasma,
+/turf/open/floor/engine/hull/reinforced{
+	initial_gas_mix = "o2=22;n2=82;TEMP=293.15"
+	},
+/area/shuttle/blacksite)
+"c" = (
+/obj/effect/turf_decal/vg_decals/numbers/two{
+	dir = 1
+	},
 /turf/open/floor/engine/hull/reinforced{
 	initial_gas_mix = "o2=22;n2=82;TEMP=293.15"
 	},
@@ -38,12 +47,35 @@
 	initial_gas_mix = "o2=22;n2=82;TEMP=293.15"
 	},
 /area/shuttle/blacksite)
-"q" = (
-/obj/structure/ladder/unbreakable{
-	height = 2;
-	id = "blacksitesub"
+"n" = (
+/obj/effect/turf_decal/vg_decals/numbers/zero,
+/turf/open/floor/engine/hull/reinforced{
+	initial_gas_mix = "o2=22;n2=82;TEMP=293.15"
 	},
+/area/shuttle/blacksite)
+"q" = (
 /obj/effect/turf_decal/bot,
+/obj/structure/travel_ladder{
+	icon_state = "ladder01";
+	aportalid = "blacksite_sub_top";
+	aportalgoesto = "blacksite_sub_bottom"
+	},
+/turf/open/floor/engine/hull/reinforced{
+	initial_gas_mix = "o2=22;n2=82;TEMP=293.15"
+	},
+/area/shuttle/blacksite)
+"v" = (
+/obj/structure/sign/nanotrasen,
+/turf/closed/wall/mineral/titanium/survival/pod,
+/area/shuttle/blacksite)
+"w" = (
+/obj/machinery/light/directional/west,
+/turf/open/floor/engine/hull/reinforced{
+	initial_gas_mix = "o2=22;n2=82;TEMP=293.15"
+	},
+/area/shuttle/blacksite)
+"y" = (
+/obj/effect/decal/cleanable/plasma,
 /turf/open/floor/engine/hull/reinforced{
 	initial_gas_mix = "o2=22;n2=82;TEMP=293.15"
 	},
@@ -54,12 +86,65 @@
 	initial_gas_mix = "o2=22;n2=82;TEMP=293.15"
 	},
 /area/shuttle/blacksite)
+"D" = (
+/obj/structure/marker_beacon/olive{
+	pixel_x = 0;
+	pixel_y = 15
+	},
+/obj/effect/decal/cleanable/plasma,
+/turf/open/floor/engine/hull/reinforced{
+	initial_gas_mix = "o2=22;n2=82;TEMP=293.15"
+	},
+/area/shuttle/blacksite)
+"F" = (
+/obj/structure/railing{
+	dir = 4
+	},
+/obj/structure/railing{
+	dir = 1
+	},
+/obj/effect/decal/cleanable/plasma,
+/turf/open/floor/engine/hull/reinforced{
+	initial_gas_mix = "o2=22;n2=82;TEMP=293.15"
+	},
+/area/shuttle/blacksite)
+"H" = (
+/obj/effect/turf_decal/vg_decals/numbers/zero{
+	dir = 1
+	},
+/turf/open/floor/engine/hull/reinforced{
+	initial_gas_mix = "o2=22;n2=82;TEMP=293.15"
+	},
+/area/shuttle/blacksite)
+"I" = (
+/obj/structure/marker_beacon/burgundy{
+	pixel_x = 0;
+	pixel_y = -12
+	},
+/turf/open/floor/engine/hull/reinforced{
+	initial_gas_mix = "o2=22;n2=82;TEMP=293.15"
+	},
+/area/shuttle/blacksite)
 "J" = (
 /turf/closed/wall/mineral/titanium/survival/pod,
 /area/shuttle/blacksite)
 "O" = (
 /turf/template_noop,
 /area/template_noop)
+"P" = (
+/obj/effect/turf_decal/vg_decals/numbers/three{
+	dir = 1
+	},
+/turf/open/floor/engine/hull/reinforced{
+	initial_gas_mix = "o2=22;n2=82;TEMP=293.15"
+	},
+/area/shuttle/blacksite)
+"V" = (
+/obj/effect/turf_decal/vg_decals/numbers/three,
+/turf/open/floor/engine/hull/reinforced{
+	initial_gas_mix = "o2=22;n2=82;TEMP=293.15"
+	},
+/area/shuttle/blacksite)
 "X" = (
 /obj/structure/railing{
 	dir = 4
@@ -67,6 +152,12 @@
 /obj/structure/railing{
 	dir = 1
 	},
+/turf/open/floor/engine/hull/reinforced{
+	initial_gas_mix = "o2=22;n2=82;TEMP=293.15"
+	},
+/area/shuttle/blacksite)
+"Z" = (
+/obj/effect/turf_decal/vg_decals/numbers/two,
 /turf/open/floor/engine/hull/reinforced{
 	initial_gas_mix = "o2=22;n2=82;TEMP=293.15"
 	},
@@ -82,7 +173,7 @@ a
 (2,1,1) = {"
 a
 a
-J
+v
 a
 a
 "}
@@ -96,29 +187,29 @@ g
 (4,1,1) = {"
 a
 a
-a
+w
 a
 a
 "}
 (5,1,1) = {"
 a
+c
 a
-a
-a
+n
 a
 "}
 (6,1,1) = {"
 a
-a
+P
 q
-a
+V
 B
 "}
 (7,1,1) = {"
 a
+H
 a
-a
-a
+Z
 a
 "}
 (8,1,1) = {"
@@ -126,25 +217,25 @@ a
 a
 a
 a
-a
+y
 "}
 (9,1,1) = {"
+D
 a
 a
 a
-a
-a
+I
 "}
 (10,1,1) = {"
 X
 a
 a
-a
+y
 i
 "}
 (11,1,1) = {"
 O
-X
+F
 b
 m
 O

@@ -82,6 +82,9 @@
 /turf/open/chasm/can_cross_safely(atom/movable/crossing)
 	return HAS_TRAIT(src, TRAIT_CHASM_STOPPED) || HAS_TRAIT(crossing, TRAIT_MOVE_FLYING)
 
+/turf/open/chasm/no_smooth
+	smoothing_flags = NONE
+
 // Chasms for Lavaland, with planetary atmos and lava glow
 /turf/open/chasm/lavaland
 	initial_gas_mix = LAVALAND_DEFAULT_ATMOS

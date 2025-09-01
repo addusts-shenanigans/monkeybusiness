@@ -1,7 +1,8 @@
 /// Nanotrasen Blacksite away mission
 
 /area/awaymission/blacksite
-	name = "Blacksite"
+	name = "Blacksite Caves"
+	requires_power = TRUE //caves are unpowered
 
 // Split into 4 sectors - Entrance Zone (low threat, some dead bodies), Light Containment Zone (some anomalous/occult hostiles), Engineering (massive biomass heart and some production machines), and Heavy Containment (worst of the anomalies but also some cool shit and the plasma drill for cargo)
 
@@ -47,6 +48,12 @@
 /area/awaymission/blacksite/entrance_zone/bar
 	name = "Blacksite Bar"
 
+/area/awaymission/blacksite/entrance_zone/ridge_checkpoint
+	name = "Blacksite Plasma Extraction Entrance Checkpoint"
+
+/area/awaymission/blacksite/entrance_zone/wrecked_submarine
+	name = "NTSB-902"
+
 // LIGHT CONTAINMENT ZONE
 
 /area/awaymission/blacksite/light_containment
@@ -60,7 +67,7 @@
 	name = "Blacksite Light Containment Zone Checkpoint 2"
 
 /area/awaymission/blacksite/light_containment/checkpoint/engi
-	name = "Blacksite Light Containment Zone Auxiliary Checkpoint"
+	name = "Blacksite Light Containment Zone Auxiliary Checkpoint 1"
 
 /area/awaymission/blacksite/light_containment/mrnd
 	name = "Blacksite Mining Research"
@@ -68,7 +75,29 @@
 /area/awaymission/blacksite/light_containment/prison
 	name = "Blacksite Prison"
 
+// PLASMA EXTRACTION FACILITY - THE RIDGE
 
+/area/awaymission/blacksite/ridge
+	name = "Blacksite Plasma Extraction Facility"
+	icon_state = "awaycontent3"
+
+/area/awaymission/blacksite/ridge/chasm
+	name = "Blacksite Ridge"
+
+/area/awaymission/blacksite/ridge/checkpoint
+	name = "Blacksite Plasma Extraction Facility Checkpoint"
+
+/area/awaymission/blacksite/ridge/bottling
+	name = "Blacksite Plasma Bottling Facility"
+
+/area/awaymission/blacksite/ridge/powerstation
+	name = "Blacksite Plasma Extraction Facility Power Station"
+
+/area/awaymission/blacksite/ridge/dock
+	name = "Blacksite Plasma Extraction Facility Dock"
+
+/area/awaymission/blacksite/ridge/extraction
+	name = "Blacksite Plasma Drill Chamber"
 
 
 
@@ -86,6 +115,7 @@
 	desc = "The control console of a Nanotrasen submersible vessel."
 	flight_message = "Submarine moving. Please remain inside the vessel until it has arrived at its destination."
 	shuttleId = "blacksite_submarine"
+	possible_destinations = "blacksite_gateway_sub_dock;blacksite_sub_debug_dock;blacksite_ridge_sub_dock;blacksite_sub_harbor_dock;blacksite_lcz_dock;blacksite_hcz_dock"
 
 /obj/docking_port/mobile/blacksite
 	name = "NTSB-032"
@@ -119,8 +149,9 @@
 
 // BLACKSITE ID CARDS
 
-/obj/itme/card/id/advanced/old/blacksite
+/obj/item/card/id/advanced/old/blacksite
 	name = "blacksite ID card"
+	desc = "An ID card bearing the insignia of the Nanotrasen Corporation's Higher Dimensional Affairs division."
 
 /datum/id_trim/job/away/blacksite
 	minimal_access = list(
@@ -133,10 +164,43 @@
 		ACCESS_RESEARCH
 	)
 
+/datum/id_trim/job/away/blacksite/service
+	assignment = "Blacksite Service Staff"
+	minimal_access = list(
+		ACCESS_AWAY_GENERAL,
+		ACCESS_AWAY_MAINTENANCE,
+		ACCESS_AWAY_GENERIC1
+	)
+
+/datum/id_trim/job/away/blacksite/engineer
+	assignment = "Blacksite Engineer"
+	minimal_access = list(
+		ACCESS_AWAY_GENERAL,
+		ACCESS_AWAY_COMMAND,
+		ACCESS_AWAY_MAINTENANCE,
+		ACCESS_AWAY_GENERIC1,
+		ACCESS_MINERAL_STOREROOM,
+		ACCESS_ENGINE_EQUIP,
+		ACCESS_AWAY_ENGINEERING,
+		ACCESS_AWAY_GENERIC2
+	)
+
+/datum/id_trim/job/away/blacksite/nt_rep
+	assignment = "Nanotrasen Representative"
+	sechud_icon_state = SECHUD_CENTCOM
+	minimal_access = list(
+		ACCESS_AWAY_GENERAL,
+		ACCESS_AWAY_COMMAND,
+		ACCESS_AWAY_MAINTENANCE,
+		ACCESS_AWAY_GENERIC1,
+		ACCESS_MINERAL_STOREROOM,
+		ACCESS_AWAY_MAINTENANCE
+	)
+
+
 
 //used to unlock new areas for the sub to travel to
 //thanks whoever coded the mining shuttle beacon for making everything so obscenely specific
-
 /obj/structure/blacksite_sub_beacon
 	name = "submarine buoy"
 	desc = "A submarine buoy rigged to the side of the dock that seems to have been folded out of the water. You could drop it back in to allow submarine access to this dock."
@@ -169,12 +233,12 @@
 	var/turf/landing_spot = get_turf(src)
 	for(var/S in SSshuttle.stationary_docking_ports)
 		var/obj/docking_port/stationary/SM = S //SM is declared outside so it can be checked for null
-		if(SM.shuttle_id == "blacksite_submarine")
+		if(SM.shuttle_id == "blacksite_gateway_sub_dock")
 
 			var/area/A = get_area(landing_spot)
 
 			Mport = new(landing_spot)
-			Mport.shuttle_id = "landing_zone_dock"
+			Mport.shuttle_id = shuttle_ID
 			Mport.port_destinations = "landing_zone_dock"
 			Mport.name = shuttle_name
 			Mport.dwidth = SM.dwidth
@@ -205,7 +269,7 @@
 	has_activated = TRUE
 	playsound(loc, 'sound/machines/ping.ogg', 50, FALSE)
 	log_shuttle("[key_name(usr)] has registered the blacksite submarine beacon at [COORD(landing_spot)].")
-	qdel() //heheheha
+	Destroy()
 
 /obj/structure/blacksite_sub_beacon/proc/clear_cooldown()
 	anti_spam_cd = 0
@@ -229,3 +293,161 @@ MAPPING_DIRECTIONAL_HELPERS(/obj/machinery/camera/autoname/blacksite, 0)
 	name = "Blacksite Security Cameras"
 	greyscale_colors = CIRCUIT_COLOR_SECURITY
 	build_path = /obj/machinery/computer/security/blacksite
+
+// blacksite ghostroles
+
+/datum/job/blacksite_survivor
+	title = ROLE_BLACKSITE_SURVIVOR
+	policy_index = ROLE_LAVALAND_SYNDICATE
+
+/obj/effect/mob_spawn/ghost_role/human/blacksite
+	name = "nanotrasen emergency sleeping bag"
+	desc = "A kevlar-layered sleeping bag that seems to be anchored to the floor. You swear you see it moving slightly..."
+	icon = 'icons/obj/bodybag.dmi'
+	icon_state = "ntenvirobag"
+	spawner_job_path = /datum/job/blacksite_survivor
+
+/datum/outfit/blacksite
+	name = "Blacksite Survivor Base"
+	uniform = /obj/item/clothing/under/color/black
+
+/obj/effect/mob_spawn/ghost_role/human/blacksite/representative
+	name = "representative's emergency sleeping bag"
+	desc = "A kevlar-layered sleeping bag bearing the insignia of Central Command, anchored securely to the floor. It moves slowly and rythmically, as if its occupant is still alive."
+	density = 0
+	prompt_name = "a nanotrasen liasion"
+	you_are_text = "You are a CentCom liasion, stranded in a Nanotrasen blacksite."
+	flavour_text = "When the containment breach happened, you ran into your office and locked down, praying none of the horrors this facility once held would find you. However, with the noises you've heard from the gateway across the Entrance Zone, help might be here. If they're cleared to know what's down here is another matter."
+	important_text = "Keep an eye on whoever arrives as they roam the Blacksite. Encourage them to recover the plasma extraction facility, accessed through the south end of the Entrance Zone. Withhold information unless necessary - this is a top-secret facility."
+	outfit = /datum/outfit/blacksite/ntrep
+
+/datum/outfit/blacksite/ntrep
+	name = "Blacksite Nanotrasen Representative"
+	id = /obj/item/card/id/advanced/old/blacksite
+	id_trim = /datum/id_trim/job/away/blacksite/nt_rep
+	uniform = /obj/item/clothing/under/rank/centcom/nanotrasen_representative
+	suit = /obj/item/clothing/suit/armor/vest/nanotrasen_representative
+	head = /obj/item/clothing/head/hats/nanotrasen_representative
+	backpack_contents = list(
+		/obj/item/stamp/centcom = 1,
+		/obj/item/melee/baton/telescopic = 1,
+		/obj/item/folder/blue = 1,
+	)
+	shoes = /obj/item/clothing/shoes/laceup
+	l_hand = /obj/item/storage/toolbox/emergency
+	glasses = /obj/item/clothing/glasses/sunglasses
+	ears = /obj/item/radio/headset/headset_cent/representative
+	gloves = /obj/item/clothing/gloves/color/black
+	shoes = /obj/item/clothing/shoes/laceup
+	back = /obj/item/storage/backpack/satchel/leather
+	implants = list(/obj/item/implant/mindshield)
+	skillchips = list(
+		/obj/item/skillchip/disk_verifier,
+	)
+
+
+// blacksite ladder
+// code stolen from HL13 (marmio version), who in turn stole it from stonekeep. beats trying to get ladders to behave like they used to before multi-Z though.
+/obj/structure/travel_ladder
+	name = "ladder"
+	desc = "A sturdy metal ladder."
+	icon = 'icons/obj/structures.dmi'
+	icon_state = "ladder11"
+	density = FALSE
+	anchored = TRUE
+	resistance_flags = INDESTRUCTIBLE | LAVA_PROOF | FIRE_PROOF | ACID_PROOF //dont break the fuckign ladder
+	layer = ABOVE_OPEN_TURF_LAYER
+	var/aportalid = "REPLACETHIS"
+	var/aportalgoesto = "REPLACETHIS"
+	var/aallmig
+
+/obj/structure/travel_ladder/Initialize()
+	GLOB.traveltiles += src
+	. = ..()
+
+/obj/structure/travel_ladder/Destroy()
+	GLOB.traveltiles -= src
+	. = ..()
+
+/obj/structure/travel_ladder/attack_ghost(mob/dead/observer/user)
+	if(user.Adjacent(src))
+		if(!aportalgoesto)
+			return
+		var/fou
+		for(var/obj/structure/travel_ladder/T in shuffle(GLOB.traveltiles))
+			if(T.aportalid == aportalgoesto)
+				if(T == src)
+					continue
+				user.forceMove(T.loc)
+				fou = TRUE
+				break
+		if(!fou)
+			to_chat(user, "<b>It is a dead end.</b>")
+
+
+/obj/structure/travel_ladder/attack_hand(mob/user)
+	var/fou
+	if(!aportalgoesto)
+		return
+	for(var/obj/structure/travel_ladder/T in shuffle(GLOB.traveltiles))
+		if(T.aportalid == aportalgoesto)
+			if(T == src)
+				continue
+			if(!can_go(user))
+				return
+			if(user.pulledby)
+				return
+			to_chat(user, "<b>I begin to travel...</b>")
+			if(do_after(user, 4 SECONDS, target = src))
+				var/mob/living/L = user
+				var/atom/movable/pullingg = L.pulling
+				L.recent_travel = world.time
+				if(pullingg)
+					pullingg.forceMove(T.loc)
+					pullingg.recent_travel = world.time
+				L.forceMove(T.loc)
+				if(pullingg)
+					L.start_pulling(pullingg, supress_message = TRUE)
+			fou = TRUE
+			break
+	if(!fou)
+		to_chat(user, "<b>It is a dead end.</b>")
+	. = ..()
+
+/obj/structure/travel_ladder/attack_basic_mob(mob/user)
+	var/fou
+	if(!aportalgoesto)
+		return
+	for(var/obj/structure/travel_ladder/T in shuffle(GLOB.traveltiles))
+		if(T.aportalid == aportalgoesto)
+			if(T == src)
+				continue
+			if(!can_go(user))
+				return
+			if(user.pulledby)
+				return
+			to_chat(user, "<b>I begin to travel...</b>")
+			if(do_after(user, 4 SECONDS, target = src))
+				var/mob/living/L = user
+				var/atom/movable/pullingg = L.pulling
+				L.recent_travel = world.time
+				if(pullingg)
+					pullingg.forceMove(T.loc)
+					pullingg.recent_travel = world.time
+				L.forceMove(T.loc)
+				if(pullingg)
+					L.start_pulling(pullingg, supress_message = TRUE)
+			fou = TRUE
+			break
+	if(!fou)
+		to_chat(user, "<b>It is a dead end.</b>")
+	. = ..()
+
+/obj/structure/travel_ladder/proc/can_go(atom/movable/AM)
+	if(AM.recent_travel)
+		if(world.time < AM.recent_travel + 5 DECISECONDS) //half-a-second cooldown
+			return FALSE
+	return TRUE
+
+/atom/movable
+	var/recent_travel = 0
