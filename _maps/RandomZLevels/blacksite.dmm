@@ -2130,7 +2130,7 @@
 /turf/open/floor/iron,
 /area/awaymission/blacksite/entrance_zone/bar)
 "Fr" = (
-/turf/open/floor/iron,
+/turf/open/floor/iron/white,
 /area/awaymission/blacksite/entrance_zone/infirmary)
 "FR" = (
 /obj/effect/turf_decal/tile/blue{
