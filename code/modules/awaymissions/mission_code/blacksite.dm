@@ -525,7 +525,7 @@ MAPPING_DIRECTIONAL_HELPERS(/obj/machinery/camera/autoname/blacksite, 0)
 /obj/projectile/bullet/honker/slow
 	speed = 1.4
 
-/datum/ai_controller/basic_controller/blacksite_clown
+/datum/ai_controller/basic_controller/blacksite_clown //I HAVE NO IDEA HOW ANY OF THIS CODE WORKS RATVAR HAVE MERCY
 	blackboard = list(
 		BB_BASIC_MOB_STOP_FLEEING = TRUE,
 	)
