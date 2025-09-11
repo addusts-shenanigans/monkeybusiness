@@ -91,6 +91,8 @@
 #define FACTION_BINGLE "bingle"
 /// Darkspawn
 #define FACTION_DARKSPAWN "darkspawn"
+/// Blacksite away mission angry murder demons
+#define FACTION_BLACKSITE "Blacksite_Enemy"
 
 /// Cultists and their constructs
 #define FACTION_CULT "cult"

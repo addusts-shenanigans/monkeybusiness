@@ -100,7 +100,6 @@
 	name = "Blacksite Plasma Drill Chamber"
 
 
-
 // BLACKSITE EXTERNAL AREAS
 
 /area/awaymission/blacksite/submarine
@@ -451,3 +450,100 @@ MAPPING_DIRECTIONAL_HELPERS(/obj/machinery/camera/autoname/blacksite, 0)
 
 /atom/movable
 	var/recent_travel = 0
+
+//mobs, such as the blacksite version of the statues
+
+/mob/living/basic/statue/blacksite
+	desc = "An excellently well-carved marble statue. You swear it's looking at you."
+	icon = 'icons/mob/simple/blacksite.dmi'
+	faction = list(FACTION_BLACKSITE, FACTION_STATUE)
+	icon_state = "statue_demon"
+	maxHealth = 500
+	health = 500
+	obj_damage = 100
+	melee_damage_lower = 45
+	melee_damage_upper = 80
+	attack_verb_continuous = "slams"
+	attack_verb_simple = "punch"
+
+/mob/living/basic/blacksite
+
+/mob/living/basic/blacksite/clown_demon
+	name = "clown statue"
+	desc = "A statue of a clown. It gives you the creeps."
+	faction = list(FACTION_BLACKSITE, FACTION_STATUE, FACTION_NEUTRAL) //by default it ignores things
+	icon = 'icons/mob/simple/blacksite.dmi'
+	icon_state = "statue_demon_clown"
+	maxHealth = 400
+	health = 400
+	obj_damage = 50
+	melee_damage_lower = 35
+	melee_damage_upper = 45
+	speed = -1 //if you hit it it turns into a miniboss and WILL kick your ass; while more fragile than the regular statues, it goes fast and cant be stunned by observation
+	ai_controller = /datum/ai_controller/basic_controller/blacksite_clown
+	/// Type of bullet we use
+	var/casingtype = /obj/item/ammo_casing/caseless/blacksite_clown
+	/// Sound to play when firing weapon
+	var/projectilesound = 'sound/items/airhorn.ogg'
+	/// number of burst shots
+	var/burst_shots = 2
+	/// Time between taking shots
+	var/ranged_cooldown = 1 SECONDS
+	var/enraged = FALSE //is +ENRAGED?
+
+/mob/living/basic/blacksite/clown_demon/Initialize(mapload)
+	. = ..()
+	AddElement(/datum/element/relay_attackers)
+	RegisterSignal(src, COMSIG_ATOM_WAS_ATTACKED, PROC_REF(on_attacked))
+	AddComponent(\
+		/datum/component/ranged_attacks,\
+		casing_type = casingtype,\
+		projectile_sound = projectilesound,\
+		cooldown_time = ranged_cooldown,\
+		burst_shots = burst_shots,\
+	)
+	if (ranged_cooldown <= 1 SECONDS)
+		AddComponent(/datum/component/ranged_mob_full_auto)
+
+/mob/living/basic/blacksite/clown_demon/proc/on_attacked(mob/source, mob/living/attacker) //YOU ARE IN FOR A WORLD OF HURT
+	SIGNAL_HANDLER
+	if (enraged != TRUE)
+		to_chat(attacker, span_warning("You may have made a very slight mistake there."))
+		desc = "A bananium statue with a huge, gaping maw in place of the neck. It's not happy."
+		speed = 5
+		faction = list(FACTION_BLACKSITE, FACTION_STATUE)
+		icon_state = "statue_demon_clown_enraged"
+		visible_message(span_boldannounce("The statue's mouth suddenly snaps open, and it SCREAMS!"))
+		playsound(get_turf(src), 'sound/hallucinations/wail.ogg', 100, vary = TRUE, pressure_affected = TRUE)
+		enraged = TRUE
+
+/obj/item/ammo_casing/caseless/blacksite_clown
+	name = "bananium fragment"
+	desc = "A fragment of bananium that seems to have fallen off something bigger."
+	projectile_type = /obj/projectile/bullet/honker/slow
+
+/obj/projectile/bullet/honker/slow
+	speed = 1.4
+
+/datum/ai_controller/basic_controller/blacksite_clown
+	blackboard = list(
+		BB_BASIC_MOB_STOP_FLEEING = TRUE,
+	)
+
+	ai_movement = /datum/ai_movement/basic_avoidance
+	planning_subtrees = list(
+		/datum/ai_planning_subtree/simple_find_nearest_target_to_flee,
+		/datum/ai_planning_subtree/flee_target,
+		/datum/ai_planning_subtree/basic_ranged_attack_subtree/blacksite_clown,
+		/datum/ai_planning_subtree/simple_find_target,
+		/datum/ai_planning_subtree/attack_obstacle_in_path,
+		/datum/ai_planning_subtree/basic_melee_attack_subtree,
+	)
+
+/datum/ai_planning_subtree/basic_ranged_attack_subtree/blacksite_clown
+	ranged_attack_behavior = /datum/ai_behavior/basic_ranged_attack/blacksite_clown
+
+/datum/ai_behavior/basic_ranged_attack/blacksite_clown
+	action_cooldown = 2 SECONDS
+	required_distance = 3
+	avoid_friendly_fire = FALSE //get stunned idiot

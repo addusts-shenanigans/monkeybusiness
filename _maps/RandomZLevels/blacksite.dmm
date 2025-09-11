@@ -3472,6 +3472,12 @@
 "YT" = (
 /turf/open/floor/iron/large,
 /area/awaymission/blacksite/entrance_zone/dock)
+"YX" = (
+/obj/machinery/door/airlock/medical/glass{
+	name = "Infirmary"
+	},
+/turf/open/floor/iron/white,
+/area/awaymission/blacksite/entrance_zone/infirmary)
 "Zc" = (
 /obj/effect/turf_decal/tile/brown{
 	dir = 1
@@ -6683,10 +6689,10 @@ uN
 uN
 uN
 uN
+uN
+uN
 ke
-ke
-ke
-ke
+uN
 uN
 YT
 YT
@@ -6940,7 +6946,7 @@ uN
 ke
 ke
 ke
-ke
+uN
 ke
 ke
 ke
@@ -7197,7 +7203,7 @@ uN
 ke
 ke
 ke
-ke
+uN
 ke
 ke
 ke
@@ -7454,7 +7460,7 @@ uN
 ke
 ke
 ke
-ke
+uN
 ke
 ke
 ke
@@ -20047,7 +20053,7 @@ Jx
 ic
 Cz
 CL
-Fr
+YX
 Fr
 Fr
 Fr
